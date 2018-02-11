@@ -541,7 +541,7 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <skill name="Host of the West - Travel Discount"/>
-<title name="Ally to the Host of the West (Faction)(Title){{!}}Ally to the Host of the West"/>
+<title name="Ally to the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="15"/>
 </rewards>
 </deed>
@@ -992,7 +992,7 @@
 <child key="Blood_of_the_Black_Serpent_--_Tier_2" name="Blood of the Black Serpent -- Tier 2"/>
 <child key="Challenge:_Fall_of_the_Two_Princes" name="Challenge: Fall of the Two Princes"/>
 <rewards>
-<title name="Bane of Harad (Title){{!}}Bane of Harad"/>
+<title name="Bane of Harad"/>
 <object id="1879224344" name="Medallion" quantity="30"/>
 </rewards>
 </deed>
@@ -1013,7 +1013,7 @@
 <deed key="Bane_of_Shelob%27s_Broods" name="Bane of Shelob's Broods" type="SLAYER" category="Region:Gorgoroth" description="You have slain a countless number of Shelob's offspring, and Her wrath shall be great." objectives="Defeat Shelob's lesser broods in [[Lhingris]]. (0/1000)">
 <rewards>
 <lotroPoints quantity="10"/>
-<title name="Bane of Shelob's Broods (Title){{!}}Bane of Shelob's Broods"/>
+<title name="Bane of Shelob's Broods"/>
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
@@ -2033,7 +2033,7 @@
 <parent key="The_Road_to_Mordor" name="The Road to Mordor"/>
 <rewards>
 <lotroPoints quantity="50"/>
-<title name="Celebrated by the Host of the West (Faction)(Title){{!}}Celebrated by the Host of the West"/>
+<title name="Celebrated by the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="40"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -5215,7 +5215,7 @@
 <rewards>
 <lotroPoints quantity="20"/>
 <skill name="Host of the West - Travel Discount (Wastes)"/>
-<title name="Esteemed Warrior of the Host of the West (Faction) (Title){{!}}Esteemed Warrior of the Host of the West"/>
+<title name="Esteemed Warrior of the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="30"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -6725,7 +6725,7 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <skill name="Théodred's Riders - Travel Discount"/>
-<title name="Friend to Théodred's Riders (Title){{!}}Friend to Théodred's Riders"/>
+<title name="Friend to Théodred's Riders"/>
 </rewards>
 </deed>
 <deed key="Friend_to_the_Algraig" name="Friend to the Algraig" type="REPUTATION" description="You have done enough that the Algraig, normally mistrustful, consider that you are a friend to them." objectives="You must earn Friend standing with the Algraig.&#10;You have earned a measure of respect with the Algraig, enough that they consider you to be friendly to them.">
@@ -6805,7 +6805,7 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <skill name="Host of the West - Vendor Discount - North Ithilien"/>
-<title name="Friend to the Host of the West (Faction)(Title){{!}}Friend to the Host of the West"/>
+<title name="Friend to the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="10"/>
 </rewards>
 </deed>
@@ -8348,7 +8348,7 @@
 <parent key="The_Road_to_Mordor" name="The Road to Mordor"/>
 <rewards>
 <lotroPoints quantity="15"/>
-<title name="Stoic Defender (Title){{!}}Stoic Defender"/>
+<title name="Stoic Defender"/>
 <object id="1879341924" name="Armour (Wastes)" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -8382,7 +8382,7 @@
 <parent key="The_Road_to_Mordor" name="The Road to Mordor"/>
 <rewards>
 <lotroPoints quantity="15"/>
-<title name="Feeder of Many (Title) {{!}} Feeder of Many"/>
+<title name="Feeder of Many"/>
 <object id="1879341934" name="Provisions (Wastes)" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -8416,7 +8416,7 @@
 <parent key="The_Road_to_Mordor" name="The Road to Mordor"/>
 <rewards>
 <lotroPoints quantity="15"/>
-<title name="Honored Hero (Title) {{!}} Honored Hero"/>
+<title name="Honored Hero"/>
 <object id="1879341942" name="Weapons (Wastes)" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -9167,7 +9167,7 @@
 <next key="Friend_to_Th%C3%A9odred%27s_Riders" name="Friend to Théodred's Riders"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<title name="Known to Théodred's Riders (Title){{!}}Known to Théodred's Riders"/>
+<title name="Known to Théodred's Riders"/>
 </rewards>
 </deed>
 <deed key="Known_to_the_Algraig" name="Known to the Algraig" type="REPUTATION" description="The Men who make the wilds their home in [[Enedwaith]] have come to know of you." objectives="You must earn Acquaintance standing with the Algraig&#10;The Algraig have learned of your exploits and know who you are.">
@@ -9238,7 +9238,7 @@
 <next key="Friend_to_the_Host_of_the_West_(Faction)(Deed)" name="Friend to the Host of the West (Faction)(Deed)"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<title name="Known to the Host of the West (Faction)(Title){{!}}Known to the Host of the West"/>
+<title name="Known to the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="5"/>
 </rewards>
 </deed>
@@ -9606,7 +9606,7 @@
 <reputationItem faction="Wardens of Annúminas" amount="500"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Keeper of Mysteries (Title){{!}}Keeper of Mysteries"/>
+<title name="Keeper of Mysteries"/>
 </rewards>
 </deed>
 <deed key="Limrafn-slayer_(Advanced)" name="Limrafn-slayer (Advanced)" type="SLAYER" category="Region:Evendim" description="You have seen many of these strange lights in [[Evendim]] lately -- they seem almost to be multiplying with the presence of Men and other forces. Is it possible that these strange entities are being awakened or attracted by the skirmishes being fought in this land, which was once nearly desolate and empty?" objectives="Defeat Limrafn in [[Evendim]] (100)&#10;For all the times you have approached the Limrafn and felt the settling aura of their presence, you often find yourself wondering if they exsist at all -- or are simply some figment of your imagination brought on by long days spent in the desolate quiet of these empty lands and ruins.">
@@ -12448,7 +12448,7 @@
 <child key="Challenge:_Redeemer_of_the_Cursed_Line" name="Challenge: Redeemer of the Cursed Line"/>
 <child key="The_Risen_of_Rath_D%C3%ADnen" name="The Risen of Rath Dínen"/>
 <rewards>
-<title name="Radiance Amidst the Gloom (Title){{!}}Radiance Amidst the Gloom"/>
+<title name="Radiance Amidst the Gloom"/>
 <object id="1879224344" name="Medallion" quantity="30"/>
 </rewards>
 </deed>
@@ -12654,7 +12654,7 @@
 <rewards>
 <lotroPoints quantity="20"/>
 <skill name="Host of the West - Vendor Discount - the Wastes"/>
-<title name="Respected Warrior of the Host of the West (Title){{!}}Respected Warrior of the Host of the West"/>
+<title name="Respected Warrior of the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="25"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
@@ -16265,7 +16265,7 @@
 <child key="Host_of_the_West_Weaponist_(Final)_(Faction)_(Deed)" name="Host of the West Weaponist (Final) (Faction) (Deed)"/>
 <child key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)(Faction) (Deed)"/>
 <rewards>
-<title name="Battle-ready (title) {{!}} Battle-ready"/>
+<title name="Battle-ready"/>
 <object id="1879345100" name="Steed of Elessar's Host" quantity="1"/>
 <object id="1879342220" name="Quartermaster of the Host's Box of Cloaks" quantity="1"/>
 <object id="1879345089" name="Quartermaster of the Host's Prized Hooded Cloak" quantity="1"/>
@@ -18258,7 +18258,7 @@
 <reputationItem faction="Riders of Rohan" amount="907"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Roaming Protector of Far Anórien| Title-icon          = Reputation"/>
+<title name="Roaming Protector of Far Anórien"/>
 <virtue id="FORTITUDE"/>
 </rewards>
 </deed>
@@ -18492,7 +18492,7 @@
 <reputationItem faction="Elves of Rivendell" amount="500"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Warg-hunter (Misty Mountains){{!}}Warg-hunter"/>
+<title name="Warg-hunter"/>
 </rewards>
 </deed>
 <deed key="Warg-slayer_(Moria)" name="Warg-slayer (Moria)" type="SLAYER" category="Region:Moria" description="The silence of [[Moria]] can be terrifying, but more terrifying still is the howl that shatters the stillness. [[Wargs]] hunt in the darkness, aiding the evil purposes of the [[Orcs]] and [[goblins]] who dwell with them." objectives="Defeat Wargs in Moria (100)&#10;Wargs came into Moria with the surge of orcs and goblins, thriving in the darkness, befouling the ancient halls with their filth, and defacing the great works of the dwarves with their mockery.">
@@ -18624,7 +18624,7 @@
 </deed>
 <deed key="Well-preserved" name="Well-preserved" category="Region:Gorgoroth" description="Achieve the eleventy-first level." objectives="Achieve the eleventy-first level">
 <rewards>
-<title name="Well-preserved (Title){{!}}Well-preserved"/>
+<title name="Well-preserved"/>
 <object id="1879210469" name="Loaf of Barley Bread" quantity="3"/>
 <object id="1879049676" name="Lump of Butter" quantity="1"/>
 </rewards>
@@ -18969,7 +18969,7 @@
 <reputationItem faction="Grey Company" amount="700"/>
 </reputation>
 <lotroPoints quantity="10"/>
-<title name="Clear-cutter (Title) | display=Clear-cutter"/>
+<title name="Clear-cutter"/>
 <virtue id="ZEAL"/>
 <object id="1879175767" name="Plain Heritage Rune of Lore" quantity="1"/>
 </rewards>
