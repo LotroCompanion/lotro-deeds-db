@@ -278,20 +278,20 @@
 <object id="1879326937" name="Minas Tirith Silver Piece" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Agarnaith_Pathfinder" name="Agarnaith Pathfinder" type="EXPLORER" category="Region:Gorgoroth" description="Discover the notable landmarks of Agarnaith." objectives="Discover the [[Lair of the Gloom-Lord]] {{Tooltip Coords|Agarnaith|48.9S|31.3E}}&#10;Discover [[Bhol Rûdh]] {{Tooltip Coords|Agarnaith|54.4S|32.0E}}&#10;Discover [[Viznak's Hideout]] {{Tooltip Coords|Agarnaith|51.9S|28.2E}}&#10;Discover [[Faltor Gám]] {{Tooltip Coords|Agarnaith|50.4S|29.6E}}&#10;Discover [[Kala-Gijak]] {{Tooltip Coords|Agarnaith|52.9S|29.4E}}&#10;Discover the [[Agarnaith Ranger Camp]] {{Tooltip Coords|Agarnaith|56.6S|26.9E}}&#10;Discover [[Seregost]] {{Tooltip Coords|Agarnaith|48.8S|33.4E}}&#10;Discover [[Mokál Rukh]] {{Tooltip Coords|Agarnaith|48.2S|34.3E}}">
+<deed key="Agarnaith_Pathfinder" name="Agarnaith Pathfinder" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Discover the notable landmarks of Agarnaith." objectives="Discover the [[Lair of the Gloom-Lord]] {{Tooltip Coords|Agarnaith|48.9S|31.3E}}&#10;Discover [[Bhol Rûdh]] {{Tooltip Coords|Agarnaith|54.4S|32.0E}}&#10;Discover [[Viznak's Hideout]] {{Tooltip Coords|Agarnaith|51.9S|28.2E}}&#10;Discover [[Faltor Gám]] {{Tooltip Coords|Agarnaith|50.4S|29.6E}}&#10;Discover [[Kala-Gijak]] {{Tooltip Coords|Agarnaith|52.9S|29.4E}}&#10;Discover the [[Agarnaith Ranger Camp]] {{Tooltip Coords|Agarnaith|56.6S|26.9E}}&#10;Discover [[Seregost]] {{Tooltip Coords|Agarnaith|48.8S|33.4E}}&#10;Discover [[Mokál Rukh]] {{Tooltip Coords|Agarnaith|48.2S|34.3E}}">
 <parent key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
 <rewards>
 <title name="Pathfinder of Agarnaith"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Agarnaith:_Continued_Efforts" name="Agarnaith: Continued Efforts" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Agarnaith." objectives="Complete [[Quest: More Pesky Critters|More Pesky Critters]]&#10;Complete [[Quest: Hunt the Norbogs|Hunt the Norbogs]]&#10;Complete [[Quest: Hunt Gámnakur|Hunt Gámnakur]]&#10;Complete [[Quest: Hunt the Ash-claws|Hunt the Ash-claws]]&#10;Complete [[Quest: Enemies in Seregost|Enemies in Seregost]]&#10;Complete [[Quest: Hunt the Sudden Whelmer|Hunt the Sudden Whelmer]]&#10;Complete [[Quest: Banners of the Lady of Blight|Banners of the Lady of Blight]]&#10;Complete [[Quest: Hunt Shákrum the Ripper|Hunt Shákrum the Ripper]]&#10;Complete [[Quest: Reclaiming Agarnaith: Mokál Rukh|Reclaiming Agarnaith: Mokál Rukh]]&#10;Complete [[Quest: Reclaiming Agarnaith: Orodruin Guard-tower|Reclaiming Agarnaith: Orodruin Guard-tower]]">
+<deed key="Agarnaith:_Continued_Efforts" name="Agarnaith: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Agarnaith" description="There is still much to do in Agarnaith." objectives="Complete [[Quest: More Pesky Critters|More Pesky Critters]]&#10;Complete [[Quest: Hunt the Norbogs|Hunt the Norbogs]]&#10;Complete [[Quest: Hunt Gámnakur|Hunt Gámnakur]]&#10;Complete [[Quest: Hunt the Ash-claws|Hunt the Ash-claws]]&#10;Complete [[Quest: Enemies in Seregost|Enemies in Seregost]]&#10;Complete [[Quest: Hunt the Sudden Whelmer|Hunt the Sudden Whelmer]]&#10;Complete [[Quest: Banners of the Lady of Blight|Banners of the Lady of Blight]]&#10;Complete [[Quest: Hunt Shákrum the Ripper|Hunt Shákrum the Ripper]]&#10;Complete [[Quest: Reclaiming Agarnaith: Mokál Rukh|Reclaiming Agarnaith: Mokál Rukh]]&#10;Complete [[Quest: Reclaiming Agarnaith: Orodruin Guard-tower|Reclaiming Agarnaith: Orodruin Guard-tower]]">
 <parent key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Aiding_in_the_Conquest" name="Aiding in the Conquest" type="REPUTATION" category="Region:Gorgoroth" description="There is much to do in assisting the Conquest of Gorgoroth in Mordor." objectives="Achieve the four following levels in the Mordor Factions:&#10;[[Celebrated in the Conquest of Gorgoroth (Faction)|Celebrated with the Conquest of Gorgoroth]]&#10;[[Enemy to Fushaum Bal North]]&#10;[[Enemy to Fushaum Bal North]]&#10;[[Known with the Red Sky Clan]]">
+<deed key="Aiding_in_the_Conquest" name="Aiding in the Conquest" type="REPUTATION" category="Region:Plateau of Gorgoroth" description="There is much to do in assisting the Conquest of Gorgoroth in Mordor." objectives="Achieve the four following levels in the Mordor Factions:&#10;[[Celebrated in the Conquest of Gorgoroth (Faction)|Celebrated with the Conquest of Gorgoroth]]&#10;[[Enemy to Fushaum Bal North]]&#10;[[Enemy to Fushaum Bal North]]&#10;[[Known with the Red Sky Clan]]">
 <rewards>
 <title name="Vanquisher of Doom"/>
 </rewards>
@@ -342,7 +342,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Allegiances_of_Middle-earth" name="Allegiances of Middle-earth" type="REPUTATION" category="Region:Gorgoroth" description="There are many to assist in the conquest of Gorgoroth." objectives="Complete Durin's Folk allegiance&#10;Complete Court of Lothlorien Allegiance&#10;Complete Hobbits of the Company Allegiance&#10;Complete Kingdom of Gondor Allegiance">
+<deed key="Allegiances_of_Middle-earth" name="Allegiances of Middle-earth" type="REPUTATION" category="Region:Plateau of Gorgoroth" description="There are many to assist in the conquest of Gorgoroth." objectives="Complete Durin's Folk allegiance&#10;Complete Court of Lothlorien Allegiance&#10;Complete Hobbits of the Company Allegiance&#10;Complete Kingdom of Gondor Allegiance">
 <rewards>
 <lotroPoints quantity="15"/>
 <title name="Trusted Ally"/>
@@ -1010,7 +1010,7 @@
 <title name="Bane of Industry"/>
 </rewards>
 </deed>
-<deed key="Bane_of_Shelob%27s_Broods" name="Bane of Shelob's Broods" type="SLAYER" category="Region:Gorgoroth" description="You have slain a countless number of Shelob's offspring, and Her wrath shall be great." objectives="Defeat Shelob's lesser broods in [[Lhingris]]. (0/1000)">
+<deed key="Bane_of_Shelob%27s_Broods" name="Bane of Shelob's Broods" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="You have slain a countless number of Shelob's offspring, and Her wrath shall be great." objectives="Defeat Shelob's lesser broods in [[Lhingris]]. (0/1000)">
 <rewards>
 <lotroPoints quantity="10"/>
 <title name="Bane of Shelob's Broods"/>
@@ -1172,12 +1172,12 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Beast_Slayer_of_Ud%C3%BBn" name="Beast Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth" description="Defeat many scavengers in Udûn" objectives="Defeat many scavengers in Udûn (0/100)">
+<deed key="Beast_Slayer_of_Ud%C3%BBn" name="Beast Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many scavengers in Udûn" objectives="Defeat many scavengers in Udûn (0/100)">
 <next key="Beast_Slayer_of_Ud%C3%BBn_(Advanced)" name="Beast Slayer of Udûn (Advanced)"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
 </deed>
-<deed key="Beast_Slayer_of_Ud%C3%BBn_(Advanced)" name="Beast Slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many of the Beasts in Udûn" objectives="Defeat many of the Beasts in Udûn (0/200)">
+<deed key="Beast_Slayer_of_Ud%C3%BBn_(Advanced)" name="Beast Slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of the Beasts in Udûn" objectives="Defeat many of the Beasts in Udûn (0/200)">
 <previous key="Beast_Slayer_of_Ud%C3%BBn" name="Beast Slayer of Udûn"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
@@ -1270,14 +1270,14 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Beast-slayer_of_Dor_Amarth" name="Beast-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth" description="Defeat many beasts in Dor Amarth" objectives="Defeat many beasts in Dor Amarth (0/100)">
+<deed key="Beast-slayer_of_Dor_Amarth" name="Beast-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many beasts in Dor Amarth" objectives="Defeat many beasts in Dor Amarth (0/100)">
 <next key="Beast-slayer_of_Dor_Amarth_(Advanced)" name="Beast-slayer of Dor Amarth (Advanced)"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Beast-slayer_of_Dor_Amarth_(Advanced)" name="Beast-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many beasts in Dor Amarth" objectives="Defeat many beasts in Dor Amarth (0/200)">
+<deed key="Beast-slayer_of_Dor_Amarth_(Advanced)" name="Beast-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many beasts in Dor Amarth" objectives="Defeat many beasts in Dor Amarth (0/200)">
 <previous key="Beast-slayer_of_Dor_Amarth" name="Beast-slayer of Dor Amarth"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
@@ -1470,14 +1470,14 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth" name="Black Númenórean-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Black Númenóreans in Dor Amarth." objectives="Defeat many Black Númenóreans in Dor Amarth (0/100)">
+<deed key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth" name="Black Númenórean-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many Black Númenóreans in Dor Amarth." objectives="Defeat many Black Númenóreans in Dor Amarth (0/100)">
 <next key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth_(Advanced)" name="Black Númenórean-slayer of Dor Amarth (Advanced)"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth_(Advanced)" name="Black Númenórean-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Black Númenóreans in Dor Amarth." objectives="Defeat many Black Númenóreans in Dor Amarth (0/200)">
+<deed key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth_(Advanced)" name="Black Númenórean-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many Black Númenóreans in Dor Amarth." objectives="Defeat many Black Númenóreans in Dor Amarth (0/200)">
 <previous key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth" name="Black Númenórean-slayer of Dor Amarth"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
@@ -2025,7 +2025,7 @@
 </deed>
 <deed key="Cave-claw_Wrangler_(deed)" name="Cave-claw Wrangler (deed)" type="EVENT" category="Event:Festival" description="Cave-claws have long assisted miners in discovering the greatest of treasures." objectives="Hug your [[Domesticated Cave-claw|Harnessed Cave-claw]]&#10;Hug your [[Domesticated Tan-back Cave-claw|Tan-back Cave-claw]]&#10;Hug your [[Domesticated Green-beak Cave-claw|Green-beak Cave-claw]]&#10;Hug your [[Domesticated Pink-beak Cave-claw|Pink-beak Cave-claw]]&#10;Hug your [[Domesticated Black-beak Cave-claw|Black-beak Cave-claw]]&#10;Hug your [[Domesticated Green-back Cave-claw|Green-back Cave-claw]]">
 <rewards>
-<title name="Cave-claw Wrangler (title)"/>
+<title name="Cave-claw Wrangler"/>
 </rewards>
 </deed>
 <deed key="Celebrated_by_the_Host_of_the_West_(Faction)(Deed)" name="Celebrated by the Host of the West (Faction)(Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the [[Host of the West (Faction)|Host of the West]] and have done much to aid Gondor and its people. For this, Aragorn now counts you among one of his top commanders." objectives="You must earn Celebrated standing with the [[Host of the West (Faction)|Host of the West]]">
@@ -2120,7 +2120,7 @@
 <object id="1879224344" name="Medallion" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Challenge:_Take_a_Turn_on_the_Rack" name="Challenge: Take a Turn on the Rack" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Thraknûl, once the most championed of torturers under the command of Sauron, still is able to capture and torture the most hardy warrior to ruin." objectives="Complete the quest [[Quest:Challenge: Take a Turn on the Rack|Challenge: Take a Turn on the Rack]]">
+<deed key="Challenge:_Take_a_Turn_on_the_Rack" name="Challenge: Take a Turn on the Rack" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="[[Thraknûl]], once the most championed of torturers under the command of [[Sauron]], still is able to capture and torture the most hardy warrior to ruin." objectives="Complete the quest [[Quest:Challenge: Take a Turn on the Rack|Challenge: Take a Turn on the Rack]]">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="50"/>
@@ -2792,7 +2792,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Combat_Traps_(Deed)" name="Combat Traps (Deed)" type="CLASS" category="Class:Hunter" description="Very few keep their eyes down to look for a tripwire, and if they do, they'll never see you coming." objectives="Use your [[Tripwire]] skill 100 times.&#10;It takes practised skill to lay a trap in the midst of a fray, but the benefits are worth the hours spent in practice.">
+<deed key="Combat_Traps_(Deed)" name="Combat Traps (Deed)" type="CLASS" category="Class:Hunter" description="Very few keep their eyes down to look for a tripwire, and if they do, they'll never see you coming." objectives="Use your [[Tripwire]] skill 100 times. (20/day)&#10;It takes practised skill to lay a trap in the midst of a fray, but the benefits are worth the hours spent in practice.">
 <rewards>
 <lotroPoints quantity="5"/>
 </rewards>
@@ -3202,7 +3202,7 @@
 <object id="1879175767" name="Plain Heritage Rune of Lore" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Dangerous_Foes_of_Agarnaith" name="Dangerous Foes of Agarnaith" type="SLAYER" category="Region:Gorgoroth" description="Defeat Dangerous Foes in Agarnaith." objectives="Defeat the [[Dire Ash-claw]] {{Tooltip Coords|Agarnaith|46.4S|36.7E}}&#10;Defeat [[Shákrum the Ripper]] {{Tooltip Coords|Agarnaith|48.1S|32.3E}} - Inside [[Seregost]] in the western end of the [[Western Courtyard]] on the ground level.&#10;Defeat the [[Frenzied Norbog]] {{Tooltip Coords|Agarnaith|49.3S|34.8E}} - The Frenzied Norbog appears at the coordinates listed and wanders in that area.&#10;Defeat the [[Sudden Whelmer]] {{Tooltip Coords|Agarnaith|45.0S|35.3E}} - The Sudden Whelmer appears at the coordinates listed and walks along the river.&#10;Defeat [[Gámnakur]] {{Tooltip Coords|Agarnaith|46.4S|35.1E}}">
+<deed key="Dangerous_Foes_of_Agarnaith" name="Dangerous Foes of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat Dangerous Foes in Agarnaith." objectives="Defeat the [[Dire Ash-claw]] {{Tooltip Coords|Agarnaith|46.4S|36.7E}}&#10;Defeat [[Shákrum the Ripper]] {{Tooltip Coords|Agarnaith|48.1S|32.3E}} - Inside [[Seregost]] in the western end of the [[Western Courtyard]] on the ground level.&#10;Defeat the [[Frenzied Norbog]] {{Tooltip Coords|Agarnaith|49.3S|34.8E}} - The Frenzied Norbog appears at the coordinates listed and wanders in that area.&#10;Defeat the [[Sudden Whelmer]] {{Tooltip Coords|Agarnaith|45.0S|35.3E}} - The Sudden Whelmer appears at the coordinates listed and walks along the river.&#10;Defeat [[Gámnakur]] {{Tooltip Coords|Agarnaith|46.4S|35.1E}}">
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
@@ -3350,7 +3350,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Agarnaith" name="Deeds of Agarnaith" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Complete the following 3 deeds in Agarnaith :&#10;[[Explorer of Agarnaith]]&#10;[[Quests of Agarnaith]]&#10;[[Slayer of Agarnaith]]">
+<deed key="Deeds_of_Agarnaith" name="Deeds of Agarnaith" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="" objectives="Complete the following 3 deeds in Agarnaith :&#10;[[Explorer of Agarnaith]]&#10;[[Quests of Agarnaith]]&#10;[[Slayer of Agarnaith]]">
 <child key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
 <child key="Quests_of_Agarnaith" name="Quests of Agarnaith"/>
 <child key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
@@ -3402,7 +3402,7 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Dor_Amarth" name="Deeds of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth" description="There is much to do while adventuring in Dor Amarth." objectives="Complete [[Explorer of Dor Amarth]]&#10;Complete [[Quests of Dor Amarth]]&#10;Complete [[Slayer of Dor Amarth]]">
+<deed key="Deeds_of_Dor_Amarth" name="Deeds of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="There is much to do while adventuring in Dor Amarth." objectives="Complete [[Explorer of Dor Amarth]]&#10;Complete [[Quests of Dor Amarth]]&#10;Complete [[Slayer of Dor Amarth]]">
 <child key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <child key="Quests_of_Dor_Amarth" name="Quests of Dor Amarth"/>
 <child key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
@@ -3514,7 +3514,7 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Gorgoroth" name="Deeds of Gorgoroth" category="Region:Gorgoroth" description="Complete deeds in Gorgoroth." objectives="Complete [[Explorer of Gorgoroth]]&#10;Complete [[Quests of Gorgoroth]]&#10;Complete [[Slayer of Gorgoroth]]">
+<deed key="Deeds_of_Gorgoroth" name="Deeds of Gorgoroth" category="Region:Plateau of Gorgoroth" description="Complete deeds in Gorgoroth." objectives="Complete [[Explorer of Gorgoroth]]&#10;Complete [[Quests of Gorgoroth]]&#10;Complete [[Slayer of Gorgoroth]]">
 <child key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Quests_of_Gorgoroth" name="Quests of Gorgoroth"/>
 <child key="Slayer_of_Gorgoroth" name="Slayer of Gorgoroth"/>
@@ -3542,7 +3542,7 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Lhingris" name="Deeds of Lhingris" type="EXPLORER" category="Region:Gorgoroth" description="The spider-haunts of Lhingris present the adventurers of Middle-earth with both great challenges and great rewards." objectives="Complete [[Slayer of Lhingris]]&#10;Complete [[Explorer of Lhingris]]&#10;Complete [[Quests of Lhingris]]">
+<deed key="Deeds_of_Lhingris" name="Deeds of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="The spider-haunts of Lhingris present the adventurers of Middle-earth with both great challenges and great rewards." objectives="Complete [[Slayer of Lhingris]]&#10;Complete [[Explorer of Lhingris]]&#10;Complete [[Quests of Lhingris]]">
 <child key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <child key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <child key="Quests_of_Lhingris" name="Quests of Lhingris"/>
@@ -3595,7 +3595,7 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Talath_%C3%9Arui" name="Deeds of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth" description="There is much to do while adventuring in Talath Úrui." objectives="Complete the following 3 deeds in Talath Úrui:&#10;[[Slayer of Talath Úrui]]&#10;[[Explorer of Talath Úrui]]&#10;[[Quests of Talath Úrui]]">
+<deed key="Deeds_of_Talath_%C3%9Arui" name="Deeds of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="There is much to do while adventuring in Talath Úrui." objectives="Complete the following 3 deeds in Talath Úrui:&#10;[[Slayer of Talath Úrui]]&#10;[[Explorer of Talath Úrui]]&#10;[[Quests of Talath Úrui]]">
 <child key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <child key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <child key="Quests_of_Talath_%C3%9Arui" name="Quests of Talath Úrui"/>
@@ -3606,7 +3606,7 @@
 <object id="1879356039" name="Black Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Deeds_of_Ud%C3%BBn" name="Deeds of Udûn" type="REPUTATION" category="Region:Gorgoroth" description="There is much to do while adventuring in Udûn." objectives="Complete the following 3 deeds in Udûn :&#10;[[Explorer of Udûn]]&#10;[[Quests of Udûn]]&#10;[[Slayer of Udûn]]">
+<deed key="Deeds_of_Ud%C3%BBn" name="Deeds of Udûn" type="REPUTATION" category="Region:Gorgoroth:Udûn" description="There is much to do while adventuring in Udûn." objectives="Complete the following 3 deeds in Udûn :&#10;[[Explorer of Udûn]]&#10;[[Quests of Udûn]]&#10;[[Slayer of Udûn]]">
 <child key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <child key="Quests_of_Ud%C3%BBn" name="Quests of Udûn"/>
 <child key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
@@ -3945,7 +3945,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Destroyer_of_the_Direhold" name="Destroyer of the Direhold" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Urudanî, the mysterious flame-wraith under the command of Borangos the horror, has been seen many times, entering and exiting the prison fortress of Naerband. Her work with Thraknûl, Sauron's former the chief torturer, lies within the dungeons of the Direhold -- The results of their work more would surely aid the great Rogmul." objectives="Complete the deed [[Dungeons of Naerband -- Tier 1]]&#10;Complete the deed [[Dungeons of Naerband -- Tier 2]]&#10;Complete the deed [[Challenge: Take a Turn on the Rack]]&#10;Complete the deed [[Dungeons of Naerband: Lost Lore]]&#10;Complete the deed [[Dungeons of Naerband: Flame-slayer]]&#10;Complete the deed [[Dungeons of Naerband: Ghâsh-hai-slayer]]&#10;Complete the deed [[Dungeons of Naerband: Scourge-slayer]]">
+<deed key="Destroyer_of_the_Direhold" name="Destroyer of the Direhold" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="[[Urudanî]], the mysterious flame-wraith under the command of [[Borangos]] the horror, has been seen many times, entering and exiting the prison fortress of [[Naerband]]. Her work with [[Thraknûl]], [[Sauron]]'s former the chief torturer, lies within the dungeons of the [[Direhold]] -- The results of their work more would surely aid the great [[Rogmul]]." objectives="Complete the deed [[Dungeons of Naerband -- Tier 1]]&#10;Complete the deed [[Dungeons of Naerband -- Tier 2]]&#10;Complete the deed [[Challenge: Take a Turn on the Rack]]&#10;Complete the deed [[Dungeons of Naerband: Lost Lore]]&#10;Complete the deed [[Dungeons of Naerband: Flame-slayer]]&#10;Complete the deed [[Dungeons of Naerband: Ghâsh-hai-slayer]]&#10;Complete the deed [[Dungeons of Naerband: Scourge-slayer]]">
 <child key="Dungeons_of_Naerband_--_Tier_1" name="Dungeons of Naerband -- Tier 1"/>
 <child key="Dungeons_of_Naerband_--_Tier_2" name="Dungeons of Naerband -- Tier 2"/>
 <child key="Challenge:_Take_a_Turn_on_the_Rack" name="Challenge: Take a Turn on the Rack"/>
@@ -4065,6 +4065,11 @@
 <object id="1879224344" name="Medallion" quantity="10"/>
 </rewards>
 </deed>
+<deed key="Discovery:_The_Abyss_of_Mordath" name="Discovery: The Abyss of Mordath" type="EXPLORER" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" minimumLevel="115" description="You have discovered the entrance to [[the Abyss of Mordath]], a terrible chasm which descends into the Black Pits of Mordor." objectives="Discover the entrance to the Abyss of Mordath">
+<rewards>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="5"/>
+</rewards>
+</deed>
 <deed key="Discovery:_The_Court_of_Seregost" name="Discovery: The Court of Seregost" type="EXPLORER" category="Instances:Plateau of Gorgoroth:The Court of Seregost" description="You have discovered the entrance to the Court of Seregost." objectives="Discover the entrance to the Court of Seregost">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="1"/>
@@ -4102,7 +4107,7 @@
 <deed key="Dol_Amroth_-_City_Watch_-_Warehouse_(deed)" name="Dol Amroth - City Watch - Warehouse (deed)" type="QUEST" category="Region:Western Gondor" minimumLevel="100" description="Complete ten quests in addition to achieving Acquaintance Reputation." objectives="[[File:Quest-title-icon.png]] Achieve Acquaintance with the Dol Amroth - Warehouse&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Tol Aduial - A Feast of Drakes| Tol Aduial - A Feast of Drakes]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Tol Aduial - Corsairs| Tol Aduial - Corsairs]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Tol Aduial - Smoke Signals| Tol Aduial - Smoke Signals]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Tol Aduial - A Hunter's Prowess| Tol Aduial - A Hunter's Prowess]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Stores for Winter| Dol Amroth - Warehouse - Stores for Winter]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Slave to the Sea| Dol Amroth - Warehouse - Slave to the Sea]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Fire and Water| Dol Amroth - Warehouse - Fire and Water]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Securing the Way| Dol Amroth - Warehouse - Securing the Way]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Fanning the Flames| Dol Amroth - Warehouse - Fanning the Flames]]&#10;&#10;[[File:Quest-title-icon.png]] Complete [[Quest: Dol Amroth - Warehouse - Very Hungry Rats| Dol Amroth - Warehouse - Very Hungry Rats]]">
 <rewards/>
 </deed>
-<deed key="Dor_Amarth:_Continued_Efforts" name="Dor Amarth: Continued Efforts" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Dor Amarth." objectives="Complete [[Quest: The Olog Lord|The Olog Lord]]&#10;Complete [[Quest: Brutality of the Hewer|Brutality of the Hewer]]&#10;Complete [[Quest: Weapons for War|Weapons for War]]&#10;Complete [[Quest: Emissary of Flame|Emissary of Flame]]&#10;Complete [[Quest: The Conquest of Dor Amarth|The Conquest of Dor Amarth]]&#10;Complete [[Quest: Keepers of the Ered Lithui|Keepers of the Ered Lithui]]&#10;Complete [[Quest: Treasures of the Doomfold|Treasures of the Doomfold]]&#10;Complete [[Quest: Reclaiming Dor Amarth: Orodruin's Western Foothills|Reclaiming Dor Amarth: Orodruin's Western Foothills]]&#10;Complete [[Quest: Reclaiming Orodruin: The Northern Slopes|Reclaiming Orodruin: The Northern Slopes]]&#10;Complete [[Quest: Reclaiming Orodruin: The Western Peak|Reclaiming Orodruin: The Western Peak]]">
+<deed key="Dor_Amarth:_Continued_Efforts" name="Dor Amarth: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Dor Amarth" description="There is still much to do in Dor Amarth." objectives="Complete [[Quest: The Olog Lord|The Olog Lord]]&#10;Complete [[Quest: Brutality of the Hewer|Brutality of the Hewer]]&#10;Complete [[Quest: Weapons for War|Weapons for War]]&#10;Complete [[Quest: Emissary of Flame|Emissary of Flame]]&#10;Complete [[Quest: The Conquest of Dor Amarth|The Conquest of Dor Amarth]]&#10;Complete [[Quest: Keepers of the Ered Lithui|Keepers of the Ered Lithui]]&#10;Complete [[Quest: Treasures of the Doomfold|Treasures of the Doomfold]]&#10;Complete [[Quest: Reclaiming Dor Amarth: Orodruin's Western Foothills|Reclaiming Dor Amarth: Orodruin's Western Foothills]]&#10;Complete [[Quest: Reclaiming Orodruin: The Northern Slopes|Reclaiming Orodruin: The Northern Slopes]]&#10;Complete [[Quest: Reclaiming Orodruin: The Western Peak|Reclaiming Orodruin: The Western Peak]]">
 <parent key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
@@ -4281,25 +4286,25 @@
 <title name="the Dull"/>
 </rewards>
 </deed>
-<deed key="Dungeons_of_Naerband_--_Tier_1" name="Dungeons of Naerband -- Tier 1" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Urudanî, the mysterious flame-wraith under the command of Borangos the horror, has been seen many times, entering and exiting the prison fortress of Naerband. Her work with Thraknûl, Sauron's former the chief torturer, lies within the dungeons of the Direhold -- The results of their work more would surely aid the great Rogmul." objectives="Complete the quest [[Quest:Dungeons of Naerband -- Tier 1|Dungeons of Naerband -- Tier 1]]">
+<deed key="Dungeons_of_Naerband_--_Tier_1" name="Dungeons of Naerband -- Tier 1" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="[[Urudanî]], the mysterious flame-wraith under the command of [[Borangos]] the horror, has been seen many times, entering and exiting the prison fortress of [[Naerband]]. Her work with [[Thraknûl]], [[Sauron]]'s former the chief torturer, lies within the dungeons of the [[Direhold]] -- The results of their work more would surely aid the great [[Rogmul]]." objectives="Complete the quest [[Quest:Dungeons of Naerband -- Tier 1|Dungeons of Naerband -- Tier 1]]">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Dungeons_of_Naerband_--_Tier_2" name="Dungeons of Naerband -- Tier 2" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Urudanî, the mysterious flame-wraith under the command of Borangos the horror, has been seen many times, entering and exiting the prison fortress of Naerband. Her work with Thraknûl, Sauron's former the chief torturer, lies within the dungeons of the Direhold -- The results of their work more would surely aid the great Rogmul." objectives="Complete the quest [[Quest:Dungeons of Naerband -- Tier 2|Dungeons of Naerband -- Tier 2]]">
+<deed key="Dungeons_of_Naerband_--_Tier_2" name="Dungeons of Naerband -- Tier 2" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="[[Urudanî]], the mysterious flame-wraith under the command of [[Borangos]] the horror, has been seen many times, entering and exiting the prison fortress of [[Naerband]]. Her work with [[Thraknûl]], [[Sauron]]'s former the chief torturer, lies within the dungeons of the [[Direhold]] -- The results of their work more would surely aid the great [[Rogmul]]." objectives="Complete the quest [[Quest:Dungeons of Naerband -- Tier 2|Dungeons of Naerband -- Tier 2]]">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Dungeons_of_Naerband:_Flame-slayer" name="Dungeons of Naerband: Flame-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Defeat many spirits and wraiths of flame within the Dungeons of Naerband." objectives="Defeat many spirits and wraiths of flame within the Dungeons of Naerband (0/250)">
+<deed key="Dungeons_of_Naerband:_Flame-slayer" name="Dungeons of Naerband: Flame-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Defeat many [[spirit]]s and [[wraith]]s of flame within the [[Dungeons of Naerband]]." objectives="Defeat many spirits and wraiths of flame within the Dungeons of Naerband (0/250)">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
-<deed key="Dungeons_of_Naerband:_Gh%C3%A2sh-hai-slayer" name="Dungeons of Naerband: Ghâsh-hai-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Defeat many Ghâsh-hai within the Dungeons of Naerband." objectives="Defeat many Ghâsh-hai within the Dungeons of Naerband (0/250)">
+<deed key="Dungeons_of_Naerband:_Gh%C3%A2sh-hai-slayer" name="Dungeons of Naerband: Ghâsh-hai-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:Dungeons of Naerband" description="Defeat many [[Ghâsh-hai]] within the [[Dungeons of Naerband]]." objectives="Defeat many Ghâsh-hai within the Dungeons of Naerband (0/250)">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
@@ -4723,6 +4728,12 @@
 <lotroPoints quantity="5"/>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 <object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="Enemies_in_Durthang" name="Enemies in Durthang" type="SLAYER" category="Region:Gorgoroth" description="Defeat many foes in the resource instance of Durthang." objectives="Defeat many foes in the resource instance of Durthang (0/200)">
+<rewards>
+<object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
 <deed key="Enemies_in_Nal%C3%A2-d%C3%BBm" name="Enemies in Nalâ-dûm" type="SLAYER" category="Instances:Scourge of Khazad-dûm:The Water Wheels of Nalâ-dûm" description="Vile foes, both beast and spirit, haunt the flooded depths of the Water-wheels." objectives="Defeat [[Caerlûg]]&#10;A caerog, an earth-demon, was awakened within Moria when the Balrog fled into hiding there. With the Balrog slain, Caerlûg now stalks the flooded Water-wheels, spreading his terror.&#10;Defeat [[Spit-tail (3-man)|Spit-tail]]&#10;Not every deep-lizard in the Water-wheels is easy prey to the wandering adventurer. Spit-tail is a beast to be reckoned with.">
@@ -5231,14 +5242,14 @@
 <deed key="Evendim_Traveller" name="Evendim Traveller" type="EXPLORER" category="Event:Chicken Play" description="Speak with the creatures of Evendim." objectives="Speak with [[Longbough]]&#10;You have spoken with Longbough.">
 <rewards/>
 </deed>
-<deed key="Evil_Dwarf-slayer_of_Dor_Amarth" name="Evil Dwarf-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth" description="Defeat many evil dwarves in Dor Amarth." objectives="Defeat many evil dwarves in Dor Amarth (0/100)">
+<deed key="Evil_Dwarf-slayer_of_Dor_Amarth" name="Evil Dwarf-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many evil dwarves in Dor Amarth." objectives="Defeat many evil dwarves in Dor Amarth (0/100)">
 <next key="Evil_Dwarf-slayer_of_Dor_Amarth_(Advanced)" name="Evil Dwarf-slayer of Dor Amarth (Advanced)"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Evil_Dwarf-slayer_of_Dor_Amarth_(Advanced)" name="Evil Dwarf-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many evil dwarves in Dor Amarth." objectives="Defeat many evil dwarves in Dor Amarth (0/200)">
+<deed key="Evil_Dwarf-slayer_of_Dor_Amarth_(Advanced)" name="Evil Dwarf-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many evil dwarves in Dor Amarth." objectives="Defeat many evil dwarves in Dor Amarth (0/200)">
 <previous key="Evil_Dwarf-slayer_of_Dor_Amarth" name="Evil Dwarf-slayer of Dor Amarth"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
@@ -5332,7 +5343,8 @@
 <title name="The Thorough"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Agarnaith" name="Explorer of Agarnaith" type="EXPLORER" category="Region:Gorgoroth" description="Explore the wilds of Agarnaith." objectives="Complete [[Kala-gijak Tower-climber]]&#10;Complete [[Agarnaith Pathfinder]]&#10;Complete [[Seregost Explorer]]&#10;Complete [[Rare Gorgoroth Chests of Agarnaith]]&#10;Complete [[Treasure of Agarnaith]]">
+<deed key="Explorer_of_Agarnaith" name="Explorer of Agarnaith" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Explore the wilds of Agarnaith." objectives="Complete [[Kala-gijak Tower-climber]]&#10;Complete [[Agarnaith Pathfinder]]&#10;Complete [[Seregost Explorer]]&#10;Complete [[Rare Gorgoroth Chests of Agarnaith]]&#10;Complete [[Treasure of Agarnaith]]">
+<parent key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Kala-gijak_Tower-climber" name="Kala-gijak Tower-climber"/>
 <child key="Agarnaith_Pathfinder" name="Agarnaith Pathfinder"/>
 <child key="Seregost_Explorer" name="Seregost Explorer"/>
@@ -5389,7 +5401,8 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth" description="Explore the ruins of Dor Amarth." objectives="Complete [[Places of Darkness]]&#10;Complete [[The Last Reserves]]&#10;Complete [[Rare Gorgoroth Chests of Dor Amarth]]&#10;Complete [[Treasure of Dor Amarth]]">
+<deed key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Explore the ruins of Dor Amarth." objectives="Complete [[Places of Darkness]]&#10;Complete [[The Last Reserves]]&#10;Complete [[Rare Gorgoroth Chests of Dor Amarth]]&#10;Complete [[Treasure of Dor Amarth]]">
+<parent key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Places_of_Darkness" name="Places of Darkness"/>
 <child key="The_Last_Reserves" name="The Last Reserves"/>
 <child key="Rare_Gorgoroth_Chests_of_Dor_Amarth" name="Rare Gorgoroth Chests of Dor Amarth"/>
@@ -5490,12 +5503,13 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Complete the following 5 deeds in Gorgoroth :&#10;[[Explorer of Udûn]]&#10;[[Explorer of Dor Amarth]]&#10;[[Explorer of Lhingris]]&#10;[[Explorer of Talath Urui]]&#10;[[Explorer of Agarnaith]]">
+<deed key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth" type="EXPLORER" category="Region:Plateau of Gorgoroth" description="" objectives="Complete the following 5 deeds in Gorgoroth :&#10;[[Explorer of Udûn]]&#10;[[Explorer of Dor Amarth]]&#10;[[Explorer of Lhingris]]&#10;[[Explorer of Talath Urui]]&#10;[[Explorer of Agarnaith]]">
 <parent key="Deeds_of_Gorgoroth" name="Deeds of Gorgoroth"/>
 <child key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <child key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <child key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <child key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
+<child key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <rewards>
 <title name="Surveyor of the Plateau"/>
 <object id="1879224343" name="Mark" quantity="30"/>
@@ -5519,7 +5533,8 @@
 <title name="Explorer of Khazad-dûm"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Lhingris" name="Explorer of Lhingris" type="EXPLORER" category="Region:Gorgoroth" description="Explore the strongholds, spider-haunts, web-rifts, and hidden places of Lhingris." objectives="Complete [[Strongholds of the Ephel Dúath]]&#10;Complete [[The Tower of Cirith Ungol]]&#10;Complete [[Spider-haunts and Web-rifts]]&#10;Complete [[Rare Gorgoroth Chests of Lhingris]]&#10;Complete [[Treasure of Lhingris]]">
+<deed key="Explorer_of_Lhingris" name="Explorer of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Explore the strongholds, spider-haunts, web-rifts, and hidden places of Lhingris." objectives="Complete [[Strongholds of the Ephel Dúath]]&#10;Complete [[The Tower of Cirith Ungol]]&#10;Complete [[Spider-haunts and Web-rifts]]&#10;Complete [[Rare Gorgoroth Chests of Lhingris]]&#10;Complete [[Treasure of Lhingris]]">
+<parent key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Strongholds_of_the_Ephel_D%C3%BAath" name="Strongholds of the Ephel Dúath"/>
 <child key="The_Tower_of_Cirith_Ungol" name="The Tower of Cirith Ungol"/>
 <child key="Spider-haunts_and_Web-rifts" name="Spider-haunts and Web-rifts"/>
@@ -5575,7 +5590,8 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth" description="Explore the burning plains of Talath Úrui." objectives="Complete [[Outposts Along the Burning Plain]]&#10;Complete [[Nargroth Explorer]]&#10;Complete [[The Tainted Reserves]]&#10;Complete [[Rare Gorgoroth Chests of Talath Úrui]]&#10;Complete [[Treasure of Talath Úrui]]">
+<deed key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Explore the burning plains of Talath Úrui." objectives="Complete [[Outposts Along the Burning Plain]]&#10;Complete [[Nargroth Explorer]]&#10;Complete [[The Tainted Reserves]]&#10;Complete [[Rare Gorgoroth Chests of Talath Úrui]]&#10;Complete [[Treasure of Talath Úrui]]">
+<parent key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Outposts_Along_the_Burning_Plain" name="Outposts Along the Burning Plain"/>
 <child key="Nargroth_Explorer" name="Nargroth Explorer"/>
 <child key="The_Tainted_Reserves" name="The Tainted Reserves"/>
@@ -5588,7 +5604,8 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn" type="EXPLORER" category="Region:Gorgoroth" description="Explore the valley of Udûn" objectives="Complete [[Forgeworks of Udûn]]&#10;Complete [[Forge-fires of Udûn]]&#10;Complete [[The Way Into Mordor]]&#10;Complete [[Rare Gorgoroth Chests of Udûn]]&#10;Complete [[Treasure of Udûn]]">
+<deed key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Explore the valley of Udûn" objectives="Complete [[Forgeworks of Udûn]]&#10;Complete [[Forge-fires of Udûn]]&#10;Complete [[The Way Into Mordor]]&#10;Complete [[Rare Gorgoroth Chests of Udûn]]&#10;Complete [[Treasure of Udûn]]">
+<parent key="Explorer_of_Gorgoroth" name="Explorer of Gorgoroth"/>
 <child key="Forgeworks_of_Ud%C3%BBn" name="Forgeworks of Udûn"/>
 <child key="Forge-fires_of_Ud%C3%BBn" name="Forge-fires of Udûn"/>
 <child key="The_Way_Into_Mordor" name="The Way Into Mordor"/>
@@ -5695,6 +5712,12 @@
 <reputation>
 <reputationItem faction="Elves of Rivendell" amount="900"/>
 </reputation>
+<object id="1879224343" name="Mark" quantity="100"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Explorer_of_the_North" name="Explorer of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="" objectives="Complete the 6 explorer deeds of the Strongholds of the North :&#10;# Treasure-seeker of the North&#10;# Explorer of the Dale-lands&#10;# Explorer of Eryn Lasgalen&#10;# Surveyor of the Dwarvish Markers&#10;# Ruins of the North&#10;# The Path of the Company">
+<rewards>
 <object id="1879224343" name="Mark" quantity="100"/>
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
@@ -6156,7 +6179,7 @@
 <trait name="Focused Eye"/>
 </rewards>
 </deed>
-<deed key="Focused_and_Ready_(Deed)" name="Focused and Ready (Deed)" type="CLASS" category="Class:Hunter" minimumLevel="1" description="Being able to gain focus in the midst of chaos is a true art that few can master." objectives="Use the skill {{:Hunter Focus|mode=imlink}} 500 times.&#10;Calming your mind and regaining strength at a moment's notice will make you a formidable foe.">
+<deed key="Focused_and_Ready_(Deed)" name="Focused and Ready (Deed)" type="CLASS" category="Class:Hunter" minimumLevel="1" description="Being able to gain focus in the midst of chaos is a true art that few can master." objectives="Use the skill {{:Hunter Focus|mode=imlink}} 500 times. (100/day)&#10;Calming your mind and regaining strength at a moment's notice will make you a formidable foe.">
 <rewards>
 <lotroPoints quantity="5"/>
 </rewards>
@@ -6389,14 +6412,14 @@
 <virtue id="WISDOM"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Agarnaith" name="Foothold in Agarnaith" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/20)">
+<deed key="Foothold_in_Agarnaith" name="Foothold in Agarnaith" type="QUEST" category="Region:Gorgoroth:Agarnaith" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/20)">
 <next key="Foothold_in_Agarnaith_(Intermediate)" name="Foothold in Agarnaith (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Agarnaith_(Advanced)" name="Foothold in Agarnaith (Advanced)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/90)">
+<deed key="Foothold_in_Agarnaith_(Advanced)" name="Foothold in Agarnaith (Advanced)" type="QUEST" category="Region:Gorgoroth:Agarnaith" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/90)">
 <previous key="Foothold_in_Agarnaith_(Intermediate)" name="Foothold in Agarnaith (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
@@ -6404,7 +6427,7 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Agarnaith_(Intermediate)" name="Foothold in Agarnaith (Intermediate)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/40)">
+<deed key="Foothold_in_Agarnaith_(Intermediate)" name="Foothold in Agarnaith (Intermediate)" type="QUEST" category="Region:Gorgoroth:Agarnaith" description="There is still much to do in Agarnaith." objectives="Complete quests in Agarnaith (0/40)">
 <previous key="Foothold_in_Agarnaith" name="Foothold in Agarnaith"/>
 <next key="Foothold_in_Agarnaith_(Advanced)" name="Foothold in Agarnaith (Advanced)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
@@ -6413,14 +6436,14 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Dor_Amarth" name="Foothold in Dor Amarth" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/20)">
+<deed key="Foothold_in_Dor_Amarth" name="Foothold in Dor Amarth" type="QUEST" category="Region:Gorgoroth:Dor Amarth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/20)">
 <next key="Foothold_in_Dor_Amarth_(Intermediate)" name="Foothold in Dor Amarth (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Dor_Amarth_(Advanced)" name="Foothold in Dor Amarth (Advanced)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/90)">
+<deed key="Foothold_in_Dor_Amarth_(Advanced)" name="Foothold in Dor Amarth (Advanced)" type="QUEST" category="Region:Gorgoroth:Dor Amarth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/90)">
 <previous key="Foothold_in_Dor_Amarth_(Intermediate)" name="Foothold in Dor Amarth (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
@@ -6428,7 +6451,7 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Dor_Amarth_(Intermediate)" name="Foothold in Dor Amarth (Intermediate)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/40)">
+<deed key="Foothold_in_Dor_Amarth_(Intermediate)" name="Foothold in Dor Amarth (Intermediate)" type="QUEST" category="Region:Gorgoroth:Dor Amarth" description="There is still much to do in Dor Amarth." objectives="Complete quests in Dor Amarth (0/40)">
 <previous key="Foothold_in_Dor_Amarth" name="Foothold in Dor Amarth"/>
 <next key="Foothold_in_Dor_Amarth_(Advanced)" name="Foothold in Dor Amarth (Advanced)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
@@ -6437,14 +6460,14 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Lhingris" name="Foothold in Lhingris" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/20)">
+<deed key="Foothold_in_Lhingris" name="Foothold in Lhingris" type="QUEST" category="Region:Gorgoroth:Lhingris" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/20)">
 <next key="Foothold_in_Lhingris_(Intermediate)" name="Foothold in Lhingris (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Lhingris_(Advanced)" name="Foothold in Lhingris (Advanced)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/90)">
+<deed key="Foothold_in_Lhingris_(Advanced)" name="Foothold in Lhingris (Advanced)" type="QUEST" category="Region:Gorgoroth:Lhingris" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/90)">
 <previous key="Foothold_in_Lhingris_(Intermediate)" name="Foothold in Lhingris (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
@@ -6452,21 +6475,21 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Lhingris_(Intermediate)" name="Foothold in Lhingris (Intermediate)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/40)">
+<deed key="Foothold_in_Lhingris_(Intermediate)" name="Foothold in Lhingris (Intermediate)" type="QUEST" category="Region:Gorgoroth:Lhingris" description="There is still much to do in Lhingris." objectives="Complete quests in Lhingris (0/40)">
 <previous key="Foothold_in_Lhingris" name="Foothold in Lhingris"/>
 <rewards>
 <lotroPoints quantity="5"/>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Talath_%C3%9Arui" name="Foothold in Talath Úrui" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/20)">
+<deed key="Foothold_in_Talath_%C3%9Arui" name="Foothold in Talath Úrui" type="QUEST" category="Region:Gorgoroth:Talath Úrui" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/20)">
 <next key="Foothold_in_Talath_%C3%9Arui_(Intermediate)" name="Foothold in Talath Úrui (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Talath_%C3%9Arui_(Advanced)" name="Foothold in Talath Úrui (Advanced)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/90)">
+<deed key="Foothold_in_Talath_%C3%9Arui_(Advanced)" name="Foothold in Talath Úrui (Advanced)" type="QUEST" category="Region:Gorgoroth:Talath Úrui" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/90)">
 <previous key="Foothold_in_Talath_%C3%9Arui_(Intermediate)" name="Foothold in Talath Úrui (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
@@ -6474,7 +6497,7 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Talath_%C3%9Arui_(Intermediate)" name="Foothold in Talath Úrui (Intermediate)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/40)">
+<deed key="Foothold_in_Talath_%C3%9Arui_(Intermediate)" name="Foothold in Talath Úrui (Intermediate)" type="QUEST" category="Region:Gorgoroth:Talath Úrui" description="There is still much to do in Talath Úrui." objectives="Complete quests in Talath Úrui (0/40)">
 <previous key="Foothold_in_Talath_%C3%9Arui" name="Foothold in Talath Úrui"/>
 <next key="Foothold_in_Talath_%C3%9Arui_(Advanced)" name="Foothold in Talath Úrui (Advanced)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
@@ -6483,14 +6506,14 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Ud%C3%BBn" name="Foothold in Udûn" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/20)">
+<deed key="Foothold_in_Ud%C3%BBn" name="Foothold in Udûn" type="QUEST" category="Region:Gorgoroth:Udûn" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/20)">
 <next key="Foothold_in_Ud%C3%BBn_(Intermediate)" name="Foothold in Udûn (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Ud%C3%BBn_(Advanced)" name="Foothold in Udûn (Advanced)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/90)">
+<deed key="Foothold_in_Ud%C3%BBn_(Advanced)" name="Foothold in Udûn (Advanced)" type="QUEST" category="Region:Gorgoroth:Udûn" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/90)">
 <previous key="Foothold_in_Ud%C3%BBn_(Intermediate)" name="Foothold in Udûn (Intermediate)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <rewards>
@@ -6498,7 +6521,7 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Foothold_in_Ud%C3%BBn_(Intermediate)" name="Foothold in Udûn (Intermediate)" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/40)">
+<deed key="Foothold_in_Ud%C3%BBn_(Intermediate)" name="Foothold in Udûn (Intermediate)" type="QUEST" category="Region:Gorgoroth:Udûn" description="There is still much to do in Udûn." objectives="Complete quests in Udûn (0/40)">
 <previous key="Foothold_in_Ud%C3%BBn" name="Foothold in Udûn"/>
 <next key="Foothold_in_Ud%C3%BBn_(Advanced)" name="Foothold in Udûn (Advanced)"/>
 <parent key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
@@ -6536,24 +6559,24 @@
 <object id="1879224343" name="Mark" quantity="50"/>
 </rewards>
 </deed>
-<deed key="Forge-fires_of_Ud%C3%BBn" name="Forge-fires of Udûn" type="EXPLORER" category="Region:Gorgoroth" description="Discover the forging furnaces in Udûn" objectives="Discover Forging Furnaces (0/15)">
+<deed key="Forge-fires_of_Ud%C3%BBn" name="Forge-fires of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Discover the forging furnaces in Udûn" objectives="Discover Forging Furnaces (0/15)&#10;Like a thousand malevolent eyes, the many furnaces of Udûn burn amid the shadow and fog. What tally of crude arms and armours have been wrought in them, during the time of the Dark Lord's reign?">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <rewards>
 <title name="Hand to the Flame"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth" description="Defeat many of the Forgeworkers in Udûn" objectives="Defeat many of the Forgeworkers in Udûn (0/80)">
+<deed key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of the Forgeworkers in Udûn" objectives="Defeat many of the Forgeworkers in Udûn (0/80)">
 <next key="Forgeworker_Slayer_of_Ud%C3%BBn_(Advanced)" name="Forgeworker Slayer of Udûn (Advanced)"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
 </deed>
-<deed key="Forgeworker_Slayer_of_Ud%C3%BBn_(Advanced)" name="Forgeworker Slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many of the Forgeworkers in Udûn" objectives="Defeat many of the Forgeworkers in Udûn (0/160)">
+<deed key="Forgeworker_Slayer_of_Ud%C3%BBn_(Advanced)" name="Forgeworker Slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of the Forgeworkers in Udûn" objectives="Defeat many of the Forgeworkers in Udûn (0/160)">
 <previous key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
 </deed>
-<deed key="Forgeworks_of_Ud%C3%BBn" name="Forgeworks of Udûn" type="EXPLORER" category="Region:Gorgoroth" description="Discover the great forge machinery still churning in Udûn" objectives="Discover Great Forgeworks (0/16)">
+<deed key="Forgeworks_of_Ud%C3%BBn" name="Forgeworks of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Discover the great forge machinery still churning in Udûn" objectives="Discover Great Forgeworks (0/16)&#10;Udûn is covered in many great gears, mills, and other forgeworks, still in motion though their watchers and tenders are fled.">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <rewards>
 <title name="Gear-hunter"/>
@@ -7114,7 +7137,7 @@
 <title name="Repulser of Savages"/>
 </rewards>
 </deed>
-<deed key="Geneology_of_the_Beornings_(Beorning_Deed)" name="Geneology of the Beornings (Beorning Deed)" type="CLASS" category="Class:Beorning" minimumLevel="39" description="The first four pages of this book can be found on enemies scattered across [[Angmar]], [[Eregion]], and [[Moria]]. The last four pages of this book can be found on enemies scattered across [[Forochel]], Moria, and the [[the Misty Mountains|Misty Mountains]].&#10;&#10;This book contains a number of genealogical charts professing to document the various lines and branches of your family, but some of the pages are missing.&#10;&#10;You do not know who prepared this book, but perhaps [[Bilbo Baggins]], currently staying in [[Rivendell]], knows something about it. He has an interest in such things and knew your relative [[Beorn]]." objectives="Collect Geneology of the Beornings, Page 17&#10;This page contains the final section of of the genealogical charts, which has brought the line of Beorn down to your generation: you, Sterkist, and Langhár.&#10;Collect Geneology of the Beornings, Page 18&#10;This page contains some paragraphs of information about Beorn, your relative and the apparent forebear of your line. Even you have little information about Beorn's parentage, and if Grimbeorn knew of it he never spoke of it to you.&#10;Collect Geneology of the Beornings, Page 19&#10;This page contains a number of paragraphs concerning Grimbeorn, the son of Beorn and your relative. He is the leader and patriarch of your folk, and maintains the lodge where Beorn once lived. He is now very old, and has little patience for the fancies of the young.&#10;Collect Geneology of the Beornings, Page 20&#10;This page contains a paragraph of information about Ofolmóth, your one-time relative. The information is now... outdated.&#10;Collect Geneology of the Beornings, Page 21&#10;This page contains several pages about your cousin Varthmath and his siblings. Most of them range further afield and do not stay near the lodge, so you do not know then as well as Varthmath.&#10;Collect Geneology of the Beornings, Page 22&#10;This page briefly describes the heritage of your sister Langhár, but most of the page is blank. You suppose that it is waiting to be filled with her deeds.&#10;Collect Geneology of the Beornings, Page 23&#10;This page briefly describes the heritage of your brother Sterkist, but most of the page is blank. You suppose that it is waiting to be filled with his deeds. Curiously, his name is misspelled. You decide to spare his feelings and not tell him abozt the error.&#10;Collect Geneology of the Beornings, Page 24&#10;This page is about you! It is mostly blank. You suppose it is waiting to filled with the record of your deeds. One day you should write your own page in this book.">
+<deed key="Geneology_of_the_Beornings_(Beorning_Deed)" name="Geneology of the Beornings (Beorning Deed)" type="CLASS" category="Class:Beorning" minimumLevel="39" description="The first four pages of this book can be found on enemies scattered across [[Angmar]], [[Eregion]], and [[Moria]]. The last four pages of this book can be found on enemies scattered across [[Forochel]], Moria, and the [[the Misty Mountains|Misty Mountains]].&#10;&#10;This book contains a number of genealogical charts professing to document the various lines and branches of your family, but some of the pages are missing.&#10;&#10;You do not know who prepared this book, but perhaps [[Bilbo Baggins]], currently staying in [[Rivendell]], knows something about it. He has an interest in such things and knew your relative [[Beorn]]." objectives="Collect Genealogy of the Beornings, Page 17&#10;This page contains the final section of of the genealogical charts, which has brought the line of Beorn down to your generation: you, Sterkist, and Langhár.&#10;Collect Genealogy of the Beornings, Page 18&#10;This page contains some paragraphs of information about Beorn, your relative and the apparent forebear of your line. Even you have little information about Beorn's parentage, and if Grimbeorn knew of it he never spoke of it to you.&#10;Collect Genealogy of the Beornings, Page 19&#10;This page contains a number of paragraphs concerning Grimbeorn, the son of Beorn and your relative. He is the leader and patriarch of your folk, and maintains the lodge where Beorn once lived. He is now very old, and has little patience for the fancies of the young.&#10;Collect Genealogy of the Beornings, Page 20&#10;This page contains a paragraph of information about Ofolmóth, your one-time relative. The information is now... outdated.&#10;Collect Genealogy of the Beornings, Page 21&#10;This page contains several pages about your cousin Varthmath and his siblings. Most of them range further afield and do not stay near the lodge, so you do not know then as well as Varthmath.&#10;Collect Genealogy of the Beornings, Page 22&#10;This page briefly describes the heritage of your sister Langhár, but most of the page is blank. You suppose that it is waiting to be filled with her deeds.&#10;Collect Genealogy of the Beornings, Page 23&#10;This page briefly describes the heritage of your brother Sterkist, but most of the page is blank. You suppose that it is waiting to be filled with his deeds. Curiously, his name is misspelled. You decide to spare his feelings and not tell him abozt the error.&#10;Collect Genealogy of the Beornings, Page 24&#10;This page is about you! It is mostly blank. You suppose it is waiting to filled with the record of your deeds. One day you should write your own page in this book.">
 <rewards>
 <lotroPoints quantity="10"/>
 </rewards>
@@ -7124,14 +7147,14 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui" name="Ghâsh-hai-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Ghâsh-hai in Talath Úrui." objectives="Defeat many Ghâsh-hai in Talath Úrui (0/100)">
+<deed key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui" name="Ghâsh-hai-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Ghâsh-hai in Talath Úrui." objectives="Defeat many Ghâsh-hai in Talath Úrui (0/100)">
 <next key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Ghâsh-hai-slayer of Talath Úrui (Advanced)"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Ghâsh-hai-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Ghâsh-hai in Talath Úrui." objectives="Defeat many Ghâsh-hai in Talath Úrui (0/200)">
+<deed key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Ghâsh-hai-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Ghâsh-hai in Talath Úrui." objectives="Defeat many Ghâsh-hai in Talath Úrui (0/200)">
 <previous key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui" name="Ghâsh-hai-slayer of Talath Úrui"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
@@ -7513,14 +7536,7 @@
 <object id="1879306057" name="Amroth Silver Piece" quantity="18"/>
 </rewards>
 </deed>
-<deed key="Gorgoroth_Continued_Foothold" name="Gorgoroth Continued Foothold" type="LORE" category="Region:Gorgoroth" description="(0/6)" objectives="Complete Foothold in Agarnath (Advanced)&#10;Complete Foothold in Dor Amarth (Advanced)&#10;Complete Foothold in Lhingris (Advanced)&#10;Complete Foothold in Talath Úrui (Advanced)&#10;Complete Foothold in Udûn (Advanced)&#10;Complete Gathering of Resources (Advanced)">
-<rewards>
-<lotroPoints quantity="10"/>
-<object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879356167" name="Pristine Relic of the Last Alliance" quantity="1"/>
-</rewards>
-</deed>
-<deed key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest" category="Region:Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Gorgoroth: Continued Efforts]]&#10;Complete [[Gorgoroth: Continued Foothold]]&#10;Complete [[Gorgoroth: Continued Skirmishes]]">
+<deed key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Gorgoroth: Continued Efforts]]&#10;Complete [[Gorgoroth: Continued Foothold]]&#10;Complete [[Gorgoroth: Continued Skirmishes]]">
 <child key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <child key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
 <child key="Gorgoroth:_Continued_Skirmishes" name="Gorgoroth: Continued Skirmishes"/>
@@ -7534,7 +7550,7 @@
 <object id="1879356039" name="Black Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts" category="Region:Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Agarnaith: Continued Efforts]]&#10;Complete [[Dor Amarth: Continued Efforts]]&#10;Complete [[Lhingris: Continued Efforts]]&#10;Complete [[Talath Úrui: Continued Efforts]]&#10;Complete [[Udûn: Continued Efforts]]&#10;Complete [[Resources of Gorgoroth]]">
+<deed key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Agarnaith: Continued Efforts]]&#10;Complete [[Dor Amarth: Continued Efforts]]&#10;Complete [[Lhingris: Continued Efforts]]&#10;Complete [[Talath Úrui: Continued Efforts]]&#10;Complete [[Udûn: Continued Efforts]]&#10;Complete [[Resources of Gorgoroth]]">
 <parent key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest"/>
 <child key="Agarnaith:_Continued_Efforts" name="Agarnaith: Continued Efforts"/>
 <child key="Dor_Amarth:_Continued_Efforts" name="Dor Amarth: Continued Efforts"/>
@@ -7550,7 +7566,7 @@
 <object id="1879356167" name="Pristine Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold" category="Region:Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Foothold in Agarnaith (Advanced)]]&#10;Complete [[Foothold in Dor Amarth (Advanced)]]&#10;Complete [[Foothold in Lhingris (Advanced)]]&#10;Complete [[Foothold in Talath Úrui (Advanced)]]&#10;Complete [[Foothold in Udûn (Advanced)]]&#10;Complete [[Gathering of Resources (Advanced)]]">
+<deed key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Foothold in Agarnaith (Advanced)]]&#10;Complete [[Foothold in Dor Amarth (Advanced)]]&#10;Complete [[Foothold in Lhingris (Advanced)]]&#10;Complete [[Foothold in Talath Úrui (Advanced)]]&#10;Complete [[Foothold in Udûn (Advanced)]]&#10;Complete [[Gathering of Resources (Advanced)]]">
 <parent key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest"/>
 <child key="Foothold_in_Agarnaith_(Advanced)" name="Foothold in Agarnaith (Advanced)"/>
 <child key="Foothold_in_Dor_Amarth_(Advanced)" name="Foothold in Dor Amarth (Advanced)"/>
@@ -7575,7 +7591,7 @@
 <object id="1879356167" name="Pristine Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Gorgoroth:_Continued_Skirmishes" name="Gorgoroth: Continued Skirmishes" category="Region:Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Enemies in Bhol Rûdh (Advanced)]]&#10;Complete [[Leaders of Gorgoroth (Advanced)]]&#10;Complete [[Enemies of Barad-dûr (Advanced)]]&#10;Complete [[Enemies of Kála-murg (Advanced)]]&#10;Complete [[Enemies on The Burning Mountain (Advanced)]]&#10;Complete [[Enemies of Durthang (Advanced)]]">
+<deed key="Gorgoroth:_Continued_Skirmishes" name="Gorgoroth: Continued Skirmishes" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Enemies in Bhol Rûdh (Advanced)]]&#10;Complete [[Leaders of Gorgoroth (Advanced)]]&#10;Complete [[Enemies of Barad-dûr (Advanced)]]&#10;Complete [[Enemies of Kála-murg (Advanced)]]&#10;Complete [[Enemies on The Burning Mountain (Advanced)]]&#10;Complete [[Enemies of Durthang (Advanced)]]">
 <parent key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest"/>
 <child key="Enemies_in_Bhol_R%C3%BBdh_(Advanced)" name="Enemies in Bhol Rûdh (Advanced)"/>
 <child key="Leaders_of_Gorgoroth_(Advanced)" name="Leaders of Gorgoroth (Advanced)"/>
@@ -7583,12 +7599,12 @@
 <child key="Enemies_of_K%C3%A1la-murg_(Advanced)" name="Enemies of Kála-murg (Advanced)"/>
 <child key="Enemies_on_The_Burning_Mountain_(Advanced)" name="Enemies on The Burning Mountain (Advanced)"/>
 <child key="Enemies_of_Durthang_(Advanced)" name="Enemies of Durthang (Advanced)"/>
+<child key="Leaders_of_Gorgoroth" name="Leaders of Gorgoroth"/>
 <child key="Enemies_in_Bhol_R%C3%BBdh" name="Enemies in Bhol Rûdh"/>
 <child key="Enemies_of_Barad-d%C3%BBr" name="Enemies of Barad-dûr"/>
 <child key="Enemies_of_Durthang" name="Enemies of Durthang"/>
 <child key="Enemies_of_K%C3%A1la-murg" name="Enemies of Kála-murg"/>
 <child key="Enemies_on_The_Burning_Mountain" name="Enemies on The Burning Mountain"/>
-<child key="Leaders_of_Gorgoroth" name="Leaders of Gorgoroth"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <title name="Defender of the Conquest"/>
@@ -7648,14 +7664,14 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Gredbyg-slayer_of_Lhingris" name="Gredbyg-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth" description="Defeat many gredbyg in Lhingris." objectives="Defeat many gredbyg in Lhingris (0/100)">
+<deed key="Gredbyg-slayer_of_Lhingris" name="Gredbyg-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many gredbyg in Lhingris." objectives="Defeat many gredbyg in Lhingris (0/100)">
 <next key="Gredbyg-slayer_of_Lhingris_(Advanced)" name="Gredbyg-slayer of Lhingris (Advanced)"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Gredbyg-slayer_of_Lhingris_(Advanced)" name="Gredbyg-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many gredbyg in Lhingris." objectives="Defeat many gredbyg in Lhingris (0/200)">
+<deed key="Gredbyg-slayer_of_Lhingris_(Advanced)" name="Gredbyg-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many gredbyg in Lhingris." objectives="Defeat many gredbyg in Lhingris (0/200)">
 <previous key="Gredbyg-slayer_of_Lhingris" name="Gredbyg-slayer of Lhingris"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
@@ -7669,14 +7685,14 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui" name="Grim and Spirit-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Grims and Spirits in Talath Úrui." objectives="Defeat many Grims and Spirits in Talath Úrui (0/100)">
+<deed key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui" name="Grim and Spirit-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Grims and Spirits in Talath Úrui." objectives="Defeat many Grims and Spirits in Talath Úrui (0/100)">
 <next key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Grim and Spirit-slayer of Talath Úrui (Advanced)"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Grim and Spirit-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Grims and Spirits in Talath Úrui." objectives="Defeat many Grims and Spirits in Talath Úrui (0/200)">
+<deed key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Grim and Spirit-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Grims and Spirits in Talath Úrui." objectives="Defeat many Grims and Spirits in Talath Úrui (0/200)">
 <previous key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui" name="Grim and Spirit-slayer of Talath Úrui"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
@@ -8288,7 +8304,7 @@
 <object id="1879175767" name="Plain Heritage Rune of Lore" quantity="1"/>
 </rewards>
 </deed>
-<deed key="History_of_Gorgoroth" name="History of Gorgoroth" category="Region:Gorgoroth" description="There is a rich history in the realm of Gorgoroth." objectives="Complete [[Quest: Lost Lore of Gorgoroth: Udûn |Lost Lore: Udûn]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Dor Amarth |Lost Lore: Dor Amarth]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Lhingris |Lost Lore: Lhingris]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Talath Úrui |Lost Lore: Talath Úrui]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Agarnaith |Lost Lore: Agarnaith]]">
+<deed key="History_of_Gorgoroth" name="History of Gorgoroth" description="There is a rich history in the realm of Gorgoroth." objectives="Complete [[Quest: Lost Lore of Gorgoroth: Udûn |Lost Lore: Udûn]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Dor Amarth |Lost Lore: Dor Amarth]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Lhingris |Lost Lore: Lhingris]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Talath Úrui |Lost Lore: Talath Úrui]]&#10;Complete [[Quest: Lost Lore of Gorgoroth: Agarnaith |Lost Lore: Agarnaith]]">
 <parent key="Quests_of_Gorgoroth" name="Quests of Gorgoroth"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -8824,7 +8840,7 @@
 <emote name="juggle"/>
 </rewards>
 </deed>
-<deed key="Kala-gijak_Tower-climber" name="Kala-gijak Tower-climber" type="EXPLORER" category="Region:Gorgoroth" description="Climb all of Kala-gijak's towers." objectives="Climb the first tower {{Tooltip Coords|Agarnaith|52.5S|29.9E}}&#10;Climb the second tower {{Tooltip Coords|Agarnaith|52.4S|29.8E}}&#10;Climb the third tower {{Tooltip Coords|Agarnaith|52.4S|29.6E}}&#10;Climb the fourth tower {{Tooltip Coords|Agarnaith|52.4S|29.3E}}&#10;Climb the fifth tower {{Tooltip Coords|Agarnaith|52.6S|29.1E}}&#10;Climb the sixth tower {{Tooltip Coords|Agarnaith|52.7S|28.9E}}&#10;Climb the seventh tower {{Tooltip Coords|Agarnaith|52.9S|28.7E}}&#10;Climb the eighth tower {{Tooltip Coords|Agarnaith|52.3S|28.7E}}">
+<deed key="Kala-gijak_Tower-climber" name="Kala-gijak Tower-climber" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Climb all of Kala-gijak's towers." objectives="Climb the first tower {{Tooltip Coords|Agarnaith|52.5S|29.9E}}&#10;Climb the second tower {{Tooltip Coords|Agarnaith|52.4S|29.8E}}&#10;Climb the third tower {{Tooltip Coords|Agarnaith|52.4S|29.6E}}&#10;Climb the fourth tower {{Tooltip Coords|Agarnaith|52.4S|29.3E}}&#10;Climb the fifth tower {{Tooltip Coords|Agarnaith|52.6S|29.1E}}&#10;Climb the sixth tower {{Tooltip Coords|Agarnaith|52.7S|28.9E}}&#10;Climb the seventh tower {{Tooltip Coords|Agarnaith|52.9S|28.7E}}&#10;Climb the eighth tower {{Tooltip Coords|Agarnaith|52.3S|28.7E}}">
 <parent key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
 <rewards>
 <title name="Tower-climber"/>
@@ -9521,7 +9537,7 @@
 <title name="Explorer of Lhaid Ogo"/>
 </rewards>
 </deed>
-<deed key="Lhingris:_Continued_Efforts" name="Lhingris: Continued Efforts" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Lhingris." objectives="Complete [[Quest: A Mysterious Ore|A Mysterious Ore]]&#10;Complete [[Quest: Hunt Engorged Orc-husks|Hunt Engorged Orc-husks]]&#10;Complete [[Quest: Clearing Cirith Ungol|Clearing Cirith Ungol]]&#10;Complete [[Quest: The Nelegroth Broodmother|The Nelegroth Broodmother]]&#10;Complete [[Quest: Wanted: Spiders Dead!|Wanted: Spiders Dead!]]&#10;Complete [[Quest: Trapping the Trackers|Trapping the Trackers]]&#10;Complete [[Quest: Leech Hunt|Leech Hunt]]&#10;Complete [[Quest: Reclaiming Lhingris: The Morgai|Reclaiming Lhingris: The Morgai]]&#10;Complete [[Quest: Reclaiming Lhingris: Ceber Dúath|Reclaiming Lhingris: Ceber Dúath]]&#10;Complete [[Quest: Reclaiming Lhingris: Amon Rûth|Reclaiming Lhingris: Amon Rûth]]">
+<deed key="Lhingris:_Continued_Efforts" name="Lhingris: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Lhingris" description="There is still much to do in Lhingris." objectives="Complete [[Quest: A Mysterious Ore|A Mysterious Ore]]&#10;Complete [[Quest: Hunt Engorged Orc-husks|Hunt Engorged Orc-husks]]&#10;Complete [[Quest: Clearing Cirith Ungol|Clearing Cirith Ungol]]&#10;Complete [[Quest: The Nelegroth Broodmother|The Nelegroth Broodmother]]&#10;Complete [[Quest: Wanted: Spiders Dead!|Wanted: Spiders Dead!]]&#10;Complete [[Quest: Trapping the Trackers|Trapping the Trackers]]&#10;Complete [[Quest: Leech Hunt|Leech Hunt]]&#10;Complete [[Quest: Reclaiming Lhingris: The Morgai|Reclaiming Lhingris: The Morgai]]&#10;Complete [[Quest: Reclaiming Lhingris: Ceber Dúath|Reclaiming Lhingris: Ceber Dúath]]&#10;Complete [[Quest: Reclaiming Lhingris: Amon Rûth|Reclaiming Lhingris: Amon Rûth]]">
 <parent key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
@@ -9932,7 +9948,7 @@
 <title name="Master / Mistress of Stairs"/>
 </rewards>
 </deed>
-<deed key="Master_of_Tragedy_(Deed)" name="Master of Tragedy (Deed)" type="CLASS" category="Class:Rune-keeper" minimumLevel="50" description="Your studies in the construction of tragedy can have tremendous impact upon your foes." objectives="Critical Hits with Fury of the Storm Skills 500 times&#10;Tragedy in literature can tug at the heartstrings ... tragedy in the world can tug down fortress walls.">
+<deed key="Master_of_Tragedy_(Deed)" name="Master of Tragedy (Deed)" type="CLASS" category="Class:Rune-keeper" minimumLevel="50" description="Your studies in the construction of tragedy can have tremendous impact upon your foes." objectives="Critical Hits with Fury of the Storm Skills 500 times.&#10;Tragedy in literature can tug at the heartstrings ... tragedy in the world can tug down fortress walls.">
 <rewards>
 <lotroPoints quantity="5"/>
 </rewards>
@@ -10264,7 +10280,7 @@
 <title name="Vanquisher of the Nameless"/>
 </rewards>
 </deed>
-<deed key="Nargroth_Explorer" name="Nargroth Explorer" type="EXPLORER" category="Region:Gorgoroth" description="Explore the Caverns of Fire." objectives="Discover the [[Ledge of Terror]] {{Tooltip Coords|Nargroth|16.4N|14.5E}}&#10;Discover the [[Court of Horror]] {{Tooltip Coords|Nargroth|17.1N|13.6E}}&#10;Discover the [[Strand of Fire]] {{Tooltip Coords|Nargroth|17.1N|14.4E}}&#10;Discover the [[Ash Watch]] {{Tooltip Coords|Nargroth|16.3N|13.6E}} (use the stairs at {{Tooltip Coords|Nargroth|17.1N|13.8E}})&#10;Discover the [[Ledge of Dread]] {{Tooltip Coords|Nargroth|17.9N|14.2E}}&#10;Discover the [[Ledge of Fear]] {{Tooltip Coords|Nargroth|17.6N|13.9E}}">
+<deed key="Nargroth_Explorer" name="Nargroth Explorer" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Explore the Caverns of Fire." objectives="Discover the [[Ledge of Terror]] {{Tooltip Coords|Nargroth|16.4N|14.5E}}&#10;Discover the [[Court of Horror]] {{Tooltip Coords|Nargroth|17.1N|13.6E}}&#10;Discover the [[Strand of Fire]] {{Tooltip Coords|Nargroth|17.1N|14.4E}}&#10;Discover the [[Ash Watch]] {{Tooltip Coords|Nargroth|16.3N|13.6E}} (use the stairs at {{Tooltip Coords|Nargroth|17.1N|13.8E}})&#10;Discover the [[Ledge of Dread]] {{Tooltip Coords|Nargroth|17.9N|14.2E}}&#10;Discover the [[Ledge of Fear]] {{Tooltip Coords|Nargroth|17.6N|13.9E}}">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <rewards>
 <title name="Flame-rider"/>
@@ -10347,7 +10363,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="No_Place_for_Spoiled_Pies" name="No Place for Spoiled Pies" type="QUEST" category="Region:Shire" minimumLevel="1" description="Recover Holly Hornblower's spoiled pies" objectives="Retrieve the [[Quest:Spoiled Pie from Brockenborings|spoiled pie]] from [[Brockenborings]]&#10;Retrieve the [[Quest:Spoiled Pie from Budgeford|spoiled pie]] from [[Budgeford]]&#10;Retrieve the [[Quest:Spoiled Pie from Bywater|spoiled pie]] from [[Bywater]]&#10;Retrieve the [[Quest:Spoiled Pie from Frogmorton|spoiled pie]] from [[Frogmorton]]&#10;Retrieve the [[Quest:Spoiled Pie from the Party Field|spoiled pie]] from [[Hobbiton]]&#10;Retrieve the [[Quest:Spoiled Pie from Little Delving|spoiled pie]] from [[Little Delving]]&#10;Retrieve the [[Quest:Spoiled Pie from Michel Delving|spoiled pie]] from [[Michel Delving]]&#10;Retrieve the [[Quest:Spoiled Pie from Needlehole|spoiled pie]] from [[Needlehole]]&#10;Retrieve the [[Quest:Spoiled Pie from Scary|spoiled pie]] from [[Scary]]&#10;Retrieve the [[Quest:Spoiled Pie from Stock|spoiled pie]] from [[Stock]]&#10;Retrieve the [[Quest:Spoiled Pie from Tuckborough|spoiled pie]] from [[Tuckborough]]&#10;Retrieve the [[Quest:Spoiled Pie from Woodhall|spoiled pie]] from [[Woodhall]]&#10;Talk to [[Holly Hornblower]]&#10;Recover Holly Hornblower's spoiled pies.">
+<deed key="No_Place_for_Spoiled_Pies" name="No Place for Spoiled Pies" type="QUEST" category="Region:Shire" minimumLevel="1" description="Recover Holly Hornblower's spoiled pies" objectives="Retrieve the [[Quest:Spoiled Pie from Brockenborings|spoiled pie]] from [[Brockenborings]] &amp;nbsp; {{Tooltip Coords| The Shire|27.6S|68.1W}}&#10;Retrieve the [[Quest:Spoiled Pie from Budgeford|spoiled pie]] from [[Budgeford]] &amp;nbsp; {{Tooltip Coords| The Shire|31.0S|65.4W}}&#10;Retrieve the [[Quest:Spoiled Pie from Bywater|spoiled pie]] from [[Bywater]] &amp;nbsp; {{Tooltip Coords| The Shire|31.8S|69.7W}}&#10;Retrieve the [[Quest:Spoiled Pie from Frogmorton|spoiled pie]] from [[Frogmorton]] &amp;nbsp; {{Tooltip Coords| The Shire|31.7S|68.0W}}&#10;Retrieve the [[Quest:Spoiled Pie from the Party Field|spoiled pie]] from [[Hobbiton]] &amp;nbsp; {{Tooltip Coords| The Shire|29.6S|71.6W}}&#10;Retrieve the [[Quest:Spoiled Pie from Little Delving|spoiled pie]] from [[Little Delving]] &amp;nbsp; {{Tooltip Coords| The Shire|32.0S|76.6W}}&#10;Retrieve the [[Quest:Spoiled Pie from Michel Delving|spoiled pie]] from [[Michel Delving]] &amp;nbsp; {{Tooltip Coords| The Shire|34.1S|75.1W}}&#10;Retrieve the [[Quest:Spoiled Pie from Needlehole|spoiled pie]] from [[Needlehole]] &amp;nbsp; {{Tooltip Coords| The Shire|28.1S|75.9W}}&#10;Retrieve the [[Quest:Spoiled Pie from Scary|spoiled pie]] from [[Scary]] &amp;nbsp; {{Tooltip Coords| The Shire|27.8S|66.4W}}&#10;Retrieve the [[Quest:Spoiled Pie from Stock|spoiled pie]] from [[Stock]] &amp;nbsp; {{Tooltip Coords| The Shire|32.1S|63.7W}}&#10;Retrieve the [[Quest:Spoiled Pie from Tuckborough|spoiled pie]] from [[Tuckborough]] &amp;nbsp; {{Tooltip Coords| The Shire|33.5S|70.9W}}&#10;Retrieve the [[Quest:Spoiled Pie from Woodhall|spoiled pie]] from [[Woodhall]] &amp;nbsp; {{Tooltip Coords| The Shire|33.3S|65.6W}}&#10;Talk to [[Holly Hornblower]]&#10;Recover Holly Hornblower's spoiled pies.">
 <parent key="Deeds_of_the_Shire" name="Deeds of the Shire"/>
 <rewards>
 <reputation>
@@ -10575,28 +10591,28 @@
 <title name="Illuminator of Mirkwood"/>
 </rewards>
 </deed>
-<deed key="Orc_and_Uruk-slayer_of_Dor_Amarth" name="Orc and Uruk-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Orcs and Uruks in Dor Amarth." objectives="Defeat many Orcs and Uruks in Dor Amarth (0/100)">
+<deed key="Orc_and_Uruk-slayer_of_Dor_Amarth" name="Orc and Uruk-slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many Orcs and Uruks in Dor Amarth." objectives="Defeat many Orcs and Uruks in Dor Amarth (0/100)">
 <next key="Orc_and_Uruk-slayer_of_Dor_Amarth_(Advanced)" name="Orc and Uruk-slayer of Dor Amarth (Advanced)"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Orc_and_Uruk-slayer_of_Dor_Amarth_(Advanced)" name="Orc and Uruk-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Orcs and Uruks in Dor Amarth." objectives="Defeat many Orcs and Uruks in Dor Amarth (0/200)">
+<deed key="Orc_and_Uruk-slayer_of_Dor_Amarth_(Advanced)" name="Orc and Uruk-slayer of Dor Amarth (Advanced)" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="Defeat many Orcs and Uruks in Dor Amarth." objectives="Defeat many Orcs and Uruks in Dor Amarth (0/200)">
 <previous key="Orc_and_Uruk-slayer_of_Dor_Amarth" name="Orc and Uruk-slayer of Dor Amarth"/>
 <parent key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth"/>
 <rewards>
 <object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui" name="Orc and Uruk-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Orcs and Uruks in Talath Úrui." objectives="Defeat many Orcs and Uruks in Talath Úrui (0/100)">
+<deed key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui" name="Orc and Uruk-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Orcs and Uruks in Talath Úrui." objectives="Defeat many Orcs and Uruks in Talath Úrui (0/100)">
 <next key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Orc and Uruk-slayer of Talath Úrui (Advanced)"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Orc and Uruk-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Orcs and Uruks in Talath Úrui." objectives="Defeat many Orcs and Uruks in Talath Úrui (0/200)">
+<deed key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Orc and Uruk-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Orcs and Uruks in Talath Úrui." objectives="Defeat many Orcs and Uruks in Talath Úrui (0/200)">
 <previous key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui" name="Orc and Uruk-slayer of Talath Úrui"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
@@ -10757,14 +10773,14 @@
 <title name="Hero of the North Downs"/>
 </rewards>
 </deed>
-<deed key="Orc-slayer_of_Agarnaith" name="Orc-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth" description="Defeat many infected Orcs in Agarnaith." objectives="Defeat many infected Orcs in Agarnaith (0/80)">
+<deed key="Orc-slayer_of_Agarnaith" name="Orc-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many infected Orcs in Agarnaith." objectives="Defeat many infected Orcs in Agarnaith (0/80)">
 <next key="Orc-slayer_of_Agarnaith_(Advanced)" name="Orc-slayer of Agarnaith (Advanced)"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Orc-slayer_of_Agarnaith_(Advanced)" name="Orc-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many infected Orcs in Agarnaith." objectives="Defeat many infected Orcs in Agarnaith (0/160)">
+<deed key="Orc-slayer_of_Agarnaith_(Advanced)" name="Orc-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many infected Orcs in Agarnaith." objectives="Defeat many infected Orcs in Agarnaith (0/160)">
 <previous key="Orc-slayer_of_Agarnaith" name="Orc-slayer of Agarnaith"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
@@ -11021,7 +11037,7 @@
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
-<deed key="Outposts_Along_the_Burning_Plain" name="Outposts Along the Burning Plain" type="EXPLORER" category="Region:Gorgoroth" description="Explore Talath Úrui's road-side buildings." objectives="Discover [[Magh Nûl]] {{Tooltip Coords|Talath Úrui|58.8S|25.3E}}&#10;Discover [[Magh Groth]] {{Tooltip Coords|Talath Úrui|61.1S|25.0E}}&#10;Discover [[Magh Vadok]] {{Tooltip Coords|Talath Úrui|61.8S|21.2E}}&#10;Discover [[Magh Hátur]] {{Tooltip Coords|Talath Úrui|58.9S|16.4E}}&#10;Discover [[Magh Urro]] {{Tooltip Coords|Talath Úrui|58.4S|13.3E}}">
+<deed key="Outposts_Along_the_Burning_Plain" name="Outposts Along the Burning Plain" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Explore Talath Úrui's road-side buildings." objectives="Discover [[Magh Nûl]] {{Tooltip Coords|Talath Úrui|58.8S|25.3E}}&#10;Discover [[Magh Groth]] {{Tooltip Coords|Talath Úrui|61.1S|25.0E}}&#10;Discover [[Magh Vadok]] {{Tooltip Coords|Talath Úrui|61.8S|21.2E}}&#10;Discover [[Magh Hátur]] {{Tooltip Coords|Talath Úrui|58.9S|16.4E}}&#10;Discover [[Magh Urro]] {{Tooltip Coords|Talath Úrui|58.4S|13.3E}}">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <rewards>
 <title name="Seeker of Roads"/>
@@ -11197,7 +11213,7 @@
 <virtue id="INNOCENCE"/>
 </rewards>
 </deed>
-<deed key="Places_of_Darkness" name="Places of Darkness" type="EXPLORER" category="Region:Gorgoroth" description="Explore Dor Amarth's dark corners and enemy controlled encampments." objectives="Discover [[Ered Lithul]] {{Tooltip Coords|Dor Amarth|43.8S|20.2E}}&#10;Discover [[Barad-dûr]] {{Tooltip Coords|Dor Amarth|47.2S|26.1E}}&#10;Discover [[The Abyss of Mordath]] {{Tooltip Coords|Dor Amarth|44.7S|25.7E}}&#10;Discover [[Fushaum Tûm]] {{Tooltip Coords|Dor Amarth|51.0S|11.4E}}">
+<deed key="Places_of_Darkness" name="Places of Darkness" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Explore Dor Amarth's dark corners and enemy controlled encampments." objectives="Discover [[Ered Lithul]] {{Tooltip Coords|Dor Amarth|43.8S|20.2E}}&#10;Discover [[Barad-dûr]] {{Tooltip Coords|Dor Amarth|47.2S|26.1E}}&#10;Discover [[The Abyss of Mordath]] {{Tooltip Coords|Dor Amarth|44.7S|25.7E}}&#10;Discover [[Fushaum Tûm]] {{Tooltip Coords|Dor Amarth|51.0S|11.4E}}">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <rewards>
 <title name="A Light in the Darkness"/>
@@ -11212,14 +11228,14 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Plague-slayer_of_Agarnaith" name="Plague-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth" description="Defeat many infected animals in Agarnaith." objectives="Defeat many infected animals in Agarnaith (0/100)">
+<deed key="Plague-slayer_of_Agarnaith" name="Plague-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many infected animals in Agarnaith." objectives="Defeat many infected animals in Agarnaith (0/100)">
 <next key="Plague-slayer_of_Agarnaith_(Advanced)" name="Plague-slayer of Agarnaith (Advanced)"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Plague-slayer_of_Agarnaith_(Advanced)" name="Plague-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many infected animals in Agarnaith." objectives="Defeat many infected animals in Agarnaith (0/200)">
+<deed key="Plague-slayer_of_Agarnaith_(Advanced)" name="Plague-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many infected animals in Agarnaith." objectives="Defeat many infected animals in Agarnaith (0/200)">
 <previous key="Plague-slayer_of_Agarnaith" name="Plague-slayer of Agarnaith"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
@@ -11600,7 +11616,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Agarnaith" name="Quests of Agarnaith" type="QUEST" category="Region:Gorgoroth" description="Complete quests in Agarnaith." objectives="Complete quests in Agarnaith (0/40)">
+<deed key="Quests_of_Agarnaith" name="Quests of Agarnaith" type="QUEST" category="Region:Gorgoroth:Agarnaith" description="Complete quests in Agarnaith." objectives="Complete quests in Agarnaith (0/40)">
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Warrior of the Bloody Gore"/>
@@ -11661,7 +11677,7 @@
 <virtue id="EMPATHY"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Dor_Amarth" name="Quests of Dor Amarth" type="QUEST" category="Region:Gorgoroth" description="Complete quests in Dor Amarth." objectives="Complete quests in Dor Amarth (0/40)">
+<deed key="Quests_of_Dor_Amarth" name="Quests of Dor Amarth" type="QUEST" category="Region:Gorgoroth:Dor Amarth" description="Complete quests in Dor Amarth." objectives="Complete quests in Dor Amarth (0/40)">
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Warrior of the Doomfold"/>
@@ -11815,7 +11831,7 @@
 <virtue id="ZEAL"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Lhingris" name="Quests of Lhingris" type="REPUTATION" category="Region:Gorgoroth" description="Complete quests in Lhingris." objectives="Complete quests in Lhingris (0/47)">
+<deed key="Quests_of_Lhingris" name="Quests of Lhingris" type="REPUTATION" category="Region:Gorgoroth:Lhingris" description="Complete quests in Lhingris." objectives="Complete quests in Lhingris (0/47)">
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Mountaineer of the Ephel Dúath"/>
@@ -11973,7 +11989,7 @@
 <virtue id="CONFIDENCE"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Talath_%C3%9Arui" name="Quests of Talath Úrui" type="QUEST" category="Region:Gorgoroth" description="Complete quests in Talath Úrui." objectives="Complete quests in Talath Úrui (0/50)">
+<deed key="Quests_of_Talath_%C3%9Arui" name="Quests of Talath Úrui" type="QUEST" category="Region:Gorgoroth:Talath Úrui" description="Complete quests in Talath Úrui." objectives="Complete quests in Talath Úrui (0/50)">
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Warrior of the Burning Plains"/>
@@ -12009,7 +12025,7 @@
 <object id="1879229676" name="Golden Token of the Anduin" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Ud%C3%BBn" name="Quests of Udûn" type="QUEST" category="Region:Gorgoroth" description="Complete quests in Udûn" objectives="Complete quests in Udûn (0/30)">
+<deed key="Quests_of_Ud%C3%BBn" name="Quests of Udûn" type="QUEST" category="Region:Gorgoroth:Udûn" description="Complete quests in Udûn" objectives="Complete quests in Udûn (0/30)">
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Warrior of the Dark Pit"/>
@@ -12498,30 +12514,30 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Rare_Gorgoroth_Chests_of_Agarnaith" name="Rare Gorgoroth Chests of Agarnaith" type="EXPLORER" category="Region:Gorgoroth" description="Find rare treasure chests in Agarnaith." objectives="Find 5 Rare Mordor Chests in Agarnaith">
+<deed key="Rare_Gorgoroth_Chests_of_Agarnaith" name="Rare Gorgoroth Chests of Agarnaith" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Find rare treasure chests in Agarnaith." objectives="Find 5 Rare Mordor Chests in Agarnaith">
 <rewards>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Rare_Gorgoroth_Chests_of_Dor_Amarth" name="Rare Gorgoroth Chests of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Find 5 Rare Mordor Chests in Dor Amarth">
+<deed key="Rare_Gorgoroth_Chests_of_Dor_Amarth" name="Rare Gorgoroth Chests of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="" objectives="Find 5 Rare Mordor Chests in Dor Amarth">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Rare_Gorgoroth_Chests_of_Lhingris" name="Rare Gorgoroth Chests of Lhingris" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Find 5 Rare Mordor Chests in Lhingris">
+<deed key="Rare_Gorgoroth_Chests_of_Lhingris" name="Rare Gorgoroth Chests of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="" objectives="Find 5 Rare Mordor Chests in Lhingris">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Rare_Gorgoroth_Chests_of_Talath_%C3%9Arui" name="Rare Gorgoroth Chests of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Find 5 Rare Mordor Chests in Talath Úrui">
+<deed key="Rare_Gorgoroth_Chests_of_Talath_%C3%9Arui" name="Rare Gorgoroth Chests of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="" objectives="Find 5 Rare Mordor Chests in Talath Úrui">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Rare_Gorgoroth_Chests_of_Ud%C3%BBn" name="Rare Gorgoroth Chests of Udûn" type="EXPLORER" category="Region:Gorgoroth" description="" objectives="Find 5 Rare Mordor Chests in Udûn">
+<deed key="Rare_Gorgoroth_Chests_of_Ud%C3%BBn" name="Rare Gorgoroth Chests of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="" objectives="Find 5 Rare Mordor Chests in Udûn">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="30"/>
@@ -13181,6 +13197,13 @@
 <title name="Engineer of Nalâ-dûm"/>
 </rewards>
 </deed>
+<deed key="Scourge-slayer_of_Mordor" name="Scourge-slayer of Mordor" type="SLAYER" category="Region:Gorgoroth" description="Defeat the many [[Scourges]] of [[Mordor]]." objectives="Defeat the many Scourges of Mordor (0/25)">
+<rewards>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="3"/>
+<object id="1879360922" name="Fat Spoils Box - Scourge of Gorgoroth" quantity="1"/>
+<object id="1879353884" name="Relic of the Last Alliance" quantity="3"/>
+</rewards>
+</deed>
 <deed key="Scourges_of_Gorgoroth" name="Scourges of Gorgoroth" type="QUEST" category="Region:Gorgoroth" description="Strong enemies still roam Gorogoroth." objectives="Complete [[Quest:Rotwing, Scourge of Dor Amarth|Rotwing, Scourge of Dor Amarth]]&#10;Complete [[Quest:Spitpyre, Scourge of Talath Úrui|Spitpyre, Scourge of Talath Úrui]]&#10;Complete [[Quest:Gristlebite, Scourge of Lhingris|Gristlebite, Scourge of Lhingris]]&#10;Complete [[Quest:Bolvág the Cursed, Scourge of Agarnaith|Bolvág the Cursed, Scourge of Agarnaith]]&#10;Complete [[Quest:Nuzdum, Scourge of Udûn|Nuzdum, Scourge of Udûn]]&#10;Complete [[Quest:Uiliúr, the Ancient Evil|Uiliúr, the Ancient Evil]]">
 <rewards>
 <lotroPoints quantity="5"/>
@@ -13222,7 +13245,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Seregost_Explorer" name="Seregost Explorer" type="EXPLORER" category="Region:Gorgoroth" description="Explore Seregost's exterior courtyards and terraces." objectives="Explore [[Eastern Courtyard]] {{Tooltip Coords|Agarnaith|49.2S|33.8E}}&#10;Explore [[Western Courtyard]] {{Tooltip Coords|Agarnaith|48.1S|33.3E}}&#10;Explore [[Western Terrace]] {{Tooltip Coords|Agarnaith|48.7S|32.4E}}&#10;Explore [[Eastern Terrace]] {{Tooltip Coords|Agarnaith|49.6S|32.9E}}&#10;Explore [[Overlook Terrace]] {{Tooltip Coords|Agarnaith|49.0S|32.9E}}&#10;Explore [[Chaydash Bridge]] {{Tooltip Coords|Agarnaith|48.6S|33.5E}}&#10;Explore [[Mokál Rukh Terrace]] {{Tooltip Coords|Agarnaith|48.3S|34.1E}}">
+<deed key="Seregost_Explorer" name="Seregost Explorer" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Explore Seregost's exterior courtyards and terraces." objectives="Explore [[Eastern Courtyard]] {{Tooltip Coords|Agarnaith|49.2S|33.8E}}&#10;Explore [[Western Courtyard]] {{Tooltip Coords|Agarnaith|48.1S|33.3E}}&#10;Explore [[Western Terrace]] {{Tooltip Coords|Agarnaith|48.7S|32.4E}}&#10;Explore [[Eastern Terrace]] {{Tooltip Coords|Agarnaith|49.6S|32.9E}}&#10;Explore [[Overlook Terrace]] {{Tooltip Coords|Agarnaith|49.0S|32.9E}}&#10;Explore [[Chaydash Bridge]] {{Tooltip Coords|Agarnaith|48.6S|33.5E}}&#10;Explore [[Mokál Rukh Terrace]] {{Tooltip Coords|Agarnaith|48.3S|34.1E}}">
 <parent key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
 <rewards>
 <title name="Seregost Surveyor"/>
@@ -13515,7 +13538,7 @@
 <virtue id="DETERMINATION"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_Agarnaith" name="Slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth" description="There are many foes lurking in the wilds of Agarnaith." objectives="Slay many [[Plague-slayer of Agarnaith (Advanced)|Infected Animals in Agarnaith]]&#10;Slay many [[Orc-slayer of Agarnaith (Advanced)|Infected Orcs in Agarnaith]]&#10;Slay many [[Uruk-slayer of Agarnaith (Advanced)|Uruk-hai in Agarnaith]]&#10;Slay [[Dangerous Foes of Agarnaith|Dangerous Foes in Agarnaith]]">
+<deed key="Slayer_of_Agarnaith" name="Slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="There are many foes lurking in the wilds of Agarnaith." objectives="Slay many [[Plague-slayer of Agarnaith (Advanced)|Infected Animals in Agarnaith]]&#10;Slay many [[Orc-slayer of Agarnaith (Advanced)|Infected Orcs in Agarnaith]]&#10;Slay many [[Uruk-slayer of Agarnaith (Advanced)|Uruk-hai in Agarnaith]]&#10;Slay [[Dangerous Foes of Agarnaith|Dangerous Foes in Agarnaith]]">
 <child key="Plague-slayer_of_Agarnaith_(Advanced)" name="Plague-slayer of Agarnaith (Advanced)"/>
 <child key="Orc-slayer_of_Agarnaith_(Advanced)" name="Orc-slayer of Agarnaith (Advanced)"/>
 <child key="Uruk-slayer_of_Agarnaith_(Advanced)" name="Uruk-slayer of Agarnaith (Advanced)"/>
@@ -13577,7 +13600,7 @@
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth" description="There are many foes lurking in the ruins of Dor Amarth." objectives="Slay many [[Beast-slayer of Dor Amarth (Advanced)|Beast in Dor Amarth]]&#10;Slay many [[Black Númenórean-slayer of Dor Amarth (Advanced)|Númenóreans in Dor Amarth]]&#10;Slay many [[Evil Dwarf-slayer of Dor Amarth (Advanced)|Evil Dwarves in Dor Amarth]]&#10;Slay many [[Orc and Uruk-slayer of Dor Amarth (Advanced)|Orcs and Uruks in Dor Amarth]]">
+<deed key="Slayer_of_Dor_Amarth" name="Slayer of Dor Amarth" type="SLAYER" category="Region:Gorgoroth:Dor Amarth" description="There are many foes lurking in the ruins of Dor Amarth." objectives="Slay many [[Beast-slayer of Dor Amarth (Advanced)|Beast in Dor Amarth]]&#10;Slay many [[Black Númenórean-slayer of Dor Amarth (Advanced)|Númenóreans in Dor Amarth]]&#10;Slay many [[Evil Dwarf-slayer of Dor Amarth (Advanced)|Evil Dwarves in Dor Amarth]]&#10;Slay many [[Orc and Uruk-slayer of Dor Amarth (Advanced)|Orcs and Uruks in Dor Amarth]]">
 <child key="Beast-slayer_of_Dor_Amarth_(Advanced)" name="Beast-slayer of Dor Amarth (Advanced)"/>
 <child key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth_(Advanced)" name="Black Númenórean-slayer of Dor Amarth (Advanced)"/>
 <child key="Evil_Dwarf-slayer_of_Dor_Amarth_(Advanced)" name="Evil Dwarf-slayer of Dor Amarth (Advanced)"/>
@@ -13707,7 +13730,7 @@
 <object id="1879224343" name="Mark" quantity="200"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_Lhingris" name="Slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth" description="Many foes lurk in the strongholds and spider-haunts of the Mountains of Shadow." objectives="Slay many spiders in Lhingris&#10;Slay many Gredbyg in Lhingris&#10;Slay many Zhavár-hai in Lhingris&#10;Slay many Orcs and Uruk-hai in Lhingris">
+<deed key="Slayer_of_Lhingris" name="Slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Many foes lurk in the strongholds and spider-haunts of the Mountains of Shadow." objectives="Slay many spiders in Lhingris&#10;Slay many Gredbyg in Lhingris&#10;Slay many Zhavár-hai in Lhingris&#10;Slay many Orcs and Uruk-hai in Lhingris">
 <child key="Gredbyg-slayer_of_Lhingris" name="Gredbyg-slayer of Lhingris"/>
 <child key="Gredbyg-slayer_of_Lhingris_(Advanced)" name="Gredbyg-slayer of Lhingris (Advanced)"/>
 <child key="Spider-slayer_of_Lhingris" name="Spider-slayer of Lhingris"/>
@@ -13800,7 +13823,7 @@
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth" description="There are many foes lurking in the burning plains of Talath Úrui." objectives="Slay many Ghâsh-hai in Talath Úrui&#10;Slay many Grims and Shades in Talath Úrui&#10;Slay many Orcs and Uruks in Talath Úrui&#10;Slay many Worms and Drakes in Talath Úrui">
+<deed key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="There are many foes lurking in the burning plains of Talath Úrui." objectives="Slay many Ghâsh-hai in Talath Úrui&#10;Slay many Grims and Shades in Talath Úrui&#10;Slay many Orcs and Uruks in Talath Úrui&#10;Slay many Worms and Drakes in Talath Úrui">
 <child key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui" name="Ghâsh-hai-slayer of Talath Úrui"/>
 <child key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Ghâsh-hai-slayer of Talath Úrui (Advanced)"/>
 <child key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui" name="Grim and Spirit-slayer of Talath Úrui"/>
@@ -13815,7 +13838,8 @@
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth" description="There are many foes lurking in the vally of Udûn" objectives="Defeat many of Sauron's Soldiers in Udûn&#10;Defeat many of the Forgeworkers in Udûn&#10;Defeat many of Scavengers in Udûn">
+<deed key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="There are many foes lurking in the vally of Udûn" objectives="Defeat many of Sauron's Soldiers in Udûn&#10;Defeat many of the Forgeworkers in Udûn&#10;Defeat many of Scavengers in Udûn">
+<parent key="Slayer_of_Gorgoroth" name="Slayer of Gorgoroth"/>
 <child key="Beast_Slayer_of_Ud%C3%BBn" name="Beast Slayer of Udûn"/>
 <child key="Beast_Slayer_of_Ud%C3%BBn_(Advanced)" name="Beast Slayer of Udûn (Advanced)"/>
 <child key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn"/>
@@ -14118,12 +14142,12 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Soldier-slayer_of_Ud%C3%BBn" name="Soldier-slayer of Udûn" type="SLAYER" category="Region:Gorgoroth" description="Defeat many of Sauron's soldiers in Udûn" objectives="Defeat many of Sauron's soldiers in Udûn (0/80)">
+<deed key="Soldier-slayer_of_Ud%C3%BBn" name="Soldier-slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of Sauron's soldiers in Udûn" objectives="Defeat many of Sauron's soldiers in Udûn (0/80)">
 <next key="Soldier-slayer_of_Ud%C3%BBn_(Advanced)" name="Soldier-slayer of Udûn (Advanced)"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
 </deed>
-<deed key="Soldier-slayer_of_Ud%C3%BBn_(Advanced)" name="Soldier-slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many of Sauron's soldiers in Udûn" objectives="Defeat many of Sauron's soldiers in Udûn (0/160)">
+<deed key="Soldier-slayer_of_Ud%C3%BBn_(Advanced)" name="Soldier-slayer of Udûn (Advanced)" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of Sauron's soldiers in Udûn" objectives="Defeat many of Sauron's soldiers in Udûn (0/160)">
 <previous key="Soldier-slayer_of_Ud%C3%BBn" name="Soldier-slayer of Udûn"/>
 <parent key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn"/>
 <rewards/>
@@ -14213,7 +14237,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Spider-haunts_and_Web-rifts" name="Spider-haunts and Web-rifts" type="EXPLORER" category="Region:Gorgoroth" description="Explore the dark caverns and web-shrouded passes of Lhingris." objectives="Discover the [[Morgai]] {{Tooltip Coords|Lhingris|55.0S|7.8E}}&#10;Discover [[Rath Cail]] {{Tooltip Coords|Lhingris|49.7S|5.9E}}&#10;Discover [[Ceber Dúath]] {{Tooltip Coords|Lhingris|56.3S|5.8E}}&#10;Discover [[Dath Nethryn]] {{Tooltip Coords|Lhingris|64.8S|12.0E}}&#10;Discover [[Kâm Lagúrz]] {{Tooltip Coords|Lhingris|63.7S|9.3E}} and {{Tooltip Coords|Lhingris|64.2S|10.7E}}&#10;Discover [[Amon Rúth]] {{Tooltip Coords|Lhingris|64.8S|8.9E}}&#10;Discover [[Torech Ungol]] {{Tooltip Coords|Lhingris|61.7S|6.0E}}">
+<deed key="Spider-haunts_and_Web-rifts" name="Spider-haunts and Web-rifts" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Explore the dark caverns and web-shrouded passes of Lhingris." objectives="Discover the [[Morgai]] {{Tooltip Coords|Lhingris|55.0S|7.8E}}&#10;Discover [[Rath Cail]] {{Tooltip Coords|Lhingris|49.7S|5.9E}}&#10;Discover [[Ceber Dúath]] {{Tooltip Coords|Lhingris|56.3S|5.8E}}&#10;Discover [[Dath Nethryn]] {{Tooltip Coords|Lhingris|64.8S|12.0E}}&#10;Discover [[Kâm Lagúrz]] {{Tooltip Coords|Lhingris|63.7S|9.3E}} and {{Tooltip Coords|Lhingris|64.2S|10.7E}}&#10;Discover [[Amon Rúth]] {{Tooltip Coords|Lhingris|64.8S|8.9E}}&#10;Discover [[Torech Ungol]] {{Tooltip Coords|Lhingris|61.7S|6.0E}}">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <rewards>
 <title name="Wanderer of the Web-rifts"/>
@@ -14359,14 +14383,14 @@
 <title name="Spider-sting"/>
 </rewards>
 </deed>
-<deed key="Spider-slayer_of_Lhingris" name="Spider-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Spiders in Lhingris" objectives="Defeat many Spiders in Lhingris (0/120)">
+<deed key="Spider-slayer_of_Lhingris" name="Spider-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many Spiders in Lhingris" objectives="Defeat many Spiders in Lhingris (0/120)">
 <next key="Spider-slayer_of_Lhingris_(Advanced)" name="Spider-slayer of Lhingris (Advanced)"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Spider-slayer_of_Lhingris_(Advanced)" name="Spider-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Spiders in Lhingris" objectives="Defeat many Spiders in Lhingris (0/240)">
+<deed key="Spider-slayer_of_Lhingris_(Advanced)" name="Spider-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many Spiders in Lhingris" objectives="Defeat many Spiders in Lhingris (0/240)">
 <previous key="Spider-slayer_of_Lhingris" name="Spider-slayer of Lhingris"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
@@ -14639,7 +14663,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Strongholds_of_the_Ephel_D%C3%BAath" name="Strongholds of the Ephel Dúath" type="EXPLORER" category="Region:Gorgoroth" description="Explore the strongholds of Lhingris upon the jagged slopes of the Mountains of Shadow." objectives="Discover [[Kála-murg]] {{Tooltip Coords|Lhingris|53.9|5.2E}}&#10;Discover [[Lugvarg]] {{Tooltip Coords|Lhingris|43.5|7.0E}}&#10;Discover [[Nelegroth]] {{Tooltip Coords|Lhingris|57.3|5.1E}}&#10;Discover [[Iant Angos]] {{Tooltip Coords|Lhingris|61.7|10.5E}}&#10;Discover [[Cirth Ungol]] {{Tooltip Coords|Lhingris|60.8|8.5E}}&#10;Discover [[Fennas Gost]] {{Tooltip Coords|Lhingris|64.2|7.9E}}">
+<deed key="Strongholds_of_the_Ephel_D%C3%BAath" name="Strongholds of the Ephel Dúath" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Explore the strongholds of [[Lhingris]] upon the jagged slopes of the [[Ephel Dúath|Mountains of Shadow]]." objectives="Discover [[Kála-murg]] {{Tooltip Coords|Lhingris|53.9|5.2E}}&#10;Discover [[Lugvarg]] {{Tooltip Coords|Lhingris|43.5|7.0E}}&#10;Discover [[Nelegroth]] {{Tooltip Coords|Lhingris|57.3|5.1E}}&#10;Discover [[Iant Angos]] {{Tooltip Coords|Lhingris|61.7|10.5E}}&#10;Discover [[Cirth Ungol]] {{Tooltip Coords|Lhingris|60.8|8.5E}}&#10;Discover [[Fennas Gost]] {{Tooltip Coords|Lhingris|64.2|7.9E}}">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <rewards>
 <title name="Ever on the Precipice"/>
@@ -14771,7 +14795,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Talath_%C3%9Arui:_Continued_Efforts" name="Talath Úrui: Continued Efforts" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Talath Úrui." objectives="Complete [[Quest: A Fighting Chance|A Fighting Chance]]&#10;Complete [[Quest: Hoarded Goods|Hoarded Goods]]&#10;Complete [[Quest: Halting the Movement|Halting the Movement]]&#10;Complete [[Quest: Mysteries of the Ghâshghurm|Mysteries of the Ghâshghurm]]&#10;Complete [[Quest: Shrine of the Ghâsh-hai|Shrine of the Ghâsh-hai]]&#10;Complete [[Quest: Infiltrating Thorzhaf|Infiltrating Thorzhaf]]&#10;Complete [[Quest: The Conquest of Talath Úrui|The Conquest of Talath Úrui]]&#10;Complete [[Quest: Reclaiming Talath Úrui: Western Ghâshghurm|Reclaiming Talath Úrui: The Western Ghâshghurm]]&#10;Complete [[Quest: Reclaiming Talath Úrui: The Gates of Naerband|Reclaiming Talath Úrui: The Gates of Naerband]]&#10;Complete [[Quest: Reclaiming Talath Úrui: The Eastern Ghâshghurm|Reclaiming Talath Úrui: The Eastern Ghâshghurm]]">
+<deed key="Talath_%C3%9Arui:_Continued_Efforts" name="Talath Úrui: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Talath Úrui" description="There is still much to do in Talath Úrui." objectives="Complete [[Quest: A Fighting Chance|A Fighting Chance]]&#10;Complete [[Quest: Hoarded Goods|Hoarded Goods]]&#10;Complete [[Quest: Halting the Movement|Halting the Movement]]&#10;Complete [[Quest: Mysteries of the Ghâshghurm|Mysteries of the Ghâshghurm]]&#10;Complete [[Quest: Shrine of the Ghâsh-hai|Shrine of the Ghâsh-hai]]&#10;Complete [[Quest: Infiltrating Thorzhaf|Infiltrating Thorzhaf]]&#10;Complete [[Quest: The Conquest of Talath Úrui|The Conquest of Talath Úrui]]&#10;Complete [[Quest: Reclaiming Talath Úrui: Western Ghâshghurm|Reclaiming Talath Úrui: The Western Ghâshghurm]]&#10;Complete [[Quest: Reclaiming Talath Úrui: The Gates of Naerband|Reclaiming Talath Úrui: The Gates of Naerband]]&#10;Complete [[Quest: Reclaiming Talath Úrui: The Eastern Ghâshghurm|Reclaiming Talath Úrui: The Eastern Ghâshghurm]]">
 <parent key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
@@ -14953,6 +14977,146 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Challenger_of_the_Abyss" name="The Abyss of Mordath -- Challenger of the Abyss" type="SLAYER" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="You have defeated all of the challenges with [[the Abyss of Mordath]] in a single raid." objectives="Defeat all of the challenges within the Abyss of Mordath">
+<rewards>
+<title name="Challenger of the Abyss"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="30"/>
+<object id="1879224344" name="Medallion" quantity="100"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Conqueror_of_Greed" name="The Abyss of Mordath -- Conqueror of Greed" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="Determined to wield the lost Ring of Power [[Manthrif]] once more, King [[Váskmun Greytooth]] has led his Firehorn dwarves into [[the Abyss of Mordath]], where the sunken foundations of [[Barad-dûr]] now rest. Meanwhile, the [[Order of the Eye]] has made haste to pursue the Firehorns, eager to avenge their fallen and contest the dwarves' claim to the greatest artifacts of the Dark Lord. Unbeknownst to any of them, greater still are the terrors [[Sauron]] hid away in the shadows of the [[Mordath]].&#10;&#10;{{Color|Red|This deed can only be completed on Tier 2 of the Abyss of Mordath raid.}}" objectives="Complete [[The Abyss of Mordath: The Order of Death]]&#10;Complete [[The Abyss of Mordath: A Light in the Darkness]]&#10;Complete [[The Abyss of Mordath: the Power of the Dwarf-rings]]">
+<child key="The_Abyss_of_Mordath:_The_Order_of_Death" name="The Abyss of Mordath: The Order of Death"/>
+<child key="The_Abyss_of_Mordath:_A_Light_in_the_Darkness" name="The Abyss of Mordath: A Light in the Darkness"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<title name="Conqueror of Greed"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="25"/>
+<object id="1879224344" name="Medallion" quantity="50"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="7"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Explorer_of_the_Black_Pits" name="The Abyss of Mordath -- Explorer of the Black Pits" type="EXPLORER" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="The [[Abyss of Mordath]] is home to both the condemned of [[Mordor]] and the [[Dark Lord]]'s most carefully-guarded secrets." objectives="Discover the [[Lithannon]]&#10;Discover [[Durshnúl, The Black Bridge]]&#10;Discover [[the Black Pits]]&#10;Discover [[Thol Shíkug, the Screaming Deep]]&#10;Discover [[Murpraush, the Hall of Spoiling]]&#10;Discover [[Glúrghash, The Pit of Flame]]&#10;Discover [[Glúrakul, The Pit of Frost]]&#10;Discover [[Glurnákh, The Pit of Greed]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Abyss-gazer"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+<object id="1879224344" name="Medallion" quantity="20"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Original_Challenger_of_the_Abyss" name="The Abyss of Mordath -- Original Challenger of the Abyss" type="SLAYER" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="You defied the evils of the Mordath and were the first to conquer every challenge laid before you in the Abyss." objectives="Be the first to defeat all of the challenges within the Abyss of Mordath in a single raid.">
+<rewards>
+<title name="Original Challenger of the Abyss"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Steward_of_the_Seven_Fathers" name="The Abyss of Mordath -- Steward of the Seven Fathers" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="Determined to wield the lost Ring of Power [[Manthrif]] once more, King [[Váskmun Greytooth]] has led his Firehorn dwarves into [[the Abyss of Mordath]], where the sunken foundations of [[Barad-dûr]] now rest. Meanwhile, the [[Order of the Eye]] has made haste to pursue the Firehorns, eager to avenge their fallen and contest the dwarves' claim to the greatest artifacts of the Dark Lord. Unbeknownst to any of them, greater still are the terrors [[Sauron]] hid away in the shadows of the [[Mordath]]." objectives="Complete [[The Abyss of Mordath -- Tier 1]]&#10;Complete [[The Abyss of Mordath -- Tier 2]]&#10;Complete [[The Abyss of Mordath -- Conqueror of Greed]]">
+<child key="The_Abyss_of_Mordath_--_Tier_1" name="The Abyss of Mordath -- Tier 1"/>
+<child key="The_Abyss_of_Mordath_--_Tier_2" name="The Abyss of Mordath -- Tier 2"/>
+<child key="The_Abyss_of_Mordath_--_Conqueror_of_Greed" name="The Abyss of Mordath -- Conqueror of Greed"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<title name="Steward of the Seven Fathers"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="50"/>
+<object id="1879224344" name="Medallion" quantity="200"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="10"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Tier_1" name="The Abyss of Mordath -- Tier 1" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="Determined to wield the lost Ring of Power [[Manthrif]] once more, King [[Váskmun Greytooth]] has led his Firehorn dwarves into [[the Abyss of Mordath]], where the sunken foundations of [[Barad-dûr]] now rest. Meanwhile, the [[Order of the Eye]] has made haste to pursue the Firehorns, eager to avenge their fallen and contest the dwarves' claim to the greatest artifacts of the Dark Lord. Unbeknownst to any of them, greater still are the terrors [[Sauron]] hid away in the shadows of the [[Mordath]]." objectives="Complete [[The Abyss of Mordath: The Spoiled of the Eye -- Tier 1]]&#10;Complete [[The Abyss of Mordath: The Deathless Warden -- Tier 1]]&#10;Complete [[The Abyss of Mordath: The Master of the Seven -- Tier 1]]">
+<child key="The_Abyss_of_Mordath:_The_Spoiled_of_the_Eye_--_Tier_1" name="The Abyss of Mordath: The Spoiled of the Eye -- Tier 1"/>
+<child key="The_Abyss_of_Mordath:_The_Deathless_Warden_--_Tier_1" name="The Abyss of Mordath: The Deathless Warden -- Tier 1"/>
+<child key="The_Abyss_of_Mordath:_The_Master_of_the_Seven_--_Tier_1" name="The Abyss of Mordath: The Master of the Seven -- Tier 1"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<title name="Illuminator of the Black Pits"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+<object id="1879224344" name="Medallion" quantity="20"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="5"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath_--_Tier_2" name="The Abyss of Mordath -- Tier 2" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="Determined to wield the lost Ring of Power [[Manthrif]] once more, King [[Váskmun Greytooth]] has led his Firehorn dwarves into [[the Abyss of Mordath]], where the sunken foundations of [[Barad-dûr]] now rest. Meanwhile, the [[Order of the Eye]] has made haste to pursue the Firehorns, eager to avenge their fallen and contest the dwarves' claim to the greatest artifacts of the Dark Lord. Unbeknownst to any of them, greater still are the terrors [[Sauron]] hid away in the shadows of the [[Mordath]].&#10;&#10;{{Color|Red|This deed can only be completed on the Tier 2 difficulty of the Abyss of Mordath raid.}}" objectives="Complete [[The Abyss of Mordath: The Spoiled of the Eye -- Tier 2]]&#10;Complete [[The Abyss of Mordath: The Deathless Warden -- Tier 2]]&#10;Complete [[The Abyss of Mordath: The Master of the Seven -- Tier 2]]">
+<child key="The_Abyss_of_Mordath:_The_Spoiled_of_the_Eye_--_Tier_2" name="The Abyss of Mordath: The Spoiled of the Eye -- Tier 2"/>
+<child key="The_Abyss_of_Mordath:_The_Deathless_Warden_--_Tier_2" name="The Abyss of Mordath: The Deathless Warden -- Tier 2"/>
+<child key="The_Abyss_of_Mordath:_The_Master_of_the_Seven_--_Tier_2" name="The Abyss of Mordath: The Master of the Seven -- Tier 2"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<title name="Scourge of the Mordath"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="20"/>
+<object id="1879224344" name="Medallion" quantity="35"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="5"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_A_Light_in_the_Darkness" name="The Abyss of Mordath: A Light in the Darkness" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="In the darkness of [[the Abyss of Mordath]], it is the Bitter Warden who protects the most well-concealed secrets of the Dark Lord, but his identity has ever been a mystery to both the slaves and guards of the Mordath.&#10;&#10;{{Color|Red|This deed can only be completed on Tier 2 of the Abyss of Mordath raid.}}" objectives="Complete '[[Quest:Challenge: A Light in the Darkness|Challenge: A Light in the Darkness]]'">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="25"/>
+<object id="1879224344" name="Medallion" quantity="50"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="3"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Deathless_Warden_--_Tier_1" name="The Abyss of Mordath: The Deathless Warden -- Tier 1" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="[[Sagróg the Bitter Warden]] has long stood watch over the [[Mordath]], imprisoning the most hated foes of [[Sauron]] and keeping all intruders from uncovering the secrets hidden in its depths." objectives="Defeat [[Sagróg the Bitter Warden]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+<object id="1879224344" name="Medallion" quantity="20"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Deathless_Warden_--_Tier_2" name="The Abyss of Mordath: The Deathless Warden -- Tier 2" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="[[Sagróg the Bitter Warden]] has long stood watch over the [[Mordath]], imprisoning the most hated foes of [[Sauron]] and keeping all intruders from uncovering the secrets hidden in its depths." objectives="Defeat [[Sagróg the Bitter Warden]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="20"/>
+<object id="1879224344" name="Medallion" quantity="35"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Master_of_the_Seven_--_Tier_1" name="The Abyss of Mordath: The Master of the Seven -- Tier 1" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="King [[Váskmun Greytooth]] has come to the [[Mordath]] seeking the lost Dwarf-ring, [[Manthríf]], and will stop at nothing to reclaim it. However, the fates of the Seven are shrouded in great secrecy and terrible truths shall soon be revealed." objectives="Prevent King Vaskmun Greytooth from recovering Mantríf">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+<object id="1879224344" name="Medallion" quantity="20"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Master_of_the_Seven_--_Tier_2" name="The Abyss of Mordath: The Master of the Seven -- Tier 2" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="King [[Váskmun Greytooth]] has come to the [[Mordath]] seeking the lost Dwarf-ring, [[Manthríf]], and will stop at nothing to reclaim it. However, the fates of the Seven are shrouded in great secrecy and terrible truths shall soon be revealed." objectives="Prevent King Vaskmun Greytooth from recovering Mantríf">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="20"/>
+<object id="1879224344" name="Medallion" quantity="35"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Order_of_Death" name="The Abyss of Mordath: The Order of Death" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="The [[Order of the Eye]] descended into the [[Abyss of Mordath]] to defeat the [[Firehorns]] and seek the lost artifacts of the Dark Lord, but instead they have found secrets more terrible than they dared imagine.&#10;&#10;{{Color|Red|This deed can only be completed on Tier 2 of the Abyss of Mordath raid.}}" objectives="Complete [[Quest:Challenge: The Order of Death|Challenge: The Order of Death]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="25"/>
+<object id="1879224344" name="Medallion" quantity="50"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="3"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Power_of_the_Dwarf-rings" name="The Abyss of Mordath: The Power of the Dwarf-rings" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="Desperate to reclaim [[Manthríf]], King [[Váskmun Greytooth]] has led the [[Firehorns]] into the [[Abyss of Mordath]], but where has the elusive Dwarf-ring come to rest?&#10;&#10;{{Color|Red|This deed can only be completed on Tier 2 of the Abyss of Mordath raid.}}" objectives="Complete [[Quest:Challenge: The Order of Death|Challenge: The Order of Death]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="25"/>
+<object id="1879224344" name="Medallion" quantity="50"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="3"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Spoiled_of_the_Eye_--_Tier_1" name="The Abyss of Mordath: The Spoiled of the Eye -- Tier 1" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="[[High Priest Dáuraga]] and [[High Priestess Khôkali]] have led the [[Order of the Eye]] into the [[Mordath]] to seek revenge on the [[Firehorn]] dwarves and lay claim to the Dark Lord-s most powerful artifacts." objectives="Defeat [[High Priest Dáuraga]] and [[High Priestess Khôkali]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+<object id="1879224344" name="Medallion" quantity="20"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
+</rewards>
+</deed>
+<deed key="The_Abyss_of_Mordath:_The_Spoiled_of_the_Eye_--_Tier_2" name="The Abyss of Mordath: The Spoiled of the Eye -- Tier 2" category="Instances:Plateau of Gorgoroth:The Abyss of Mordath" description="[[High Priest Dáuraga]] and [[High Priestess Khôkali]] have led the [[Order of the Eye]] into the [[Mordath]] to seek revenge on the [[Firehorn dwarves]] and lay claim to the Dark Lord-s most powerful artifacts." objectives="Defeat [[High Priest Dáuraga]] and [[High Priestess Khôkali]]">
+<rewards>
+<lotroPoints quantity="5"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="20"/>
+<object id="1879224344" name="Medallion" quantity="35"/>
+<object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
 <deed key="The_Adventures_of_Floid_and_Dewitt" name="The Adventures of Floid and Dewitt" type="EXPLORER" category="Social" description="You are a great explorer of Middle-earth" objectives="Find [[Floid]] and [[Dewitt the Explorer|Dewitt]] in [[Dunland]]&#10;Find Floid and Dewitt in [[Enedwaith]]&#10;Find Floid and Dewitt in [[Evendim]]&#10;Find Floid and Dewitt in [[the Lone-lands]]&#10;Find Floid and Dewitt in [[Lothlórien]]&#10;Find Floid and Dewitt in [[Mirkwood]]&#10;Find Floid and Dewitt in [[Moria]]">
@@ -15315,7 +15479,7 @@
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
-<deed key="The_Court_of_Seregost:_Morroval-slayer" name="The Court of Seregost: Morroval-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:The Court of Seregost" description="Defeat many Morroval within the Court of Seregost." objectives="Defeat many Morroval within the Court of Seregost (0/250)">
+<deed key="The_Court_of_Seregost:_Morroval-slayer" name="The Court of Seregost: Morroval-slayer" type="SLAYER" category="Instances:Plateau of Gorgoroth:The Court of Seregost" description="Defeat many [[Morroval]] within the [[Court of Seregost]]." objectives="Defeat many Morroval within the Court of Seregost (0/250)">
 <rewards>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="4"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
@@ -15738,7 +15902,7 @@
 <lotroPoints quantity="10"/>
 </rewards>
 </deed>
-<deed key="The_Last_Reserves" name="The Last Reserves" type="EXPLORER" category="Region:Gorgoroth" description="Explore Dor Amarth's water reserves." objectives="Discover [[Blozronk]] {{Tooltip Coords|Dor Amarth|47.8S|13.7E}}&#10;Discover [[Sárronk]] {{Tooltip Coords|Dor Amarth|50.7S|9.9E}}&#10;Discover [[Nauronk]] {{Tooltip Coords|Dor Amarth|45.8S|18.6E}}">
+<deed key="The_Last_Reserves" name="The Last Reserves" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Explore Dor Amarth's water reserves." objectives="Discover [[Blozronk]] {{Tooltip Coords|Dor Amarth|47.8S|13.7E}}&#10;Discover [[Sárronk]] {{Tooltip Coords|Dor Amarth|50.7S|9.9E}}&#10;Discover [[Nauronk]] {{Tooltip Coords|Dor Amarth|45.8S|18.6E}}">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <rewards>
 <title name="Oasis Seeker"/>
@@ -16523,7 +16687,7 @@
 <object id="1879259421" name="Gold Token of Wildermore" quantity="5"/>
 </rewards>
 </deed>
-<deed key="The_Tainted_Reserves" name="The Tainted Reserves" type="EXPLORER" category="Region:Gorgoroth" description="Explore Talath Úrui's water reserves." objectives="Discover [[Ashronk]] {{Tooltip Coords|Talath Úrui|58.0S|26.4E}}&#10;Discover [[Krulronk]] {{Tooltip Coords|Talath Úrui|61.6S|23.5E}}&#10;Discover [[Gakhronk]] {{Tooltip Coords|Talath Úrui|57.3S|12.5E}}&#10;Discover [[Zagronk]] {{Tooltip Coords|Talath Úrui|54.3S|10.2E}}">
+<deed key="The_Tainted_Reserves" name="The Tainted Reserves" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Explore Talath Úrui's water reserves." objectives="Discover [[Ashronk]] {{Tooltip Coords|Talath Úrui|58.0S|26.4E}}&#10;Discover [[Krulronk]] {{Tooltip Coords|Talath Úrui|61.6S|23.5E}}&#10;Discover [[Gakhronk]] {{Tooltip Coords|Talath Úrui|57.3S|12.5E}}&#10;Discover [[Zagronk]] {{Tooltip Coords|Talath Úrui|54.3S|10.2E}}">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
 <rewards>
 <title name="Darkwater"/>
@@ -16552,7 +16716,7 @@
 <lotroPoints quantity="10"/>
 </rewards>
 </deed>
-<deed key="The_Tower_of_Cirith_Ungol" name="The Tower of Cirith Ungol" type="EXPLORER" category="Region:Gorgoroth" description="Explorer the heights and depths of Cirith Ungol in Lhingris." objectives="Discover Cirith Ungol&#10;Discover the Silent Watchers&#10;Discover the Courtyard of Cirith Ungol&#10;Discover the Tower of Cirith Ungol&#10;Discover the top chamber of the Tower of Cirith Ungol&#10;Discover the Under-gate of Cirith Ungol">
+<deed key="The_Tower_of_Cirith_Ungol" name="The Tower of Cirith Ungol" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Explorer the heights and depths of Cirith Ungol in Lhingris." objectives="Discover Cirith Ungol&#10;Discover the Silent Watchers&#10;Discover the Courtyard of Cirith Ungol&#10;Discover the Tower of Cirith Ungol&#10;Discover the top chamber of the Tower of Cirith Ungol&#10;Discover the Under-gate of Cirith Ungol">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <rewards>
 <title name="The Silent Watcher"/>
@@ -16715,7 +16879,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="The_Way_Into_Mordor" name="The Way Into Mordor" type="EXPLORER" category="Region:Gorgoroth" description="Scout the major routes and vantage points of Mordor's antichamber, Udûn." objectives="Discover the Iron Road {{Tooltip Coords|Udûn|40.7S|0.8W}}&#10;&#10;Discover the West Road to Anglach {{Tooltip Coords|Udûn|41.8S|1.2E}}&#10;&#10;Discover the Parade Grounds {{Tooltip Coords|Udûn|42.7S|2.3E}}&#10;&#10;Discover the Road to Mornaur {{Tooltip Coords|Udûn|44.7S|1.6E}}&#10;&#10;Discover the West Road to Durthang {{Tooltip Coords|Udûn|44.6S|2.5E}}&#10;&#10;Discover the Durthang Tower-top {{Tooltip Coords|Udûn|47.0S|3.2E}}&#10;&#10;Discover the Durthang Lookout {{Tooltip Coords|Udûn|45.9S|1.4E}}&#10;&#10;Discover the Durthang Eastern Stairs {{Tooltip Coords|Udûn|45.8S|3.0E}}&#10;&#10;Discover the path to Rhûd Vorn {{Tooltip Coords|Udûn|43.2S|8.2E}}&#10;&#10;Discover the Rhûd Vorn watch point {{Tooltip Coords|Udûn|41.2S|8.6E}}&#10;&#10;Discover the Rogkalûr overlook {{Tooltip Coords|Udûn|41.0S|7.6E}}&#10;&#10;Disvover the Anglach vantage point {{Tooltip Coords|Udûn|40.3S|5.6E}}&#10;&#10;Discover the Overseer's perch {{Tooltip Coords|Udûn|41.1S|3.4E}}&#10;&#10;Discover the Gates of the Isenmouthe {{Tooltip Coords|Udûn|46.8S|8.0E}}&#10;&#10;Discover the Foundry Deck {{Tooltip Coords|Udûn|42.4S|4.8E}}">
+<deed key="The_Way_Into_Mordor" name="The Way Into Mordor" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Scout the major routes and vantage points of Mordor's antechamber, Udûn." objectives="Discover the Iron Road {{Tooltip Coords|Udûn|40.7S|0.8W}}&#10;&#10;This road drives like a rod of iron from the Black Gates on into Gorgoroth, where it splits to encircle Orodruin.&#10;Discover the West Road to Anglach {{Tooltip Coords|Udûn|41.8S|1.2E}}&#10;&#10;Many fell weapons and great war-works have winded their way down this road, out of the great forges of Anglach.&#10;Discover the Parade Grounds {{Tooltip Coords|Udûn|42.7S|2.3E}}&#10;&#10;Thousands of rough pairs of feet have marched, stood, and camped upon Udûn's broad central basin.&#10;Discover the Road to Mornaur {{Tooltip Coords|Udûn|44.7S|1.6E}}&#10;&#10;Discover the West Road to Durthang {{Tooltip Coords|Udûn|44.6S|2.5E}}&#10;&#10;Discover the Durthang Tower-top {{Tooltip Coords|Udûn|47.0S|3.2E}}&#10;&#10;Discover the Durthang Lookout {{Tooltip Coords|Udûn|45.9S|1.4E}}&#10;&#10;Discover the Durthang Eastern Stairs {{Tooltip Coords|Udûn|45.8S|3.0E}}&#10;&#10;Discover the path to Rhûd Vorn {{Tooltip Coords|Udûn|43.2S|8.2E}}&#10;&#10;Discover the Rhûd Vorn watch point {{Tooltip Coords|Udûn|41.2S|8.6E}}&#10;&#10;Discover the Rogkalûr overlook {{Tooltip Coords|Udûn|41.0S|7.6E}}&#10;&#10;Disvover the Anglach vantage point {{Tooltip Coords|Udûn|40.3S|5.6E}}&#10;&#10;Discover the Overseer's perch {{Tooltip Coords|Udûn|41.1S|3.4E}}&#10;&#10;Discover the Gates of the Isenmouthe {{Tooltip Coords|Udûn|46.8S|8.0E}}&#10;&#10;Discover the Foundry Deck {{Tooltip Coords|Udûn|42.4S|4.8E}}">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <rewards>
 <title name="Footman of Mordor"/>
@@ -17224,7 +17388,7 @@
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
-<deed key="Tower_of_Orthanc:_Original_Challenger_of_Saruman" name="Tower of Orthanc: Original Challenger of Saruman" category="Obsolete" description="" objectives="Be the first to defeat all challenges within the Tower of Orthanc in a single raid.">
+<deed key="Tower_of_Orthanc:_Original_Challenger_of_Saruman" name="Tower of Orthanc: Original Challenger of Saruman" category="Instances:Rise of Isengard:The Tower of Orthanc" description="You were the first to rise to the challenge and destroy all of Saruman's rings in one fell swoop." objectives="Be the first to defeat all challenges within the Tower of Orthanc in a single raid.">
 <rewards>
 <title name="Original Challenger of Saruman"/>
 </rewards>
@@ -17372,13 +17536,21 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Agarnaith" name="Treasure of Agarnaith" type="EXPLORER" category="Region:Gorgoroth" description="Find ancient treasure in Agarnaith." objectives="Find 12 Treasure caches in Agarnaith">
+<deed key="Treasure_Hunters_(deed)" name="Treasure Hunters (deed)" type="EVENT" category="Event:Festival" description="" objectives="Call the [[Treasure-seeking Cave-claw]] to your side&#10;Call the [[Tan-back Cave-claw]] to your side&#10;Call the [[Green-beak Cave-claw]] to your side&#10;Call the [[Pink-beak Cave-claw]] to your side&#10;Call the [[Black-beak Cave-claw]] to your side&#10;Call the [[Green-back Cave-claw]] to your side">
+<rewards/>
+</deed>
+<deed key="Treasure_Mounts_(deed)" name="Treasure Mounts (deed)" type="EVENT" category="Event:Festival" description="" objectives="Mount the [[Treasure Laden Goat]]&#10;Mount the [[Treasure Laden Horse]]&#10;Mount the [[Cave-claw Masked Horse]]">
+<rewards>
+<title name="Wandering Vault-keeper"/>
+</rewards>
+</deed>
+<deed key="Treasure_of_Agarnaith" name="Treasure of Agarnaith" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Find ancient treasure in Agarnaith." objectives="Find 12 Treasure caches in Agarnaith">
 <rewards>
 <title name="Treasure Seeker of Agarnaith"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Angmar" name="Treasure of Angmar" type="EXPLORER" category="Region:Angmar" minimumLevel="90" description="Find [[Angmar]]'s [[Item:Treasure Cache|treasure]] that has been lost over the years." objectives="Find [[Angmar]]'s lost treasure.&#10;# {{Tooltip Coords|Angmar|7.2N|30.4W}} Imlad Balchorth&#10;# {{Tooltip Coords|Angmar|4.7N|29.2W}} Imlad Balchorth&#10;# {{Tooltip Coords|Angmar|3.9N|39.9W}} Nád Nathair (Fasach-Larran)&#10;# {{Tooltip Coords|Angmar|6.3N|37.9W}} Dûn Covád (Fasach-Falroid)&#10;# {{Tooltip Coords|Angmar|12.2N|29.5W}} Gate of Shadows (Rhunendin)&#10;# {{Tooltip Coords|Angmar|12.1N|27.3W}} Torech-i-Bogbereth (Himbar)&#10;# {{Tooltip Coords|Angmar|13.0N|25.4W}} Torech-i-Bogbereth (Himbar)&#10;# {{Tooltip Coords|Angmar|9.6N|22.9W}} Gath Uior&#10;# {{Tooltip Coords|Angmar|4.5N|21.1W}} Maethad&#10;# {{Tooltip Coords|Angmar|1.6S|23.2W}} Krúslë Lannan (Maethad)&#10;# {{Tooltip Coords|Angmar|0.7S|36.5W}} Ram Dúath&#10;# {{Tooltip Coords|Angmar|10.3N|14.3W}} Iorelen's Camp (Rift of Nûrz Ghashu)">
+<deed key="Treasure_of_Angmar" name="Treasure of Angmar" type="EXPLORER" category="Region:Angmar" minimumLevel="90" description="Find [[Angmar]]'s [[Item:Treasure Cache|treasure]] that has been lost over the years." objectives="Find [[Angmar]]'s lost treasure.&#10;# {{Tooltip Coords|Angmar|7.2N|30.4W}} Imlad Balchorth&#10;# {{Tooltip Coords|Angmar|4.7N|29.2W}} Imlad Balchorth&#10;# {{Tooltip Coords|Angmar|3.9N|39.9W}} Nád Nathair (Fasach-Larran)&#10;# {{Tooltip Coords|Angmar|6.3N|37.9W}} Dûn Covád (Fasach-Falroid)&#10;# {{Tooltip Coords|Angmar|12.2N|29.5W}} Gate of Shadows (Rhunendin)&#10;# {{Tooltip Coords|Angmar|12.1N|27.3W}} Torech-i-Bogbereth (Himbar)&#10;# {{Tooltip Coords|Angmar|13.0N|25.4W}} Torech-i-Bogbereth (Himbar)&#10;# {{Tooltip Coords|Angmar|9.6N|22.9W}} Gath Uior&#10;# {{Tooltip Coords|Angmar|4.5N|21.1W}} Nan Gurth&#10;# {{Tooltip Coords|Angmar|1.6S|23.2W}} Krúslë Lannan (Maethad)&#10;# {{Tooltip Coords|Angmar|0.7S|36.5W}} Ram Dúath&#10;# {{Tooltip Coords|Angmar|10.3N|14.3W}} Iorelen's Camp (Rift of Nûrz Ghashu)">
 <rewards>
 <reputation>
 <reputationItem faction="Council of the North" amount="900"/>
@@ -17403,7 +17575,7 @@
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="18"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Dor_Amarth" name="Treasure of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth" description="Find ancient treasure in Dor Amarth." objectives="Find 12 Treasure caches in Dor Amarth">
+<deed key="Treasure_of_Dor_Amarth" name="Treasure of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Find ancient treasure in Dor Amarth." objectives="Find 12 Treasure caches in Dor Amarth">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
 <rewards>
 <title name="Treasure Seeker of Dor Amarth"/>
@@ -17462,7 +17634,7 @@
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Lhingris" name="Treasure of Lhingris" type="EXPLORER" category="Region:Gorgoroth" description="Find ancient treasure in Lhingris." objectives="Find ancient treasure in Lhingris (0/12)">
+<deed key="Treasure_of_Lhingris" name="Treasure of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Find ancient treasure in Lhingris." objectives="Find ancient treasure in Lhingris (0/12)">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
 <rewards>
 <title name="Treasure Seeker of Lhingris"/>
@@ -17495,13 +17667,13 @@
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Talath_%C3%9Arui" name="Treasure of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth" description="Find ancient treasure in Talath Úrui." objectives="Find ancient treasure in Talath Úrui (0/12)">
+<deed key="Treasure_of_Talath_%C3%9Arui" name="Treasure of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Find ancient treasure in Talath Úrui." objectives="Find ancient treasure in Talath Úrui (0/12)">
 <rewards>
 <title name="Treasure Seeker of Talath Úrui"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Treasure_of_Ud%C3%BBn" name="Treasure of Udûn" type="EXPLORER" category="Region:Gorgoroth" description="Find ancient treasure in Udûn." objectives="Find 12 Treasure caches in Udûn">
+<deed key="Treasure_of_Ud%C3%BBn" name="Treasure of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Find ancient treasure in Udûn." objectives="Find 12 Treasure caches in Udûn">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
 <rewards>
 <title name="Treasure Seeker of Udûn"/>
@@ -17825,7 +17997,7 @@
 <object id="1879224344" name="Medallion" quantity="50"/>
 </rewards>
 </deed>
-<deed key="Ud%C3%BBn:_Continued_Efforts" name="Udûn: Continued Efforts" type="QUEST" category="Region:Gorgoroth" description="There is still much to do in Udûn." objectives="Complete [[Quest: The Flames of Mornaur|The Flames of Mornaur]]&#10;Complete [[Quest: More Fruits of the Forge|More Fruits of the Forge]]&#10;Complete [[Quest: The Captains of Mornaur Lookout|The Captains of Mornaur Lookout]]&#10;Complete [[Quest: The Valley of Locked Doors|The Valley of Locked Doors]]&#10;Complete [[Quest: Freshly Hatched|Freshly Hatched]]&#10;Complete [[Quest: The Fallen Within|The Fallen Within]]&#10;Complete [[Quest: The Dwarven Smiths of Anglach|The Dwarven Smiths of Anglach]]&#10;Complete [[Quest: Forces of the Foundry|Forces of the Foundry]]&#10;Complete [[Quest: Reclaiming Udûn: Maudhúl Târ|Reclaiming Udûn: Maudhúl Târ]]&#10;Complete [[Quest: Reclaiming Udûn: Mornaur Lookout|Reclaiming Udûn: Mornaur Lookout]]">
+<deed key="Ud%C3%BBn:_Continued_Efforts" name="Udûn: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Udûn" description="There is still much to do in Udûn." objectives="Complete [[Quest: The Flames of Mornaur|The Flames of Mornaur]]&#10;Complete [[Quest: More Fruits of the Forge|More Fruits of the Forge]]&#10;Complete [[Quest: The Captains of Mornaur Lookout|The Captains of Mornaur Lookout]]&#10;Complete [[Quest: The Valley of Locked Doors|The Valley of Locked Doors]]&#10;Complete [[Quest: Freshly Hatched|Freshly Hatched]]&#10;Complete [[Quest: The Fallen Within|The Fallen Within]]&#10;Complete [[Quest: The Dwarven Smiths of Anglach|The Dwarven Smiths of Anglach]]&#10;Complete [[Quest: Forces of the Foundry|Forces of the Foundry]]&#10;Complete [[Quest: Reclaiming Udûn: Maudhúl Târ|Reclaiming Udûn: Maudhúl Târ]]&#10;Complete [[Quest: Reclaiming Udûn: Mornaur Lookout|Reclaiming Udûn: Mornaur Lookout]]">
 <parent key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <rewards>
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
@@ -17929,14 +18101,14 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Uruk-hai_and_Orc-slayer_of_Lhingris" name="Uruk-hai and Orc-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth" description="Defeat many orcs and Uruk-hai in Lhingris" objectives="Defeat many orcs and Uruk-hai in Lhingris. (0/100)">
+<deed key="Uruk-hai_and_Orc-slayer_of_Lhingris" name="Uruk-hai and Orc-slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many orcs and Uruk-hai in Lhingris" objectives="Defeat many orcs and Uruk-hai in Lhingris. (0/100)">
 <next key="Uruk-hai_and_Orc-slayer_of_Lhingris_(Advanced)" name="Uruk-hai and Orc-slayer of Lhingris (Advanced)"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Uruk-hai_and_Orc-slayer_of_Lhingris_(Advanced)" name="Uruk-hai and Orc-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Orcs and Uruk-hai in Lhingris" objectives="Defeat many Orcs and Uruk-hai in Lhingris. (0/200)">
+<deed key="Uruk-hai_and_Orc-slayer_of_Lhingris_(Advanced)" name="Uruk-hai and Orc-slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Defeat many Orcs and Uruk-hai in Lhingris" objectives="Defeat many Orcs and Uruk-hai in Lhingris. (0/200)">
 <previous key="Uruk-hai_and_Orc-slayer_of_Lhingris" name="Uruk-hai and Orc-slayer of Lhingris"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
@@ -17966,14 +18138,14 @@
 <title name="Warlord of Angmar"/>
 </rewards>
 </deed>
-<deed key="Uruk-slayer_of_Agarnaith" name="Uruk-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Uruk-Hai in Agarnaith." objectives="Defeat many Uruk-Hai in Agarnaith (0/80)">
+<deed key="Uruk-slayer_of_Agarnaith" name="Uruk-slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many Uruk-Hai in Agarnaith." objectives="Defeat many Uruk-Hai in Agarnaith (0/80)">
 <next key="Uruk-slayer_of_Agarnaith_(Advanced)" name="Uruk-slayer of Agarnaith (Advanced)"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Uruk-slayer_of_Agarnaith_(Advanced)" name="Uruk-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Uruk-Hai in Agarnaith." objectives="Defeat many Uruk-Hai in Agarnaith (0/160)">
+<deed key="Uruk-slayer_of_Agarnaith_(Advanced)" name="Uruk-slayer of Agarnaith (Advanced)" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="Defeat many Uruk-Hai in Agarnaith." objectives="Defeat many Uruk-Hai in Agarnaith (0/160)">
 <previous key="Uruk-slayer_of_Agarnaith" name="Uruk-slayer of Agarnaith"/>
 <parent key="Slayer_of_Agarnaith" name="Slayer of Agarnaith"/>
 <rewards>
@@ -18622,7 +18794,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Well-preserved" name="Well-preserved" category="Region:Gorgoroth" description="Achieve the eleventy-first level." objectives="Achieve the eleventy-first level">
+<deed key="Well-preserved" name="Well-preserved" description="Achieve the eleventy-first level." objectives="Achieve the eleventy-first level">
 <rewards>
 <title name="Well-preserved"/>
 <object id="1879210469" name="Loaf of Barley Bread" quantity="3"/>
@@ -19024,14 +19196,14 @@
 <object id="1879198149" name="Steed of Eriador" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui" name="Worm and Drake-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Worms and Drakes in Talath Úrui." objectives="Defeat many Worms and Drakes in Talath Úrui (0/100)">
+<deed key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui" name="Worm and Drake-slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Worms and Drakes in Talath Úrui." objectives="Defeat many Worms and Drakes in Talath Úrui (0/100)">
 <next key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Worm and Drake-slayer of Talath Úrui (Advanced)"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Worm and Drake-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="Defeat many Worms and Drakes in Talath Úrui." objectives="Defeat many Worms and Drakes in Talath Úrui (0/200)">
+<deed key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Worm and Drake-slayer of Talath Úrui (Advanced)" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="Defeat many Worms and Drakes in Talath Úrui." objectives="Defeat many Worms and Drakes in Talath Úrui (0/200)">
 <previous key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui" name="Worm and Drake-slayer of Talath Úrui"/>
 <parent key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui"/>
 <rewards>
@@ -19209,14 +19381,14 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Zhav%C3%A1r-hai_Slayer_of_Lhingris" name="Zhavár-hai Slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth" description="The Zhavár-hai are Orcs that have become &quot;hollowed&quot; and host to terrible creatures dwelling in their flesh. They now stalk Lhingris as nearly-mindless servants of Shelob and Her children." objectives="Defeat many Zhavár-hai in Lhingris (0/60)">
+<deed key="Zhav%C3%A1r-hai_Slayer_of_Lhingris" name="Zhavár-hai Slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="The Zhavár-hai are Orcs that have become &quot;hollowed&quot; and host to terrible creatures dwelling in their flesh. They now stalk Lhingris as nearly-mindless servants of Shelob and Her children." objectives="Defeat many Zhavár-hai in Lhingris (0/60)">
 <next key="Zhav%C3%A1r-hai_Slayer_of_Lhingris_(Advanced)" name="Zhavár-hai Slayer of Lhingris (Advanced)"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Zhav%C3%A1r-hai_Slayer_of_Lhingris_(Advanced)" name="Zhavár-hai Slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth" description="The Zhavár-hai are Orcs that have become &quot;hollowed&quot; and host to terrible creatures dwelling in their flesh. They now stalk Lhingris as nearly-mindless servants of Shelob and Her children." objectives="Defeat many Zhavár-hai in Lhingris (0/120)">
+<deed key="Zhav%C3%A1r-hai_Slayer_of_Lhingris_(Advanced)" name="Zhavár-hai Slayer of Lhingris (Advanced)" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="The Zhavár-hai are Orcs that have become &quot;hollowed&quot; and host to terrible creatures dwelling in their flesh. They now stalk Lhingris as nearly-mindless servants of Shelob and Her children." objectives="Defeat many Zhavár-hai in Lhingris (0/120)">
 <previous key="Zhav%C3%A1r-hai_Slayer_of_Lhingris" name="Zhavár-hai Slayer of Lhingris"/>
 <parent key="Slayer_of_Lhingris" name="Slayer of Lhingris"/>
 <rewards>
