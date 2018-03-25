@@ -2856,6 +2856,18 @@
 <title name="Conqueror of Ringdyr"/>
 </rewards>
 </deed>
+<deed key="Conquest_of_Tol_Ascarnen" name="Conquest of Tol Ascarnen" type="SLAYER" category="PVP:Freep deeds" description="Defeat the enemy Chieftains controlling the fortress of [[Tol Ascarnen]]!" objectives="Defeat [[Chieftain Zabúrz]]&#10;Defeat [[Chieftain Arshu]]&#10;Defeat [[Chieftain Gádhup]]&#10;Defeat [[Chieftain Numhokarul]]">
+<rewards>
+<title name="Conqueror of Tol Ascarnen"/>
+<object id="1879230183" name="Commendation" quantity="500"/>
+</rewards>
+</deed>
+<deed key="Conquest_of_the_Towers" name="Conquest of the Towers" type="SLAYER" category="PVP:Freep deeds" description="Defeat the enemy Chieftains controlling the Towers!" objectives="Defeat [[Chieftain Grazthluk]] (Lugazag){{Tooltip Coords|Ettenmoors|15.4S|19.9W}}&#10;Defeat [[Chieftain Shatog]] (Lugazag){{Tooltip Coords|Ettenmoors|15.4S|19.9W}}&#10;Defeat [[Chieftain Fimfash]] (Tirith Rhaw){{Tooltip Coords|Ettenmoors|17.6S|14.5W}}&#10;Defeat [[Chieftain Gukhnúrz]] (Tirith Rhaw){{Tooltip Coords|Ettenmoors|17.6S|14.5W}}">
+<rewards>
+<title name="Conqueror of the Towers"/>
+<object id="1879230183" name="Commendation" quantity="500"/>
+</rewards>
+</deed>
 <deed key="Consume_Consumables_--_Specimen_Jars:_Gross_Bugs" name="Consume Consumables -- Specimen Jars: Gross Bugs" category="Social" description="Specimen jars: gross bugs can be purchased during the Fall Festival.&#10;&#10;You should use specimen jars: gross bugs many times to accomplish this deed." objectives="Use specimen jars: gross bugs (0/300)">
 <rewards>
 <object id="1879212119" name="Festival Skill: Specimen Jar: Gross Bugs" quantity="1"/>
@@ -17995,6 +18007,12 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <object id="1879224344" name="Medallion" quantity="50"/>
+</rewards>
+</deed>
+<deed key="Tyrants_of_the_Enemy" name="Tyrants of the Enemy" type="SLAYER" category="PVP:Freep deeds" description="Find and defeat the Tyrants of the forces of the Enemy in the Ettenmoors, ensuring the victory of the armies of the West." objectives="Defeat [[Tyrant Tharbîl]]&#10;Defeat [[Tyrant Barashish]]&#10;Defeat [[Tyrant Gundzor]]&#10;Defeat [[Tyrant Bûrzgoth]]&#10;Defeat [[Tyrant Trintrû]]&#10;Defeat [[Tyrant Durgrat]]">
+<rewards>
+<title name="Conqueror of the Ettenmoors"/>
+<object id="1879230183" name="Commendation" quantity="500"/>
 </rewards>
 </deed>
 <deed key="Ud%C3%BBn:_Continued_Efforts" name="Udûn: Continued Efforts" type="QUEST" category="Region:Gorgoroth:Udûn" description="There is still much to do in Udûn." objectives="Complete [[Quest: The Flames of Mornaur|The Flames of Mornaur]]&#10;Complete [[Quest: More Fruits of the Forge|More Fruits of the Forge]]&#10;Complete [[Quest: The Captains of Mornaur Lookout|The Captains of Mornaur Lookout]]&#10;Complete [[Quest: The Valley of Locked Doors|The Valley of Locked Doors]]&#10;Complete [[Quest: Freshly Hatched|Freshly Hatched]]&#10;Complete [[Quest: The Fallen Within|The Fallen Within]]&#10;Complete [[Quest: The Dwarven Smiths of Anglach|The Dwarven Smiths of Anglach]]&#10;Complete [[Quest: Forces of the Foundry|Forces of the Foundry]]&#10;Complete [[Quest: Reclaiming Udûn: Maudhúl Târ|Reclaiming Udûn: Maudhúl Târ]]&#10;Complete [[Quest: Reclaiming Udûn: Mornaur Lookout|Reclaiming Udûn: Mornaur Lookout]]">
