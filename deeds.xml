@@ -1485,6 +1485,36 @@
 <object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
+<deed key="Blackarrow-slayer_(Deed)1" name="Blackarrow-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat Uruk-blackarrow players in the Ettenmoors (500)">
+<rewards>
+<title name="Blackarrow-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Blackarrow-slayer_(Deed)2" name="Blackarrow-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat Uruk-blackarrows players in the Ettenmoors (1000)">
+<rewards>
+<title name="Blackarrow's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Blackarrow-slayer_(Deed)3" name="Blackarrow-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat Uruk-blackarrow players in the Ettenmoors (2500)">
+<rewards>
+<title name="Blackarrow-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="Blackarrow-slayer_(Deed)4" name="Blackarrow-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat Uruk-blackarrow players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Blackarrow's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Blackarrow-slayer_(Deed)5" name="Blackarrow-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat Uruk-blackarrow players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Blackarrow's Executioner"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
 <deed key="Bleeding_is_Better" name="Bleeding is Better" type="CLASS" class="Burglar" minimumLevel="10" description="There is much to be learned from seeing a foe's reaction to an open wound, and you consider yourself a scholar." objectives="Use skills which apply bleeds (750)&#10;You are capable of landing precise blows quickly, bringing to an end in short order what might have been a long battle.">
 <parent key="Class_Deeds_(Burglar)_-_Tier_3" name="Class Deeds (Burglar) - Tier 3"/>
 <rewards>
@@ -1929,6 +1959,31 @@
 <virtue id="ZEAL" count="2"/>
 </rewards>
 </deed>
+<deed key="Burglar-slayer1" name="Burglar-slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Burglar]]s in the [[Ettenmoors]]." objectives="Slaughter [[Burglar]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Snitch-killer"/>
+</rewards>
+</deed>
+<deed key="Burglar-slayer2" name="Burglar-slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Burglar]]s in the [[Ettenmoors]]." objectives="Slaughter [[Burglar]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Thief-slayer"/>
+</rewards>
+</deed>
+<deed key="Burglar-slayer3" name="Burglar-slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Burglar]]s in the [[Ettenmoors]]." objectives="Slaughter [[Burglar]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Burglar-basher"/>
+</rewards>
+</deed>
+<deed key="Burglar-slayer4" name="Burglar-slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Burglar]]s in the [[Ettenmoors]]." objectives="Slaughter [[Burglar]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Bane of Shadows"/>
+</rewards>
+</deed>
+<deed key="Burglar-slayer5" name="Burglar-slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Burglar]]s in the [[Ettenmoors]]." objectives="Slaughter [[Burglar]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Trickster's Scourge"/>
+</rewards>
+</deed>
 <deed key="Burglarize" name="Burglarize" type="CLASS" class="Burglar" minimumLevel="30" description="Take what you want and never apologize." objectives="{{:Burgle|mode=link}} your foes (250)&#10;A steady hand can Burgle great riches from unwitting targets.">
 <parent key="Class_Deeds_(Burglar)_-_Tier_6" name="Class Deeds (Burglar) - Tier 6"/>
 <rewards>
@@ -1970,6 +2025,31 @@
 <rewards>
 <lotroPoints quantity="5"/>
 <trait name="Captain's Victory"/>
+</rewards>
+</deed>
+<deed key="Captain-slayer_(Deed)1" name="Captain-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Captain]]s in the [[Ettenmoors]]." objectives="Slaughter [[Captain]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Captain's Foe"/>
+</rewards>
+</deed>
+<deed key="Captain-slayer_(Deed)2" name="Captain-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Captain]]s in the [[Ettenmoors]]." objectives="Slaughter [[Captain]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Captain-slayer"/>
+</rewards>
+</deed>
+<deed key="Captain-slayer_(Deed)3" name="Captain-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Captain]]s in the [[Ettenmoors]]." objectives="Slaughter [[Captain]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Banner-shredder"/>
+</rewards>
+</deed>
+<deed key="Captain-slayer_(Deed)4" name="Captain-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Captain]]s in the [[Ettenmoors]]." objectives="Slaughter [[Captain]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Bane of Order"/>
+</rewards>
+</deed>
+<deed key="Captain-slayer_(Deed)5" name="Captain-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Captain]]s in the [[Ettenmoors]]." objectives="Slaughter [[Captain]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Defiler of Lords"/>
 </rewards>
 </deed>
 <deed key="Captains_of_Minas_Tirith" name="Captains of Minas Tirith" type="EXPLORER" category="Region:Old Anórien" minimumLevel="100" description="Meet the Captains of Minas Tirith" objectives="Meet [[Ingold]], Captain of the Out-Wall&#10;&#10;You have met Ingold, Captain of the Out-Wall, son of Aracán.&#10;Meet [[Echadon]], Captain of the Garrison&#10;&#10;You have met Echadon, Captain of the Garrison, son of Echathir.&#10;Meet [[Ormatar]], Captain of the Citadel&#10;&#10;You have met Ormatar, Captain of the Citadel, son of Hallas and Terenis.&#10;Meet [[Turgon (Pelennor)|Turgon]], Captain of the South-Gate&#10;&#10;You have met Turgon, Captain of the South-Gate, son of Thorondir.&#10;Meet [[Lamlor]], Captain of the Tidings&#10;You have met Lamlor, Captain of the Tidings, son of Lamloth.">
@@ -2194,6 +2274,31 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <object id="1879224344" name="Medallion" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Champion-slayer1" name="Champion-slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Champion]]s in the [[Ettenmoors]]." objectives="Slaughter [[Champion]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Champion's Foe"/>
+</rewards>
+</deed>
+<deed key="Champion-slayer2" name="Champion-slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Champion]]s in the [[Ettenmoors]]." objectives="Slaughter [[Champion]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Slayer of Champions"/>
+</rewards>
+</deed>
+<deed key="Champion-slayer3" name="Champion-slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Champion]]s in the [[Ettenmoors]]." objectives="Slaughter [[Champion]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Sword-breaker"/>
+</rewards>
+</deed>
+<deed key="Champion-slayer4" name="Champion-slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Champion]]s in the [[Ettenmoors]]." objectives="Slaughter [[Champion]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Bane of Courage"/>
+</rewards>
+</deed>
+<deed key="Champion-slayer5" name="Champion-slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Champion]]s in the [[Ettenmoors]]." objectives="Slaughter [[Champion]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Doom of Heroes"/>
 </rewards>
 </deed>
 <deed key="Champions_of_Barad_G%C3%BAlaran" name="Champions of Barad Gúlaran" category="Instances:Shadows of Angmar:Barad Gúlaran" description="Defeat the champions of [[Barad Gúlaran]]." objectives="Defeat [[Afraig]]&#10;Defeat [[Coblaith]]&#10;Defeat [[Castellan Wisdán]]&#10;Defeat [[Forvengwath]]&#10;Defeat [[Múlvuirë]]&#10;Defeat [[Udúnion]]&#10;The Terror of Barad Gúlaran, Udúnion, is a creature of shadow and flame from the darkness, summoned forth by Amarthiel.">
@@ -3925,6 +4030,36 @@
 <virtue id="EMPATHY"/>
 </rewards>
 </deed>
+<deed key="Defiler-slayer_(Deed)1" name="Defiler-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tide of [[Orc Defiler|Orc-defiler]]s in the [[Ettenmoors]]." objectives="Defeat Orc-defilers in the Ettenmoors (500)">
+<rewards>
+<title name="Defiler-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Defiler-slayer_(Deed)2" name="Defiler-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tide of [[Orc Defiler|Orc-defiler]]s in the [[Ettenmoors]]." objectives="Defeat Orc-defilers in the Ettenmoors (1,000)">
+<rewards>
+<title name="Defiler's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Defiler-slayer_(Deed)3" name="Defiler-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tide of [[Orc Defiler|Orc-defiler]]s in the [[Ettenmoors]]." objectives="Defeat Orc-defilers in the Ettenmoors (2,500)">
+<rewards>
+<title name="Defiler-slayer"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Defiler-slayer_(Deed)4" name="Defiler-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tide of [[Orc Defiler|Orc-defiler]]s in the [[Ettenmoors]]." objectives="Defeat Orc-defilers in the Ettenmoors (5,000)">
+<rewards>
+<title name="Defiler's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Defiler-slayer_(Deed)5" name="Defiler-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tide of [[Orc Defiler|Orc-defiler]]s in the [[Ettenmoors]]." objectives="Defeat Orc-defilers in the Ettenmoors (10,000)">
+<rewards>
+<title name="Weird of the Defilers"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
 <deed key="Defilers_of_the_Forgotten_Treasury" name="Defilers of the Forgotten Treasury" type="SLAYER" category="Instances:Mines of Moria:Forgotten Treasury" description="Defeat the leaders of the invasion of the Forgotten Treasury." objectives="Defeat [[Nardurgûl]]&#10;The vile orc-wraith Nardurgûl is one of the many servants sent by Dol Guldur to press the Orcs of Moria into service.&#10;Defeat [[Frûzgûl]]&#10;Defeat [[Darûkûrz]]&#10;Defeat [[Narghug]]&#10;Defeat [[Mokza]]&#10;Defeat [[Lorzgûl]]">
 <next key="Defilers_of_the_Forgotten_Treasury_(Advanced)" name="Defilers of the Forgotten Treasury (Advanced)"/>
 <rewards>
@@ -4416,6 +4551,36 @@
 <title name="Bane of Dunland"/>
 </rewards>
 </deed>
+<deed key="Dwarf-killer1" name="Dwarf-killer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Dwarf]]s in the [[Ettenmoors]]." objectives="Slaughter [[Dwarf]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Dwarf-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Dwarf-killer2" name="Dwarf-killer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Dwarf]]s in the [[Ettenmoors]]." objectives="Slaughter [[Dwarf]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Dwarf-bane"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Dwarf-killer3" name="Dwarf-killer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Dwarf]]s in the [[Ettenmoors]]." objectives="Slaughter [[Dwarf]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Dwarf-tosser"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Dwarf-killer4" name="Dwarf-killer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Dwarf]]s in the [[Ettenmoors]]." objectives="Slaughter [[Dwarf]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Scourge of the Undermountain"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Dwarf-killer5" name="Dwarf-killer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Dwarf]]s in the [[Ettenmoors]]." objectives="Slaughter [[Dwarf]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Enemy of Valour"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Dynamic_Performance_(Deed)" name="Dynamic Performance (Deed)" type="CLASS" class="Minstrel" minimumLevel="10" description="Improvisation is a vital skill for any performer." objectives="Change [[Minstrel#Stances|stances]] 300 times (60 per day).&#10;Sometimes you have to work around a fickle crowd.">
 <parent key="Class_Deeds_(Minstrel)_-_Tier_4" name="Class Deeds (Minstrel) - Tier 4"/>
 <rewards>
@@ -4676,6 +4841,36 @@
 <trait name="Return to Ost Guruth"/>
 <skill name="Travel to Ost Guruth"/>
 <title name="Eglan-(Class)"/>
+</rewards>
+</deed>
+<deed key="Elf-killer1" name="Elf-killer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Elf|Elves]] in the [[Ettenmoors]]." objectives="Slaughter [[Elf]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Elf-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Elf-killer2" name="Elf-killer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Elf|Elves]] in the [[Ettenmoors]]." objectives="Slaughter [[Elf]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Elf-bane"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Elf-killer3" name="Elf-killer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Elf|Elves]] in the [[Ettenmoors]]." objectives="Slaughter [[Elf]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Elf-slayer"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Elf-killer4" name="Elf-killer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Elf|Elves]] in the [[Ettenmoors]]." objectives="Slaughter [[Elf]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Scourge of the Fairy Folk"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Elf-killer5" name="Elf-killer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Elf|Elves]] in the [[Ettenmoors]]." objectives="Slaughter [[Elf]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Enemy of Grace"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Elf-ruins_Exploration" name="Elf-ruins Exploration" type="EXPLORER" category="Region:Ered Luin" description="Explore the old places left behind by the [[Elves]] as they abandoned [[Edhelion]] and moved further south to [[Duillond]]." objectives="Find [[Nen Hilith]] {{Tooltip Coords|Ered Luin|28.9S|94.1W}}&#10;The ruins of Nen Hilith speak of more peaceful times when the Elves dwelt by the lake and contemplated the world that was. Now, evil wolves stalk the ruins, casting a dark shadow over the beautiful memory of the place.&#10;Find [[Tham Gelair]] {{Tooltip Coords|Ered Luin|27.5S|94.4W}}&#10;In the days when Tham Gelair stood whole, it was a place of celebration and ceremony for the Elves of Ered Luin. Now it is a wretched ruin, a shattered memory of better days.&#10;Find [[Limael's Vineyard]] {{Tooltip Coords|Ered Luin|26.6S|95.7W}}&#10;Limael's Vineyard was once the chief source of wine-grapes for the Elves of Ered Luin, but goblins have since taken over the once-peaceful vale. Nevertheless, the Elves still harvest the grapes when they ripen, as well as the trespassing goblins.&#10;Find [[Dol Ringwest]] {{Tooltip Coords|Ered Luin|24.9S|95.0W}}&#10;Dol Ringwest was once a place of great beauty, home to many Elves. Now it is a decayed and broken ruin.&#10;Find [[The Wardspire]] {{Tooltip Coords|Ered Luin|17.8S|90.1W}}&#10;This tower overlooking the Lhûn once guarded docks where ships would carry wood and wine from Edhelion to Mithlond. Now it has been abandoned to the wild.">
@@ -7548,6 +7743,13 @@
 <object id="1879306057" name="Amroth Silver Piece" quantity="18"/>
 </rewards>
 </deed>
+<deed key="Gorgoroth_Continued_Foothold" name="Gorgoroth Continued Foothold" type="LORE" category="Region:Gorgoroth" description="(0/6)" objectives="Complete Foothold in Agarnaith (Advanced)&#10;Complete Foothold in Dor Amarth (Advanced)&#10;Complete Foothold in Lhingris (Advanced)&#10;Complete Foothold in Talath Úrui (Advanced)&#10;Complete Foothold in Udûn (Advanced)&#10;Complete Gathering of Resources (Advanced)">
+<rewards>
+<lotroPoints quantity="10"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+<object id="1879356167" name="Pristine Relic of the Last Alliance" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete [[Gorgoroth: Continued Efforts]]&#10;Complete [[Gorgoroth: Continued Foothold]]&#10;Complete [[Gorgoroth: Continued Skirmishes]]">
 <child key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <child key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
@@ -7781,6 +7983,36 @@
 <parent key="Class_Deeds_(Guardian)_-_Tier_2" name="Class Deeds (Guardian) - Tier 2"/>
 <rewards>
 <lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Guardian-slayer1" name="Guardian-slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Guardian]]s in the [[Ettenmoors]]." objectives="Slaughter [[Guardian]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Guardian-killer"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Guardian-slayer2" name="Guardian-slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Guardian]]s in the [[Ettenmoors]]." objectives="Slaughter [[Guardian]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Sentinel-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Guardian-slayer3" name="Guardian-slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Guardian]]s in the [[Ettenmoors]]." objectives="Slaughter [[Guardian]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Shield-breaker"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Guardian-slayer4" name="Guardian-slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Guardian]]s in the [[Ettenmoors]]." objectives="Slaughter [[Guardian]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Guardian's Bane"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Guardian-slayer5" name="Guardian-slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Guardian]]s in the [[Ettenmoors]]." objectives="Slaughter [[Guardian]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Doom of the Stalwart"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Guests_of_the_White_City" name="Guests of the White City" type="EXPLORER" category="Region:Old Anórien" minimumLevel="100" description="Read the plaques of landmarks frequented by those visiting the city of Minas Tirith. (0/10)" objectives="Find The City Stables Plaque&#10;&#10;Also known as Rochmar Oston, these stables carved into the stone pier are where visitors, soldiers, and errand-riders quarter their steeds while inside the city.&#10;Find The Hall of Errands Plaque&#10;&#10;Also known as Tham Pethgyl, it is the location through which all messages to and from Minas Tirith pass, and headquarters of the city's errand-riders.&#10;Find The Old Guesthouse Plaque&#10;&#10;Also known as Sennas Iaur. It is a stately inn where errand-boys loiter and await orders.&#10;Find The South Guesthouse Plaque&#10;&#10;Also known as Sennas Charn, a more recently constructed inn than the Old Guesthouse.&#10;Find The North Guesthouse Plaque&#10;&#10;Also known as Sennas Forn, an inn that quarters traders from far-off lands.&#10;Find The Guest Barracks  Plaque&#10;&#10;Also known as Sennas Hedyr, the dwelling for soldiers visiting from outside Minas Tirith. The soldiers of the fiefs are quartered here, as well as being billetted in the guesthouses and evacuated homes throughout the city's lowest three circles.&#10;Find The House of Rest Plaque&#10;&#10;Also known as Bâr Haust, a guesthouse for visiting merchants.&#10;Find The High Guesthouse Plaque&#10;&#10;Also known as Sennas Vrand, a small inn catering to the wealthy.&#10;Find The High Stables Plaque&#10;&#10;Stables carved into the wall of the Seventh Circle for those few who ride to the top of the city. Also known as Rochbar Raud.&#10;Find The Southern Great Guesthouse Plaque&#10;This building contains a group of guest-rooms for visitors to the Citadel. The lords of the fiefs reside within, including Lord Forlong.">
@@ -8331,6 +8563,36 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
+<deed key="Hobbit-killer1" name="Hobbit-killer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hobbit]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hobbit]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Hobbit-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Hobbit-killer2" name="Hobbit-killer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hobbit]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hobbit]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Hobbit-bane"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Hobbit-killer3" name="Hobbit-killer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hobbit]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hobbit]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Hobbit-slayer"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Hobbit-killer4" name="Hobbit-killer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hobbit]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hobbit]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Scourge of the Little Folk"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Hobbit-killer5" name="Hobbit-killer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hobbit]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hobbit]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Enemy of Innocence"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Honed_Wit_(Deed)" name="Honed Wit (Deed)" type="CLASS" class="Burglar" description="With practice, the right comeback may no longer require a mind set only to mischief." objectives="Strike with [[Clever Retort]] (250)">
 <rewards>
 <trait name="Honed Wit"/>
@@ -8493,6 +8755,36 @@
 <previous key="Hulking_Pounder_Slayer" name="Hulking Pounder Slayer"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="500"/>
+</rewards>
+</deed>
+<deed key="Hunter-slayer1" name="Hunter-slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hunter]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hunter]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Hunter-killer"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Hunter-slayer2" name="Hunter-slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hunter]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hunter]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Scout-blinder"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Hunter-slayer3" name="Hunter-slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hunter]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hunter]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Bow-cleaver"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Hunter-slayer4" name="Hunter-slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hunter]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hunter]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Hunter's Bane"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Hunter-slayer5" name="Hunter-slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Hunter]]s in the [[Ettenmoors]]." objectives="Slaughter [[Hunter]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Doom of the Archer"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Hytbold_(Deed)" name="Hytbold (Deed)" category="Region:East Rohan" minimumLevel="84" description="You are rebuilding the town of Hytbold." objectives="Complete [[The Mead Hall]]&#10;Complete [[The Palisade]]&#10;Complete [[Lighting and Fences]]&#10;Complete [[The Smithy]]&#10;Complete [[Tents|The Tents]]&#10;Complete [[Towers|The Towers]]&#10;Complete [[The Lumber-mill]]&#10;Complete [[The Armoury]]&#10;Complete [[The Townsfolk]]&#10;Complete [[The Library]]&#10;Complete [[The Stable]]&#10;Complete [[The Gates]]&#10;Complete [[Houses (Deed)|The Houses]]&#10;Complete [[Farmhouses]]">
@@ -9722,6 +10014,36 @@
 <title name="Librarian"/>
 </rewards>
 </deed>
+<deed key="Lore-master_slayer1" name="Lore-master slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Lore-master]]s in the [[Ettenmoors]]." objectives="Slaughter [[Lore-master]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Lore-master's Foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Lore-master_slayer2" name="Lore-master slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Lore-master]]s in the [[Ettenmoors]]." objectives="Slaughter [[Lore-master]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Sage-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Lore-master_slayer3" name="Lore-master slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Lore-master]]s in the [[Ettenmoors]]." objectives="Slaughter [[Lore-master]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Staff-breaker"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Lore-master_slayer4" name="Lore-master slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Lore-master]]s in the [[Ettenmoors]]." objectives="Slaughter [[Lore-master]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Bane of the Wise"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Lore-master_slayer5" name="Lore-master slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Lore-master]]s in the [[Ettenmoors]]." objectives="Slaughter [[Lore-master]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Scourge of the Learned"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Lost_Temple:_Clean_Sweep" name="Lost Temple: Clean Sweep" category="Instances:In Their Absence:Lost Temple" description="Beneath the [[Lost Temple|lost Rhudaur temple]] in [[the Trollshaws]], the Gaunt-lord [[Ferndúr the Virulent (Lost Temple)|Ferndúr]] creates a deadly plague to decimate the people of the north.&#10;&#10;You must destroy all the infected corpses in his chamber before destroying the Gaunt-lord himself to ensure that his plague is completely eliminated." objectives="Destroy all the corpses in Ferndúr's chamber.&#10;&#10;You have destroyed all the corpses in Ferndúr's chamber and ended Ferndúr's schemes.&#10;Must complete instance set at highest level and Tier 2 for eligibility.">
 <rewards>
 <lotroPoints quantity="15"/>
@@ -9838,6 +10160,36 @@
 <previous key="Maggot%27s_Mushrooms_Victories_(Tier_1)" name="Maggot's Mushrooms Victories (Tier 1)"/>
 <rewards>
 <title name="Mushroom-muncher"/>
+</rewards>
+</deed>
+<deed key="Man-killer1" name="Man-killer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Man|Men]] in the [[Ettenmoors]]." objectives="Slaughter [[Man]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Man-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Man-killer2" name="Man-killer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Man|Men]] in the [[Ettenmoors]]." objectives="Slaughter [[Man]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Man-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Man-killer3" name="Man-killer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Man|Men]] in the [[Ettenmoors]]." objectives="Slaughter [[Man]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Man-flayer"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Man-killer4" name="Man-killer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Man|Men]] in the [[Ettenmoors]]." objectives="Slaughter [[Man]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Scourge of Man"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Man-killer5" name="Man-killer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Man|Men]] in the [[Ettenmoors]]." objectives="Slaughter [[Man]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Enemy of Honour"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Marching_Orders" name="Marching Orders" category="Instances:Shadows of Angmar:Urugarth" description="Find pages of the Orcs' marching orders scattered throughout [[Urugarth]]." objectives="Collect Marching Orders, Page 7&#10;This page tells of Angmar's plans for Duskal and his hist of trolls.&#10;Collect Marching Orders, Page 5&#10;This page tells of the course of training that Lagmâs is to employ in the development of Angmar's army of Orcs.&#10;Collect Marching Orders, Page 14&#10;This page tells of new developments with the black powder stolen from Saruman's Orcs and how it can best be used to further increase the potency of the fire-pots used by the goblins of Angmar.&#10;Collect Marching Orders, Page 1&#10;This page outlines the hierarchy among the Uruk-captains of Angmar.&#10;Collect Marching Orders, Page 9&#10;This page highlights the best practices for maintaining the health of a growing Warg-pack.&#10;Collect Marching Orders, Page 16&#10;This page is a rough tally of the number of slaves under the employ of Urugarth and what tasks they they are directed to fulfil.">
@@ -10129,6 +10481,36 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
+<deed key="Minstrel-slayer1" name="Minstrel-slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Minstrel]]s in the [[Ettenmoors]]." objectives="Slaughter [[Minstrel]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Minstrel's Foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Minstrel-slayer2" name="Minstrel-slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Minstrel]]s in the [[Ettenmoors]]." objectives="Slaughter [[Minstrel]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Bard-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Minstrel-slayer3" name="Minstrel-slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Minstrel]]s in the [[Ettenmoors]]." objectives="Slaughter [[Minstrel]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Harp-cutter"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Minstrel-slayer4" name="Minstrel-slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Minstrel]]s in the [[Ettenmoors]]." objectives="Slaughter [[Minstrel]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Troubador's Bane"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Minstrel-slayer5" name="Minstrel-slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Minstrel]]s in the [[Ettenmoors]]." objectives="Slaughter [[Minstrel]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Silencer of Songs"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Mirkwood_Landing" name="Mirkwood Landing" type="QUEST" category="Region:Mirkwood" description="Aid the Malledhrim in securing their military objectives during the landing of their forces in Mirkwood." objectives="Complete any Mirkwood quest&#10;Complete the Forerunners quest arc&#10;Lend your aid to the scouts of the Malledhrim ahead of the main force to help secure Anduin.&#10;Complete the Aiding the Fallen quest arc&#10;War is a bloody sport, and even among the Immortal Elves, many shall fall. You have done your best to ensure that few shall begin their journey to the Uttermost West this day.&#10;Complete the final assault on the Orc fortress that controls the [[Mirk-eaves]]&#10;The Fortress standing atop Amon Angeled is the key to control of the Mirk-eaves, and its fall secured the landing of the Malledhrim as the first step in their assault on Dol Guldur.">
 <rewards>
 <reputation>
@@ -10143,6 +10525,48 @@
 <lotroPoints quantity="5"/>
 <title name="Master Ascender"/>
 <object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer1" name="Monster-slayer - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (10)">
+<rewards>
+<title name="the Neophyte"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer2" name="Monster-slayer - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (500)">
+<rewards>
+<title name="the Warrior"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer3" name="Monster-slayer - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (2500)">
+<rewards>
+<title name="the Veteran"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer4" name="Monster-slayer - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (5,000)">
+<rewards>
+<title name="the Battlemaster"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer5" name="Monster-slayer - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (10,000)">
+<rewards>
+<title name="the Warlord"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer6" name="Monster-slayer - Tier 6" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (25,000)">
+<rewards>
+<title name="Hero of the Ettenmoors"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Monster-slayer7" name="Monster-slayer - Tier 7" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat monster-players in the Ettenmoors (50,000)">
+<rewards>
+<title name="Hero of Legend"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
 </rewards>
 </deed>
 <deed key="Morroval-slayer_(Advanced)_(Moria)" name="Morroval-slayer (Advanced) (Moria)" type="SLAYER" category="Region:Moria" description="The wretched bat-creatures are much put upon to withstand valour such as yours, for you have defeated many [[merrevail]] thus far. The tunnels have been lit by the hewing of such dark and fell beings." objectives="Defeat merrevail in Moria (200)&#10;The merrevail are among the most fell of the servants of evil. If you do not slay them, they will have no qualms about slaying you or tearing apart anyone or anything you hold dear.">
@@ -12588,6 +13012,36 @@
 <title name="Redeemer of the Deep"/>
 </rewards>
 </deed>
+<deed key="Reaver-slayer_(Deed)1" name="Reaver-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Orc Reaver]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Reaver-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Reaver-slayer_(Deed)2" name="Reaver-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Orc Reaver]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Reaver's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Reaver-slayer_(Deed)3" name="Reaver-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Orc Reaver]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Reaver-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="Reaver-slayer_(Deed)4" name="Reaver-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Orc Reaver]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Reaver's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Reaver-slayer_(Deed)5" name="Reaver-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Orc Reaver]] players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Reaver's End"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
 <deed key="Redeemer" name="Redeemer" type="SLAYER" category="Region:North Downs" description="Defeat shades in North Downs." objectives="Defeat shades in North Downs (60)&#10;Long ago many princes and warriors of the Dúnedain fell upon the Fields of Fornost - you cannot say if these horrors are them, but either way you've returned many of them to the peace of the grave.">
 <next key="Redeemer_(Advanced)" name="Redeemer (Advanced)"/>
 <rewards>
@@ -13041,6 +13495,36 @@
 <deed key="Rune_Master_(Deed)" name="Rune Master (Deed)" type="CLASS" class="Rune-keeper" minimumLevel="10" description="You rely on your Runestone in battle, and together, you cannot fail." objectives="Use any Runestone 125 times.&#10;Runes may bind the stone upon which they are written, preserving meaning and integrity.&#10;&#10;{{:Volcanic Runestone|mode=imlink}},  {{:Fulgurite Runestone|mode=imlink}},  {{:Rune of Restoration|mode=imlink}}">
 <rewards>
 <lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Rune-keeper_Slayer1" name="Rune-keeper Slayer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Rune-keeper]]s in the [[Ettenmoors]]." objectives="Slaughter [[Rune-keeper]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Rune-keeper's Foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Rune-keeper_Slayer2" name="Rune-keeper Slayer - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Rune-keeper]]s in the [[Ettenmoors]]." objectives="Slaughter [[Rune-keeper]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Slayer of Rune-keepers"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Rune-keeper_Slayer3" name="Rune-keeper Slayer - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Rune-keeper]]s in the [[Ettenmoors]]." objectives="Slaughter [[Rune-keeper]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Rune-smasher"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Rune-keeper_Slayer4" name="Rune-keeper Slayer - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Rune-keeper]]s in the [[Ettenmoors]]." objectives="Slaughter [[Rune-keeper]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Word-eater"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Rune-keeper_Slayer5" name="Rune-keeper Slayer - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Rune-keeper]]s in the [[Ettenmoors]]." objectives="Slaughter [[Rune-keeper]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Lore-breaker"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Runes_of_the_Dark_Delvings" name="Runes of the Dark Delvings" category="Instances:Mines of Moria:Dark Delvings" description="Find hidden rune-stones in the [[Dark Delvings]]." objectives="Find a Sparkling Rune-stone&#10;Even in the darkest deeps, this rock glints like moonlight on a many-facetted gemstone.&#10;Find a Chiselled Rune-stone&#10;This stone has been carefully shaped and crafted by the end of a pick to reflect the thought of its maker.&#10;Find an Ancient Rune-stone&#10;This rune-stone is so old that its weathered surface is as soft and smooth as silken cloth.&#10;Find a Dim Rune-stone&#10;The dim rune-stone is unremarkable in every way, faded and dark, and almost seems as though it wishes to remain lost in the Dark Delvings.">
@@ -13548,6 +14032,48 @@
 </reputation>
 <lotroPoints quantity="10"/>
 <virtue id="DETERMINATION"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar1" name="Slay Enemies of Angmar - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar.(10)">
+<rewards>
+<title name="Tormenter"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar2" name="Slay Enemies of Angmar - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar.(500)">
+<rewards>
+<title name="Black Dog"/>
+<object id="1879230183" name="Commendation" quantity="500"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar3" name="Slay Enemies of Angmar - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar.(2500)">
+<rewards>
+<title name="Harvester of Sorrow"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar4" name="Slay Enemies of Angmar - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar.(5000)">
+<rewards>
+<title name="Slayer of Light"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar5" name="Slay Enemies of Angmar - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar (10,000)">
+<rewards>
+<title name="Hand of Doom"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar6" name="Slay Enemies of Angmar - Tier 6" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar (25,000)">
+<rewards>
+<title name="Bane of the West"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Slay_Enemies_of_Angmar7" name="Slay Enemies of Angmar - Tier 7" type="SLAYER" category="PVP:Creep deeds" description="This is a [[Monster Play Character|Monster Player]] deed and cannot be done by Free Peoples." objectives="Find and defeat [[Free Peoples]] players who dare contest the power of Angmar (50,000)">
+<rewards>
+<title name="Herald of Darkness"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Slayer_of_Agarnaith" name="Slayer of Agarnaith" type="SLAYER" category="Region:Gorgoroth:Agarnaith" description="There are many foes lurking in the wilds of Agarnaith." objectives="Slay many [[Plague-slayer of Agarnaith (Advanced)|Infected Animals in Agarnaith]]&#10;Slay many [[Orc-slayer of Agarnaith (Advanced)|Infected Orcs in Agarnaith]]&#10;Slay many [[Uruk-slayer of Agarnaith (Advanced)|Uruk-hai in Agarnaith]]&#10;Slay [[Dangerous Foes of Agarnaith|Dangerous Foes in Agarnaith]]">
@@ -14456,6 +14982,36 @@
 <deed key="Spring_is_Dandy" name="Spring is Dandy" type="EVENT" category="Social" description="Spring is a dandy time of year!" objectives="Complete the [[Quest:The Delving Fields Spring Festival Run|Spring Festival Run]] in the Shire&#10;Complete the [[Quest:The Bree-fields Spring Festival Run|Spring Festival Run]] in Bree&#10;Complete [[Quest:Bullroarer's Challenge -- Advanced|Bullroarer's Challenge -- Advanced]] at the Feast of the Greenfields&#10;Complete [[Quest:A Fool's Errand|A Fool's Errand]] at the Hedge Maze&#10;Complete [[Quest:A Laugh at the Lost|A Laugh at the Lost]] at the Hedge Maze&#10;Complete [[Quest:Misplaced Companions|Misplaced Companions]] at the Hedge Maze&#10;Complete [[Quest:Stomp-a-Shrew for the Leisurely Gardener|Stomp-a-Shrew for the Leisurely Gardener]]&#10;Complete [[Quest:Stomp-a-Shrew for the Practiced Gardener|Stomp-a-Shrew for the Practiced Gardener]]&#10;Complete [[Quest:Stomp-a-Shrew Challenge|Stomp-a-Shrew Challenge]]">
 <rewards>
 <title name="Spring Dandy"/>
+</rewards>
+</deed>
+<deed key="Stalker-slayer_(Deed)1" name="Stalker-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Warg Stalker]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Stalker-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Stalker-slayer_(Deed)2" name="Stalker-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Warg Stalker]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Stalker's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Stalker-slayer_(Deed)3" name="Stalker-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Warg Stalker]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Stalker-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="Stalker-slayer_(Deed)4" name="Stalker-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Warg Stalker]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Stalker's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Stalker-slayer_(Deed)5" name="Stalker-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Warg Stalker]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Stalker's Nemesis"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
 </rewards>
 </deed>
 <deed key="Stalwart_of_the_Central_Levels" name="Stalwart of the Central Levels" type="REPUTATION" category="Obsolete" description="The dwarves of the Central Halls expeditions will need a great deal of help in overcoming the obstacles that await them in the Mines of Moria. Your assistance will be welcome, for there is much work to be done if [[Khazad-dûm]] is to be hospitable once more." objectives="Complete quests in the Central Halls (40)&#10;You have begun to help the dwarves, but the riches of Khazad-dûm are still far from anyone's grasp, for many problems and foes still stand in the way of true progress.">
@@ -18413,6 +18969,36 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
+<deed key="War-leader_Slayer_(Deed)1" name="War-leader Slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Uruk Warleader]] players in the Ettenmoors (500)">
+<rewards>
+<title name="War-leader's Foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="War-leader_Slayer_(Deed)2" name="War-leader Slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Uruk Warleader]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="War-leader's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="War-leader_Slayer_(Deed)3" name="War-leader Slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Uruk Warleader]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="War-leader Slayer"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="War-leader_Slayer_(Deed)4" name="War-leader Slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Uruk Warleader]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="War-leader's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="War-leader_Slayer_(Deed)5" name="War-leader Slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Uruk Warleader]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="War-leader's Doom"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
 <deed key="Warbands_II:_Wildermore%27s_Roaming_Enemies" name="Warbands II: Wildermore's Roaming Enemies" type="QUEST" category="Region:Wildermore" description="Though Núrzum has perished, strong enemies still roam in Wildermore." objectives="Complete [[Quest:Warband: Rottenheart|Warband II: Rottenheart]]&#10;Complete [[Quest: Warband: Varg|Warband II: Varg]]&#10;Complete [[Quest: Warband: Shaguk|Warband II: Shaguk]]&#10;Complete [[Quest: Warband: Arataus|Warband II: Arataus]]&#10;Complete [[Quest: Warband: Zovarr|Warband II: Zovarr]]&#10;Complete [[Quest: Warband: Shum|Warband II: Shum]]&#10;Complete [[Quest: Warband: The High Knolls Blizzard|Warband II: The High Knolls Blizzard]]&#10;Complete [[Quest: Warband: Karkas|Warband II: Karkas]]&#10;Complete [[Quest: Warband: Conog|Warband II: Conog]]&#10;Complete [[Quest: Warband: Gîmtog|Warband II: Gîmtog]]&#10;Complete [[Quest: Warband: Foulwing|Warband II: Foulwing]]&#10;Complete [[Quest: Warband: Balcharan|Warband II: Balcharan]]&#10;Complete [[Quest: Warband: Voz|Warband II: Voz]]">
 <parent key="The_Survivors_of_Wildermore:_Final" name="The Survivors of Wildermore: Final"/>
 <rewards>
@@ -18514,6 +19100,36 @@
 <child key="The_Battle_for_Erebor_-_Tier_2" name="The Battle for Erebor - Tier 2"/>
 <rewards>
 <object id="1879224344" name="Medallion" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Warden-slayer_(Deed)1" name="Warden-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Warden]]s in the [[Ettenmoors]]." objectives="Slaughter [[Warden]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Warden's Foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Warden-slayer_(Deed)2" name="Warden-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Warden]]s in the [[Ettenmoors]]." objectives="Slaughter [[Warden]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Warden-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Warden-slayer_(Deed)3" name="Warden-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Warden]]s in the [[Ettenmoors]]." objectives="Slaughter [[Warden]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Spear-breaker"/>
+<object id="1879230183" name="Commendation" quantity="2000"/>
+</rewards>
+</deed>
+<deed key="Warden-slayer_(Deed)4" name="Warden-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Warden]]s in the [[Ettenmoors]]." objectives="Slaughter [[Warden]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Defender's Bane"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Warden-slayer_(Deed)5" name="Warden-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Creep deeds" description="Slaughter [[Warden]]s in the [[Ettenmoors]]." objectives="Slaughter [[Warden]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Legend-breaker"/>
+<object id="1879230183" name="Commendation" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Wardens_of_Minas_Tirith" name="Wardens of Minas Tirith" type="EXPLORER" category="Region:Old Anórien" minimumLevel="100" description="Meet the Wardens of Minas Tirith." objectives="Meet [[Húrin]], Warden of the Keys&#10;&#10;You have met Húrin, Warden of the Keys, son of Handir.&#10;Meet [[Celephir]], Warden of the Coffers&#10;&#10;You have met Celephir, Warden of the Coffers, son of Malhir.&#10;Meet [[Ostúr]], Warden of the Burg&#10;&#10;You have met Ostúr, Warden of the Burg, son of Minastúr.&#10;Meet [[Rathon]], Warden of the Wells&#10;&#10;You have met Rathon, Warden of the Wells, son of Sirnir.&#10;Meet [[Parthadan]], Warden of the Green&#10;&#10;You have met Parthadan, Warden of the Green, son of Calembarth.&#10;Meet [[Torchún]], Warden of the Houses of Healing&#10;&#10;You have met Torchún, Warden of the Houses of Healing, son of Belegin.&#10;Meet [[Idhrenil]], Warden of the Houses of Lore&#10;You have met Idhrenil, Warden of the Houses of Lore, daughter of Indron.">
@@ -18795,6 +19411,36 @@
 <lotroPoints quantity="5"/>
 <virtue id="WISDOM"/>
 <object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Weaver-slayer_(Deed)1" name="Weaver-slayer (Deed) - Tier 1" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Spider Weaver]] players in the Ettenmoors (500)">
+<rewards>
+<title name="Weaver-foe"/>
+<object id="1879230183" name="Commendation" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Weaver-slayer_(Deed)2" name="Weaver-slayer (Deed) - Tier 2" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Spider Weaver]] players in the Ettenmoors (1000)">
+<rewards>
+<title name="Weaver's Enemy"/>
+<object id="1879230183" name="Commendation" quantity="1000"/>
+</rewards>
+</deed>
+<deed key="Weaver-slayer_(Deed)3" name="Weaver-slayer (Deed) - Tier 3" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Spider Weaver]] players in the Ettenmoors (2500)">
+<rewards>
+<title name="Weaver-slayer"/>
+<object id="1879230183" name="Commendation" quantity="1500"/>
+</rewards>
+</deed>
+<deed key="Weaver-slayer_(Deed)4" name="Weaver-slayer (Deed) - Tier 4" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Spider Weaver]] players in the Ettenmoors (5000-10,000)">
+<rewards>
+<title name="Weaver's Bane"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
+</rewards>
+</deed>
+<deed key="Weaver-slayer_(Deed)5" name="Weaver-slayer (Deed) - Tier 5" type="SLAYER" category="PVP:Freep deeds" description="Stem the tides of Darkness in the [[Ettenmoors]]." objectives="Defeat [[Spider Weaver]]  players in the Ettenmoors (12,500-25,000)">
+<rewards>
+<title name="Exterminator of Weavers"/>
+<object id="1879230183" name="Commendation" quantity="2500"/>
 </rewards>
 </deed>
 <deed key="Webs_of_the_Scuttledells_--_Tier_1" name="Webs of the Scuttledells -- Tier 1" category="Instances:Road to Erebor:Webs of the Scuttledells" description="Dígelir, queen of the Great Spiders of Mirkwood, has established a nest in the heart of the Scuttledells, where she is breeding an army to answer the call of Sauron." objectives="Complete the quest [[Quest:Webs of the Scuttledells -- Tier 1|Webs of the Scuttledells -- Tier 1]]&#10;You have completed the quest Webs of the Scuttledells -- Tier 1">
