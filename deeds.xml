@@ -3599,7 +3599,7 @@
 <reputationItem faction="Wardens of Annúminas" amount="1200"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879225083" name="Gold-bound_Lootbox" quantity="1"/>
+<object id="1879225083" name="Gold-bound Lootbox" quantity="1"/>
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
@@ -4916,8 +4916,8 @@
 </reputation>
 <title name="Vanquisher of The Depths"/>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879341924" name="Armour (Wastes)" quantity="1"/>
-<object id="1879341942" name="Weapons (Wastes)" quantity="1"/>
+<object id="1879341924" name="Armour" quantity="1"/>
+<object id="1879341942" name="Weapons" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Enemies_in_Bhol_R%C3%BBdh" name="Enemies in Bhol Rûdh" type="SLAYER" category="Region:Gorgoroth" description="Defeat many foes in the resource instance of Bhol Rûdh." objectives="Defeat many foes in the resource instance of Bhol Rûdh (0/200)">
@@ -5667,7 +5667,7 @@
 <child key="Rath_Teraig_Exploration" name="Rath Teraig Exploration"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879248609" name="Universal Healing Potion" quantity="3"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_Evendim" name="Explorer of Evendim" type="EXPLORER" category="Region:Evendim" description="Explore the wilds of Evendim, the tombs of the kings that ruled over Arnor, and the ruins of the ancient city of Annúminas." objectives="Explore:&#10;[[The City of the Kings]]&#10;[[Ruins of Evendim]]&#10;[[Tombs of Evendim]]&#10;[[Wilds of Evendim]]&#10;[[Markers of the Sunken City]]">
@@ -5904,7 +5904,7 @@
 <reputationItem faction="Eglain" amount="900"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879248609" name="Universal Healing Potion" quantity="3"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_Misty_Mountains" name="Explorer of the Misty Mountains" type="EXPLORER" category="Region:Misty Mountains" description="Explore the mountain passes of the Misty Mountains with ruins built long ago by the dwarves. However the way is treacherous, often choked with snow, knife-like winds, and other more aggressive hazards." objectives="Explore [[The Forbidding Heights]]&#10;While most folks sensibly stay home and tend to fields and shops, some hardy adventurers are drawn to the most inhospitable and difficult places in Middle-earth. Few such places pose so great a challenge as the stretch of the Misty Mountains surrounding the region of the High Pass, which is fraught with hazards -- both natural and otherwise -- to test the most rugged individuals.&#10;Explore [[Goblin-town (Deed)|Goblin-town]]&#10;Few know the full extent of the depths of Goblin-town, and those who have experienced them most likely died therein as slaves to cruel goblin-overseers. The goblins themselves may not know all the ways, for the deepest passages extend far into the heart of the Misty Mountains where dark and unseen terrors lie, and the goblins will not brave these passages unless driven or enraged.&#10;Explore [[The High Passes]]&#10;In order to cross the Misty Mountains, travellers have long had to traverse high and treacherous passes, often choked with snow, knife-like winds, and other more aggressive hazards. Seek out these passes and learn the secret ways of the mountains.&#10;Explore the [[Ruins of the Misty Mountains]]&#10;There are not many ruins to be found in the Misty Mountains, for few indeed are those willing to build anything of note in such an inhospitable environment. Those that are to be found here were built long ago by the dwarves.&#10;Explore [[Where Giants Dwell]]&#10;Travellers have long told tales of the mighty and capricious giants that inhabit the cold peaks of the Misty Mountains. You must seek out their places for yourself however, for there are few who have seen them left to tell you the way.&#10;Find [[Bilbo's Buttons]]&#10;How strange...scattered throughout the warrens of Goblin-town seem to be a set of old, well-worn brass buttons, as if lost from a Hobbit's waistcoat. How in the world did such things come to be in these dark and twisted tunnels?">
@@ -5940,7 +5940,7 @@
 <reputationItem faction="Rangers of Esteldín" amount="900"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879248609" name="Universal Healing Potion" quantity="3"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_Shire" name="Explorer of the Shire" type="EXPLORER" category="Region:Shire" description="Explore the historical and cultural places as well as the farmsteads that can be found throughout the Shire." objectives="Explore the [[The Farms of the Shire|Farms of the Shire]]&#10;Farming represents the heart of the Shire, and farmsteads can be found throughout -- the largest of which surround the town of Michel Delving.&#10;Explore the [[The Sights of the Shire|Sights of the Shire]]&#10;The pastoral peace of the Shire presents travellers with an excellent opportunity to explore its historical and cultural places.">
@@ -5952,7 +5952,7 @@
 <reputationItem faction="Mathom Society" amount="900"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879248609" name="Universal Healing Potion" quantity="3"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_Trollshaws" name="Explorer of the Trollshaws" type="EXPLORER" category="Region:Trollshaws" description="Explore the lone winding road through the Trollshaws, but be wary as it is not well-guarded from the dangers of the wild." objectives="Explore [[the Road to Rivendell]]&#10;The lone winding road through the Trollshaws leads to the last bastion of civilization for a great many leagues. Travellers must take great care while exploring this road however, for it is not well-guarded from the dangers of the wild.&#10;Explore the [[Ruins of the Trollshaws]]&#10;These lands once were the eastern extent of the old kingdom of Rhudaur. They have lain in ruins for many long years now and most are inhabited only by wild beasts -- or horrid creatures that have crawled more recently out of the depths of Angmar.&#10;Explore [[the Wilds of Tâl Bruinen]]&#10;The southern Trollshaws are dominated by the Wilds of Tâl Bruinen. Few even amongst the Elves live here now, and the forested hills have become heavily overgrown and inhabited mostly by wild beasts that pose a constant danger to travellers and the few who try to eke out an existence in these undisciplined lands.">
@@ -5979,8 +5979,8 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
-<object id="1879342064" name="Metal Scrap (Wastes)" quantity="1"/>
-<object id="1879342065" name="Salt (Wastes)" quantity="1"/>
+<object id="1879342064" name="Metal Scrap" quantity="1"/>
+<object id="1879342065" name="Salt" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_Westemnet" name="Explorer of the Westemnet" type="EXPLORER" category="Region:West Rohan" description="Explore the war-torn settlements of the Westemnet as you follow the road that leads to Helm's Deep." objectives="Explore the Boradacres&#10;&#10;Explore the Eastfold&#10;&#10;Explore Kingstead&#10;&#10;Explore Stonedeans&#10;&#10;Explore Westfold">
@@ -7196,7 +7196,7 @@
 <next key="Frostbluff_Flower-petals_--_Tier_2" name="Frostbluff Flower-petals -- Tier 2"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879199971" name="Bag of Flower Petals" quantity="10"/>
+<object id="1879199971" name="Flower Petals" quantity="10"/>
 <object id="1879256449" name="Yule Festival Token" quantity="4"/>
 </rewards>
 </deed>
@@ -7213,7 +7213,7 @@
 <previous key="Frostbluff_Flower-petals_--_Tier_2" name="Frostbluff Flower-petals -- Tier 2"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879200102" name="Flower Petals (Multi-use)" quantity="1"/>
+<object id="1879200102" name="Flower Petals" quantity="1"/>
 <object id="1879256449" name="Yule Festival Token" quantity="8"/>
 </rewards>
 </deed>
@@ -7238,7 +7238,7 @@
 <previous key="Frostbluff_Rotten_Fruit_--_Tier_2" name="Frostbluff Rotten Fruit -- Tier 2"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879200100" name="Rotten Fruit (Multi-use)" quantity="1"/>
+<object id="1879200100" name="Rotten Fruit" quantity="1"/>
 <object id="1879256449" name="Yule Festival Token" quantity="8"/>
 </rewards>
 </deed>
@@ -8623,14 +8623,14 @@
 <next key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)(Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="10"/>
-<object id="1879341924" name="Armour (Wastes)" quantity="4"/>
+<object id="1879341924" name="Armour" quantity="4"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Armourer_(Faction)_(Deed)" name="Host of the West Armourer (Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid those who march." objectives="You must acquire Armour for the Host of the West.">
 <next key="Host_of_the_West_Armourer_(Intermediate)_(Faction)_(Deed)" name="Host of the West Armourer (Intermediate) (Faction) (Deed)"/>
 <rewards>
-<object id="1879341924" name="Armour (Wastes)" quantity="1"/>
+<object id="1879341924" name="Armour" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)(Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done muchc to aid those who march." objectives="You must acquire Armour for the Host of the West.">
@@ -8639,7 +8639,7 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <title name="Stoic Defender"/>
-<object id="1879341924" name="Armour (Wastes)" quantity="6"/>
+<object id="1879341924" name="Armour" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8648,7 +8648,7 @@
 <next key="Host_of_the_West_Armourer_(Advanced)(Faction)_(Deed)" name="Host of the West Armourer (Advanced)(Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879341924" name="Armour (Wastes)" quantity="2"/>
+<object id="1879341924" name="Armour" quantity="2"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8657,14 +8657,14 @@
 <next key="Host_of_the_West_Provisioner_(Final)(Faction)_(Deed)" name="Host of the West Provisioner (Final)(Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="10"/>
-<object id="1879341934" name="Provisions (Wastes)" quantity="4"/>
+<object id="1879341934" name="Provisions" quantity="4"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Provisioner_(Faction)_(Deed)" name="Host of the West Provisioner (Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done muchc to aid those who march." objectives="You must acquire Provisions for the Host of the West.">
 <next key="Host_of_the_West_Provisioner_(Intermediate)_(Faction)_(Deed)" name="Host of the West Provisioner (Intermediate) (Faction) (Deed)"/>
 <rewards>
-<object id="1879341934" name="Provisions (Wastes)" quantity="1"/>
+<object id="1879341934" name="Provisions" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Provisioner_(Final)(Faction)_(Deed)" name="Host of the West Provisioner (Final)(Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid those who march." objectives="You must acquire Provisions for the Host of the West.">
@@ -8673,7 +8673,7 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <title name="Feeder of Many"/>
-<object id="1879341934" name="Provisions (Wastes)" quantity="6"/>
+<object id="1879341934" name="Provisions" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8682,7 +8682,7 @@
 <next key="Host_of_the_West_Provisioner_(Advanced)(Faction)_(Deed)" name="Host of the West Provisioner (Advanced)(Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879341934" name="Provisions (Wastes)" quantity="2"/>
+<object id="1879341934" name="Provisions" quantity="2"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8691,14 +8691,14 @@
 <next key="Host_of_the_West_Weaponist_(Final)_(Faction)_(Deed)" name="Host of the West Weaponist (Final) (Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="10"/>
-<object id="1879341942" name="Weapons (Wastes)" quantity="4"/>
+<object id="1879341942" name="Weapons" quantity="4"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Weaponist_(Faction)_(Deed)" name="Host of the West Weaponist (Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid those who march." objectives="You must acquire Weapons for the Host of the West.">
 <next key="Host_of_the_West_Weaponist_(Intermediate)_(Faction)_(Deed)" name="Host of the West Weaponist (Intermediate) (Faction) (Deed)"/>
 <rewards>
-<object id="1879341942" name="Weapons (Wastes)" quantity="1"/>
+<object id="1879341942" name="Weapons" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Host_of_the_West_Weaponist_(Final)_(Faction)_(Deed)" name="Host of the West Weaponist (Final) (Faction) (Deed)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid those who march." objectives="You must acquire Weapons for the Host of the West.">
@@ -8707,7 +8707,7 @@
 <rewards>
 <lotroPoints quantity="15"/>
 <title name="Honored Hero"/>
-<object id="1879341942" name="Weapons (Wastes)" quantity="6"/>
+<object id="1879341942" name="Weapons" quantity="6"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8716,7 +8716,7 @@
 <next key="Host_of_the_West_Weaponist_(Advanced)_(Faction)_(Deed)" name="Host of the West Weaponist (Advanced) (Faction) (Deed)"/>
 <rewards>
 <lotroPoints quantity="5"/>
-<object id="1879341942" name="Weapons (Wastes)" quantity="2"/>
+<object id="1879341942" name="Weapons" quantity="2"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
@@ -8903,7 +8903,7 @@
 <child key="Ost_Dunhoth:_Champion_of_the_Fortress_of_the_Western_Host" name="Ost Dunhoth: Champion of the Fortress of the Western Host"/>
 <rewards>
 <lotroPoints quantity="20"/>
-<object id="1879206179" name="Prized Ost Dunhoth War-steed" quantity="1"/>
+<object id="1879206179" name="Prized Ost Dunhoth Great-steed" quantity="1"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
@@ -12253,7 +12253,7 @@
 <lotroPoints quantity="5"/>
 <title name="Survivor of Langhold"/>
 <virtue id="HONOUR"/>
-<object id="1879237278" name="Golden Token of the Riddermark" quantity="3"/>
+<object id="1879237278" name="Golden Token of Riddermark" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Quests_of_Lebennin" name="Quests of Lebennin" type="QUEST" category="Region:Central Gondor" description="" objectives="Complete quests in Lebennin (0/23)">
@@ -12576,7 +12576,7 @@
 <lotroPoints quantity="5"/>
 <title name="Seeker"/>
 <virtue id="WISDOM"/>
-<object id="1879237278" name="Golden Token of the Riddermark" quantity="3"/>
+<object id="1879237278" name="Golden Token of Riddermark" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Quests_of_the_Eastemnet" name="Quests of the Eastemnet" type="QUEST" category="Region:East Rohan" description="There is much to do while travelling through the lands of the Eastemnet." objectives="Complete [[Quests of the East Wall]] deed&#10;Complete [[Quests of the Entwash Vale]] deed&#10;Complete [[Quests of the Eaves of Fangorn]] deed&#10;Complete [[Quests of Langhold]] deed&#10;Complete [[Quests of the Norcrofts]] deed&#10;Complete [[Quests of the Sutcrofts]] deed&#10;Complete [[Quests of the Wold]] deed">
@@ -12792,9 +12792,9 @@
 </reputation>
 <lotroPoints quantity="5"/>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879342064" name="Metal Scrap (Wastes)" quantity="1"/>
-<object id="1879342065" name="Salt (Wastes)" quantity="1"/>
-<object id="1879342063" name="Broken Blade (Wastes)" quantity="1"/>
+<object id="1879342064" name="Metal Scrap" quantity="1"/>
+<object id="1879342065" name="Salt" quantity="1"/>
+<object id="1879342063" name="Broken Blade" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Quests_of_the_Water-works" name="Quests of the Water-works" type="QUEST" category="Region:Moria" description="Complete quests in the Water-works." objectives="Complete quests in the [[The Water-works|Water-works]]&#10;This deed has been completed. (15/15)">
@@ -12842,7 +12842,7 @@
 <lotroPoints quantity="5"/>
 <title name="Wold Adventurer"/>
 <virtue id="COMPASSION"/>
-<object id="1879237278" name="Golden Token of the Riddermark" quantity="3"/>
+<object id="1879237278" name="Golden Token of Riddermark" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Quests_of_the_Writhendowns" name="Quests of the Writhendowns" type="QUEST" category="Region:Wildermore" description="Complete quests in the Writhendowns" objectives="Complete quests in the Writhendowns (22)&#10;You have done much to aid the people of Writhendowns in preparation for the coming of Núrzum.">
@@ -14582,8 +14582,8 @@
 </reputation>
 <title name="Vanquisher of The Wastes"/>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879342064" name="Metal Scrap (Wastes)" quantity="1"/>
-<object id="1879342065" name="Salt (Wastes)" quantity="1"/>
+<object id="1879342064" name="Metal Scrap" quantity="1"/>
+<object id="1879342065" name="Salt" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Slayer_of_the_Westemnet" name="Slayer of the Westemnet" type="SLAYER" category="Region:West Rohan" description="" objectives="Slay many [[Boar and Bear Slayer of the Westemnet (Advanced)|Boars and Bears]] in the Westemnet&#10;&#10;Slay many [[Craban Slayer of the Westemnet (Advanced)|Crebain]] in the Westemnet&#10;&#10;Slay many [[Dunlending Slayer of the Westemnet (Advanced)|Dunhlendings]] in the Westemnet&#10;&#10;Slay many [[Goblin Slayer of the Westemnet (Advanced)|Goblins]] in the Westemnet&#10;&#10;Slay many [[Half-orc Slayer of the Westemnet (Advanced)|Half-orcs]] in the Westemnet&#10;&#10;Slay many [[Herd-creature Slayer of the Westemnet (Advanced)|Herd-creatures]] in the Westemnet&#10;&#10;Slay many [[Orc Slayer of the Westemnet (Advanced)|Orcs]] in the Westemnet&#10;&#10;Slay many [[Troll Slayer of the Westemnet (Advanced)|Trolls]] in the Westemnet&#10;&#10;Slay many [[Uruk Slayer of the Westemnet (Advanced)|Uruks]] in the Westemnet&#10;&#10;Slay many [[Warg Slayer of the Westemnet (Advanced)|Wargs]] in the Westemnet&#10;&#10;Slay many [[Wolf Slayer of the Westemnet (Advanced)|Wolves]] in the Westemnet">
@@ -16998,7 +16998,7 @@
 <child key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)(Faction) (Deed)"/>
 <rewards>
 <title name="Battle-ready"/>
-<object id="1879345100" name="Steed of Elessar's Host" quantity="1"/>
+<object id="1879345100" name="Steed of Elessar's host" quantity="1"/>
 <object id="1879342220" name="Quartermaster of the Host's Box of Cloaks" quantity="1"/>
 <object id="1879345089" name="Quartermaster of the Host's Prized Hooded Cloak" quantity="1"/>
 </rewards>
@@ -17566,8 +17566,8 @@
 </reputation>
 <title name="Hero of the Host of the West"/>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879341924" name="Armour (Wastes)" quantity="2"/>
-<object id="1879341942" name="Weapons (Wastes)" quantity="2"/>
+<object id="1879341924" name="Armour" quantity="2"/>
+<object id="1879341942" name="Weapons" quantity="2"/>
 </rewards>
 </deed>
 <deed key="Throne_of_the_Dread_Terror_--_Challenger_of_the_Morgul-host" name="Throne of the Dread Terror -- Challenger of the Morgul-host" category="Instances:Battle of Pelennor:Throne of the Dread Terror" description="In the wake of the Witch-king of Angmar's defear, Gothmog has taken control of the Enemy's forces. Now, the greatest champions of Mordor and Minas Morgul rush forth onto the Pelennor Fields and threaten the lives of all that defend the Free Peoples.&#10;&#10;{{Color|red|This deed can only be completed on Tier 2 of the Throne of the Dread Terror raid.}}" objectives="Complete the [[Throne of the Dread Terror: Short Fuse]]&#10;Complete the [[Throne of the Dread Terror: Trampling the Mûmakil]]&#10;Complete the [[Throne of the Dread Terror: Fear or Flame]]&#10;Complete the [[Throne of the Dread Terror: Unbound Corruption]]&#10;Complete the [[Throne of the Dread Terror: Calm of Death]]&#10;Complete the [[Throne of the Dread Terror: The Returned King]]">
@@ -17821,7 +17821,7 @@
 </deed>
 <deed key="To_the_Aid_of_Rohan" name="To the Aid of Rohan" type="LORE" category="Region:East Rohan" minimumLevel="74" description="You have been summoned to the aid of Rohan." objectives="Rohan awaits you&#10;Rohan awaits!">
 <rewards>
-<object id="1879249134" name="Letter (Rohan Awaits)" quantity="1"/>
+<object id="1879249134" name="Letter" quantity="1"/>
 </rewards>
 </deed>
 <deed key="To_the_Rescue" name="To the Rescue" type="CLASS" class="Guardian" minimumLevel="10" description="Above all, a Guardian must be where they are needed and quickly, for your companions are not so sturdy as you." objectives="[[Evade]] enemy attacks (1,000)&#10;Few things sharpen the wit or quicken the feet so effectively as a rain of arrows and blades.">
