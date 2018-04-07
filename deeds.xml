@@ -1184,7 +1184,6 @@
 </deed>
 <deed key="Beast-slayer_(Advanced)_(Dunland)" name="Beast-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="The wild creatures of Dunland pose a great threat to the people who try to survive in these harsh lands." objectives="Defeat wild beasts in Dunland. (200)&#10;You must be careful not to purge the wilds of Dunland of the game that helps sustain the Dunlendings.">
 <previous key="Beast-slayer_(Dunland)" name="Beast-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -3170,7 +3169,6 @@
 </deed>
 <deed key="Craban-slayer_(Advanced)_(Dunland)" name="Craban-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="Spying crebain serve Saruman as loyally as Orcs and Men, bearing messages to and fro, giving Isengard an advantage in the coming war." objectives="Defeat Crebain in Dunland. (100)">
 <previous key="Craban-slayer_(Dunland)" name="Craban-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -4487,7 +4485,6 @@
 </deed>
 <deed key="Dunlending-slayer_(Advanced)_(Dunland)" name="Dunlending-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="The evil Men of Dunland exist to give a bad reputation to the folk of these lands, good and bad alike." objectives="Defeat hostile Dunlendings in Dunland. (200)&#10;The servants of Saruman quake at the mention of your name.">
 <previous key="Dunlending-slayer_(Dunland)" name="Dunlending-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -7547,7 +7544,6 @@
 </deed>
 <deed key="Goblin-slayer_(Advanced)_(Dunland)" name="Goblin-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="Wherever war and violence lash out, goblins are there to cackle while they reap the plunder from the chaos." objectives="Defeat Goblins in Dunland. (200)&#10;Whether in service to the White Hand or simply terrorizing the Dunlendish people, the goblins in Dunland have suffered terrible losses at your hand.">
 <previous key="Goblin-slayer_(Dunland)" name="Goblin-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -7788,15 +7784,6 @@
 <child key="Foothold_in_Talath_%C3%9Arui_(Advanced)" name="Foothold in Talath Úrui (Advanced)"/>
 <child key="Foothold_in_Ud%C3%BBn_(Advanced)" name="Foothold in Udûn (Advanced)"/>
 <child key="Gathering_of_Resources_(Advanced)" name="Gathering of Resources (Advanced)"/>
-<child key="Foothold_in_Agarnaith" name="Foothold in Agarnaith"/>
-<child key="Foothold_in_Agarnaith_(Intermediate)" name="Foothold in Agarnaith (Intermediate)"/>
-<child key="Foothold_in_Dor_Amarth" name="Foothold in Dor Amarth"/>
-<child key="Foothold_in_Dor_Amarth_(Intermediate)" name="Foothold in Dor Amarth (Intermediate)"/>
-<child key="Foothold_in_Lhingris" name="Foothold in Lhingris"/>
-<child key="Foothold_in_Talath_%C3%9Arui" name="Foothold in Talath Úrui"/>
-<child key="Foothold_in_Talath_%C3%9Arui_(Intermediate)" name="Foothold in Talath Úrui (Intermediate)"/>
-<child key="Foothold_in_Ud%C3%BBn" name="Foothold in Udûn"/>
-<child key="Foothold_in_Ud%C3%BBn_(Intermediate)" name="Foothold in Udûn (Intermediate)"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <title name="Hero/Heroine of the Conquest"/>
@@ -7813,12 +7800,6 @@
 <child key="Enemies_of_K%C3%A1la-murg_(Advanced)" name="Enemies of Kála-murg (Advanced)"/>
 <child key="Enemies_on_The_Burning_Mountain_(Advanced)" name="Enemies on The Burning Mountain (Advanced)"/>
 <child key="Enemies_of_Durthang_(Advanced)" name="Enemies of Durthang (Advanced)"/>
-<child key="Leaders_of_Gorgoroth" name="Leaders of Gorgoroth"/>
-<child key="Enemies_in_Bhol_R%C3%BBdh" name="Enemies in Bhol Rûdh"/>
-<child key="Enemies_of_Barad-d%C3%BBr" name="Enemies of Barad-dûr"/>
-<child key="Enemies_of_Durthang" name="Enemies of Durthang"/>
-<child key="Enemies_of_K%C3%A1la-murg" name="Enemies of Kála-murg"/>
-<child key="Enemies_on_The_Burning_Mountain" name="Enemies on The Burning Mountain"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <title name="Defender of the Conquest"/>
@@ -8048,7 +8029,6 @@
 </deed>
 <deed key="Half-orc_Slayer_(Advanced)_(Dunland)" name="Half-orc Slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="The half-orcs in Dunland all hail from Isengard, where they strive to carry out Saruman's plan to oppress his neighbors." objectives="Defeat half-orcs in Dunland. (200)&#10;Saruman's half-orcs are loyal, as long as their foes are weaker than they are!">
 <previous key="Half-orc_Slayer_(Dunland)" name="Half-orc Slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -11082,7 +11062,6 @@
 </deed>
 <deed key="Orc-slayer_(Advanced)_(Dunland)" name="Orc-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="Orcs are always evil, no matter whom they serve. The Orcs of Isengard are no better than those who come from Mordor." objectives="Defeat Orcs in Dunland. (200)&#10;The Orcs of the White Hand cannot hope to oppose your might.">
 <previous key="Orc-slayer_(Dunland)" name="Orc-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -14081,9 +14060,6 @@
 <child key="Orc-slayer_of_Agarnaith_(Advanced)" name="Orc-slayer of Agarnaith (Advanced)"/>
 <child key="Uruk-slayer_of_Agarnaith_(Advanced)" name="Uruk-slayer of Agarnaith (Advanced)"/>
 <child key="Dangerous_Foes_of_Agarnaith" name="Dangerous Foes of Agarnaith"/>
-<child key="Orc-slayer_of_Agarnaith" name="Orc-slayer of Agarnaith"/>
-<child key="Plague-slayer_of_Agarnaith" name="Plague-slayer of Agarnaith"/>
-<child key="Uruk-slayer_of_Agarnaith" name="Uruk-slayer of Agarnaith"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <object id="1879224343" name="Mark" quantity="100"/>
@@ -14129,8 +14105,6 @@
 <child key="Half-troll_slayer_of_Central_Gondor_(Advanced)" name="Half-troll slayer of Central Gondor (Advanced)"/>
 <child key="Haradrim-slayer_of_Central_Gondor_(Advanced)" name="Haradrim-slayer of Central Gondor (Advanced)"/>
 <child key="Orc-slayer_of_Central_Gondor_(Advanced)" name="Orc-slayer of Central Gondor (Advanced)"/>
-<child key="Half-troll_slayer_of_Central_Gondor" name="Half-troll slayer of Central Gondor"/>
-<child key="Haradrim-slayer_of_Central_Gondor" name="Haradrim-slayer of Central Gondor"/>
 <rewards>
 <reputation>
 <reputationItem faction="Pelargir" amount="900"/>
@@ -14143,10 +14117,6 @@
 <child key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth_(Advanced)" name="Black Númenórean-slayer of Dor Amarth (Advanced)"/>
 <child key="Evil_Dwarf-slayer_of_Dor_Amarth_(Advanced)" name="Evil Dwarf-slayer of Dor Amarth (Advanced)"/>
 <child key="Orc_and_Uruk-slayer_of_Dor_Amarth_(Advanced)" name="Orc and Uruk-slayer of Dor Amarth (Advanced)"/>
-<child key="Beast-slayer_of_Dor_Amarth" name="Beast-slayer of Dor Amarth"/>
-<child key="Black_N%C3%BAmen%C3%B3rean-slayer_of_Dor_Amarth" name="Black Númenórean-slayer of Dor Amarth"/>
-<child key="Evil_Dwarf-slayer_of_Dor_Amarth" name="Evil Dwarf-slayer of Dor Amarth"/>
-<child key="Orc_and_Uruk-slayer_of_Dor_Amarth" name="Orc and Uruk-slayer of Dor Amarth"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <virtue id="DISCIPLINE"/>
@@ -14164,15 +14134,6 @@
 <child key="Slayer_of_the_Dead" name="Slayer of the Dead"/>
 <child key="Warg-slayer_(Dunland)" name="Warg-slayer (Dunland)"/>
 <child key="Uruk-hai_Slayer" name="Uruk-hai Slayer"/>
-<child key="Beast-slayer_(Advanced)_(Dunland)" name="Beast-slayer (Advanced) (Dunland)"/>
-<child key="Craban-slayer_(Advanced)_(Dunland)" name="Craban-slayer (Advanced) (Dunland)"/>
-<child key="Dunlending-slayer_(Advanced)_(Dunland)" name="Dunlending-slayer (Advanced) (Dunland)"/>
-<child key="Goblin-slayer_(Advanced)_(Dunland)" name="Goblin-slayer (Advanced) (Dunland)"/>
-<child key="Half-orc_Slayer_(Advanced)_(Dunland)" name="Half-orc Slayer (Advanced) (Dunland)"/>
-<child key="Orc-slayer_(Advanced)_(Dunland)" name="Orc-slayer (Advanced) (Dunland)"/>
-<child key="Slayer_of_the_Dead_(Advanced)" name="Slayer of the Dead (Advanced)"/>
-<child key="Uruk-hai_Slayer_(Advanced)" name="Uruk-hai Slayer (Advanced)"/>
-<child key="Warg-slayer_(Advanced)_(Dunland)" name="Warg-slayer (Advanced) (Dunland)"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="900"/>
@@ -14269,13 +14230,9 @@
 </rewards>
 </deed>
 <deed key="Slayer_of_Lhingris" name="Slayer of Lhingris" type="SLAYER" category="Region:Gorgoroth:Lhingris" description="Many foes lurk in the strongholds and spider-haunts of the Mountains of Shadow." objectives="Slay many spiders in Lhingris&#10;Slay many Gredbyg in Lhingris&#10;Slay many Zhavár-hai in Lhingris&#10;Slay many Orcs and Uruk-hai in Lhingris">
-<child key="Gredbyg-slayer_of_Lhingris" name="Gredbyg-slayer of Lhingris"/>
 <child key="Gredbyg-slayer_of_Lhingris_(Advanced)" name="Gredbyg-slayer of Lhingris (Advanced)"/>
-<child key="Spider-slayer_of_Lhingris" name="Spider-slayer of Lhingris"/>
 <child key="Spider-slayer_of_Lhingris_(Advanced)" name="Spider-slayer of Lhingris (Advanced)"/>
-<child key="Uruk-hai_and_Orc-slayer_of_Lhingris" name="Uruk-hai and Orc-slayer of Lhingris"/>
 <child key="Uruk-hai_and_Orc-slayer_of_Lhingris_(Advanced)" name="Uruk-hai and Orc-slayer of Lhingris (Advanced)"/>
-<child key="Zhav%C3%A1r-hai_Slayer_of_Lhingris" name="Zhavár-hai Slayer of Lhingris"/>
 <child key="Zhav%C3%A1r-hai_Slayer_of_Lhingris_(Advanced)" name="Zhavár-hai Slayer of Lhingris (Advanced)"/>
 <rewards>
 <lotroPoints quantity="10"/>
@@ -14333,9 +14290,6 @@
 <child key="Dual-slayer_of_North_Ithilien_(Advanced)" name="Dual-slayer of North Ithilien (Advanced)"/>
 <child key="Easterling-slayer_of_North_Ithilien_(Advanced)" name="Easterling-slayer of North Ithilien (Advanced)"/>
 <child key="Foe-slayer_of_Osgiliath_(Advanced)" name="Foe-slayer of Osgiliath (Advanced)"/>
-<child key="Dual-slayer_of_North_Ithilien" name="Dual-slayer of North Ithilien"/>
-<child key="Foe-slayer_of_Cair_Andros" name="Foe-slayer of Cair Andros"/>
-<child key="Foe-slayer_of_Osgiliath" name="Foe-slayer of Osgiliath"/>
 <rewards>
 <reputation>
 <reputationItem faction="Host of the West" amount="900"/>
@@ -14362,13 +14316,9 @@
 </rewards>
 </deed>
 <deed key="Slayer_of_Talath_%C3%9Arui" name="Slayer of Talath Úrui" type="SLAYER" category="Region:Gorgoroth:Talath Úrui" description="There are many foes lurking in the burning plains of Talath Úrui." objectives="Slay many Ghâsh-hai in Talath Úrui&#10;Slay many Grims and Shades in Talath Úrui&#10;Slay many Orcs and Uruks in Talath Úrui&#10;Slay many Worms and Drakes in Talath Úrui">
-<child key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui" name="Ghâsh-hai-slayer of Talath Úrui"/>
 <child key="Gh%C3%A2sh-hai-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Ghâsh-hai-slayer of Talath Úrui (Advanced)"/>
-<child key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui" name="Grim and Spirit-slayer of Talath Úrui"/>
 <child key="Grim_and_Spirit-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Grim and Spirit-slayer of Talath Úrui (Advanced)"/>
-<child key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui" name="Orc and Uruk-slayer of Talath Úrui"/>
 <child key="Orc_and_Uruk-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Orc and Uruk-slayer of Talath Úrui (Advanced)"/>
-<child key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui" name="Worm and Drake-slayer of Talath Úrui"/>
 <child key="Worm_and_Drake-slayer_of_Talath_%C3%9Arui_(Advanced)" name="Worm and Drake-slayer of Talath Úrui (Advanced)"/>
 <rewards>
 <lotroPoints quantity="10"/>
@@ -14378,11 +14328,8 @@
 </deed>
 <deed key="Slayer_of_Ud%C3%BBn" name="Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="There are many foes lurking in the vally of Udûn" objectives="Defeat many of Sauron's Soldiers in Udûn&#10;Defeat many of the Forgeworkers in Udûn&#10;Defeat many of Scavengers in Udûn">
 <parent key="Slayer_of_Gorgoroth" name="Slayer of Gorgoroth"/>
-<child key="Beast_Slayer_of_Ud%C3%BBn" name="Beast Slayer of Udûn"/>
 <child key="Beast_Slayer_of_Ud%C3%BBn_(Advanced)" name="Beast Slayer of Udûn (Advanced)"/>
-<child key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn"/>
 <child key="Forgeworker_Slayer_of_Ud%C3%BBn_(Advanced)" name="Forgeworker Slayer of Udûn (Advanced)"/>
-<child key="Soldier-slayer_of_Ud%C3%BBn" name="Soldier-slayer of Udûn"/>
 <child key="Soldier-slayer_of_Ud%C3%BBn_(Advanced)" name="Soldier-slayer of Udûn (Advanced)"/>
 <rewards>
 <lotroPoints quantity="10"/>
@@ -14446,7 +14393,6 @@
 </deed>
 <deed key="Slayer_of_the_Dead_(Advanced)" name="Slayer of the Dead (Advanced)" type="SLAYER" category="Region:Dunland" description="It is an evil sign when the Dead wake from their long slumber to walk the earth again." objectives="Defeat the Dead in Dunland. (200)&#10;Many of the walking Dead have been put to rest once more by your hand.">
 <previous key="Slayer_of_the_Dead" name="Slayer of the Dead"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -18665,7 +18611,6 @@
 </deed>
 <deed key="Uruk-hai_Slayer_(Advanced)" name="Uruk-hai Slayer (Advanced)" type="SLAYER" category="Region:Dunland" description="The mighty Uruk-hai are loyal only to Saruman. They are more clever and cruel than even the vile Orcs." objectives="Defeat Uruk-hai in Dunland. (200)">
 <previous key="Uruk-hai_Slayer" name="Uruk-hai Slayer"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
@@ -19192,7 +19137,6 @@
 </deed>
 <deed key="Warg-slayer_(Advanced)_(Dunland)" name="Warg-slayer (Advanced) (Dunland)" type="SLAYER" category="Region:Dunland" description="Wargs hunt and howl in greater numbers as the shadows of evil stretch their dark fingers across all of Middle-earth." objectives="Defeat Wargs in Dunland. (200)&#10;The hounds of Saruman have been made to suffer at your hand.">
 <previous key="Warg-slayer_(Dunland)" name="Warg-slayer (Dunland)"/>
-<parent key="Slayer_of_Dunland" name="Slayer of Dunland"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dunland" amount="700"/>
