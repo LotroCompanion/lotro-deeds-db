@@ -492,6 +492,24 @@
 <title name="Agent of Gath Forthnír"/>
 </rewards>
 </deed>
+<deed key="Ally_to_the_Dwarves_of_Erebor" name="Ally to the Dwarves of Erebor" category="Region:Strongholds of the North" minimumLevel="115" description="The Dwarves of Erebor expect that you will find your way to the forefront of battle to assist them." objectives="You must earn Ally standing with the Dwarves of Erebor">
+<previous key="Friend_to_the_Dwarves_of_Erebor" name="Friend to the Dwarves of Erebor"/>
+<next key="Kindred_to_the_Dwarves_of_Erebor" name="Kindred to the Dwarves of Erebor"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<title name="Ally to the Dwarves of Erebor"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="15"/>
+</rewards>
+</deed>
+<deed key="Ally_to_the_Elves_of_Felegoth" name="Ally to the Elves of Felegoth" category="Region:Strongholds of the North" minimumLevel="115" description="The Elves of Felegoth expect that you will find your way to the forefront of battle to assist them." objectives="You must earn Ally standing with the Elves of Felegoth">
+<previous key="Friend_to_the_Elves_of_Felegoth" name="Friend to the Elves of Felegoth"/>
+<next key="Kindred_to_the_Elves_of_Felegoth" name="Kindred to the Elves of Felegoth"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<title name="Ally to the Elves of Felegoth"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="15"/>
+</rewards>
+</deed>
 <deed key="Ally_to_the_Elves_of_Rivendell" name="Ally to the Elves of Rivendell" type="REPUTATION" description="You have done much to earn their respect and now the Elves of Rivendell consider you to be one of their allies." objectives="You must attain Ally standing with the Elves of Rivendell.&#10;Your efforts throughout their lands and those surrounding Rivendell have earned you the status of ally among them.">
 <previous key="Friend_to_the_Elves_of_Rivendell" name="Friend to the Elves of Rivendell"/>
 <next key="Kindred_with_the_Elves_of_Rivendell" name="Kindred with the Elves of Rivendell"/>
@@ -3881,6 +3899,17 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
+<deed key="Deeds_of_the_North" name="Deeds of the North" category="Region:Strongholds of the North" description="Complete many deeds in Eryn Lasgalen, Dale-lands, and Erebor." objectives="Complete: Explorer of the North&#10;You have explored much of the Strongholds of the North.&#10;Complete: Quests of the North&#10;You have completed many quests in the Strongholds of the North.&#10;Complete: Slayer of the North&#10;You have slain many monsters in the Strongholds of the North.">
+<child key="Explorer_of_the_North" name="Explorer of the North"/>
+<child key="Quests_of_the_North" name="Quests of the North"/>
+<child key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<title name="Defender of the Three Kingdoms"/>
+<object id="1879224343" name="Mark" quantity="200"/>
+<object id="1879356038" name="Bound Black Steel Key" quantity="1"/>
+<object id="1879366928" name="Goat of the Crimson Guard" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Deeds_of_the_North_Downs" name="Deeds of the North Downs" category="Region:North Downs" description="There is much to do while travelling through the lands of the North Downs." objectives="Complete Explorer of the North Downs deed&#10;You have explored all of the North Downs.&#10;Complete Of Glories Long Past (Final) deed&#10;You have completed many quests in the North Downs.&#10;Complete Slayer of the North Downs deed&#10;You have slain many monsters in the North Downs.">
 <parent key="Deeds_of_Eriador" name="Deeds of Eriador"/>
 <child key="Explorer_of_the_North_Downs" name="Explorer of the North Downs"/>
@@ -5775,6 +5804,15 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
+<deed key="Explorer_of_Eryn_Lasgalen" name="Explorer of Eryn Lasgalen" type="EXPLORER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Explore the many landmarks of Eryn Lasgalen." objectives="Explore Caras Tilion&#10;Explore Felegoth&#10;Explore Tham Aeldés&#10;Explore the Forest Gate&#10;Explore Loeglond&#10;Explore Gwígar&#10;Explore Glad Thaw&#10;Explore Imnagath&#10;Explore Tholkát&#10;Explore Torech Emel">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Walker of Elf-paths"/>
+<virtue id="FIDELITY"/>
+<object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
 <deed key="Explorer_of_Evendim" name="Explorer of Evendim" type="EXPLORER" category="Region:Evendim" description="Explore the wilds of Evendim, the tombs of the kings that ruled over Arnor, and the ruins of the ancient city of Annúminas." objectives="Explore:&#10;The City of the Kings&#10;Ruins of Evendim&#10;Tombs of Evendim&#10;Wilds of Evendim&#10;Markers of the Sunken City">
 <parent key="Deeds_of_Evendim" name="Deeds of Evendim"/>
 <child key="The_City_of_the_Kings" name="The City of the Kings"/>
@@ -5966,6 +6004,15 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
+<deed key="Explorer_of_the_Dale-lands" name="Explorer of the Dale-lands" type="EXPLORER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="" objectives="Explore the Bones of Smaug&#10;Explore Dale&#10;Explore Erebor&#10;Explore the Secret Door to Erebor&#10;Explore Esgaroth-of-old&#10;Explore Lake-town&#10;Explore Ravenhill">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Dances through Dale"/>
+<virtue id="HONOUR"/>
+<object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
 <deed key="Explorer_of_the_Eastemnet" name="Explorer of the Eastemnet" category="Region:East Rohan" description="Explore cliffs and tree-clad slopes of Eastwall, the dark eaves of Fangorn, and the vast rolling green plains of the Eastemnet." objectives="Complete the Deed: East Wall Explorer&#10;Complete the Deed: Cities of Eastern Rohan&#10;Complete the Deed: The Defences of Eastern Rohan&#10;Complete the Deed: Where Evil Creatures Dwell&#10;Complete the Deed: Enemies of the Rohirrim&#10;Complete the Deed: Chambers of Byrgenstow&#10;Complete the Deed: Nurseries of the Wyrmdelf&#10;Complete the Deed: Eaves of Fangorn Exploration&#10;Complete the Deed: Farms and Crofts of the Eastemnet&#10;Complete the Deed: Ruins, Tombs, and Monuments of the Eastemnet&#10;Complete the Deed: The Wilds of the Eastemnet">
 <parent key="Deeds_of_the_Eastemnet" name="Deeds of the Eastemnet"/>
 <child key="East_Wall_Explorer" name="East Wall Explorer"/>
@@ -6032,10 +6079,19 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_the_North" name="Explorer of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="" objectives="Complete the 6 explorer deeds of the Strongholds of the North :&#10;# Treasure-seeker of the North&#10;# Explorer of the Dale-lands&#10;# Explorer of Eryn Lasgalen&#10;# Surveyor of the Dwarvish Markers&#10;# Ruins of the North&#10;# The Path of the Company">
+<deed key="Explorer_of_the_North" name="Explorer of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Explore much of Eryn Lasgalen and the Dale-lands." objectives="Complete: Treasure-seeker of the North&#10;Complete: Explorer of the Dale-lands&#10;Complete: Explorer of Eryn Lasgalen&#10;Complete: Surveyor of the Dwarvish Markers&#10;Complete: Ruins of the North&#10;Complete: The Path of the Company">
+<parent key="Deeds_of_the_North" name="Deeds of the North"/>
+<child key="Treasure-seeker_of_the_North" name="Treasure-seeker of the North"/>
+<child key="Explorer_of_the_Dale-lands" name="Explorer of the Dale-lands"/>
+<child key="Explorer_of_Eryn_Lasgalen" name="Explorer of Eryn Lasgalen"/>
+<child key="Surveyor_of_the_Dwarvish_Markers" name="Surveyor of the Dwarvish Markers"/>
+<child key="Ruins_of_the_North" name="Ruins of the North"/>
+<child key="The_Path_of_the_Company" name="The Path of the Company"/>
 <rewards>
 <object id="1879224343" name="Mark" quantity="100"/>
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
+<object id="1879366906" name="Beech Leaves Floor" quantity="1"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="5"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_North_Downs" name="Explorer of the North Downs" category="Region:North Downs" description="Explore the Fields of Fornost, the villages of the Earth-kin, and the many ruins that lie forgotten in lands of the North Downs." objectives="Explore the Villages of the Earth-kin&#10;An odd people calling themselves the Earth-kin have been discovered in the eastern North Downs. Seek out their villages and learn more of them, and whether they be friend or foe.&#10;Explore the Eastern Ruins&#10;Many ruins lie forgotten in lands east of the Baranduin. Explore them and determine if they have fallen into the hands of the Enemy.&#10;Explore the Strongholds&#10;Spy out the Orc and goblin-strongholds in the North Downs.&#10;Explore the Western Ruins&#10;Explore the ruins scattered in and around the Fields of Fornost.">
@@ -7103,6 +7159,26 @@
 <title name="Friend to the Council"/>
 </rewards>
 </deed>
+<deed key="Friend_to_the_Dwarves_of_Erebor" name="Friend to the Dwarves of Erebor" category="Region:Strongholds of the North" minimumLevel="115" description="All you have done within the bounds of Mirkwood has made the Dwarves friendly to you." objectives="You must earn Friend standing with the Dwarves of Erebor">
+<previous key="Known_to_the_Dwarves_of_Erebor" name="Known to the Dwarves of Erebor"/>
+<next key="Ally_to_the_Dwarves_of_Erebor" name="Ally to the Dwarves of Erebor"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<trait name="Strongholds of the North - Vendor Discount"/>
+<title name="Friend to the Dwarves of Erebor"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Friend_to_the_Elves_of_Felegoth" name="Friend to the Elves of Felegoth" category="Region:Strongholds of the North" minimumLevel="115" description="All you have done within the bounds of Mirkwood has made the Elves friendly to you." objectives="You must earn Friend standing with the Elves of Felegoth">
+<previous key="Known_to_the_Elves_of_Felegoth" name="Known to the Elves of Felegoth"/>
+<next key="Ally_to_the_Elves_of_Felegoth" name="Ally to the Elves of Felegoth"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<trait name="Strongholds of the North - Vendor Discount"/>
+<title name="Friend to the Elves of Felegoth"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="10"/>
+</rewards>
+</deed>
 <deed key="Friend_to_the_Elves_of_Rivendell" name="Friend to the Elves of Rivendell" type="REPUTATION" description="The Elves of Rivendell now consider you to be a friend to them." objectives="You must achieve Friend standing with the Elves of Rivendell.&#10;You have done much for the Elves of Rivendell, and they consider you to be a friend to them.">
 <previous key="Known_to_the_Elves_of_Rivendell" name="Known to the Elves of Rivendell"/>
 <next key="Ally_to_the_Elves_of_Rivendell" name="Ally to the Elves of Rivendell"/>
@@ -8013,6 +8089,22 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
+<deed key="Green_Mountains_Orc-kind_Slayer" name="Green Mountains Orc-kind Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands (40)">
+<next key="Green_Mountains_Orc-kind_Slayer_(Advanced)" name="Green Mountains Orc-kind Slayer (Advanced)"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="LOYALTY"/>
+</rewards>
+</deed>
+<deed key="Green_Mountains_Orc-kind_Slayer_(Advanced)" name="Green Mountains Orc-kind Slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands (80)">
+<previous key="Green_Mountains_Orc-kind_Slayer" name="Green Mountains Orc-kind Slayer"/>
+<parent key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="VALOUR"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Grim_Challenge" name="Grim Challenge" type="CLASS" class="Guardian" minimumLevel="20" description="A Guardian's task is to protect his allies from the assaults of their foes." objectives="Use Challenge, Fray the Edge, or Engage (300)&#10;Your taunts and jibes draw the wrath of your foes upon you, distracting them from your allies.">
 <parent key="Class_Deeds_(Guardian)_-_Tier_4" name="Class Deeds (Guardian) - Tier 4"/>
 <rewards>
@@ -8624,6 +8716,12 @@
 <title name="Herd-Creature Slayer of the Westemnet"/>
 <virtue id="DETERMINATION"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Here_Fishy_Fishy_Fishy" name="Here Fishy Fishy Fishy" type="QUEST" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Find all the fish trophies in Lake-town." objectives="Find all the fish trophies in Lake-town (20)">
+<rewards>
+<title name="Fishmonger"/>
+<object id="1879224343" name="Mark" quantity="10"/>
 </rewards>
 </deed>
 <deed key="Hero" name="Hero" type="REPUTATION" category="Social" description="Some people demand respect - while others work to earn it." objectives="Receive 100 /bow Emotes">
@@ -9286,6 +9384,21 @@
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
+<deed key="Jangovar_Easterling_Slayer" name="Jangovar Easterling Slayer" type="SLAYER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Defeat many wicked Easterlings in the Dale-lands." objectives="Defeat many wicked Easterlings in the Dale-lands. (100)">
+<next key="Jangovar_Easterling_Slayer_(Advanced)" name="Jangovar Easterling Slayer (Advanced)"/>
+<rewards>
+<lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Jangovar_Easterling_Slayer_(Advanced)" name="Jangovar Easterling Slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Defeat many wicked Easterlings in the Dale-lands." objectives="Defeat many wicked Easterlings in the Dale-lands. (200)">
+<previous key="Jangovar_Easterling_Slayer" name="Jangovar Easterling Slayer"/>
+<parent key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="DISCIPLINE"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Juggler" name="Juggler" category="Social" description="The ability to amuse your friends is a skill worth cultivating." objectives="Receive 200 /laugh emotes.">
 <rewards>
 <emote name="juggle"/>
@@ -9372,6 +9485,24 @@
 <rewards>
 <lotroPoints quantity="20"/>
 <title name="Kin of Théodred's Riders"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_the_Dwarves_of_Erebor" name="Kindred to the Dwarves of Erebor" category="Region:Strongholds of the North" minimumLevel="115" description="The Dwarves of Erebor look upon you as member of their cause. You are always welcome among their rank and numbers." objectives="You must earn Kindred standing with the Dwarves of Erebor">
+<previous key="Ally_to_the_Dwarves_of_Erebor" name="Ally to the Dwarves of Erebor"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<trait name="Strongholds of the North - Travel Discount"/>
+<title name="Honoured in Erebor"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="20"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_the_Elves_of_Felegoth" name="Kindred to the Elves of Felegoth" category="Region:Strongholds of the North" minimumLevel="115" description="The Elves of Felegoth look upon you as member of their cause. You are always welcome among their rank and numbers." objectives="You must earn Kindred standing with the Elves of Felegoth">
+<previous key="Ally_to_the_Elves_of_Felegoth" name="Ally to the Elves of Felegoth"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<trait name="Strongholds of the North - Travel Discount"/>
+<title name="Honoured in Felegoth"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="20"/>
 </rewards>
 </deed>
 <deed key="Kindred_to_the_Entwash_Vale" name="Kindred to the Entwash Vale" category="Region:East Rohan" description="You may not have been born among the Men of the Entwash Vale, and you may not make the small towns throughout your home, but you are welcome wherever you go." objectives="You must earn Kindred standing with the Men of the Entwash Vale&#10;There is nowhere you can travel within the bounds of the Entwash Vale where you are not known. The people feel a deep kinship with you.">
@@ -9654,11 +9785,27 @@
 <title name="Known in Gath Forthnír"/>
 </rewards>
 </deed>
+<deed key="Known_to_the_Dwarves_of_Erebor" name="Known to the Dwarves of Erebor" category="Region:Strongholds of the North" minimumLevel="115" description="Your name is now known throughout the Dwarves of Erebor, and they know that you act in their interest." objectives="You must earn Acquaintance standing with the Dwarves of Erebor">
+<next key="Friend_to_the_Dwarves_of_Erebor" name="Friend to the Dwarves of Erebor"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Dwarves of Erebor"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="5"/>
+</rewards>
+</deed>
 <deed key="Known_to_the_Eglain" name="Known to the Eglain" type="REPUTATION" description="You have become known to the Eglain -- people who have shunned accepted society, choosing the meagre life that the Lone-lands will support." objectives="You must achieve Acquaintance standing with the Eglain&#10;The Eglain have heard your name and speak well of you.">
 <next key="Friend_of_the_Eglain" name="Friend of the Eglain"/>
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Known to the Eglain"/>
+</rewards>
+</deed>
+<deed key="Known_to_the_Elves_of_Felegoth" name="Known to the Elves of Felegoth" category="Region:Strongholds of the North" minimumLevel="115" description="Your name is now known throughout the Elves of Felegoth, and they know that you act in their interest." objectives="You must earn Acquaintance standing with the Elves of Felegoth">
+<next key="Friend_to_the_Elves_of_Felegoth" name="Friend to the Elves of Felegoth"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Elves of Felegoth"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="5"/>
 </rewards>
 </deed>
 <deed key="Known_to_the_Elves_of_Rivendell" name="Known to the Elves of Rivendell" type="REPUTATION" description="You are known to the Elves of Rivendell." objectives="You must earn Acquaintance standing with the Elves of Rivendell.&#10;In Rivendell your name is now mentioned among all of the elves.">
@@ -11019,6 +11166,21 @@
 </deed>
 <deed key="North_Downs_Traveller" name="North Downs Traveller" type="EXPLORER" category="Event:Chicken Play" description="Speak with the creatures of the North Downs." objectives="Speak with the aurochs yearling&#10;You have spoken with the aurochs yearling.">
 <rewards/>
+</deed>
+<deed key="Northern_Beasts_Slayer" name="Northern Beasts Slayer" type="SLAYER" category="Region:Strongholds of the North" minimumLevel="115" description="Defeat many Beasts in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Beasts in Eryn Lasgalen and the Dale-lands (90)">
+<next key="Northern_Beasts_Slayer_(Advanced)" name="Northern Beasts Slayer (Advanced)"/>
+<rewards>
+<lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Northern_Beasts_Slayer_(Advanced)" name="Northern Beasts Slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North" minimumLevel="115" description="Defeat many Beasts in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Beasts in Eryn Lasgalen and the Dale-lands (180)">
+<previous key="Northern_Beasts_Slayer" name="Northern Beasts Slayer"/>
+<parent key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="FORTITUDE"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
 </deed>
 <deed key="Not_the_Bees_(Beorning_Deed)" name="Not the Bees (Beorning Deed)" type="CLASS" class="Beorning" minimumLevel="44" description="You have nearly perfected your technique of wielding bees aa a weapon. You only get stung once or twice!" objectives="Use Bee Swarm (Beorning Skill) 500 times">
 <parent key="Class_Deeds_(Beorning)_-_Tier_7" name="Class Deeds (Beorning) - Tier 7"/>
@@ -12417,6 +12579,22 @@
 <object id="1879229676" name="Golden Token of the Anduin" quantity="5"/>
 </rewards>
 </deed>
+<deed key="Quests_of_Erebor" name="Quests of Erebor" type="QUEST" category="Region:Strongholds of the North:Erebor" minimumLevel="115" description="" objectives="Complete many quests in Erebor (15)">
+<parent key="Quests_of_the_North" name="Quests of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Hero of Erebor"/>
+<virtue id="PATIENCE"/>
+</rewards>
+</deed>
+<deed key="Quests_of_Eryn_Lasgalen" name="Quests of Eryn Lasgalen" type="QUEST" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Complete many quests in Eryn Lasgalen." objectives="Complete many quests in Eryn Lasgalen (30)">
+<parent key="Quests_of_the_North" name="Quests of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Hero of Eryn Lasgalen"/>
+<virtue id="JUSTICE"/>
+</rewards>
+</deed>
 <deed key="Quests_of_Far_An%C3%B3rien" name="Quests of Far Anórien" type="QUEST" category="Region:Far Anórien" description="" objectives="Complete Quests of the Beacon Hills Deed&#10;Complete Quests of Taur Drúadan Deed&#10;Complete Far Anórien's Roaming Enemies Deed">
 <parent key="Deeds_of_Far_An%C3%B3rien" name="Deeds of Far Anórien"/>
 <child key="Quests_of_the_Beacon_Hills" name="Quests of the Beacon Hills"/>
@@ -12806,6 +12984,14 @@
 <object id="1879271112" name="Westemnet Iron Coin" quantity="2"/>
 </rewards>
 </deed>
+<deed key="Quests_of_the_Dale-lands" name="Quests of the Dale-lands" type="QUEST" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Complete many quests in the Dale-lands." objectives="Complete many quests in the Dale-lands. (40)">
+<parent key="Quests_of_the_North" name="Quests of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Hero of the Dale-lands"/>
+<virtue id="DETERMINATION"/>
+</rewards>
+</deed>
 <deed key="Quests_of_the_Dimrill_Dale" name="Quests of the Dimrill Dale" type="QUEST" category="Region:Moria" description="Complete quests in the Dimrill Dale." objectives="Complete quests in the Dimrill Dale&#10;This deed has been completed. (10/10)">
 <parent key="Quests_of_Khazad-d%C3%BBm" name="Quests of Khazad-dûm"/>
 <rewards>
@@ -12954,6 +13140,17 @@
 <virtue id="JUSTICE"/>
 <object id="1879237261" name="Silver Token of the Riddermark" quantity="3"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Quests_of_the_North" name="Quests of the North" type="QUEST" category="Region:Strongholds of the North" minimumLevel="115" description="Complete many quests in the Dale-lands, Eryn Lasgalen, and Erebor." objectives="Complete: Quests of the Dale-lands&#10;Complete: Quests to Restore the Three Kingdoms&#10;Complete: Quests of Eryn Lasgalen&#10;Complete: Quests of Erebor">
+<parent key="Deeds_of_the_North" name="Deeds of the North"/>
+<child key="Quests_of_the_Dale-lands" name="Quests of the Dale-lands"/>
+<child key="Quests_to_Restore_the_Three_Kingdoms" name="Quests to Restore the Three Kingdoms"/>
+<child key="Quests_of_Eryn_Lasgalen" name="Quests of Eryn Lasgalen"/>
+<child key="Quests_of_Erebor" name="Quests of Erebor"/>
+<rewards>
+<object id="1879224343" name="Mark" quantity="100"/>
+<object id="1879362402" name="Token of the Lake and Rivers" quantity="60"/>
 </rewards>
 </deed>
 <deed key="Quests_of_the_Plateau" name="Quests of the Plateau" type="QUEST" category="Region:Gorgoroth" description="Complete quests in Gorgoroth." objectives="Complete Quests of Agarnaith&#10;Complete Quests of Dor Amarth&#10;Complete Quests of Lhingris&#10;Complete Quests of Talath Úrui&#10;Complete Quests of Udûn">
@@ -13112,6 +13309,13 @@
 <virtue id="PATIENCE"/>
 <object id="1879259420" name="Wildermore Coin" quantity="5"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Quests_to_Restore_the_Three_Kingdoms" name="Quests to Restore the Three Kingdoms" type="QUEST" category="Region:Strongholds of the North" minimumLevel="115" description="Complete many Restoring the Three Kingdoms quests in the Dale-lands and Eryn Lasgalen." objectives="Complete many Restoring the Three Kingdoms quests (100)">
+<parent key="Quests_of_the_North" name="Quests of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="TOLERANCE"/>
 </rewards>
 </deed>
 <deed key="Quick_Slash_(Beorning_Deed)" name="Quick Slash (Beorning Deed)" type="CLASS" class="Beorning" minimumLevel="5" description="One of your most dangerous attacks is a simple slash." objectives="Use Slash (Beorning Skill) 300 times (limit 30 per day)">
@@ -13719,6 +13923,15 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
+<deed key="Ruins_of_the_North" name="Ruins of the North" type="EXPLORER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="" objectives="Explore Tham Aeldír 15.5N/34.8W (Eryn Lasgalen)&#10;Explore Bridgethorp 21.7N/26.2W (Eryn Lasgalen)&#10;Explore Stranding 17.0N/23.3W (Eryn Lasgalen)&#10;Explore Bendburn 23.0N/27.9W (Eryn Lasgalen)&#10;Explore Westoft 26.2N/26.3W (Eryn Lasgalen)&#10;Explore Grytgate 26.2N/25.7W (Eryn Lasgalen)&#10;Explore Eldby 25.5N/22.4W (Eryn Lasgalen)&#10;Explore Tay Yoldash 21.6N/24.8W (Eryn Lasgalen)&#10;Explore Urûshoba 18.4N/22.6W (Eryn Lasgalen)&#10;Explore Garthness 19.8N/29.7W (Eryn Lasgalen)">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Witness to the Past"/>
+<virtue id="EMPATHY"/>
+<object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
 <deed key="Ruins_of_the_Trollshaws" name="Ruins of the Trollshaws" type="EXPLORER" category="Region:Trollshaws" description="These lands once were the eastern extent of the old kingdom of Rhudaur. They have lain in ruins for many long years now and most are inhabited only by wild beasts -- or horrid creatures that have crawled more recently out of the depths of Angmar." objectives="Find Trapdoor Lair 26.1S/18.6W (The Trollshaws)&#10;Of the larger spiders in Middle-earth, it seems that some have descended from a particularly dark and evil brood. Among these creatures, it is not unheard of for them to possess a cunning intelligence and even the power to speak in the languages of Men. It is rumoured that one such creature has made this ancient ruin its lair.&#10;Find Ost Thondol 31.1S/13.2W (The Trollshaws)&#10;Built as an outlaying watchtower of Nan Tornaeth to the north, Ost Thondol once stood watch over the approaches to the Ford of Bruinen.&#10;Find Minas Ciliant 27.0S/14.7W (The Trollshaws)&#10;A fortress was constructed in Nan Tornaeth long ago. It was built as a series of strong watchtowers in these high hills, connected by elegant spans.&#10;&#10;Minas Ciliant was the north-western corner of these towers.&#10;Find Ost Chall 26.9S/14.0W (The Trollshaws)&#10;Ost Chall was once the main keep of the tower fortress built into the hills of Nan Tornaeth. Now it lies in ruins like all the other remnants of the old kingdom here in the Trollshaws.&#10;Find Amon Varadh 27.9S/14.9W (The Trollshaws)&#10;The tower of Amon Varadh was named after the high hill upon which it was constructed, providing a commanding view of the surrounding valleys.&#10;Find Ost Brandras 28.0S/13.6W (The Trollshaws)&#10;This is another of the towers built upon the hills of Nan Tornaeth and combined into a fortress that once provided a commanding presence for the old kingdom here in the Trollshaws.&#10;&#10;All of this has lain in ruin for as long as any Man can remember, and only the Elves can speak of its ancient glory.&#10;Find Barad Glamgil 28.8S/14.1W (The Trollshaws)&#10;Barad Glamgil overlooks the southern approach into Nan Tornaeth, as well as a dramatic waterfall which cascades into deep pools at the base of the hills below the tower.&#10;Find Ost Dúrgonn 31.8S/20.7W (The Trollshaws)&#10;Ost Dúrgonn was constructed by the ancient Kingdom of Arnor to stand guard over the main crossing into the Trollshaws and thus deny it to invaders from the East -- however, the greater threat proved to be from the North, and this fortress fell into misuse and eventual ruin as wars raged elsewhere.">
 <parent key="Explorer_of_the_Trollshaws" name="Explorer of the Trollshaws"/>
 <rewards>
@@ -14054,6 +14267,21 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <virtue id="HONESTY"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Shadows_of_Caras_Tilion_Slayer" name="Shadows of Caras Tilion Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Shades and Armours in Eryn Lasgalen." objectives="Defeat many Shades and Armours in Eryn Lasgalen (80)">
+<next key="Shadows_of_Caras_Tilion_Slayer_(Advanced)" name="Shadows of Caras Tilion Slayer (Advanced)"/>
+<rewards>
+<lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Shadows_of_Caras_Tilion_Slayer_(Advanced)" name="Shadows of Caras Tilion Slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Shades and Armours in Eryn Lasgalen." objectives="Defeat many Shades and Armours in Eryn Lasgalen (160)">
+<previous key="Shadows_of_Caras_Tilion_Slayer" name="Shadows of Caras Tilion Slayer"/>
+<parent key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="INNOCENCE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
@@ -14797,6 +15025,18 @@
 <reputation>
 <reputationItem faction="Elves of Rivendell" amount="900"/>
 </reputation>
+<object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Slayer_of_the_North" name="Slayer of the North" type="SLAYER" category="Region:Strongholds of the North" description="Defeat many enemies of the Free Peoples in Eryn Lasgalen and the Dale-lands." objectives="Complete: Northern Beasts Slayer (Advanced)&#10;Complete: Jangovar Easterling Slayer (Advanced)&#10;Complete: Shadows of Caras Tilion Slayer (Advanced)&#10;Complete: Taurogrim Slayer (Advanced)&#10;Complete: Green Mountains Orc-kind Slayer (Advanced)">
+<parent key="Deeds_of_the_North" name="Deeds of the North"/>
+<child key="Northern_Beasts_Slayer_(Advanced)" name="Northern Beasts Slayer (Advanced)"/>
+<child key="Jangovar_Easterling_Slayer_(Advanced)" name="Jangovar Easterling Slayer (Advanced)"/>
+<child key="Shadows_of_Caras_Tilion_Slayer_(Advanced)" name="Shadows of Caras Tilion Slayer (Advanced)"/>
+<child key="Taurogrim_Slayer_(Advanced)" name="Taurogrim Slayer (Advanced)"/>
+<child key="Green_Mountains_Orc-kind_Slayer_(Advanced)" name="Green Mountains Orc-kind Slayer (Advanced)"/>
+<rewards>
+<title name="Vanquisher of the North"/>
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
@@ -15587,6 +15827,15 @@
 <object id="1879224344" name="Medallion" quantity="20"/>
 </rewards>
 </deed>
+<deed key="Surveyor_of_the_Dwarvish_Markers" name="Surveyor of the Dwarvish Markers" type="EXPLORER" category="Region:Strongholds of the North:Erebor" minimumLevel="115" description="Discover the Dwarf Markers spread across the Dale-lands." objectives="Discover the Dwarf Markers spread across the Dale-lands (16)">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Surveyor of Ores"/>
+<virtue id="CHARITY"/>
+<object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
 <deed key="Surviving_the_Night" name="Surviving the Night" category="Skirmish:Instances" description="Only the most courageous -- or foolish -- adventurers would dare to endure the dread night of the Barrow-downs." objectives="Complete Strength of Endurance -- Complete&#10;You have demonstrated that you can survive the night within the Barrow-downs.&#10;Complete Pride of Endurance -- Complete&#10;You have proven that you can survive the night within the Barrow-downs.&#10;Complete Unvanquished -- Complete&#10;You have demonstrated that your allies can count on you not to be defeated, nor let them be defeated, within the Barrow-downs.&#10;Complete Mercy of the Free Peoples -- Complete&#10;You have shown the Enemy no respect by refusing to defeat their most powerful Lieutenants.&#10;Complete Defeating the Dead -- Complete&#10;You have destroyed the inhabitants of the Barrow-downs.&#10;Complete Rulers of the Dead -- Complete&#10;You have destroyed the Lieutenants of the Enemy in the Barrow-downs.&#10;Complete Simple Skill -- Complete&#10;You have achieved success by sticking to basic tactics and not resorting to flashy displays of power.&#10;Complete Strength in Diversity -- Complete&#10;You have demonstrated that strength comes from variety.">
 <child key="Strength_of_Endurance_--_Complete" name="Strength of Endurance -- Complete"/>
 <child key="Pride_of_Endurance_--_Complete" name="Pride of Endurance -- Complete"/>
@@ -15743,6 +15992,21 @@
 <next key="Calling_them_Home_to_Roost" name="Calling them Home to Roost"/>
 <rewards>
 <emote name="taunt"/>
+</rewards>
+</deed>
+<deed key="Taurogrim_Slayer" name="Taurogrim Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Taurogrim in Eryn Lasgalen." objectives="Defeat many Taurogrim in Eryn Lasgalen (80)">
+<next key="Taurogrim_Slayer_(Advanced)" name="Taurogrim Slayer (Advanced)"/>
+<rewards>
+<lotroPoints quantity="5"/>
+</rewards>
+</deed>
+<deed key="Taurogrim_Slayer_(Advanced)" name="Taurogrim Slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Taurogrim in Eryn Lasgalen." objectives="Defeat many Taurogrim in Eryn Lasgalen (160)">
+<previous key="Taurogrim_Slayer" name="Taurogrim Slayer"/>
+<parent key="Slayer_of_the_North" name="Slayer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<virtue id="ZEAL"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Taverns_of_the_White_City" name="Taverns of the White City" type="EXPLORER" category="Region:Old Anórien" minimumLevel="100" description="Read the plaques of taverns and wine-shops within Minas Tirith. (x13)" objectives="Find The Wheel and Cask Plaque&#10;&#10;A simple ale-house also known as Hwinir a Calph.&#10;Find The Laughing Halfling Plaque&#10;&#10;Also known as Perian Lavrol. The wine-shop features a caricature of a hobbit on its sign, though it is based on secondhand descriptions and highly offensive to actual folk.&#10;Find The Splintered Shield Plaque&#10;&#10;Also known as Thand Thannan, an ale-hall that caters to soldiers.&#10;Find The Mûmak and Keep Plaque&#10;&#10;Also known as Mûmak a Barad, an ale-hall that caters to soldiers.&#10;Find The Wainrider's Head Plaque&#10;&#10;Also known as Dol Rachrohir, a wine-shop for soldiers.&#10;Find The Hammer and Tongs Plaque&#10;&#10;Also known as Dring a Mebir, an ale-house that caters to the city's smiths.&#10;Find The Haven Plaque&#10;&#10;Also known as Lond Veriannen, a cozy ale-house.&#10;Find The Merry Swan Plaque&#10;&#10;Also known as Alph 'Elir, a tavern favoured by the hostellers of Minas Tirith. It boasts of having the finest wine cellar in the city.&#10;Find The Brick and Mortar Plaque&#10;&#10;Also known as Drafn a Gwedgeph, an ale-house catering to the builders of the city.&#10;Find The Cresting Wave Plaque&#10;&#10;Also known as Falf Falthol, a wine-shop where minstrels and their wealthy patrons gather&#10;Find The Lone Beacon Plaque&#10;&#10;Also known as Narthan Ereb, a wine-shop of refinement and beauty whose establishment is marked by the large brazier atop its portico and a central garden.&#10;Find The Thirsty Seer Plaque&#10;&#10;Also known as Cenir Faug, it is a warm, friendly, and collegial tavern nestled into a nook in the side of the Mindolluin. It has been beloved for centuries by the students and masters alike in the Houses of Lore.&#10;Find The Eagle and the Sickle Plaque&#10;&#10;Also known as Thoron a Cerch, a tiny wine-shop next to a larger lawn and garden where poets often come to recite their odes. Its name comes from two of the greater constellations.">
@@ -17198,6 +17462,15 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
+<deed key="The_Path_of_the_Company" name="The Path of the Company" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Follow the path of Thorin and Company through Eryn Lasgalen and the Dale-lands." objectives="Where the Company entered Mirkwood&#10;Where the Company grew to hate the forest&#10;Where Bombur fell into the enchanted River&#10;Where Bilbo climbed above the trees&#10;Where the Company was lured off the path&#10;Where the Company is ambushed by Spiders&#10;Where Bilbo frees the Company from webs&#10;Where Thorin was brought before the Elvenking&#10;Where the Company was jailed by the Elvenking&#10;Where the company stuffed themselves into barrels&#10;Where the barrels came ashore near Loeglond&#10;Where Bilbo freed the company from their barrels&#10;Where Thorin declared himself before the Master of Lake-town&#10;Where the Company landed at the top of the Long Lake&#10;Where they scouted the slopes of the Mountain&#10;Where the company found the secret way into Erebor">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Follower of Thorin and Company"/>
+<virtue id="WISDOM"/>
+<object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
 <deed key="The_Path_of_the_Fellowship_(Deed)" name="The Path of the Fellowship (Deed)" category="Event:LOTRO Anniversary" description="There is much to do during the Anniversary Scavenger Hunt." objectives="Complete The Year One Tales card.&#10;Complete the Year Two Tales card.&#10;Complete the Year Three Tales card.&#10;Complete the Year Four Tales card.&#10;Complete the Year Five Tales card.&#10;Complete the Year Six Tales card.&#10;Complete the Year Seven Tales card.&#10;Complete the Year Eight Tales card.&#10;Complete the Year 9 Tales card.&#10;Complete the Year 10 Tales card.">
 <parent key="Ten_Years_in_Middle-earth" name="Ten Years in Middle-earth"/>
 <rewards>
@@ -17440,6 +17713,13 @@
 <rewards>
 <title name="School Savior"/>
 <object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="The_Scourges_of_the_North" name="The Scourges of the North" type="SLAYER" category="Region:Strongholds of the North" minimumLevel="115" description="Defeat the 3 Scourges of Eryn Lasgalen and the Dale-lands." objectives="Complete: Kalabrazân, Scourge of the Dale-lands&#10;Complete: Urdâr, Scourge of the Dale-lands&#10;Complete: Gloomthorn, Scourge of Eryn-Lasgalen">
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Slayer of Northern Scourges"/>
+<virtue id="HONESTY"/>
 </rewards>
 </deed>
 <deed key="The_Secret_of_Tar_(Deed)" name="The Secret of Tar (Deed)" type="CLASS" class="Lore-master" minimumLevel="50" description="Refine the quality of your sticky mixtures to make them easier to prepare." objectives="Strike with Sticky Tar 250 times&#10;'Handling this substance can be, well, a sticky problem. Fortunately, I have perfected a mixture that surmounts the problem. The solution? Now, that would be telling ...' -- Vistan, Master of Robes">
@@ -18705,6 +18985,15 @@
 <virtue id="PATIENCE"/>
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Treasure-seeker_of_the_North" name="Treasure-seeker of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Discover the many Treasure Caches in the Dale-lands." objectives="Discover the many Treasure Caches in the Dale-lands (20)">
+<parent key="Explorer_of_the_North" name="Explorer of the North"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Seeker of Dwarvish Treasures"/>
+<virtue id="IDEALISM"/>
+<object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
 <deed key="Treasures_of_the_Silvertine_Lodes" name="Treasures of the Silvertine Lodes" category="Instances:Mines of Moria:Forgotten Treasury" description="Find pieces of treasure within the Forgotten Treasury." objectives="Find a Large Gem&#10;This gem was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find a Pile of Gold Coins&#10;This pile of gold coins was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find a Small Treasure Chest&#10;This chest was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find an Ancient Vase&#10;This vase was one of the ancient treasures remaining in the Forgotten Treasury">
