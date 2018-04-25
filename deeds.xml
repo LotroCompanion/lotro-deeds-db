@@ -344,6 +344,44 @@
 <object id="1879237349" name="Token of Hytbold" quantity="25"/>
 </rewards>
 </deed>
+<deed key="Ale_Association_Acquaintance" name="Ale Association Acquaintance" type="EVENT" description="The Ale Association believes in one thing and one thing only: that hobbits have no business in the Ale-tasting business." objectives="Reach Acquaintance standing with the Ale Association.">
+<previous key="Ale_Association_Initiation" name="Ale Association Initiation"/>
+<next key="Ale_Association_Friend" name="Ale Association Friend"/>
+<rewards>
+<title name="The Sinister"/>
+</rewards>
+</deed>
+<deed key="Ale_Association_Ally" name="Ale Association Ally" type="EVENT" description="You have reached Ally standing with the Ale Association." objectives="Reach Ally standing with the Ale Association.">
+<previous key="Ale_Association_Friend" name="Ale Association Friend"/>
+<next key="Kindred_of_Malevolence" name="Kindred of Malevolence"/>
+<rewards>
+<title name="The Great Saboteur"/>
+</rewards>
+</deed>
+<deed key="Ale_Association_Delivery" name="Ale Association Delivery" type="EVENT" description="Complete all the underhanded deliveries for the Ale Association." objectives="Complete all the delivery quests:&#10;Complete A Convoluted Wine&#10;Complete A Drink of the Best Character&#10;Complete Never Further From Home&#10;Complete One Drink Too Few&#10;Complete A Different Reminder of Rivendell&#10;Complete A Bit of White&#10;Complete A Dark Prank&#10;Complete Quite a Tickle&#10;Complete Not Atli's Favourite&#10;Complete Bombur's Breath&#10;Complete All But the Good Cider">
+<rewards>
+<reputation>
+<reputationItem faction="Ale Association" amount="1200"/>
+</reputation>
+<title name="No-gooder"/>
+</rewards>
+</deed>
+<deed key="Ale_Association_Friend" name="Ale Association Friend" type="EVENT" description="You have reached Friend standing with the Ale Association." objectives="Reach Friend standing with the Ale Association.">
+<previous key="Ale_Association_Acquaintance" name="Ale Association Acquaintance"/>
+<next key="Ale_Association_Ally" name="Ale Association Ally"/>
+<rewards>
+<title name="Abuser of Amusement"/>
+</rewards>
+</deed>
+<deed key="Ale_Association_Initiation" name="Ale Association Initiation" type="EVENT" description="Complete the challenges of the Ale Association Initiation." objectives="Complete the The Ale Association Challenge Quests:&#10;The Ale Association Challenge: Introduction&#10;The Ale Association Challenge: The Prancing Pony&#10;The Ale Association Challenge: The Combe-gate&#10;The Ale Association Challenge: Staddle&#10;The Ale Association Challenge: The Garden&#10;The Ale Association Challenge: The Stone Quarter">
+<next key="Ale_Association_Acquaintance" name="Ale Association Acquaintance"/>
+<rewards>
+<reputation>
+<reputationItem faction="Ale Association" amount="10000"/>
+</reputation>
+<title name="Ale Association Member"/>
+</rewards>
+</deed>
 <deed key="Alert_Guard_(deed)" name="Alert Guard" type="CLASS" class="Captain" category="Obsolete" minimumLevel="1" description="The more practiced you are with your Defensive Strike, the more protection it will afford you." objectives="Use Defensive Strike (300)&#10;Your skill with the blade allows you to greatly protect yourself.">
 <rewards>
 <lotroPoints quantity="5"/>
@@ -4088,6 +4126,9 @@
 <child key="Quests_of_the_North" name="Quests of the North"/>
 <child key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="1200"/>
+</reputation>
 <title name="Defender of the Three Kingdoms"/>
 <object id="1879224343" name="Mark" quantity="200"/>
 <object id="1879356038" name="Bound Black Steel Key" quantity="1"/>
@@ -5991,6 +6032,9 @@
 <deed key="Explorer_of_Eryn_Lasgalen" name="Explorer of Eryn Lasgalen" type="EXPLORER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Explore the many landmarks of Eryn Lasgalen." objectives="Explore Caras Tilion&#10;Explore Felegoth&#10;Explore Tham Aeldés&#10;Explore the Forest Gate&#10;Explore Loeglond&#10;Explore Gwígar&#10;Explore Glad Thaw&#10;Explore Imnagath&#10;Explore Tholkát&#10;Explore Torech Emel">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Walker of Elf-paths"/>
 <virtue id="FIDELITY"/>
@@ -6191,6 +6235,9 @@
 <deed key="Explorer_of_the_Dale-lands" name="Explorer of the Dale-lands" type="EXPLORER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="" objectives="Explore the Bones of Smaug&#10;Explore Dale&#10;Explore Erebor&#10;Explore the Secret Door to Erebor&#10;Explore Esgaroth-of-old&#10;Explore Lake-town&#10;Explore Ravenhill">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Dances through Dale"/>
 <virtue id="HONOUR"/>
@@ -8278,6 +8325,9 @@
 <deed key="Green_Mountains_Orc-kind_Slayer" name="Green Mountains Orc-kind Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Orc-kind in Eryn Lasgalen and the Dale-lands (40)">
 <next key="Green_Mountains_Orc-kind_Slayer_(Advanced)" name="Green Mountains Orc-kind Slayer (Advanced)"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="LOYALTY"/>
 </rewards>
@@ -8286,6 +8336,9 @@
 <previous key="Green_Mountains_Orc-kind_Slayer" name="Green Mountains Orc-kind Slayer"/>
 <parent key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="VALOUR"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
@@ -8841,6 +8894,35 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
+<deed key="Helegrod_--_Dragon_Wing" name="Helegrod -- Dragon Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains known to most as Moria. This wing now serves as the tomb of the dragon Thorog." objectives="Complete Thorog Defeated&#10;Completed Thorog Defeated">
+<rewards>
+<title name="De-animator of Thorog"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Helegrod_--_Drake_Wing" name="Helegrod -- Drake Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains known to most as Moria. This wing is now home to a brood of drakes descended from the great dragon Thorog." objectives="Complete Challenge: Grisgart&#10;Completed Challenge: Grisgart&#10;Complete Drake-wrangler&#10;Completed Drake-wrangler&#10;Complete Keep Them from Hatching&#10;Completed Keep Them from Hatching&#10;Complete Fangs for Nothing&#10;Completed Fangs for Nothing">
+<rewards>
+<title name="Drake Dropper"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Helegrod_--_Giant_Wing" name="Helegrod -- Giant Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains know to most as Moria. Giants under the influence of Skorgrim Dourhand and the Angmarim now call this wing of the dwarf-hold home." objectives="Complete Giants in the Service of Angmar&#10;Completed Giants in the Service of Angmar&#10;Complete Giant-slayer&#10;Completed Giant-slayer&#10;Complete Beasts of Snow&#10;Completed Beasts of Snow&#10;Complete Challenge: Storvâgûn&#10;Completed Challenge: Storvâgûn">
+<rewards>
+<title name="Diminisher of Giants"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Helegrod_--_Spider_Wing" name="Helegrod -- Spider Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains known to most as Moria. Great spiders now infest many portions of the ancient dwarf-hold." objectives="Complete An Evil Place, Crawling With Spiders&#10;Complete Zaudru's Brood&#10;Complete Spider Squasher&#10;Complete Challenge: Zaudru">
+<rewards>
+<title name="Spider Spooker"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+</rewards>
+</deed>
+<deed key="Helegrod_--_The_Gate_to_Thorog" name="Helegrod -- The Gate to Thorog" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Access to the courtyard and Thorog is controlled by three guardians. They must all be vanquished before the master of Helegrod may be approached." objectives="Defeat Storvâgûn and claim the Giant Wing&#10;Storvâgûn, the giant-lord of Helegrod, has fallen.&#10;Defeat Zaudru and claim the Spider Wing&#10;Zaudru, the spider-queen of Helegrod, has been defeated.&#10;Defeat Grisgart and claim the Drake Wing&#10;Grisgart, a Man of Angmar controlling the drakes of Helegrod, has fallen.">
+<rewards>
+<title name="Challenger of Thorog"/>
+</rewards>
+</deed>
 <deed key="Helf%27s_Downfall" name="Helf's Downfall" category="Instances:Road to Erebor:Iorbar's Peak" description="The Stone Giant, Helf, has stolen the egg of a Great Eagle. He has retreated back to the safety of his mountain home upon Iorbar's Peak, where he plans to make the egg into his next meal." objectives="Complete the quest Iorbar's Peak -- Tier 2&#10;You have completed the quest Iorbar's Peak -- Tier 2|Iorbar's Peak -- Tier 2">
 <parent key="Champion_of_Iorbar%27s_Peak" name="Champion of Iorbar's Peak"/>
 <rewards>
@@ -8906,6 +8988,9 @@
 </deed>
 <deed key="Here_Fishy_Fishy_Fishy" name="Here Fishy Fishy Fishy" type="QUEST" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Find all the fish trophies in Lake-town." objectives="Find all the fish trophies in Lake-town (20)">
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <title name="Fishmonger"/>
 <object id="1879224343" name="Mark" quantity="10"/>
 </rewards>
@@ -9347,6 +9432,40 @@
 <title name="the Infuriating"/>
 </rewards>
 </deed>
+<deed key="Inn_League_Challenge" name="Inn League Challenge" type="REPUTATION" description="To truly become a respected member of the Inn League, you must sample all the local beers, ales and wines found throughout Eriador. Seek out all of these beverages to earn the respect of the League." objectives="Use Bombur's Beard Lager (Thorin's Hall Inn)&#10;Use Limael's Vintage (Limael's Vineyard, between Celondim and Duillond)&#10;Use Blagrove's Brown (The Bird and Baby Inn, Micheldelving)&#10;Use Old Winyards (The Bird and Baby Inn, Micheldelving)&#10;Use Thistlebelly Brew (The Ivy Bush, Hobbiton)&#10;Use Whitebranch (The Ivy Bush, Hobbiton)&#10;Use Green Dragon's Breath Ale (The Green Dragon, Bywater)&#10;Use 1404 Vintage Reserve (The Green Dragon, Bywater)&#10;Use Toad's Tongue Ale (The Floating Log Inn, Frogmorton)&#10;Use Old Withywindle (The Golden Perch, Stock)&#10;Use Brandy Wine (The Golden Perch, Stock)&#10;Use Wooly-foot Stout (The Plough and Stars, Brockenborings)&#10;Use Barliman's Best (The Prancing Pony, Bree)&#10;Use Blind Troll Stout (The Prancing Pony, Bree)&#10;Use Moor-boar Beer (The Prancing Pony, Bree)&#10;Use Stars of Old Cider (The Prancing Pony, Bree)&#10;Use Isenwine (The Prancing Pony, Bree)&#10;Use Beakbreaker Ale (The Comb and Wattle Inn, Combe)&#10;Use Forsaken Ale (The Forsaken Inn)&#10;Use Swill (The Forsaken Inn)&#10;Use Forsaken Cider (The Forsaken Inn)&#10;Use Dorwinion Red (The Last Homely House, Rivendell)&#10;Use Dorwinion White (The Last Homely House, Rivendell)">
+<rewards>
+<reputation>
+<reputationItem faction="Inn League" amount="1200"/>
+</reputation>
+<title name="Inn League Sage of Fine Spirits"/>
+</rewards>
+</deed>
+<deed key="Inn_League_Delivery" name="Inn League Delivery" type="REPUTATION" description="Complete all the deliveries ordered by Inn League Members in need." objectives="Complete A Simple Wine&#10;You have generously delivered Brandy Wine to Saerthuithel.&#10;Complete A Drink of the Worst Character&#10;Complete Never Far From Home&#10;Complete One Drink Too Many&#10;Complete A Reminder of Rivendell&#10;Complete A Bit of Brown&#10;Complete A Dark Day&#10;Complete Quite a Pickle&#10;Complete Atli's Favourite&#10;Complete A Member in Need&#10;Complete All But the Cider">
+<rewards>
+<reputation>
+<reputationItem faction="Inn League" amount="1200"/>
+</reputation>
+<title name="Do-gooder"/>
+</rewards>
+</deed>
+<deed key="Inn_League_Member_(Deed)" name="Inn League Member" type="REPUTATION" description="It wasn't easy, but you have passed the grueling Inn League Initiation." objectives="Complete the Inn League Initiation">
+<next key="Senior_Inn_League_Member_(Deed)" name="Senior Inn League Member"/>
+<rewards>
+<reputation>
+<reputationItem faction="Inn League" amount="10000"/>
+</reputation>
+<title name="Inn League Member"/>
+</rewards>
+</deed>
+<deed key="Inn_League_Notable_(Deed)" name="Inn League Notable" type="REPUTATION" description="To become more respected by the Inn League, you must help other members of the League." objectives="Participate in Inn League adventures and endeavours (11)&#10;Inn League members never forget the taste of fine spirits.">
+<previous key="Senior_Inn_League_Member_(Deed)" name="Senior Inn League Member"/>
+<rewards>
+<reputation>
+<reputationItem faction="Inn League" amount="1200"/>
+</reputation>
+<title name="Inn League Notable"/>
+</rewards>
+</deed>
 <deed key="Inspire_Valour" name="Inspire Valour" type="CLASS" class="Captain" description="A Captain is someone to look up to and admire. Their sound technique and valour inspires others to keep fighting." objectives="Land a Critical or Devastate with Valiant Strike or Inspire (100)&#10;It is said that a true sign of the Kings of old was the power to heal the sick and injured. Perhaps a trace of their blood runs through your veins?">
 <parent key="Class_Deeds_(Captain)_-_Tier_6" name="Class Deeds (Captain) - Tier 6"/>
 <rewards>
@@ -9573,6 +9692,9 @@
 <deed key="Jangovar_Easterling_Slayer" name="Jangovar Easterling Slayer" type="SLAYER" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Defeat many wicked Easterlings in the Dale-lands." objectives="Defeat many wicked Easterlings in the Dale-lands. (100)">
 <next key="Jangovar_Easterling_Slayer_(Advanced)" name="Jangovar Easterling Slayer (Advanced)"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
@@ -9580,6 +9702,9 @@
 <previous key="Jangovar_Easterling_Slayer" name="Jangovar Easterling Slayer"/>
 <parent key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="DISCIPLINE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
@@ -9623,6 +9748,12 @@
 <rewards>
 <title name="Favoured of Mordirith"/>
 <object id="1879230183" name="Commendation" quantity="500"/>
+</rewards>
+</deed>
+<deed key="Kindred_of_Malevolence" name="Kindred of Malevolence" type="EVENT" description="You have reached kindred standing with the Ale Association." objectives="Reach Kindred standing with the Ale Association.">
+<previous key="Ale_Association_Ally" name="Ale Association Ally"/>
+<rewards>
+<title name="Creep"/>
 </rewards>
 </deed>
 <deed key="Kindred_to_Dor-en-Ernil" name="Kindred to Dor-en-Ernil" type="REPUTATION" description="You are kindred to the Men of Dor-en-Ernil." objectives="You must earn Kindred standing with the Men of Dor-en-Ernil&#10;Your name is kindred to the Men of Dor-en-Ernil.">
@@ -11359,6 +11490,9 @@
 <deed key="Northern_Beasts_Slayer" name="Northern Beasts Slayer" type="SLAYER" category="Region:Strongholds of the North" minimumLevel="115" description="Defeat many Beasts in Eryn Lasgalen and the Dale-lands." objectives="Defeat many Beasts in Eryn Lasgalen and the Dale-lands (90)">
 <next key="Northern_Beasts_Slayer_(Advanced)" name="Northern Beasts Slayer (Advanced)"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
@@ -11366,6 +11500,9 @@
 <previous key="Northern_Beasts_Slayer" name="Northern Beasts Slayer"/>
 <parent key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="FORTITUDE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
@@ -12773,6 +12910,9 @@
 <deed key="Quests_of_Erebor" name="Quests of Erebor" type="QUEST" category="Region:Strongholds of the North:Erebor" minimumLevel="115" description="" objectives="Complete many quests in Erebor (15)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Hero of Erebor"/>
 <virtue id="PATIENCE"/>
@@ -12781,6 +12921,9 @@
 <deed key="Quests_of_Eryn_Lasgalen" name="Quests of Eryn Lasgalen" type="QUEST" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Complete many quests in Eryn Lasgalen." objectives="Complete many quests in Eryn Lasgalen (30)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Hero of Eryn Lasgalen"/>
 <virtue id="JUSTICE"/>
@@ -13179,6 +13322,9 @@
 <deed key="Quests_of_the_Dale-lands" name="Quests of the Dale-lands" type="QUEST" category="Region:Strongholds of the North:Dale-lands" minimumLevel="115" description="Complete many quests in the Dale-lands." objectives="Complete many quests in the Dale-lands. (40)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Men of Dale" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Hero of the Dale-lands"/>
 <virtue id="DETERMINATION"/>
@@ -13506,6 +13652,9 @@
 <deed key="Quests_to_Restore_the_Three_Kingdoms" name="Quests to Restore the Three Kingdoms" type="QUEST" category="Region:Strongholds of the North" minimumLevel="115" description="Complete many Restoring the Three Kingdoms quests in the Dale-lands and Eryn Lasgalen." objectives="Complete many Restoring the Three Kingdoms quests (100)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="TOLERANCE"/>
 </rewards>
@@ -14431,6 +14580,16 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
+<deed key="Senior_Inn_League_Member_(Deed)" name="Senior Inn League Member" type="REPUTATION" description="To become more respected by the Inn League, you must help other members of the League." objectives="Participate in Inn League adventures and endeavours (5)&#10;Inn League members never forget the taste of fine spirits.">
+<previous key="Inn_League_Member_(Deed)" name="Inn League Member"/>
+<next key="Inn_League_Notable_(Deed)" name="Inn League Notable"/>
+<rewards>
+<reputation>
+<reputationItem faction="Inn League" amount="1200"/>
+</reputation>
+<title name="Inn League Senior Member"/>
+</rewards>
+</deed>
 <deed key="Seregost_Explorer" name="Seregost Explorer" type="EXPLORER" category="Region:Gorgoroth:Agarnaith" description="Explore Seregost's exterior courtyards and terraces." objectives="Explore Eastern Courtyard 49.2S/33.8E (Agarnaith)&#10;Explore Western Courtyard 48.1S/33.3E (Agarnaith)&#10;Explore Western Terrace 48.7S/32.4E (Agarnaith)&#10;Explore Eastern Terrace 49.6S/32.9E (Agarnaith)&#10;Explore Overlook Terrace 49.0S/32.9E (Agarnaith)&#10;Explore Chaydash Bridge 48.6S/33.5E (Agarnaith)&#10;Explore Mokál Rukh Terrace 48.3S/34.1E (Agarnaith)">
 <parent key="Explorer_of_Agarnaith" name="Explorer of Agarnaith"/>
 <rewards>
@@ -14465,6 +14624,9 @@
 <deed key="Shadows_of_Caras_Tilion_Slayer" name="Shadows of Caras Tilion Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Shades and Armours in Eryn Lasgalen." objectives="Defeat many Shades and Armours in Eryn Lasgalen (80)">
 <next key="Shadows_of_Caras_Tilion_Slayer_(Advanced)" name="Shadows of Caras Tilion Slayer (Advanced)"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
@@ -14472,6 +14634,9 @@
 <previous key="Shadows_of_Caras_Tilion_Slayer" name="Shadows of Caras Tilion Slayer"/>
 <parent key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="INNOCENCE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
@@ -16022,6 +16187,9 @@
 <deed key="Surveyor_of_the_Dwarvish_Markers" name="Surveyor of the Dwarvish Markers" type="EXPLORER" category="Region:Strongholds of the North:Erebor" minimumLevel="115" description="Discover the Dwarf Markers spread across the Dale-lands." objectives="Discover the Dwarf Markers spread across the Dale-lands (16)">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Surveyor of Ores"/>
 <virtue id="CHARITY"/>
@@ -16189,6 +16357,9 @@
 <deed key="Taurogrim_Slayer" name="Taurogrim Slayer" type="SLAYER" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Defeat many Taurogrim in Eryn Lasgalen." objectives="Defeat many Taurogrim in Eryn Lasgalen (80)">
 <next key="Taurogrim_Slayer_(Advanced)" name="Taurogrim Slayer (Advanced)"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
@@ -16196,6 +16367,9 @@
 <previous key="Taurogrim_Slayer" name="Taurogrim Slayer"/>
 <parent key="Slayer_of_the_North" name="Slayer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Elves of Felegoth" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <virtue id="ZEAL"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
@@ -17676,6 +17850,9 @@
 <deed key="The_Path_of_the_Company" name="The Path of the Company" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Follow the path of Thorin and Company through Eryn Lasgalen and the Dale-lands." objectives="Where the Company entered Mirkwood&#10;Where the Company grew to hate the forest&#10;Where Bombur fell into the enchanted River&#10;Where Bilbo climbed above the trees&#10;Where the Company was lured off the path&#10;Where the Company is ambushed by Spiders&#10;Where Bilbo frees the Company from webs&#10;Where Thorin was brought before the Elvenking&#10;Where the Company was jailed by the Elvenking&#10;Where the company stuffed themselves into barrels&#10;Where the barrels came ashore near Loeglond&#10;Where Bilbo freed the company from their barrels&#10;Where Thorin declared himself before the Master of Lake-town&#10;Where the Company landed at the top of the Long Lake&#10;Where they scouted the slopes of the Mountain&#10;Where the company found the secret way into Erebor">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Follower of Thorin and Company"/>
 <virtue id="WISDOM"/>
@@ -17935,6 +18112,9 @@
 </deed>
 <deed key="The_Scourges_of_the_North" name="The Scourges of the North" type="SLAYER" category="Region:Strongholds of the North" minimumLevel="115" description="Defeat the 3 Scourges of Eryn Lasgalen and the Dale-lands." objectives="Complete: Kalabrazân, Scourge of the Dale-lands&#10;Complete: Urdâr, Scourge of the Dale-lands&#10;Complete: Gloomthorn, Scourge of Eryn-Lasgalen">
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="900"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Slayer of Northern Scourges"/>
 <virtue id="HONESTY"/>
@@ -19214,6 +19394,9 @@
 <deed key="Treasure-seeker_of_the_North" name="Treasure-seeker of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Discover the many Treasure Caches in the Dale-lands." objectives="Discover the many Treasure Caches in the Dale-lands (20)">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
 <rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
 <lotroPoints quantity="5"/>
 <title name="Seeker of Dwarvish Treasures"/>
 <virtue id="IDEALISM"/>
