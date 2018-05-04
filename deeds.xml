@@ -5450,15 +5450,6 @@
 <object id="1879175781" name="Ornate Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Enemies_in_Durthang" name="Enemies in Durthang" type="SLAYER" category="Region:Gorgoroth" description="Defeat many foes in the resource instance of Durthang." objectives="Defeat many foes in the resource instance of Durthang (x200)">
-<rewards>
-<reputation>
-<reputationItem faction="Conquest of Gorgoroth" amount="700"/>
-</reputation>
-<object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
-<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
-</rewards>
-</deed>
 <deed key="Enemies_in_Nal%C3%A2-d%C3%BBm" name="Enemies in Nalâ-dûm" type="SLAYER" category="Instances:Scourge of Khazad-dûm:The Water Wheels of Nalâ-dûm" description="Vile foes, both beast and spirit, haunt the flooded depths of the Water-wheels." objectives="Defeat Caerlûg&#10;A caerog, an earth-demon, was awakened within Moria when the Balrog fled into hiding there. With the Balrog slain, Caerlûg now stalks the flooded Water-wheels, spreading his terror.&#10;Defeat Spit-tail&#10;Not every deep-lizard in the Water-wheels is easy prey to the wandering adventurer. Spit-tail is a beast to be reckoned with.">
 <parent key="Scourge_of_Nal%C3%A2-d%C3%BBm" name="Scourge of Nalâ-dûm"/>
 <rewards>
