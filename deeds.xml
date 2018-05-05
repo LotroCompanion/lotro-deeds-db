@@ -8503,13 +8503,6 @@
 <object id="1879306057" name="Amroth Silver Piece" quantity="18"/>
 </rewards>
 </deed>
-<deed key="Gorgoroth_Continued_Foothold" name="Gorgoroth Continued Foothold" type="LORE" category="Region:Gorgoroth" description="(x6)" objectives="Complete Foothold in Agarnaith (Advanced)&#10;Complete Foothold in Dor Amarth (Advanced)&#10;Complete Foothold in Lhingris (Advanced)&#10;Complete Foothold in Talath Úrui (Advanced)&#10;Complete Foothold in Udûn (Advanced)&#10;Complete Gathering of Resources (Advanced)">
-<rewards>
-<lotroPoints quantity="10"/>
-<object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879356167" name="Pristine Relic of the Last Alliance" quantity="1"/>
-</rewards>
-</deed>
 <deed key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete Gorgoroth: Continued Efforts&#10;Complete Gorgoroth: Continued Foothold&#10;Complete Gorgoroth: Continued Skirmishes">
 <child key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
 <child key="Gorgoroth:_Continued_Foothold" name="Gorgoroth: Continued Foothold"/>
