@@ -5038,6 +5038,156 @@
 <title name="Bane of Dunland"/>
 </rewards>
 </deed>
+<deed key="DurinsFolk1" name="Durin's Folk: Allegiance Level 1" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 1 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk10" name="Durin's Folk: Allegiance Level 10" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 10 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk11" name="Durin's Folk: Allegiance Level 11" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 11 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk12" name="Durin's Folk: Allegiance Level 12" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 12 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk13" name="Durin's Folk: Allegiance Level 13" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 13 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk14" name="Durin's Folk: Allegiance Level 14" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 14 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk15" name="Durin's Folk: Allegiance Level 15" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 15 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk16" name="Durin's Folk: Allegiance Level 16" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 16 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk17" name="Durin's Folk: Allegiance Level 17" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 17 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk18" name="Durin's Folk: Allegiance Level 18" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 18 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk19" name="Durin's Folk: Allegiance Level 19" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 19 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk2" name="Durin's Folk: Allegiance Level 2" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 2 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk20" name="Durin's Folk: Allegiance Level 20" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 20 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk21" name="Durin's Folk: Allegiance Level 21" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 21 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk22" name="Durin's Folk: Allegiance Level 22" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 22 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk23" name="Durin's Folk: Allegiance Level 23" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 23 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk24" name="Durin's Folk: Allegiance Level 24" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 24 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk25" name="Durin's Folk: Allegiance Level 25" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 25 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk26" name="Durin's Folk: Allegiance Level 26" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 26 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk27" name="Durin's Folk: Allegiance Level 27" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 27 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk28" name="Durin's Folk: Allegiance Level 28" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 28 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk29" name="Durin's Folk: Allegiance Level 29" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 29 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk3" name="Durin's Folk: Allegiance Level 3" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 3 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk30" name="Durin's Folk: Allegiance Level 30" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 30 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk4" name="Durin's Folk: Allegiance Level 4" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 4 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk5" name="Durin's Folk: Allegiance Level 5" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 5 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk6" name="Durin's Folk: Allegiance Level 6" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 6 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk7" name="Durin's Folk: Allegiance Level 7" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 7 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk8" name="Durin's Folk: Allegiance Level 8" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 8 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="DurinsFolk9" name="Durin's Folk: Allegiance Level 9" type="REPUTATION" category="Allegiance:Durin's Folk" minimumLevel="110" description="Reach level 9 with the Durin's Folk allegiance." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
 <deed key="Dwarf-killer1" name="Dwarf-killer - Tier 1" type="SLAYER" category="PVP:Creep deeds" description="Slaughter Dwarfs in the Ettenmoors." objectives="Slaughter Dwarf players in the Ettenmoors (500)">
 <rewards>
 <title name="Dwarf-foe"/>
@@ -9452,6 +9602,156 @@
 <rewards>
 <title name="Enemy of Innocence"/>
 <object id="1879230183" name="Commendation" quantity="1"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany1" name="Hobbits of the Company: Allegiance Level 1" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 1 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany10" name="Hobbits of the Company: Allegiance Level 10" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 10 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany11" name="Hobbits of the Company: Allegiance Level 11" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 11 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany12" name="Hobbits of the Company: Allegiance Level 12" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 12 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany13" name="Hobbits of the Company: Allegiance Level 13" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 13 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany14" name="Hobbits of the Company: Allegiance Level 14" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 14 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany15" name="Hobbits of the Company: Allegiance Level 15" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 15 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany16" name="Hobbits of the Company: Allegiance Level 16" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 16 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany17" name="Hobbits of the Company: Allegiance Level 17" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 17 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany18" name="Hobbits of the Company: Allegiance Level 18" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 18 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany19" name="Hobbits of the Company: Allegiance Level 19" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 19 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany2" name="Hobbits of the Company: Allegiance Level 2" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 2 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany20" name="Hobbits of the Company: Allegiance Level 20" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 20 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany21" name="Hobbits of the Company: Allegiance Level 21" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 21 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany22" name="Hobbits of the Company: Allegiance Level 22" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 22 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany23" name="Hobbits of the Company: Allegiance Level 23" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 23 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany24" name="Hobbits of the Company: Allegiance Level 24" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 24 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany25" name="Hobbits of the Company: Allegiance Level 25" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 25 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany26" name="Hobbits of the Company: Allegiance Level 26" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 26 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany27" name="Hobbits of the Company: Allegiance Level 27" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 27 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany28" name="Hobbits of the Company: Allegiance Level 28" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 28 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany29" name="Hobbits of the Company: Allegiance Level 29" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 29 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany3" name="Hobbits of the Company: Allegiance Level 3" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 3 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany30" name="Hobbits of the Company: Allegiance Level 30" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 30 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany4" name="Hobbits of the Company: Allegiance Level 4" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 4 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany5" name="Hobbits of the Company: Allegiance Level 5" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 5 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany6" name="Hobbits of the Company: Allegiance Level 6" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 6 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany7" name="Hobbits of the Company: Allegiance Level 7" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 7 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany8" name="Hobbits of the Company: Allegiance Level 8" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 8 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="HobbitsOfTheCompany9" name="Hobbits of the Company: Allegiance Level 9" type="REPUTATION" category="Allegiance:Hobbits of the Company" minimumLevel="110" description="Reach level 9 with the allegiance: Hobbits of the Company." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
 </rewards>
 </deed>
 <deed key="Honed_Wit_(Deed)" name="Honed Wit" type="CLASS" class="Burglar" category="Obsolete" description="With practice, the right comeback may no longer require a mind set only to mischief." objectives="Strike with Clever Retort (250)">
@@ -17633,6 +17933,156 @@
 <virtue id="HONESTY"/>
 </rewards>
 </deed>
+<deed key="CourtOfLothlorien1" name="The Court of Lothlórien: Allegiance Level 1" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 1 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien10" name="The Court of Lothlórien: Allegiance Level 10" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 10 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien11" name="The Court of Lothlórien: Allegiance Level 11" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 11 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien12" name="The Court of Lothlórien: Allegiance Level 12" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 12 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien13" name="The Court of Lothlórien: Allegiance Level 13" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 13 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien14" name="The Court of Lothlórien: Allegiance Level 14" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 14 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien15" name="The Court of Lothlórien: Allegiance Level 15" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 15 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien16" name="The Court of Lothlórien: Allegiance Level 16" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 16 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien17" name="The Court of Lothlórien: Allegiance Level 17" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 17 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien18" name="The Court of Lothlórien: Allegiance Level 18" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 18 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien19" name="The Court of Lothlórien: Allegiance Level 19" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 19 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien2" name="The Court of Lothlórien: Allegiance Level 2" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 2 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien20" name="The Court of Lothlórien: Allegiance Level 20" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 20 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien21" name="The Court of Lothlórien: Allegiance Level 21" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 21 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien22" name="The Court of Lothlórien: Allegiance Level 22" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 22 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien23" name="The Court of Lothlórien: Allegiance Level 23" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 23 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien24" name="The Court of Lothlórien: Allegiance Level 24" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 24 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien25" name="The Court of Lothlórien: Allegiance Level 25" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 25 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien26" name="The Court of Lothlórien: Allegiance Level 26" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 26 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien27" name="The Court of Lothlórien: Allegiance Level 27" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 27 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien28" name="The Court of Lothlórien: Allegiance Level 28" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 28 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien29" name="The Court of Lothlórien: Allegiance Level 29" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 29 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien3" name="The Court of Lothlórien: Allegiance Level 3" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 3 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien30" name="The Court of Lothlórien: Allegiance Level 30" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 30 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien4" name="The Court of Lothlórien: Allegiance Level 4" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 4 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien5" name="The Court of Lothlórien: Allegiance Level 5" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 5 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien6" name="The Court of Lothlórien: Allegiance Level 6" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 6 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien7" name="The Court of Lothlórien: Allegiance Level 7" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 7 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien8" name="The Court of Lothlórien: Allegiance Level 8" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 8 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="CourtOfLothlorien9" name="The Court of Lothlórien: Allegiance Level 9" type="REPUTATION" category="Allegiance:The Court of Lothlórien" minimumLevel="110" description="Reach level 9 with the allegiance: The Court of Lothlórien." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
 <deed key="The_Court_of_Seregost_--_Tier_1" name="The Court of Seregost -- Tier 1" category="Instances:Plateau of Gorgoroth:The Court of Seregost" description="Deep within Seregost, Lhaereth the Stained keeps her plague cauldrons. They contain a new, more virulent Great Plague, which she intends to release upon the realms of the Free Peoples. As you and the Rangers Faeron and Rhadrog are the few innoculated to the plague, you must enter the Court of Seregost as a small strike team and attempt to disrupt Lhaereth's plans." objectives="Complete the quest The Court of Seregost -- Tier 1">
 <parent key="Sovereign_of_Seregost" name="Sovereign of Seregost"/>
 <rewards>
@@ -18117,6 +18567,156 @@
 <rewards>
 <lotroPoints quantity="10"/>
 <classPoints quantity="1"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor1" name="The Kingdom of Gondor: Allegiance Level 1" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 1 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor10" name="The Kingdom of Gondor: Allegiance Level 10" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 10 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor11" name="The Kingdom of Gondor: Allegiance Level 11" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 11 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor12" name="The Kingdom of Gondor: Allegiance Level 12" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 12 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor13" name="The Kingdom of Gondor: Allegiance Level 13" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 13 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor14" name="The Kingdom of Gondor: Allegiance Level 14" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 14 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor15" name="The Kingdom of Gondor: Allegiance Level 15" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 15 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor16" name="The Kingdom of Gondor: Allegiance Level 16" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 16 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor17" name="The Kingdom of Gondor: Allegiance Level 17" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 17 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor18" name="The Kingdom of Gondor: Allegiance Level 18" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 18 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor19" name="The Kingdom of Gondor: Allegiance Level 19" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 19 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="3"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor2" name="The Kingdom of Gondor: Allegiance Level 2" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 2 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor20" name="The Kingdom of Gondor: Allegiance Level 20" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 20 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor21" name="The Kingdom of Gondor: Allegiance Level 21" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 21 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor22" name="The Kingdom of Gondor: Allegiance Level 22" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 22 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor23" name="The Kingdom of Gondor: Allegiance Level 23" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 23 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor24" name="The Kingdom of Gondor: Allegiance Level 24" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 24 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor25" name="The Kingdom of Gondor: Allegiance Level 25" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 25 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor26" name="The Kingdom of Gondor: Allegiance Level 26" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 26 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor27" name="The Kingdom of Gondor: Allegiance Level 27" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 27 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor28" name="The Kingdom of Gondor: Allegiance Level 28" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 28 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor29" name="The Kingdom of Gondor: Allegiance Level 29" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 29 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor3" name="The Kingdom of Gondor: Allegiance Level 3" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 3 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor30" name="The Kingdom of Gondor: Allegiance Level 30" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 30 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="4"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor4" name="The Kingdom of Gondor: Allegiance Level 4" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 4 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor5" name="The Kingdom of Gondor: Allegiance Level 5" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 5 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="5"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor6" name="The Kingdom of Gondor: Allegiance Level 6" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 6 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor7" name="The Kingdom of Gondor: Allegiance Level 7" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 7 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor8" name="The Kingdom of Gondor: Allegiance Level 8" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 8 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
+</rewards>
+</deed>
+<deed key="KingdomOfGondor9" name="The Kingdom of Gondor: Allegiance Level 9" type="REPUTATION" category="Allegiance:The Kingdom of Gondor" minimumLevel="110" description="Reach level 9 with the allegiance: The Kingdom of Gondor." objectives="">
+<rewards>
+<object id="1879353887" name="Token of Service" quantity="2"/>
 </rewards>
 </deed>
 <deed key="The_Last_Reserves" name="The Last Reserves" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Explore Dor Amarth's water reserves." objectives="Discover Blozronk 47.8S/13.7E (Dor Amarth)&#10;Discover Sárronk 50.7S/9.9E (Dor Amarth)&#10;Discover Nauronk 45.8S/18.6E (Dor Amarth)">
