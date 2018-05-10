@@ -307,7 +307,8 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Aiding_in_the_Conquest" name="Aiding in the Conquest" type="REPUTATION" category="Region:Plateau of Gorgoroth" description="There is much to do in assisting the Conquest of Gorgoroth in Mordor." objectives="Achieve the following four levels in the Mordor factions:&#10;# Celebrated in the Conquest of Gorgoroth&#10;# Enemy to Fushaum Bal North&#10;# Enemy to Fushaum Bal North&#10;# Known to the Red Sky Clan">
+<deed key="Aiding_in_the_Conquest" name="Aiding in the Conquest" type="REPUTATION" category="Region:Gorgoroth" description="There is much to do in assisting the Conquest of Gorgoroth in Mordor." objectives="Achieve the following four levels in the Mordor factions:&#10;# Celebrated in the Conquest of Gorgoroth&#10;# Enemy to Fushaum Bal North&#10;# Enemy to Fushaum Bal North&#10;# Known to the Red Sky Clan">
+<child key="Celebrated_in_the_Conquest_of_Gorgoroth" name="Celebrated in the Conquest of Gorgoroth"/>
 <rewards>
 <lotroPoints quantity="10"/>
 <title name="Vanquisher of Doom"/>
@@ -403,7 +404,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Allegiances_of_Middle-earth" name="Allegiances of Middle-earth" type="REPUTATION" category="Region:Plateau of Gorgoroth" description="There are many to assist in the conquest of Gorgoroth." objectives="Complete Durin's Folk allegiance&#10;Complete Court of Lothlorien Allegiance&#10;Complete Hobbits of the Company Allegiance&#10;Complete Kingdom of Gondor Allegiance">
+<deed key="Allegiances_of_Middle-earth" name="Allegiances of Middle-earth" type="REPUTATION" category="Region:Gorgoroth" description="There are many to assist in the conquest of Gorgoroth." objectives="Complete Durin's Folk allegiance&#10;Complete Court of Lothlorien Allegiance&#10;Complete Hobbits of the Company Allegiance&#10;Complete Kingdom of Gondor Allegiance">
 <rewards>
 <reputation>
 <reputationItem faction="Conquest of Gorgoroth" amount="900"/>
@@ -447,6 +448,15 @@
 <deed key="Alluring" name="Alluring" type="REPUTATION" category="Social" description="There are those individuals with mysterious qualities that others find quite alluring." objectives="Receive 100 /flirt Emotes">
 <rewards>
 <title name="the Alluring"/>
+</rewards>
+</deed>
+<deed key="Ally_in_the_Conquest_of_Gorgoroth" name="Ally in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Those in the Conquest of Gorgoroth expect you will find your way to the forefront of battle to assist them." objectives="You must earn Ally Standing with the Conquest of Gorgoroth">
+<previous key="Friend_in_the_Conquest_of_Gorgoroth" name="Friend in the Conquest of Gorgoroth"/>
+<next key="Kindred_in_the_Conquest_of_Gorgoroth" name="Kindred in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<title name="Ally in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="15"/>
 </rewards>
 </deed>
 <deed key="Ally_of_Ered_Luin" name="Ally of Ered Luin" type="QUEST" category="Region:Ered Luin" description="Complete 10 Quests in Ered Luin." objectives="Complete quests in Ered Luin (10)&#10;The Shadow of Angmar is long and reaches even into distant Ered Luin -- one of the few places in Middle-earth where dwarves and Elves can be found living in a tenuous peace.">
@@ -497,7 +507,16 @@
 <title name="Mathom-provider"/>
 </rewards>
 </deed>
-<deed key="Ally_to_Dor-en-Ernil" name="Ally to Dor-en-Ernil" type="REPUTATION" description="You are a ally to the Men of Dor-en-Ernil." objectives="You must earn Ally standing with the Men of Dor-en-Ernil&#10;Your name is an ally to the Men of Dor-en-Ernil.">
+<deed key="Ally_to_Dol_Amroth" name="Ally to Dol Amroth" type="REPUTATION" category="Region:Western Gondor" description="Your name is now known" objectives="You must earn Ally standing with Dol Amroth">
+<previous key="Friend_to_Dol_Amroth" name="Friend to Dol Amroth"/>
+<next key="Kindred_to_Dol_Amroth" name="Kindred to Dol Amroth"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Dol Amroth - Travel Discount"/>
+<title name="Ally to Dol Amroth"/>
+</rewards>
+</deed>
+<deed key="Ally_to_Dor-en-Ernil" name="Ally to Dor-en-Ernil" type="REPUTATION" category="Region:Central Gondor" description="You are a ally to the Men of Dor-en-Ernil." objectives="You must earn Ally standing with the Men of Dor-en-Ernil&#10;Your name is an ally to the Men of Dor-en-Ernil.">
 <previous key="Friend_to_Dor-en-Ernil" name="Friend to Dor-en-Ernil"/>
 <next key="Kindred_to_Dor-en-Ernil" name="Kindred to Dor-en-Ernil"/>
 <rewards>
@@ -509,7 +528,7 @@
 <object id="1879316638" name="Jewel-encrusted Scimitar" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Ally_to_Lebennin" name="Ally to Lebennin" type="REPUTATION" description="You are an ally to the Men of Lebennin." objectives="You must earn Ally standing with the Men of Lebennin&#10;Your name is ally to the Men of Lebennin.">
+<deed key="Ally_to_Lebennin" name="Ally to Lebennin" type="REPUTATION" category="Region:Central Gondor" description="You are an ally to the Men of Lebennin." objectives="You must earn Ally standing with the Men of Lebennin&#10;Your name is ally to the Men of Lebennin.">
 <previous key="Friend_to_Lebennin" name="Friend to Lebennin"/>
 <next key="Kindred_to_Lebennin" name="Kindred to Lebennin"/>
 <rewards>
@@ -521,7 +540,27 @@
 <object id="1879316640" name="Gold-studded Staff" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Ally_to_Ringl%C3%B3_Vale" name="Ally to Ringló Vale" type="REPUTATION" description="You are an ally to the Men of Ringló Vale." objectives="You must earn Ally standing with the Men of Ringló Vale&#10;Your name is ally to the Men of Ringló Vale.">
+<deed key="Ally_to_Minas_Tirith" name="Ally to Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="When old Anórien is in need of aid, its inhabitants expect that you will find your way to the forefront of battle to assist them." objectives="You must earn Ally standing with Minas Tirith">
+<previous key="Friend_to_Minas_Tirith" name="Friend to Minas Tirith"/>
+<next key="Kindred_to_Minas_Tirith" name="Kindred to Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Old Anórien - Travel Discount"/>
+<title name="Ally to Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="15"/>
+</rewards>
+</deed>
+<deed key="Ally_to_Pelargir" name="Ally to Pelargir" type="REPUTATION" category="Region:Central Gondor" description="You are a Ally in Pelargir." objectives="You must earn Ally standing with the Pelargir&#10;Your name is Ally in Pelargir.">
+<previous key="Friend_to_Pelargir" name="Friend to Pelargir"/>
+<next key="Kindred_to_Pelargir" name="Kindred to Pelargir"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Pelargir - Travel Discount"/>
+<title name="Ally to Pelargir"/>
+<object id="1879314933" name="Central Gondor Silver Piece" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Ally_to_Ringl%C3%B3_Vale" name="Ally to Ringló Vale" type="REPUTATION" category="Region:Central Gondor" description="You are an ally to the Men of Ringló Vale." objectives="You must earn Ally standing with the Men of Ringló Vale&#10;Your name is ally to the Men of Ringló Vale.">
 <previous key="Friend_to_Ringl%C3%B3_Vale" name="Friend to Ringló Vale"/>
 <next key="Kindred_to_Ringl%C3%B3_Vale" name="Kindred to Ringló Vale"/>
 <rewards>
@@ -578,6 +617,14 @@
 <title name="Ally of Rivendell"/>
 </rewards>
 </deed>
+<deed key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a stalwart ally and trusted confidant in all things they do." objectives="You must earn Ally standing with the The Ents of Fangorn.&#10;You are now an ally to the Ents of Fangorn.">
+<previous key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn"/>
+<next key="Kindred_with_the_Ents_of_Fangorn" name="Kindred with the Ents of Fangorn"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<title name="Ally of the Ents"/>
+</rewards>
+</deed>
 <deed key="Ally_to_the_Entwash_Vale" name="Ally to the Entwash Vale" category="Region:East Rohan" description="When the Entwash Vale is in need of aid the Men of The Entwash Vale expect that you will find your way to the forefront of battle to assist them in their time of need." objectives="You must earn Ally standing with the Men of the Entwash Vale&#10;You are now a trusted ally among the Men of the Entwash Vale.">
 <previous key="Friend_to_the_Entwash_Vale" name="Friend to the Entwash Vale"/>
 <next key="Kindred_to_the_Entwash_Vale" name="Kindred to the Entwash Vale"/>
@@ -611,6 +658,15 @@
 <lotroPoints quantity="15"/>
 <skill name="Grey Company - Vendor Discount"/>
 <title name="Ally of the Grey Company"/>
+</rewards>
+</deed>
+<deed key="Ally_to_the_Helmingas" name="Ally to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="When the Helmingas are in need of aid, they expect that you will find your way to the forefront of battle to assist them." objectives="You must earn Ally standing with The Helmingas.&#10;You are now a trusted ally among the Helmingas.">
+<previous key="Friend_to_the_Helmingas" name="Friend to the Helmingas"/>
+<next key="Kindred_to_the_Helmingas" name="Kindred to the Helmingas"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Helmingas - Travel Discount"/>
+<title name="Ally of the Helmingas"/>
 </rewards>
 </deed>
 <deed key="Ally_to_the_Heroes_of_Limlight_Gorge" name="Ally to the Heroes of Limlight Gorge" type="REPUTATION" description="The Heroes of Limlight Gorge have come to trust you as an ally. The beasts of Limlight Gorge pose a threat to the people of Stangard, yet there are few brave enough to face such deadly creatures - fewer still that live to tell the tale of their heroism round the campfire in years to come." objectives="You must achieve Ally standing with the Heroes of Limlight Gorge.&#10;The Heroes of Limlight Gorge honour all that you do and now consider you to be a reliable ally.">
@@ -718,6 +774,27 @@
 <lotroPoints quantity="15"/>
 <skill name="Rangers of Esteldín - Vendor Discount"/>
 <title name="Ally of Esteldín"/>
+</rewards>
+</deed>
+<deed key="Ally_to_the_Rangers_of_Ithilien" name="Ally to the Rangers of Ithilien" type="REPUTATION" category="Region:Eastern Gondor" description="The Rangers of Ithilien consider you an Ally." objectives="You must earn Ally standing with the Rangers of Ithilien">
+<previous key="Friend_to_the_Rangers_of_Ithilien" name="Friend to the Rangers of Ithilien"/>
+<next key="Kindred_to_the_Rangers_of_Ithilien" name="Kindred to the Rangers of Ithilien"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Rangers of Ithilien - Vendor Discount"/>
+<title name="Ally to the Rangers of Ithilien"/>
+<object id="1879306058" name="East Gondor Silver Piece" quantity="15"/>
+</rewards>
+</deed>
+<deed key="Ally_to_the_Riders_of_Rohan" name="Ally to the Riders of Rohan" type="REPUTATION" category="Region:Far Anórien" description="When Far Anórien is in need of aid, its inhabitants expect that you will find y our way to the forefront of battle to assist them." objectives="You must earn Ally standing with the Riders of Rohan">
+<previous key="Friend_to_the_Riders_of_Rohan" name="Friend to the Riders of Rohan"/>
+<next key="Kindred_to_the_Riders_of_Rohan" name="Kindred to the Riders of Rohan"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<skill name="Far Anórien - Travel Discount"/>
+<title name="Ally to the Riders of Rohan"/>
+<object id="1879330542" name="Exquisite Wood-carving" quantity="1"/>
+<object id="1879330540" name="Polished Marble Trinket" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Ally_to_the_Riders_of_Stangard" name="Ally to the Riders of Stangard" type="REPUTATION" description="You are now trusted among the Riders of Stangard, and with that trust comes an expectation of continued assistance." objectives="You must achieve Ally standing with the The Riders of Stangard.&#10;The Riders of Stangard honour all that you do and now consider you to be a reliable ally.">
@@ -2314,6 +2391,23 @@
 <title name="Celebrated by the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="40"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Celebrated_in_Minas_Tirith" name="Celebrated in Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="The people of Old Anórien, and the great city of Minas Tirith celebrate you whenever you travel through their lands." objectives="You must earn Celebrated standing with Minas Tirith (90,000)">
+<previous key="Honoured_in_Minas_Tirith" name="Honoured in Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="50"/>
+<title name="Celebrated in Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="40"/>
+</rewards>
+</deed>
+<deed key="Celebrated_in_the_Conquest_of_Gorgoroth" name="Celebrated in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Those in the Conquest of Gorgoroth celebrate you whenever you travel." objectives="You must obtain Celebrated Standing in the Conquest of Gorgoroth">
+<previous key="Honoured_in_the_Conquest_of_Gorgoroth" name="Honoured in the Conquest of Gorgoroth"/>
+<parent key="Aiding_in_the_Conquest" name="Aiding in the Conquest"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Celebrated Warrior in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="30"/>
 </rewards>
 </deed>
 <deed key="Celebrating_Sunshine" name="Celebrating Sunshine" type="EVENT" category="Event:Summer Festival" minimumLevel="8" description="Your fervent participation in the Summer Festival does you credit!" objectives="Go fishing in Bree-land&#10;The pond has provided the Bywater fishing event with a great deal of diversity this year.&#10;Go fishing in Celondim&#10;The docks at Celondim have provided the Bywater fishing event with a great deal of diversity this year.&#10;Go fishing in Bywater&#10;Hopefully you now have a great store of rare and excellent fish from this year's festival event.&#10;Go fishing in Thorin's Hall&#10;The canal in Thorin's Hall has provided the Bywater fishing event with a great deal of diversity this year.&#10;Find the Missing Things in Duillond&#10;Carelessness ruins festivals. Thankfully you were present to help prevent this catastrophe from occurring.&#10;Complete the Forgotten Errands in Thorin's Hall&#10;An untidy dwarf was very lucky to have you close at hand this year.&#10;Recover from Too Much Festival in the Shire&#10;Hobbits cannot possibly keep track of all their things when enjoying the many splendours of a festival. It's a good thing you were there to help clean up the aftermath.&#10;Gather Fireworks for the Festival&#10;You have helped to light the sky most splendidly for the patrons of the festival this year.">
@@ -7728,6 +7822,16 @@
 <title name="Rare Fish"/>
 </rewards>
 </deed>
+<deed key="Friend_in_the_Conquest_of_Gorgoroth" name="Friend in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="All you have done within the bounds of Gorgoroth has made those in its conquests friendly to you." objectives="You must earn Friend Standing with the Conquest of Gorgoroth">
+<previous key="Known_in_the_Conquest_of_Gorgoroth" name="Known in the Conquest of Gorgoroth"/>
+<next key="Ally_in_the_Conquest_of_Gorgoroth" name="Ally in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Conquest of Gorgoroth - Vendor Discount"/>
+<title name="Aiding the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="10"/>
+</rewards>
+</deed>
 <deed key="Friend_of_Lothl%C3%B3rien" name="Friend of Lothlórien" category="Region:Lothlórien" description="The Galadhrim are wary of strangers. It takes much to earn their trust." objectives="Become Known to the Galadhrim&#10;You have only just begun to earn the trust of the Galadhrim.&#10;Complete The Paths of Caras Galadhon&#10;You have earned the full trust of the Galadhrim, allowing you free fun of Lothlórien.">
 <child key="Known_to_the_Galadhrim" name="Known to the Galadhrim"/>
 <rewards>
@@ -7747,7 +7851,16 @@
 <title name="Eglan-friend"/>
 </rewards>
 </deed>
-<deed key="Friend_to_Dor-en-Ernil" name="Friend to Dor-en-Ernil" type="REPUTATION" description="You are a friend to the Men of Dor-en-Ernil." objectives="You must earn Friend standing with the Men of Dor-en-Ernil&#10;Your name is friendly to the Men of Dor-en-Ernil.">
+<deed key="Friend_to_Dol_Amroth" name="Friend to Dol Amroth" type="REPUTATION" category="Region:Western Gondor" description="Your name is now known" objectives="You must earn Friend standing with Dol Amroth">
+<previous key="Known_to_Dol_Amroth" name="Known to Dol Amroth"/>
+<next key="Ally_to_Dol_Amroth" name="Ally to Dol Amroth"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Dol Amroth - Vendor Discount"/>
+<title name="Friend to Dol Amroth"/>
+</rewards>
+</deed>
+<deed key="Friend_to_Dor-en-Ernil" name="Friend to Dor-en-Ernil" type="REPUTATION" category="Region:Central Gondor" description="You are a friend to the Men of Dor-en-Ernil." objectives="You must earn Friend standing with the Men of Dor-en-Ernil&#10;Your name is friendly to the Men of Dor-en-Ernil.">
 <previous key="Known_to_Dor-en-Ernil" name="Known to Dor-en-Ernil"/>
 <next key="Ally_to_Dor-en-Ernil" name="Ally to Dor-en-Ernil"/>
 <rewards>
@@ -7759,7 +7872,7 @@
 <object id="1879316644" name="Coast-raider's Sash" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Friend_to_Lebennin" name="Friend to Lebennin" type="REPUTATION" description="You are friend to the Men of Lebennin." objectives="You must earn Friend standing with the Men of Lebennin&#10;Your name is friend to the Men of Lebennin.">
+<deed key="Friend_to_Lebennin" name="Friend to Lebennin" type="REPUTATION" category="Region:Central Gondor" description="You are friend to the Men of Lebennin." objectives="You must earn Friend standing with the Men of Lebennin&#10;Your name is friend to the Men of Lebennin.">
 <previous key="Known_to_Lebennin" name="Known to Lebennin"/>
 <next key="Ally_to_Lebennin" name="Ally to Lebennin"/>
 <rewards>
@@ -7771,7 +7884,27 @@
 <object id="1879316645" name="Bone Carving" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Friend_to_Ringl%C3%B3_Vale" name="Friend to Ringló Vale" type="REPUTATION" description="You are a friend to the Men of Ringló Vale." objectives="You must earn Friend standing with the Men of Ringló Vale&#10;Your name is friendly to the Men of Ringló Vale.">
+<deed key="Friend_to_Minas_Tirith" name="Friend to Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="All you have done within the bounds of Old Anórien has made the folk who live here friendly to you." objectives="You must earn Friend standing with Minas Tirith">
+<previous key="Known_to_Minas_Tirith" name="Known to Minas Tirith"/>
+<next key="Ally_to_Minas_Tirith" name="Ally to Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Old Anórien - Vendor Discount"/>
+<title name="Friend to Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Friend_to_Pelargir" name="Friend to Pelargir" type="REPUTATION" category="Region:Central Gondor" description="You are a Friend in Pelargir." objectives="You must earn Friend standing with the Pelargir&#10;Your name is Friend in Pelargir.">
+<previous key="Known_to_Pelargir" name="Known to Pelargir"/>
+<next key="Ally_to_Pelargir" name="Ally to Pelargir"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Pelargir - Vendor Discount"/>
+<title name="Friend to Pelargir"/>
+<object id="1879314933" name="Central Gondor Silver Piece" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Friend_to_Ringl%C3%B3_Vale" name="Friend to Ringló Vale" type="REPUTATION" category="Region:Central Gondor" description="You are a friend to the Men of Ringló Vale." objectives="You must earn Friend standing with the Men of Ringló Vale&#10;Your name is friendly to the Men of Ringló Vale.">
 <previous key="Known_to_Ringl%C3%B3_Vale" name="Known to Ringló Vale"/>
 <next key="Ally_to_Ringl%C3%B3_Vale" name="Ally to Ringló Vale"/>
 <rewards>
@@ -7848,6 +7981,14 @@
 <title name="Rivendell-friend"/>
 </rewards>
 </deed>
+<deed key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a friend and are willing to trust you with more important endeavors." objectives="You must earn Friend standing with the The Ents of Fangorn.&#10;You are now a friend to the Ents of Fangorn.">
+<previous key="Known_to_the_Ents_of_Fangorn" name="Known to the Ents of Fangorn"/>
+<next key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<title name="Ent-friend"/>
+</rewards>
+</deed>
 <deed key="Friend_to_the_Entwash_Vale" name="Friend to the Entwash Vale" category="Region:East Rohan" description="All you have done within the bounds of the Entwash Vale has made the folk who live within its bounds friendly to you." objectives="You must have earn friend standing with the Men of the Entwash Vale.&#10;You have become a welcome friend among the Men of the Entwash Vale.">
 <previous key="Known_to_the_Entwash_Vale" name="Known to the Entwash Vale"/>
 <next key="Ally_to_the_Entwash_Vale" name="Ally to the Entwash Vale"/>
@@ -7882,6 +8023,15 @@
 <lotroPoints quantity="10"/>
 <skill name="Grey Company - Travel Discount"/>
 <title name="Friend to the Grey Company"/>
+</rewards>
+</deed>
+<deed key="Friend_to_the_Helmingas" name="Friend to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="You are now considered a friend to the Helmingas of the Westemnet." objectives="You must earn Friend standing with The Helmingas.&#10;You have become a welcome friend among the Helmingas.">
+<previous key="Known_to_the_Helmingas" name="Known to the Helmingas"/>
+<next key="Ally_to_the_Helmingas" name="Ally to the Helmingas"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Helmingas - Vendor Discount"/>
+<title name="Friend to the Helmingas"/>
 </rewards>
 </deed>
 <deed key="Friend_to_the_Heroes_of_Limlight_Gorge" name="Friend to the Heroes of Limlight Gorge" type="REPUTATION" description="The Heroes of Limlight Gorge now consider friendly enough to be trusted unwatched. The beasts of Limlight Gorge pose a threat to the people of Stangard, yet there are few brave enough to face such deadly creatures - fewer still that live to tell the tale of their heroism round the campfire in years to come." objectives="You must earn Friend standing with the Heroes of Limlight Gorge.&#10;Your efforts have earned you a standing of friendship with the Heroes of Limlight Gorge.">
@@ -8000,6 +8150,26 @@
 <lotroPoints quantity="10"/>
 <skill name="Rangers of Esteldín - Travel Discount"/>
 <title name="Esteldín-friend"/>
+</rewards>
+</deed>
+<deed key="Friend_to_the_Rangers_of_Ithilien" name="Friend to the Rangers of Ithilien" type="REPUTATION" category="Region:Eastern Gondor" description="The the Rangers of Ithilien have grown to count you among their friends." objectives="You must earn Friend standing with the Rangers of Ithilien">
+<previous key="Known_to_the_Rangers_of_Ithilien" name="Known to the Rangers of Ithilien"/>
+<next key="Ally_to_the_Rangers_of_Ithilien" name="Ally to the Rangers of Ithilien"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Rangers of Ithilien - Vendor Discount"/>
+<title name="Friend to the Rangers of Ithilien"/>
+<object id="1879306058" name="East Gondor Silver Piece" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Friend_to_the_Riders_of_Rohan" name="Friend to the Riders of Rohan" type="REPUTATION" category="Region:Far Anórien" description="All you have done within the bounds of Far Anórien has made the folk who live here friendly to you." objectives="You must earn Friend standing with the Riders of Rohan">
+<previous key="Known_to_the_Riders_of_Rohan" name="Known to the Riders of Rohan"/>
+<next key="Ally_to_the_Riders_of_Rohan" name="Ally to the Riders of Rohan"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Far Anórien - Vendor Discount"/>
+<title name="Friend to the Riders of Rohan"/>
+<object id="1879330542" name="Exquisite Wood-carving" quantity="2"/>
 </rewards>
 </deed>
 <deed key="Friend_to_the_Riders_of_Stangard" name="Friend to the Riders of Stangard" type="REPUTATION" description="The Riders of Stangard consider you a friend to their cause and respect you more." objectives="You must achieve Friend standing with the The Riders of Stangard.&#10;Your efforts have earned you a standing of friendship with the Riders of Stangard.">
@@ -9764,6 +9934,24 @@
 <object id="1879256449" name="Yule Festival Token" quantity="2"/>
 </rewards>
 </deed>
+<deed key="Honoured_in_Minas_Tirith" name="Honoured in Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="The people of Old Anórien, adn the great city of Minas Tirith honour you when ever you travel through their lands." objectives="You must earn Honoured standing with Minas Tirith (60,000).">
+<previous key="Respected_in_Minas_Tirith" name="Respected in Minas Tirith"/>
+<next key="Celebrated_in_Minas_Tirith" name="Celebrated in Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Esteemed in Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Honoured_in_the_Conquest_of_Gorgoroth" name="Honoured in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Those in the Conquest of Gorgoroth respect you whenever you travel." objectives="You must obtain Respected Standing in the Conquest of Gorgoroth">
+<previous key="Respected_in_the_Conquest_of_Gorgoroth" name="Respected in the Conquest of Gorgoroth"/>
+<next key="Celebrated_in_the_Conquest_of_Gorgoroth" name="Celebrated in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Esteemed Warrior in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="30"/>
+</rewards>
+</deed>
 <deed key="Hope_Among_the_Ruins" name="Hope Among the Ruins" category="Instances:Ashes of Osgiliath:The Ruined City" description="You have pursued a mysterious figure dressed in Faramir's cloak ever since you saw it exiting the tunnels under Osgiliath." objectives="Complete the deed The Ruined City -- Tier 1&#10;Complete the deed The Ruined City -- Tier 2&#10;Complete the deed Challenge: Harrowing Ordeal">
 <child key="The_Ruined_City_--_Tier_1" name="The Ruined City -- Tier 1"/>
 <child key="The_Ruined_City_--_Tier_2" name="The Ruined City -- Tier 2"/>
@@ -10413,13 +10601,30 @@
 <object id="1879230183" name="Commendation" quantity="500"/>
 </rewards>
 </deed>
+<deed key="Kindred_in_the_Conquest_of_Gorgoroth" name="Kindred in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Those in the Conquest of Gorgoroth look upon you as a member of their cause. You are always welcome among their rank and numbers." objectives="You must earn Kindred Standing with the Conquest of Gorgoroth">
+<previous key="Ally_in_the_Conquest_of_Gorgoroth" name="Ally in the Conquest of Gorgoroth"/>
+<next key="Respected_in_the_Conquest_of_Gorgoroth" name="Respected in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<skill name="Conquest of Gorgoroth - Travel Discount"/>
+<title name="Honoured Warrior in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="20"/>
+</rewards>
+</deed>
 <deed key="Kindred_of_Malevolence" name="Kindred of Malevolence" type="EVENT" description="You have reached kindred standing with the Ale Association." objectives="Reach Kindred standing with the Ale Association.">
 <previous key="Ale_Association_Ally" name="Ale Association Ally"/>
 <rewards>
 <title name="Creep"/>
 </rewards>
 </deed>
-<deed key="Kindred_to_Dor-en-Ernil" name="Kindred to Dor-en-Ernil" type="REPUTATION" description="You are kindred to the Men of Dor-en-Ernil." objectives="You must earn Kindred standing with the Men of Dor-en-Ernil&#10;Your name is kindred to the Men of Dor-en-Ernil.">
+<deed key="Kindred_to_Dol_Amroth" name="Kindred to Dol Amroth" type="REPUTATION" category="Region:Western Gondor" description="Your name is now Kindred" objectives="You must earn Kindred standing with Dol Amroth">
+<previous key="Ally_to_Dol_Amroth" name="Ally to Dol Amroth"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Honoured in Dol Amroth"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_Dor-en-Ernil" name="Kindred to Dor-en-Ernil" type="REPUTATION" category="Region:Central Gondor" description="You are kindred to the Men of Dor-en-Ernil." objectives="You must earn Kindred standing with the Men of Dor-en-Ernil&#10;Your name is kindred to the Men of Dor-en-Ernil.">
 <previous key="Ally_to_Dor-en-Ernil" name="Ally to Dor-en-Ernil"/>
 <rewards>
 <reputation>
@@ -10430,7 +10635,7 @@
 <object id="1879316639" name="Unblemished Swan Statue" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Kindred_to_Lebennin" name="Kindred to Lebennin" type="REPUTATION" description="You are kindred to the Men of Lebennin." objectives="You must earn Kindred standing with the Men of Lebennin&#10;Your name is kindred to the Men of Lebennin.">
+<deed key="Kindred_to_Lebennin" name="Kindred to Lebennin" type="REPUTATION" category="Region:Central Gondor" description="You are kindred to the Men of Lebennin." objectives="You must earn Kindred standing with the Men of Lebennin&#10;Your name is kindred to the Men of Lebennin.">
 <previous key="Ally_to_Lebennin" name="Ally to Lebennin"/>
 <rewards>
 <reputation>
@@ -10441,7 +10646,23 @@
 <object id="1879316641" name="Worn Medallion of Castamir" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Kindred_to_Ringl%C3%B3_Vale" name="Kindred to Ringló Vale" type="REPUTATION" description="You are kindred to the Men of Ringló Vale." objectives="You must earn Kindred standing with the Men of Ringló Vale&#10;Your name is Honored to the Men of Ringló Vale.">
+<deed key="Kindred_to_Minas_Tirith" name="Kindred to Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="You may not have been born among the people of Old Anórien, and you may not make the great city of Minas Tirith your home, but you are welcome wherever you go." objectives="You must earn Kindred standing with Minas Tirith (30,000)">
+<previous key="Ally_to_Minas_Tirith" name="Ally to Minas Tirith"/>
+<next key="Respected_in_Minas_Tirith" name="Respected in Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Kindred to Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="20"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_Pelargir" name="Kindred to Pelargir" type="REPUTATION" category="Region:Central Gondor" description="Your name is now Kindred Pelargir" objectives="You must earn Kindred standing with Pelargir">
+<previous key="Ally_to_Pelargir" name="Ally to Pelargir"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Honored in Pelargir"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_Ringl%C3%B3_Vale" name="Kindred to Ringló Vale" type="REPUTATION" category="Region:Central Gondor" description="You are kindred to the Men of Ringló Vale." objectives="You must earn Kindred standing with the Men of Ringló Vale&#10;Your name is Honored to the Men of Ringló Vale.">
 <previous key="Ally_to_Ringl%C3%B3_Vale" name="Ally to Ringló Vale"/>
 <rewards>
 <reputation>
@@ -10499,6 +10720,13 @@
 <title name="Eorling"/>
 </rewards>
 </deed>
+<deed key="Kindred_to_the_Helmingas" name="Kindred to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="You may not have been born an Eorling, but you are welcome wherever you go in the eastern Westemnet." objectives="You must earn Kindred standing with The Helmingas.&#10;There is nowhere you can travel within Eastfold, Kingstead, and Broadacres where you are not known. The people feel a deep kinship with you.">
+<previous key="Ally_to_the_Helmingas" name="Ally to the Helmingas"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Eorling"/>
+</rewards>
+</deed>
 <deed key="Kindred_to_the_Host_of_the_West_(Faction)(Deed)" name="Kindred to the Host of the West" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid Gondor and its people. For this, Aragorn now counts you among one of his top commanders." objectives="You must earn Kindred standing with the Host of the West">
 <previous key="Ally_to_the_Host_of_the_West_(Faction)(Deed)" name="Ally to the Host of the West"/>
 <next key="Respected_by_the_Host_of_the_West_(Faction)(Deed)" name="Respected by the Host of the West"/>
@@ -10546,6 +10774,22 @@
 <title name="Kin of Wildermore"/>
 </rewards>
 </deed>
+<deed key="Kindred_to_the_Rangers_of_Ithilien" name="Kindred to the Rangers of Ithilien" type="REPUTATION" category="Region:Eastern Gondor" description="The Rangers of Ithilien consider you Kindred." objectives="You must earn Kindred standing with the Rangers of Ithilien">
+<previous key="Ally_to_the_Rangers_of_Ithilien" name="Ally to the Rangers of Ithilien"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Ranger of Ithilien"/>
+<object id="1879306058" name="East Gondor Silver Piece" quantity="20"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_the_Riders_of_Rohan" name="Kindred to the Riders of Rohan" type="REPUTATION" category="Region:Far Anórien" description="You may not have been born among the people of Far Anórien, but you are welcome wherever you go." objectives="You must earn Kindred standing with the Riders of Rohan">
+<previous key="Ally_to_the_Riders_of_Rohan" name="Ally to the Riders of Rohan"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Fearless Rider"/>
+<object id="1879330540" name="Polished Marble Trinket" quantity="2"/>
+</rewards>
+</deed>
 <deed key="Kindred_to_the_Survivors_of_Wildermore" name="Kindred to the Survivors of Wildermore" type="REPUTATION" description="The Survivors of Wildermore are honoured to call you kin." objectives="You must earn Kindred standing with the Survivors of Wildermore">
 <previous key="Ally_to_the_Survivors_of_Wildermore" name="Ally to the Survivors of Wildermore"/>
 <rewards>
@@ -10590,6 +10834,13 @@
 <rewards>
 <lotroPoints quantity="20"/>
 <title name="Elf-friend"/>
+</rewards>
+</deed>
+<deed key="Kindred_with_the_Ents_of_Fangorn" name="Kindred with the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn look upon you as an honorary member of the forest. You are welcome among the trees and bushes of the ancient wood." objectives="You must earn Kindred standing with the The Ents of Fangorn.&#10;Your deeds on behalf of the Ents of Fangorn earn you a place among them.">
+<previous key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Ent-kin"/>
 </rewards>
 </deed>
 <deed key="Kindred_with_the_Galadhrim" name="Kindred with the Galadhrim" type="REPUTATION" description="Even the White Lady knows of your efforts and as such you have earned the highest honour amongst the Galadhrim." objectives="You must obtain Kindred standing with the Galadhrim.&#10;The Elves of Lothlórien have no higher honourifics to bestow upon you. You are welcome in their wood and trusted to do what is right when present.">
@@ -10720,7 +10971,22 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="Known_to_Dor-en-Ernil" name="Known to Dor-en-Ernil" type="REPUTATION" description="You are known to the Men of Dor-en-Ernil." objectives="You must earn Acquaintance standing with the Men of Dor-en-Ernil&#10;Your name is known to the Men of Dor-en-Ernil.">
+<deed key="Known_in_the_Conquest_of_Gorgoroth" name="Known in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Your name is now known throughout the entirety of Gorgoroth, and those in its conquest know that you act in their interest." objectives="You must earn Acquaintance Standing with the Conquest of Gorgoroth">
+<next key="Friend_in_the_Conquest_of_Gorgoroth" name="Friend in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Known_to_Dol_Amroth" name="Known to Dol Amroth" type="REPUTATION" category="Region:Western Gondor" description="Your name is now known" objectives="You must earn Acquaintance standing with Dol Amroth">
+<next key="Friend_to_Dol_Amroth" name="Friend to Dol Amroth"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to Dol Amroth"/>
+</rewards>
+</deed>
+<deed key="Known_to_Dor-en-Ernil" name="Known to Dor-en-Ernil" type="REPUTATION" category="Region:Central Gondor" description="You are known to the Men of Dor-en-Ernil." objectives="You must earn Acquaintance standing with the Men of Dor-en-Ernil&#10;Your name is known to the Men of Dor-en-Ernil.">
 <next key="Friend_to_Dor-en-Ernil" name="Friend to Dor-en-Ernil"/>
 <rewards>
 <reputation>
@@ -10730,7 +10996,7 @@
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Known_to_Lebennin" name="Known to Lebennin" type="REPUTATION" description="You are known to the Men of Lebennin." objectives="You must earn Acquaintance standing with the Men of Lebennin&#10;Your name is known to the Men of Lebennin.">
+<deed key="Known_to_Lebennin" name="Known to Lebennin" type="REPUTATION" category="Region:Central Gondor" description="You are known to the Men of Lebennin." objectives="You must earn Acquaintance standing with the Men of Lebennin&#10;Your name is known to the Men of Lebennin.">
 <next key="Friend_to_Lebennin" name="Friend to Lebennin"/>
 <rewards>
 <reputation>
@@ -10740,7 +11006,23 @@
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="5"/>
 </rewards>
 </deed>
-<deed key="Known_to_Ringl%C3%B3_Vale" name="Known to Ringló Vale" type="REPUTATION" description="You are known to the Men of Ringló Vale." objectives="You must earn Acquaintance standing with the Men of Ringló Vale&#10;Your name is known to the Men of Ringló Vale.">
+<deed key="Known_to_Minas_Tirith" name="Known to Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="Your name is now known throughout the entireity of Old Anórien, and the poeple know that you act in their interest." objectives="You must earn Acquaintance standing with Minas Tirith">
+<next key="Friend_to_Minas_Tirith" name="Friend to Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="known to Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Known_to_Pelargir" name="Known to Pelargir" type="REPUTATION" category="Region:Central Gondor" description="You are known in Pelargir." objectives="You must earn Acquaintance standing with the Pelargir&#10;Your name is known in Pelargir.">
+<next key="Friend_to_Pelargir" name="Friend to Pelargir"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to Pelargir"/>
+<object id="1879314933" name="Central Gondor Silver Piece" quantity="10"/>
+</rewards>
+</deed>
+<deed key="Known_to_Ringl%C3%B3_Vale" name="Known to Ringló Vale" type="REPUTATION" category="Region:Central Gondor" description="You are known to the Men of Ringló Vale." objectives="You must earn Acquaintance standing with the Men of Ringló Vale&#10;Your name is known to the Men of Ringló Vale.">
 <next key="Friend_to_Ringl%C3%B3_Vale" name="Friend to Ringló Vale"/>
 <rewards>
 <reputation>
@@ -10808,6 +11090,13 @@
 <title name="Known in Rivendell"/>
 </rewards>
 </deed>
+<deed key="Known_to_the_Ents_of_Fangorn" name="Known to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn know your name and wonder what more you will do for them." objectives="You must earn Acquaintance standing with the The Ents of Fangorn.&#10;You are now known to the Ents of Fangorn.">
+<next key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Ents"/>
+</rewards>
+</deed>
 <deed key="Known_to_the_Entwash_Vale" name="Known to the Entwash Vale" category="Region:East Rohan" description="Your name is now known throughout the entirety of the Entwash Vale and the people know that you act in their interest." objectives="You must earn Acquaintance standing with the Men of the Entwash Vale.&#10;You are now known throughout the Entwash Vale.">
 <next key="Friend_to_the_Entwash_Vale" name="Friend to the Entwash Vale"/>
 <rewards>
@@ -10836,6 +11125,13 @@
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Known to the Grey Company"/>
+</rewards>
+</deed>
+<deed key="Known_to_the_Helmingas" name="Known to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="Your name is now known amongst the Helmingas, and they know that you act in their interest." objectives="You must earn Acquaintance standing with the The Helmingas.&#10;You are now known to the Helmingas.">
+<next key="Friend_to_the_Helmingas" name="Friend to the Helmingas"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Helmingas"/>
 </rewards>
 </deed>
 <deed key="Known_to_the_Heroes_of_Limlight_Gorge" name="Known to the Heroes of Limlight Gorge" type="REPUTATION" description="The Heroes of Limlight Gorge now know your name. The beasts of Limlight Gorge pose a threat to the people of Stangard, yet there are few brave enough to face such deadly creatures - fewer still that live to tell the tale of their heroism round the campfire in years to come." objectives="You must achieve Acquaintance standing with the Heroes of Limlight Gorge.&#10;Your continued efforts have made your name known to the Heroes of Limlight Gorge.">
@@ -10929,6 +11225,22 @@
 <rewards>
 <lotroPoints quantity="5"/>
 <title name="Known to the Rangers"/>
+</rewards>
+</deed>
+<deed key="Known_to_the_Rangers_of_Ithilien" name="Known to the Rangers of Ithilien" type="REPUTATION" category="Region:Eastern Gondor" description="Your name is now known among the Rangers of Ithilien." objectives="You must earn Acquaintance standing with the Rangers of Ithilien">
+<next key="Friend_to_the_Rangers_of_Ithilien" name="Friend to the Rangers of Ithilien"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Rangers of Ithilien"/>
+<object id="1879306058" name="East Gondor Silver Piece" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Known_to_the_Riders_of_Rohan" name="Known to the Riders of Rohan" type="REPUTATION" category="Region:Far Anórien" description="Your name is now known throughout the entireity of Far Anórien, and the people know that you act in their interest." objectives="You must earn acquaintance standing with the Riders of Rohan">
+<next key="Friend_to_the_Riders_of_Rohan" name="Friend to the Riders of Rohan"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Known to the Riders of Rohan"/>
+<object id="1879330542" name="Exquisite Wood-carving" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Known_to_the_Riders_of_Stangard" name="Known to the Riders of Stangard" type="REPUTATION" description="As the vanguard pushing evil from Mirkwood, the Riders of Stangard look for any that will stand with them. You have become known to their leaders." objectives="You must achieve Acquaintance standing with the The Riders of Stangard.&#10;Your continued efforts have made your name known to the Riders of Stangard.">
@@ -14787,6 +15099,24 @@
 <title name="Respected Warrior of the Host of the West"/>
 <object id="1879333869" name="Host of the West Silver Piece" quantity="25"/>
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Respected_in_Minas_Tirith" name="Respected in Minas Tirith" type="REPUTATION" category="Region:Old Anórien" description="The people of Old Anórien, and the great city of Minas Tirith respect you when ever you travel through their lands." objectives="You must earn Respected standing with Minas Tirith (45,000).">
+<previous key="Kindred_to_Minas_Tirith" name="Kindred to Minas Tirith"/>
+<next key="Honoured_in_Minas_Tirith" name="Honoured in Minas Tirith"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Respected in Minas Tirith"/>
+<object id="1879326937" name="Minas Tirith Silver Piece" quantity="25"/>
+</rewards>
+</deed>
+<deed key="Respected_in_the_Conquest_of_Gorgoroth" name="Respected in the Conquest of Gorgoroth" type="REPUTATION" category="Region:Gorgoroth" description="Those in the Conquest of Gorgoroth respect you whenever you travel." objectives="You must obtain Respected Standing in the Conquest of Gorgoroth">
+<previous key="Kindred_in_the_Conquest_of_Gorgoroth" name="Kindred in the Conquest of Gorgoroth"/>
+<next key="Honoured_in_the_Conquest_of_Gorgoroth" name="Honoured in the Conquest of Gorgoroth"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<title name="Respected Warrior in the Conquest of Gorgoroth"/>
+<object id="1879345125" name="Silver Signet of the Thandrim" quantity="25"/>
 </rewards>
 </deed>
 <deed key="Restoring_the_Quick_Post" name="Restoring the Quick Post" type="QUEST" category="Region:Shire" minimumLevel="8" description="Restore the good name of the Quick Post service." objectives="Service Little Delving to Michel Delving route&#10;Michel Delving is the mayoral seat of the Shire, home to the chief office of the Shirriffs and Bounders.&#10;Service Michel Delving to Waymeet route&#10;Waymeet lies at the crossroads between the Great East Road and the north-south road leading from Needlehole to the Southfarthing.&#10;Service Waymeet to Needlehole route&#10;Needlehole lies at the edge of the Shire, bordering both the Westfarthing and the Northfarthing. The road leading through Needlehole from the south also continues on beyond the Tower Hills into Ered Luin.&#10;Service Needlehole to Michel Delving route&#10;Michel Delving is the mayoral seat of the Shire, home to the chief office of the Shirriffs and Bounders.&#10;Service Michel Delving to Tuckborough route&#10;Tuckborough is the chief village of Tookland, home to the Great Smials, ancestral dwelling of the Thain of the Shire.&#10;Service Tuckborough to Hobbiton route&#10;Hobbiton is a quaint town best known for Bag End and the antics of its former owner, Bilbo Baggins.&#10;Service Hobbiton to Overhill route&#10;Overhill lies to the north of Hobbiton, nestled against the eaves of Bindbole Wood, where there is rumour of walking trees.&#10;Service Overhill to Bywater route&#10;Bywater -- best known for its inn, The Green Dragon -- lies across the Water from Hobbiton.&#10;Service Frogmorton to Woodhall route&#10;Woodhall lies nestled in the arms of the Woody End, where it is said Elves sometimes can be seen travelling to the Grey Havens west of the Shire.&#10;Service Woodhall to Stock route&#10;The beer at The Golden Perch in Stock is purported to be the best in the Shire.&#10;Service Stock to Budgeford route&#10;Budgeford is the home of the Bolger family and pork-capital of the Shire, rarely does it see too many visitors....&#10;Service Budgeford to Scary route&#10;Best known for its quarry, the town of Scary lies at the border of the Northfarthing, in the arms of the Hills of Scary.&#10;Service Scary to Brockenborings route&#10;Brockenborings was named for a series of old tunnels in the hills near Scary.&#10;Talk to Postmaster Proudfoot&#10;Restore the good name of the Quick Post Service.">
