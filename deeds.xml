@@ -8822,6 +8822,26 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879306057" name="Amroth Silver Piece" quantity="18"/>
 </rewards>
+<geo requiredPoints="18">
+<point mapKey="western_gondor" id="16022"/>
+<point mapKey="western_gondor" id="16023"/>
+<point mapKey="western_gondor" id="16024"/>
+<point mapKey="western_gondor" id="16025"/>
+<point mapKey="western_gondor" id="16026"/>
+<point mapKey="western_gondor" id="16027"/>
+<point mapKey="western_gondor" id="16124"/>
+<point mapKey="western_gondor" id="16125"/>
+<point mapKey="western_gondor" id="16126"/>
+<point mapKey="western_gondor" id="16127"/>
+<point mapKey="western_gondor" id="16128"/>
+<point mapKey="western_gondor" id="16129"/>
+<point mapKey="western_gondor" id="16232"/>
+<point mapKey="western_gondor" id="16233"/>
+<point mapKey="western_gondor" id="16234"/>
+<point mapKey="western_gondor" id="16235"/>
+<point mapKey="western_gondor" id="16236"/>
+<point mapKey="western_gondor" id="16237"/>
+</geo>
 </deed>
 <deed key="Gorgoroth:_Continued_Conquest" name="Gorgoroth: Continued Conquest" category="Region:Plateau of Gorgoroth" description="There is still much to do in Gorgoroth." objectives="Complete Gorgoroth: Continued Efforts&#10;Complete Gorgoroth: Continued Foothold&#10;Complete Gorgoroth: Continued Skirmishes">
 <child key="Gorgoroth:_Continued_Efforts" name="Gorgoroth: Continued Efforts"/>
@@ -20860,6 +20880,20 @@
 <title name="Treasure Seeker of Agarnaith"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="mordor_agarnaith" id="9624"/>
+<point mapKey="mordor_agarnaith" id="9625"/>
+<point mapKey="mordor_agarnaith" id="9626"/>
+<point mapKey="mordor_agarnaith" id="9627"/>
+<point mapKey="mordor_agarnaith" id="9628"/>
+<point mapKey="mordor_agarnaith" id="9629"/>
+<point mapKey="mordor_agarnaith" id="9630"/>
+<point mapKey="mordor_agarnaith" id="9631"/>
+<point mapKey="mordor_agarnaith" id="9632"/>
+<point mapKey="mordor_agarnaith" id="9633"/>
+<point mapKey="mordor_agarnaith" id="9634"/>
+<point mapKey="mordor_agarnaith" id="9635"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Angmar" name="Treasure of Angmar" type="EXPLORER" category="Region:Angmar" minimumLevel="90" description="Find Angmar's treasure that has been lost over the years." objectives="Find Angmar's lost treasure.&#10;# 7.2N/30.4W (Angmar) Imlad Balchorth&#10;# 4.7N/29.2W (Angmar) Imlad Balchorth&#10;# 3.9N/39.9W (Angmar) Nád Nathair (Fasach-Larran)&#10;# 6.3N/37.9W (Angmar) Dûn Covád (Fasach-Falroid)&#10;# 12.2N/29.5W (Angmar) Gate of Shadows (Rhunendin)&#10;# 12.1N/27.3W (Angmar) Torech-i-Bogbereth (Himbar)&#10;# 13.0N/25.4W (Angmar) Torech-i-Bogbereth (Himbar)&#10;# 9.6N/22.9W (Angmar) Gath Uior&#10;# 4.5N/21.1W (Angmar) Nan Gurth&#10;# 1.6S/23.2W (Angmar) Krúslë Lannan (Maethad)&#10;# 0.7S/36.5W (Angmar) Ram Dúath&#10;# 10.3N/14.3W (Angmar) Iorelen's Camp (Rift of Nûrz Ghashu)">
 <rewards>
@@ -20872,6 +20906,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="angmar" id="382"/>
+<point mapKey="angmar" id="383"/>
+<point mapKey="angmar" id="384"/>
+<point mapKey="angmar" id="385"/>
+<point mapKey="angmar" id="386"/>
+<point mapKey="angmar" id="387"/>
+<point mapKey="angmar" id="388"/>
+<point mapKey="angmar" id="389"/>
+<point mapKey="angmar" id="390"/>
+<point mapKey="angmar" id="391"/>
+<point mapKey="angmar" id="392"/>
+<point mapKey="angmar" id="393"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Central_Gondor" name="Treasure of Central Gondor" type="EXPLORER" category="Region:Central Gondor" description="" objectives="Find Central Gondor Lost Treasure">
 <parent key="Explorer_of_Central_Gondor" name="Explorer of Central Gondor"/>
@@ -20885,6 +20933,28 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="18"/>
 </rewards>
+<geo requiredPoints="20">
+<point mapKey="central_gondor" id="1347"/>
+<point mapKey="central_gondor" id="1348"/>
+<point mapKey="central_gondor" id="1349"/>
+<point mapKey="central_gondor" id="1350"/>
+<point mapKey="central_gondor" id="1351"/>
+<point mapKey="central_gondor" id="1415"/>
+<point mapKey="central_gondor" id="1416"/>
+<point mapKey="central_gondor" id="1417"/>
+<point mapKey="central_gondor" id="1418"/>
+<point mapKey="central_gondor" id="1419"/>
+<point mapKey="central_gondor" id="1420"/>
+<point mapKey="central_gondor" id="1421"/>
+<point mapKey="central_gondor" id="1485"/>
+<point mapKey="central_gondor" id="1486"/>
+<point mapKey="central_gondor" id="1487"/>
+<point mapKey="central_gondor" id="1488"/>
+<point mapKey="central_gondor" id="1647"/>
+<point mapKey="central_gondor" id="1648"/>
+<point mapKey="central_gondor" id="1649"/>
+<point mapKey="central_gondor" id="1650"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Dor_Amarth" name="Treasure of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="Find ancient treasure in Dor Amarth." objectives="Find 12 Treasure caches in Dor Amarth">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
@@ -20895,6 +20965,20 @@
 <title name="Treasure Seeker of Dor Amarth"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="mordor_dor_amarth" id="9809"/>
+<point mapKey="mordor_dor_amarth" id="9810"/>
+<point mapKey="mordor_dor_amarth" id="9811"/>
+<point mapKey="mordor_dor_amarth" id="9812"/>
+<point mapKey="mordor_dor_amarth" id="9813"/>
+<point mapKey="mordor_dor_amarth" id="9814"/>
+<point mapKey="mordor_dor_amarth" id="9815"/>
+<point mapKey="mordor_dor_amarth" id="9816"/>
+<point mapKey="mordor_dor_amarth" id="9817"/>
+<point mapKey="mordor_dor_amarth" id="9818"/>
+<point mapKey="mordor_dor_amarth" id="9819"/>
+<point mapKey="mordor_dor_amarth" id="9820"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Eastern_Gondor" name="Treasure of Eastern Gondor" type="EXPLORER" category="Region:Eastern Gondor" description="" objectives="Find the 18 treasure caches scattered through Eastern Gondor">
 <parent key="Explorer_of_Eastern_Gondor" name="Explorer of Eastern Gondor"/>
@@ -20908,6 +20992,26 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879306058" name="East Gondor Silver Piece" quantity="18"/>
 </rewards>
+<geo requiredPoints="18">
+<point mapKey="eastern_gondor" id="4230"/>
+<point mapKey="eastern_gondor" id="4231"/>
+<point mapKey="eastern_gondor" id="4232"/>
+<point mapKey="eastern_gondor" id="4311"/>
+<point mapKey="eastern_gondor" id="4312"/>
+<point mapKey="eastern_gondor" id="4313"/>
+<point mapKey="eastern_gondor" id="4314"/>
+<point mapKey="eastern_gondor" id="4315"/>
+<point mapKey="eastern_gondor" id="4441"/>
+<point mapKey="eastern_gondor" id="4442"/>
+<point mapKey="eastern_gondor" id="4443"/>
+<point mapKey="eastern_gondor" id="4444"/>
+<point mapKey="eastern_gondor" id="4445"/>
+<point mapKey="eastern_gondor" id="4446"/>
+<point mapKey="eastern_gondor" id="4503"/>
+<point mapKey="eastern_gondor" id="4504"/>
+<point mapKey="eastern_gondor" id="4505"/>
+<point mapKey="eastern_gondor" id="4506"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Evendim" name="Treasure of Evendim" type="EXPLORER" category="Region:Evendim" minimumLevel="90" description="Find ancient treasures in Evendim (12)." objectives="Find ancient treasurers in Evendim&#10;# 13.8S/73.6W (Evendim) – tiny island SW of Tyl Ruinen (not far from Floid and Dewitt)&#10;# 11.9S/72.3W (Evendim) – top of a hill, middle of Tyl Ruinen&#10;# 8.1S/75.3W (Evendim) – Amon Moth, on a hill&#10;# 7.5S/68.3W (Evendim) – On shore just east of Rantost&#10;# 8.7S/67.0W (Evendim) – Behind Tham Ornen&#10;# 4.2S/65.6W (Evendim) – In some bushes at Tum Fuin&#10;# 7.9S/61.8W (Evendim) – Top of the mountain at Nan Orngon&#10;# 9.4S/63.0W (Evendim) – Behind the totem at Tham Andalath&#10;# 20.2S/60.7W (Evendim) – east shore of Barandalf&#10;# 19.7S/64.6W (Evendim) – on a hill behind the Whitshards&#10;# 17.2S/65.6W (Evendim) – in a small camp behind Haudh Tarcil in Men Erain&#10;# 15.8S/69.9W (Evendim) – head west around the edge from the Titan of Tyl Annun">
 <child key="The_Adventures_of_Floid_and_Dewitt" name="The Adventures of Floid and Dewitt"/>
@@ -20921,6 +21025,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="evendim" id="7028"/>
+<point mapKey="evendim" id="7029"/>
+<point mapKey="evendim" id="7030"/>
+<point mapKey="evendim" id="7031"/>
+<point mapKey="evendim" id="7032"/>
+<point mapKey="evendim" id="7033"/>
+<point mapKey="evendim" id="7034"/>
+<point mapKey="evendim" id="7035"/>
+<point mapKey="evendim" id="7036"/>
+<point mapKey="evendim" id="7037"/>
+<point mapKey="evendim" id="7038"/>
+<point mapKey="evendim" id="7039"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Far_An%C3%B3rien" name="Treasure of Far Anórien" type="EXPLORER" category="Region:Far Anórien" minimumLevel="100" description="Find Far Anórien's treasure that has been lost or stolen." objectives="Find Far Anórien's lost treasure.">
 <parent key="Explorer_of_Far_An%C3%B3rien" name="Explorer of Far Anórien"/>
@@ -20935,6 +21053,24 @@
 <object id="1879330542" name="Exquisite Wood-carving" quantity="7"/>
 <object id="1879330540" name="Polished Marble Trinket" quantity="4"/>
 </rewards>
+<geo requiredPoints="16">
+<point mapKey="far_anorien" id="7188"/>
+<point mapKey="far_anorien" id="7189"/>
+<point mapKey="far_anorien" id="7190"/>
+<point mapKey="far_anorien" id="7191"/>
+<point mapKey="far_anorien" id="7192"/>
+<point mapKey="far_anorien" id="7193"/>
+<point mapKey="far_anorien" id="7326"/>
+<point mapKey="far_anorien" id="7327"/>
+<point mapKey="far_anorien" id="7328"/>
+<point mapKey="far_anorien" id="7329"/>
+<point mapKey="far_anorien" id="7330"/>
+<point mapKey="far_anorien" id="7331"/>
+<point mapKey="far_anorien" id="7332"/>
+<point mapKey="far_anorien" id="7333"/>
+<point mapKey="far_anorien" id="7334"/>
+<point mapKey="far_anorien" id="7335"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Forochel" name="Treasure of Forochel" type="EXPLORER" category="Region:Forochel" minimumLevel="90" description="Find ancient treasures in Forochel (12)." objectives="Find ancient treasurers in Forochel&#10;# 10.4N/65.7W (Forochel)&#10;# 8.1N/78.9W (Forochel)&#10;# 13.9N/75.4W (Forochel)&#10;# 9.0N/70.8W (Forochel)&#10;# 4.9N/77.3W (Forochel)&#10;# 6.2N/79.7W (Forochel)&#10;# 9.2N/82.2W (Forochel)&#10;# 15.6N/88.2W (Forochel)&#10;# 20.1N/85.2W (Forochel)&#10;# 20.2N/74.1W (Forochel)&#10;# 12.6N/69.7W (Forochel)&#10;# 15.7N/68.1W (Forochel)">
 <rewards>
@@ -20947,6 +21083,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="forochel" id="7592"/>
+<point mapKey="forochel" id="7593"/>
+<point mapKey="forochel" id="7594"/>
+<point mapKey="forochel" id="7595"/>
+<point mapKey="forochel" id="7596"/>
+<point mapKey="forochel" id="7597"/>
+<point mapKey="forochel" id="7598"/>
+<point mapKey="forochel" id="7599"/>
+<point mapKey="forochel" id="7600"/>
+<point mapKey="forochel" id="7601"/>
+<point mapKey="forochel" id="7602"/>
+<point mapKey="forochel" id="7603"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Lhingris" name="Treasure of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="Find ancient treasure in Lhingris." objectives="Find ancient treasure in Lhingris (x12)">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
@@ -20957,6 +21107,20 @@
 <title name="Treasure Seeker of Lhingris"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="mordor_lhingris" id="9918"/>
+<point mapKey="mordor_lhingris" id="9919"/>
+<point mapKey="mordor_lhingris" id="9920"/>
+<point mapKey="mordor_lhingris" id="9921"/>
+<point mapKey="mordor_lhingris" id="9922"/>
+<point mapKey="mordor_lhingris" id="9923"/>
+<point mapKey="mordor_lhingris" id="9924"/>
+<point mapKey="mordor_lhingris" id="9925"/>
+<point mapKey="mordor_lhingris" id="9926"/>
+<point mapKey="mordor_lhingris" id="9927"/>
+<point mapKey="mordor_lhingris" id="9928"/>
+<point mapKey="mordor_lhingris" id="9929"/>
+</geo>
 </deed>
 <deed key="Treasure_of_North_Ithilien" name="Treasure of North Ithilien" type="EXPLORER" category="Region:March of the King" description="Find North Ithilien's treasure that has been lost or stolen" objectives="Find North Ithilien's lost treasure (x12)">
 <parent key="Explorer_of_North_Ithilien" name="Explorer of North Ithilien"/>
@@ -20971,6 +21135,20 @@
 <object id="1879333869" name="Host of the West Silver Piece" quantity="12"/>
 <object id="1879338042" name="Phial of Sapphire Extract" quantity="1"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="post_pelennor_north_ithilien" id="9252"/>
+<point mapKey="post_pelennor_north_ithilien" id="9253"/>
+<point mapKey="post_pelennor_north_ithilien" id="9254"/>
+<point mapKey="post_pelennor_north_ithilien" id="9255"/>
+<point mapKey="post_pelennor_north_ithilien" id="9256"/>
+<point mapKey="post_pelennor_north_ithilien" id="9257"/>
+<point mapKey="post_pelennor_north_ithilien" id="9258"/>
+<point mapKey="post_pelennor_north_ithilien" id="9259"/>
+<point mapKey="post_pelennor_north_ithilien" id="9260"/>
+<point mapKey="post_pelennor_north_ithilien" id="9261"/>
+<point mapKey="post_pelennor_north_ithilien" id="9262"/>
+<point mapKey="post_pelennor_north_ithilien" id="9263"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Southern_Mirkwood" name="Treasure of Southern Mirkwood" type="EXPLORER" category="Region:Mirkwood" minimumLevel="90" description="Find ancient treasures in Southern Mirkwood (12)." objectives="Find ancient treasurers in Southern Mirkwood&#10;# 17.3S/61.7W (Mirkwood) – at the tower, Tirnhirion&#10;# 15.9S/59.3W (Mirkwood) – in the Wind Stones&#10;# 19.1S/57.9W (Mirkwood) – in Sad Meryrn&#10;# 11.2S/56.2W (Mirkwood) – in a ditch between the Dourstocks and Dannenglor&#10;# 12.4S/54.6W (Mirkwood) – on the skirmish boss balcony in Dannenglor&#10;# 13.4S/52.6W (Mirkwood) – behind an enormous tree&#10;# 8.7S/51.8W (Mirkwood) – on a ledge in the spider cave jutting out over the big hole&#10;# 12.2S/45.4W (Mirkwood) – on top of a siege tower NE of Gathburz (Kúfuzg)&#10;# 14.8S/41.7W (Mirkwood) – behind the staircase at the entrance to the Dungeons of Dol Guldur&#10;# 16.4S/42.5W (Mirkwood) – behind a rock on the secret path to Dol Guldur&#10;# 19.3S/43.6W (Mirkwood) – on a ledge east of the island in the Bleakmere&#10;# 19.5S/48.5W (Mirkwood) – South of Sad Morangol">
 <rewards>
@@ -20983,6 +21161,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="southern_mirkwood" id="13143"/>
+<point mapKey="southern_mirkwood" id="13144"/>
+<point mapKey="southern_mirkwood" id="13145"/>
+<point mapKey="southern_mirkwood" id="13146"/>
+<point mapKey="southern_mirkwood" id="13147"/>
+<point mapKey="southern_mirkwood" id="13148"/>
+<point mapKey="southern_mirkwood" id="13149"/>
+<point mapKey="southern_mirkwood" id="13150"/>
+<point mapKey="southern_mirkwood" id="13151"/>
+<point mapKey="southern_mirkwood" id="13152"/>
+<point mapKey="southern_mirkwood" id="13153"/>
+<point mapKey="southern_mirkwood" id="13154"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Talath_%C3%9Arui" name="Treasure of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="Find ancient treasure in Talath Úrui." objectives="Find ancient treasure in Talath Úrui (x12)">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
@@ -20993,6 +21185,20 @@
 <title name="Treasure Seeker of Talath Úrui"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="mordor_talath_urui" id="10228"/>
+<point mapKey="mordor_talath_urui" id="10229"/>
+<point mapKey="mordor_talath_urui" id="10230"/>
+<point mapKey="mordor_talath_urui" id="10231"/>
+<point mapKey="mordor_talath_urui" id="10232"/>
+<point mapKey="mordor_talath_urui" id="10233"/>
+<point mapKey="mordor_talath_urui" id="10234"/>
+<point mapKey="mordor_talath_urui" id="10235"/>
+<point mapKey="mordor_talath_urui" id="10236"/>
+<point mapKey="mordor_talath_urui" id="10237"/>
+<point mapKey="mordor_talath_urui" id="10238"/>
+<point mapKey="mordor_talath_urui" id="10239"/>
+</geo>
 </deed>
 <deed key="Treasure_of_Ud%C3%BBn" name="Treasure of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="Find ancient treasure in Udûn." objectives="Find 12 Treasure caches in Udûn">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
@@ -21003,6 +21209,20 @@
 <title name="Treasure Seeker of Udûn"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="mordor_udun" id="10502"/>
+<point mapKey="mordor_udun" id="10503"/>
+<point mapKey="mordor_udun" id="10504"/>
+<point mapKey="mordor_udun" id="10505"/>
+<point mapKey="mordor_udun" id="10506"/>
+<point mapKey="mordor_udun" id="10507"/>
+<point mapKey="mordor_udun" id="10508"/>
+<point mapKey="mordor_udun" id="10509"/>
+<point mapKey="mordor_udun" id="10510"/>
+<point mapKey="mordor_udun" id="10511"/>
+<point mapKey="mordor_udun" id="10512"/>
+<point mapKey="mordor_udun" id="10513"/>
+</geo>
 </deed>
 <deed key="Treasure_of_the_Misty_Mountains" name="Treasure of the Misty Mountains" type="EXPLORER" category="Region:Misty Mountains" minimumLevel="90" description="Find the lost treasure in the Misty Mountains (12)." objectives="Find lost treasure in the Misty Mountains&#10;# 20.5S/3.4W (Misty Mountains)&#10;# 20.8S/5.1E (Misty Mountains)&#10;# 21.8S/8.8E (Misty Mountains)&#10;# 23.0S/2.6E (Misty Mountains)&#10;# 23.3S/4.3W (Misty Mountains)&#10;# 23.8S/2.3W (Misty Mountains)&#10;# 23.9S/7.4E (Misty Mountains)&#10;# 25.1S/0.5W (Misty Mountains) (not to be confused with 0.5E)&#10;# 26.1S/9.6E (Misty Mountains)&#10;# 28.3S/6.7E (Misty Mountains)&#10;# 28.5S/4.1E (Misty Mountains)&#10;# 31.4S/0.4E (Misty Mountains)">
 <rewards>
@@ -21015,6 +21235,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="misty_mountains" id="9401"/>
+<point mapKey="misty_mountains" id="9402"/>
+<point mapKey="misty_mountains" id="9403"/>
+<point mapKey="misty_mountains" id="9404"/>
+<point mapKey="misty_mountains" id="9405"/>
+<point mapKey="misty_mountains" id="9406"/>
+<point mapKey="misty_mountains" id="9407"/>
+<point mapKey="misty_mountains" id="9408"/>
+<point mapKey="misty_mountains" id="9409"/>
+<point mapKey="misty_mountains" id="9410"/>
+<point mapKey="misty_mountains" id="9411"/>
+<point mapKey="misty_mountains" id="9412"/>
+</geo>
 </deed>
 <deed key="Treasure_of_the_North_Downs" name="Treasure of the North Downs" type="EXPLORER" category="Region:North Downs" minimumLevel="90" description="Find the North Downs's treasure that has been lost over the years." objectives="Find the North Downs's lost treasure.&#10;# 8.6S/40.1W (North Downs) – On a hill north of Rusfold&#10;# 11.2S/33.7W (North Downs) – Under a tent in Kar Lak&#10;# 15.4S/36.2W (North Downs) – Up a hill in eastern Dol Dinen&#10;# 16.6S/37.5W (North Downs) – Inside Zaukil’s tent at Dol Dinen&#10;# 16.3S/41.0W (North Downs) – SE Taur Gonwaith behind a large outcrop&#10;# 19.1S/46.3W (North Downs) – Behind Drukordh’s tent and idol in SE Nan Wathren&#10;# 16.4S/53.8W (North Downs) – Under the Trestlebridge (go down to river level on S side of Trestlebridge, cross to N side of river)&#10;# 13.7S/51.6W (North Downs) – Tiny island at the small bay&#10;# 9.9S/58.4W (North Downs) – On a hill overlooking Glirost&#10;# 6.7S/53.3W (North Downs) – Far eastern side of Fornost camp, near a Blogmal Warlord&#10;# 6.9S/47.9W (North Downs) – Just to the east of the waterfall&#10;# 6.0S/43.5W (North Downs) – On a hill at Kamskut">
 <rewards>
@@ -21027,6 +21261,20 @@
 <object id="1879224343" name="Mark" quantity="60"/>
 <object id="1879320706" name="Gift-giver's Brand" quantity="5"/>
 </rewards>
+<geo requiredPoints="12">
+<point mapKey="north_downs" id="11803"/>
+<point mapKey="north_downs" id="11804"/>
+<point mapKey="north_downs" id="11805"/>
+<point mapKey="north_downs" id="11806"/>
+<point mapKey="north_downs" id="11807"/>
+<point mapKey="north_downs" id="11808"/>
+<point mapKey="north_downs" id="11809"/>
+<point mapKey="north_downs" id="11810"/>
+<point mapKey="north_downs" id="11811"/>
+<point mapKey="north_downs" id="11812"/>
+<point mapKey="north_downs" id="11813"/>
+<point mapKey="north_downs" id="11814"/>
+</geo>
 </deed>
 <deed key="Treasure-seeker_of_the_North" name="Treasure-seeker of the North" type="EXPLORER" category="Region:Strongholds of the North" minimumLevel="115" description="Discover the many Treasure Caches in the Dale-lands." objectives="Discover the many Treasure Caches in the Dale-lands (20)">
 <parent key="Explorer_of_the_North" name="Explorer of the North"/>
@@ -21039,6 +21287,28 @@
 <virtue id="IDEALISM"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="20">
+<point mapKey="northern_mirkwood" id="12004"/>
+<point mapKey="northern_mirkwood" id="12005"/>
+<point mapKey="northern_mirkwood" id="12006"/>
+<point mapKey="northern_mirkwood" id="12007"/>
+<point mapKey="northern_mirkwood" id="12008"/>
+<point mapKey="northern_mirkwood" id="12009"/>
+<point mapKey="northern_mirkwood" id="12010"/>
+<point mapKey="northern_mirkwood" id="12011"/>
+<point mapKey="northern_mirkwood" id="12012"/>
+<point mapKey="northern_mirkwood" id="12013"/>
+<point mapKey="northern_mirkwood" id="12014"/>
+<point mapKey="northern_mirkwood" id="12015"/>
+<point mapKey="northern_mirkwood" id="12016"/>
+<point mapKey="northern_mirkwood" id="12017"/>
+<point mapKey="northern_mirkwood" id="12018"/>
+<point mapKey="northern_mirkwood" id="12019"/>
+<point mapKey="northern_mirkwood" id="12020"/>
+<point mapKey="northern_mirkwood" id="12021"/>
+<point mapKey="northern_mirkwood" id="12022"/>
+<point mapKey="northern_mirkwood" id="12023"/>
+</geo>
 </deed>
 <deed key="Treasures_of_the_Silvertine_Lodes" name="Treasures of the Silvertine Lodes" category="Instances:Mines of Moria:Forgotten Treasury" description="Find pieces of treasure within the Forgotten Treasury." objectives="Find a Large Gem&#10;This gem was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find a Pile of Gold Coins&#10;This pile of gold coins was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find a Small Treasure Chest&#10;This chest was one of the ancient treasures remaining in the Forgotten Treasury&#10;Find an Ancient Vase&#10;This vase was one of the ancient treasures remaining in the Forgotten Treasury">
 <parent key="Curator_of_the_Forgotten_Treasury" name="Curator of the Forgotten Treasury"/>
