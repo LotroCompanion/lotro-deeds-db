@@ -7735,6 +7735,16 @@
 <virtue id="FIDELITY"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="8">
+<point mapKey="post_pelennor_the_wastes" id="14381"/>
+<point mapKey="post_pelennor_the_wastes" id="14382"/>
+<point mapKey="post_pelennor_the_wastes" id="14383"/>
+<point mapKey="post_pelennor_the_wastes" id="14384"/>
+<point mapKey="post_pelennor_the_wastes" id="14385"/>
+<point mapKey="post_pelennor_the_wastes" id="14386"/>
+<point mapKey="post_pelennor_the_wastes" id="14387"/>
+<point mapKey="post_pelennor_the_wastes" id="14388"/>
+</geo>
 </deed>
 <deed key="Forlaw_Explorer" name="Forlaw Explorer" type="EXPLORER" category="Region:Wildermore" description="Discover all of Forlaw's interiors." objectives="Discover Forlaw's Graveyard 39.8S/60.1W (Wildermore)&#10;You have discovered Forlaw's Graveyard where many of the noble family are buried.&#10;Discover the Mead Hall Tower 37.8S/61.0W (Forlaw) (Inside, top of stairs, hatch overhead)&#10;You have discovered the Mead Hall Tower, which arguably has the best view in Wildermore.&#10;Discover Forlaw Mead Hall 37.9S/61.0W (Forlaw)&#10;You have discovered the Forlaw Mead Hall, Lornsettle, where the forlorn Reeve Gárwig awaits his passing.&#10;Discover Gársig's Home 39.0S/61.5W (Forlaw)&#10;You have discovered Gársig's Home where the widow Burghild and their son live.&#10;Discover Edsig's Home 39.2S/61.0W (Forlaw)&#10;You have discovered Edsig's Home where the widow Hereswith and their two daughters live.&#10;Discover Gárferth's Home 38.9S/60.9W (Forlaw)&#10;You have discovered Garferth's Home where the widow Ebba and the two orhpans live.&#10;Discover Thrymm's Home 39.5S/60.6W (Forlaw)&#10;You have discovered Thrymm's Home where Cyneberg now lives.&#10;Discover the Barber in Forlaw 39.2S/60.6W (Forlaw)&#10;You have discovered the Barber in Forlaw where both man and horse can go for a haircut.&#10;Discover the Barracks in Forlaw 38.4S/60.7W (Forlaw)&#10;You have discovered the Barracks in Forlaw where those involved in battle go for training.&#10;Discover the Basement in Forlaw 39.1S/60.5W (Forlaw)&#10;You have discovered the Basement in Forlaw, which appears to have not been used for some time.&#10;Discover the Auction Hall in Forlaw 38.7S/60.6W (Forlaw)&#10;You have discovered the Auction Hall which is the backbone of the market in Forlaw.&#10;Discover the Bank in Forlaw 38.8S/60.6W (Forlaw)&#10;You have discovered the Bank in Forlaw where the more well-off townsfolk store their valuables.&#10;Discover the Crafting Hall in Forlaw 38.8S/60.6W (Forlaw)&#10;You have discovered the Crafting Hall in Forlaw where anyone who knows a profession can work or train.&#10;Discover the Infirmary of Forlaw 38.4S/60.8W (Forlaw)&#10;You have discovered the Infirmary of Forlaw where one goes if in need of healing or supplies.&#10;Discover the Legendary Hall of Forlaw 39.5S/61.0W (Forlaw)&#10;You have discovered the Legendary Hall of Forlaw where note-worthy items are researched and tended to.&#10;Discover the Great Tavern in Forlaw 39.3S/60.8W (Forlaw)&#10;You have discovered the Great Tavern in Forlaw where one goes for a stiff drink or good conversation.&#10;Discover the Forlaw Skirmish Hall 38.6S/61.1W (Forlaw)&#10;You have discovered the Forlaw Skirmish Hall where one goes to train their soldier or to barter with merchants.">
 <parent key="Explorer_of_Wildermore" name="Explorer of Wildermore"/>
@@ -14911,6 +14921,13 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="5">
+<point mapKey="mordor_agarnaith" id="9636"/>
+<point mapKey="mordor_agarnaith" id="9637"/>
+<point mapKey="mordor_agarnaith" id="9638"/>
+<point mapKey="mordor_agarnaith" id="9639"/>
+<point mapKey="mordor_agarnaith" id="9640"/>
+</geo>
 </deed>
 <deed key="Rare_Gorgoroth_Chests_of_Dor_Amarth" name="Rare Gorgoroth Chests of Dor Amarth" type="EXPLORER" category="Region:Gorgoroth:Dor Amarth" description="" objectives="Find 5 Rare Mordor Chests in Dor Amarth">
 <parent key="Explorer_of_Dor_Amarth" name="Explorer of Dor Amarth"/>
@@ -14920,6 +14937,13 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="5">
+<point mapKey="mordor_dor_amarth" id="9821"/>
+<point mapKey="mordor_dor_amarth" id="9822"/>
+<point mapKey="mordor_dor_amarth" id="9823"/>
+<point mapKey="mordor_dor_amarth" id="9824"/>
+<point mapKey="mordor_dor_amarth" id="9825"/>
+</geo>
 </deed>
 <deed key="Rare_Gorgoroth_Chests_of_Lhingris" name="Rare Gorgoroth Chests of Lhingris" type="EXPLORER" category="Region:Gorgoroth:Lhingris" description="" objectives="Find 5 Rare Mordor Chests in Lhingris">
 <parent key="Explorer_of_Lhingris" name="Explorer of Lhingris"/>
@@ -14929,6 +14953,13 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="5">
+<point mapKey="mordor_lhingris" id="9930"/>
+<point mapKey="mordor_lhingris" id="9931"/>
+<point mapKey="mordor_lhingris" id="9932"/>
+<point mapKey="mordor_lhingris" id="9933"/>
+<point mapKey="mordor_lhingris" id="9934"/>
+</geo>
 </deed>
 <deed key="Rare_Gorgoroth_Chests_of_Talath_%C3%9Arui" name="Rare Gorgoroth Chests of Talath Úrui" type="EXPLORER" category="Region:Gorgoroth:Talath Úrui" description="" objectives="Find 5 Rare Mordor Chests in Talath Úrui">
 <parent key="Explorer_of_Talath_%C3%9Arui" name="Explorer of Talath Úrui"/>
@@ -14938,6 +14969,13 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="5">
+<point mapKey="mordor_talath_urui" id="10240"/>
+<point mapKey="mordor_talath_urui" id="10241"/>
+<point mapKey="mordor_talath_urui" id="10242"/>
+<point mapKey="mordor_talath_urui" id="10243"/>
+<point mapKey="mordor_talath_urui" id="10244"/>
+</geo>
 </deed>
 <deed key="Rare_Gorgoroth_Chests_of_Ud%C3%BBn" name="Rare Gorgoroth Chests of Udûn" type="EXPLORER" category="Region:Gorgoroth:Udûn" description="" objectives="Find 5 Rare Mordor Chests in Udûn">
 <parent key="Explorer_of_Ud%C3%BBn" name="Explorer of Udûn"/>
@@ -14947,6 +14985,13 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="5">
+<point mapKey="mordor_udun" id="10514"/>
+<point mapKey="mordor_udun" id="10515"/>
+<point mapKey="mordor_udun" id="10516"/>
+<point mapKey="mordor_udun" id="10517"/>
+<point mapKey="mordor_udun" id="10518"/>
+</geo>
 </deed>
 <deed key="Rath_Teraig_Exploration" name="Rath Teraig Exploration" type="EXPLORER" category="Region:Ered Luin" description="Explore the dark valley of Rath Teraig." objectives="Find Northern Barricade 22.1S/96.9W (Ered Luin)&#10;The Northern Barricade of Rath Teraig is held by stalwart dwarf-warriors posted out of Gondamon. Since the resurgence of the goblins in Ered Luin some years ago, the dwarves have fought to keep them bottled up in Rath Teraig to prevent them from spilling out into the vales and forests beyond.&#10;Find Southern Barricade 24.6S/96.7W (Ered Luin)&#10;The Southern Barricade guards the way to the Grey Havens to the south-west. It was sealed off by the dwarves some years ago as the goblins swarmed out to overrun Rath Teraig and now lies abandoned and impassable, making the trek of the Elves travelling to the Havens a long and arduous journey as they must use passes far to the south.&#10;Find Tum Agor 21.6S/96.2W (Ered Luin)&#10;The goblins have fortified the canyon of Tum Agor, preparing for an assault against the barricades, trapping them within Rath Teraig.&#10;Find Amon Thanc 23.2S/97.3W (Ered Luin)&#10;The goblins trapped within Rath Teraig have established a camp upon Amon Thanc, from where they can view the dwarf-barricades.&#10;Find Crookdell 24.3S/98.4W (Ered Luin)&#10;The goblins of Rath Teraig have established their largest camp here in the Crookdell. This is where they plan their raids against the dwarf-barricades.">
 <parent key="Explorer_of_Ered_Luin" name="Explorer of Ered Luin"/>
@@ -15076,6 +15121,16 @@
 <virtue id="CHARITY"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="8">
+<point mapKey="post_pelennor_the_wastes" id="14389"/>
+<point mapKey="post_pelennor_the_wastes" id="14390"/>
+<point mapKey="post_pelennor_the_wastes" id="14391"/>
+<point mapKey="post_pelennor_the_wastes" id="14392"/>
+<point mapKey="post_pelennor_the_wastes" id="14393"/>
+<point mapKey="post_pelennor_the_wastes" id="14394"/>
+<point mapKey="post_pelennor_the_wastes" id="14395"/>
+<point mapKey="post_pelennor_the_wastes" id="14396"/>
+</geo>
 </deed>
 <deed key="Renewed_Voice" name="Renewed Voice" type="CLASS" class="Captain" minimumLevel="1" description="A trumpet-call and cry of triumph oft begin the rage of war." objectives="Use Battle-shout (650)&#10;Your anger is rightly feared upon the battlefield, for many foes have fallen before it.">
 <parent key="Class_Deeds_(Captain)_-_Tier_1" name="Class Deeds (Captain) - Tier 1"/>
