@@ -7695,6 +7695,25 @@
 <title name="Hand to the Flame"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="15">
+<point mapKey="mordor_udun" id="10415"/>
+<point mapKey="mordor_udun" id="10416"/>
+<point mapKey="mordor_udun" id="10417"/>
+<point mapKey="mordor_udun" id="10418"/>
+<point mapKey="mordor_udun" id="10419"/>
+<point mapKey="mordor_udun" id="10420"/>
+<point mapKey="mordor_udun" id="10421"/>
+<point mapKey="mordor_udun" id="10422"/>
+<point mapKey="mordor_udun" id="10423"/>
+<point mapKey="mordor_udun" id="10424"/>
+<point mapKey="mordor_udun" id="10425"/>
+<point mapKey="mordor_udun" id="10426"/>
+<point mapKey="mordor_udun" id="10427"/>
+<point mapKey="mordor_udun" id="10428"/>
+<point mapKey="mordor_udun" id="10429"/>
+<point mapKey="mordor_udun" id="10430"/>
+<point mapKey="mordor_udun" id="10431"/>
+</geo>
 </deed>
 <deed key="Forgeworker_Slayer_of_Ud%C3%BBn" name="Forgeworker Slayer of Udûn" type="SLAYER" category="Region:Gorgoroth:Udûn" description="Defeat many of the Forgeworkers in Udûn" objectives="Defeat many of the Forgeworkers in Udûn (x80)">
 <next key="Forgeworker_Slayer_of_Ud%C3%BBn_(Advanced)" name="Forgeworker Slayer of Udûn (Advanced)"/>
@@ -7723,6 +7742,25 @@
 <title name="Gear-hunter"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="16">
+<point mapKey="mordor_udun" id="10387"/>
+<point mapKey="mordor_udun" id="10388"/>
+<point mapKey="mordor_udun" id="10389"/>
+<point mapKey="mordor_udun" id="10390"/>
+<point mapKey="mordor_udun" id="10391"/>
+<point mapKey="mordor_udun" id="10392"/>
+<point mapKey="mordor_udun" id="10393"/>
+<point mapKey="mordor_udun" id="10394"/>
+<point mapKey="mordor_udun" id="10395"/>
+<point mapKey="mordor_udun" id="10396"/>
+<point mapKey="mordor_udun" id="10397"/>
+<point mapKey="mordor_udun" id="10398"/>
+<point mapKey="mordor_udun" id="10399"/>
+<point mapKey="mordor_udun" id="10400"/>
+<point mapKey="mordor_udun" id="10401"/>
+<point mapKey="mordor_udun" id="10402"/>
+<point mapKey="mordor_udun" id="10403"/>
+</geo>
 </deed>
 <deed key="Forgotten_Caches" name="Forgotten Caches" type="EXPLORER" category="Region:The Wastes" minimumLevel="100" description="Find forgotten ranger caches lost in The Wastes" objectives="Find forgotten ranger caches (x8)">
 <parent key="Explorer_of_the_Wastes" name="Explorer of the Wastes"/>
@@ -9399,6 +9437,14 @@
 <virtue id="HONOUR"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
+<geo requiredPoints="6">
+<point mapKey="post_pelennor_march_of_the_king" id="8869"/>
+<point mapKey="post_pelennor_march_of_the_king" id="8870"/>
+<point mapKey="post_pelennor_march_of_the_king" id="8938"/>
+<point mapKey="post_pelennor_march_of_the_king" id="8939"/>
+<point mapKey="post_pelennor_march_of_the_king" id="8940"/>
+<point mapKey="post_pelennor_march_of_the_king" id="8941"/>
+</geo>
 </deed>
 <deed key="Haradrim-slayer_of_Central_Gondor" name="Haradrim-slayer of Central Gondor" type="SLAYER" category="Region:Central Gondor" description="" objectives="Defeat many Haradrims in Central Gondor (100)">
 <next key="Haradrim-slayer_of_Central_Gondor_(Advanced)" name="Haradrim-slayer of Central Gondor (Advanced)"/>
@@ -17531,6 +17577,24 @@
 <virtue id="CHARITY"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+<geo requiredPoints="16">
+<point mapKey="northern_mirkwood" id="12298"/>
+<point mapKey="northern_mirkwood" id="12299"/>
+<point mapKey="northern_mirkwood" id="12300"/>
+<point mapKey="northern_mirkwood" id="12301"/>
+<point mapKey="northern_mirkwood" id="12302"/>
+<point mapKey="northern_mirkwood" id="12303"/>
+<point mapKey="northern_mirkwood" id="12304"/>
+<point mapKey="northern_mirkwood" id="12305"/>
+<point mapKey="northern_mirkwood" id="12306"/>
+<point mapKey="northern_mirkwood" id="12307"/>
+<point mapKey="northern_mirkwood" id="12308"/>
+<point mapKey="northern_mirkwood" id="12309"/>
+<point mapKey="northern_mirkwood" id="12310"/>
+<point mapKey="northern_mirkwood" id="12311"/>
+<point mapKey="northern_mirkwood" id="12312"/>
+<point mapKey="northern_mirkwood" id="12313"/>
+</geo>
 </deed>
 <deed key="Surviving_the_Night" name="Surviving the Night" category="Skirmish:Instances" description="Only the most courageous -- or foolish -- adventurers would dare to endure the dread night of the Barrow-downs." objectives="Complete Strength of Endurance -- Complete&#10;You have demonstrated that you can survive the night within the Barrow-downs.&#10;Complete Pride of Endurance -- Complete&#10;You have proven that you can survive the night within the Barrow-downs.&#10;Complete Unvanquished -- Complete&#10;You have demonstrated that your allies can count on you not to be defeated, nor let them be defeated, within the Barrow-downs.&#10;Complete Mercy of the Free Peoples -- Complete&#10;You have shown the Enemy no respect by refusing to defeat their most powerful Lieutenants.&#10;Complete Defeating the Dead -- Complete&#10;You have destroyed the inhabitants of the Barrow-downs.&#10;Complete Rulers of the Dead -- Complete&#10;You have destroyed the Lieutenants of the Enemy in the Barrow-downs.&#10;Complete Simple Skill -- Complete&#10;You have achieved success by sticking to basic tactics and not resorting to flashy displays of power.&#10;Complete Strength in Diversity -- Complete&#10;You have demonstrated that strength comes from variety.">
 <child key="Strength_of_Endurance_--_Complete" name="Strength of Endurance -- Complete"/>
