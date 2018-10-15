@@ -223,6 +223,9 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
+<deed key="A_missive_from_Erebor" name="A missive from Erebor" type="LORE" category="Region:Ered Mithrin and Withered Heath" minimumLevel="115" description="Accept a letter from King Thorin Stonehelm" objectives="Read the letter from King Thorin Stonehelm">
+<rewards/>
+</deed>
 <deed key="Abolish_Abominations" name="Abolish Abominations" type="SLAYER" category="Instances:Rise of Isengard:Pits of Isengard" minimumLevel="75" description="The Pits of Isengard is a dangerous place filled with all kinds of Orc-kind. Defeat the Abominations...as many as you can!" objectives="Defeat Abominations in the Pits of Isengard (x100)">
 <rewards>
 <lotroPoints quantity="5"/>
@@ -6237,6 +6240,94 @@
 <deed key="Ered_Luin_Traveller" name="Ered Luin Traveller" type="EXPLORER" category="Event:Chicken Play" description="Speak with the creatures of Ered Luin." objectives="Speak with the lynx-mother&#10;You have spoken with the lynx-mother.">
 <rewards/>
 </deed>
+<deed key="Ered_Mithrin_Beast-slayer" name="Ered Mithrin Beast-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ered Mithrin" objectives="Defeat many beasts in Ered Mithrin (40)">
+<next key="Ered_Mithrin_Beast-slayer_(Advanced)" name="Ered Mithrin Beast-slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Beast-slayer_(Advanced)" name="Ered Mithrin Beast-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ered Mithrin" objectives="Defeat many beasts in Ered Mithrin (80)">
+<previous key="Ered_Mithrin_Beast-slayer" name="Ered Mithrin Beast-slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Dragon-kind_Slayer" name="Ered Mithrin Dragon-kind Slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many dragon-kind in Ered Mithrin" objectives="Defeat many dragon-kind in Ered Mithrin (80)">
+<next key="Ered_Mithrin_Dragon-kind_Slayer_(Advanced)" name="Ered Mithrin Dragon-kind Slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Dragon-kind_Slayer_(Advanced)" name="Ered Mithrin Dragon-kind Slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many dragon-kind in Ered Mithrin" objectives="Defeat many dragon-kind in Ered Mithrin (160)">
+<previous key="Ered_Mithrin_Dragon-kind_Slayer" name="Ered Mithrin Dragon-kind Slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Orc-slayer" name="Ered Mithrin Orc-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat Gundbad Orcs in Ered Mithrin" objectives="Defeat Gundbad Orcs in Ered Mithrin (80)">
+<next key="Ered_Mithrin_Orc-slayer_(Advanced)" name="Ered Mithrin Orc-slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Orc-slayer_(Advanced)" name="Ered Mithrin Orc-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat Gundbad Orcs in Ered Mithrin" objectives="Defeat Gundbad Orcs in Ered Mithrin (160)">
+<previous key="Ered_Mithrin_Orc-slayer" name="Ered Mithrin Orc-slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Ungoladan-slayer" name="Ered Mithrin Ungoladan-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many Ungoledain in Ered Mithrin" objectives="Defeat many Ungoledain in Ered Mithrin (40)">
+<next key="Ered_Mithrin_Ungoladan-slayer_(Advanced)" name="Ered Mithrin Ungoladan-slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ered_Mithrin_Ungoladan-slayer_(Advanced)" name="Ered Mithrin Ungoladan-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many Ungoladan in Ered Mithrin" objectives="Defeat many Ungoladan in Ered Mithrin (80)">
+<previous key="Ered_Mithrin_Ungoladan-slayer" name="Ered Mithrin Ungoladan-slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Esteemed_in_the_Host_of_the_West_(Faction)(Deed)" name="Esteemed in the Host of the West" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid Gondor and its people. For this, Aragorn now counts you among one of his top commanders." objectives="You must earn Esteemed standing with the Host of the West">
 <previous key="Respected_by_the_Host_of_the_West_(Faction)(Deed)" name="Respected by the Host of the West"/>
 <next key="Celebrated_by_the_Host_of_the_West_(Faction)(Deed)" name="Celebrated by the Host of the West"/>
@@ -10571,6 +10662,50 @@
 <title name="Investigator"/>
 </rewards>
 </deed>
+<deed key="Ironfold_Beast-slayer" name="Ironfold Beast-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (40)">
+<next key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (80)">
+<previous key="Ironfold_Beast-slayer" name="Ironfold Beast-slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Ironfold_Easterling-slayer" name="Ironfold Easterling-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (60)">
+<next key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="500"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (120)">
+<previous key="Ironfold_Easterling-slayer" name="Ironfold Easterling-slayer"/>
+<parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Isendeep_Travel_Tier_1" name="Isendeep Travel Tier 1" type="QUEST" category="PVP:Creep deeds" description="Service to the master of Isendeep will result in the ability to find your way to the tower with less effort." objectives="Complete 10 quests for the benefit of Isendeep.&#10;Speak with War-Tyrant Akulhun">
 <next key="Isendeep_Travel_Tier_2" name="Isendeep Travel Tier 2"/>
 <rewards>
@@ -14103,6 +14238,15 @@
 <virtue id="PATIENCE"/>
 </rewards>
 </deed>
+<deed key="Quests_of_Ered_Mithrin" name="Quests of Ered Mithrin" type="QUEST" category="Region:Ered Mithrin and Withered Heath" description="Complete many quests in Ered Mithrin" objectives="Complete many quests in Ered Mithrin (50)">
+<parent key="Quests_of_the_Dwarf-holds" name="Quests of the Dwarf-holds"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Hero of Ered Mithrin"/>
+<virtue id="EMPATHY"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
 <deed key="Quests_of_Eryn_Lasgalen" name="Quests of Eryn Lasgalen" type="QUEST" category="Region:Strongholds of the North:Eryn Lasgalen" minimumLevel="115" description="Complete many quests in Eryn Lasgalen." objectives="Complete many quests in Eryn Lasgalen (30)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
@@ -14553,6 +14697,15 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
+<deed key="Quests_of_the_Dwarf-holds" name="Quests of the Dwarf-holds" type="QUEST" category="Region:Ered Mithrin and Withered Heath" description="Complete many quests in the Ironfold and Erd Mithrin" objectives="Complete Quests of Ered Mithrin (50)&#10;Complete Quests of the Ironfold (30)">
+<child key="Quests_of_Ered_Mithrin" name="Quests of Ered Mithrin"/>
+<child key="Quests_of_the_Ironfold" name="Quests of the Ironfold"/>
+<rewards>
+<virtue id="HONOUR"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
 <deed key="Quests_of_the_East_Wall" name="Quests of the East Wall" type="QUEST" category="Region:East Rohan" description="Complete all of the East Wall's quests" objectives="Complete all of the East Wall's quests&#10;You have done many good deeds at the East Wall and helped those people as much as you were able.">
 <parent key="Quests_of_the_Eastemnet" name="Quests of the Eastemnet"/>
 <rewards>
@@ -14678,7 +14831,7 @@
 </rewards>
 </deed>
 <deed key="Quests_of_the_Ironfold" name="Quests of the Ironfold" type="QUEST" category="Region:Strongholds of the North:Erebor" description="Complete many quests in the Ironfold" objectives="Complete many quests in the Ironfold (30)">
-<parent name="Quests of the Dwarf-holds"/>
+<parent key="Quests_of_the_Dwarf-holds" name="Quests of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Dwarves of Erebor" amount="700"/>
@@ -15543,6 +15696,19 @@
 <object id="1879320706" name="Gift-giver's Brand" quantity="10"/>
 </rewards>
 </deed>
+<deed key="Ruins_of_Ered_Mithrin" name="Ruins of Ered Mithrin" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Explore the many ruins of Ered Mithrin" objectives="Explore Bizar-Atrâd, the Vale-watch&#10;Explore the Rushgate&#10;Explore Thikil-Gundu, the Steel Keep&#10;Explore the Glimmerdeep&#10;Explore Stormwall&#10;Explore Óinsbridge&#10;Explore Skarháld&#10;Explore Stánbalk, the Stone Wall&#10;Explore the Grey Wrack&#10;Explore Kér Bréin&#10;Explore Furuk-mekham, the Southgate">
+<parent name="Explorer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<title name="Grey Mountains Explorer"/>
+<virtue id="JUSTICE"/>
+<object id="1879224343" name="Mark" quantity="25"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
 <deed key="Ruins_of_Evendim" name="Ruins of Evendim" type="EXPLORER" category="Region:Evendim" description="Explore the ruins of ancient Arnor." objectives="Find Tham Nambarth 12.1S/65.6W (Evendim)&#10;Several of the great families of Annúminas constructed palatial estates upon the rolling hills of the Evendim Fields, displaying their wealth and prosperity far and wide and providing them summer estates from which they might oversee their extensive holdings of rich croplands. Though not as extravagant as some of the estates built later, Tham Nambarth was the oldest and closest to the capital and thus considered the most prestigious of all, save for that of the royal family itself at Tinnudir.&#10;Find Tham Varan 12.1S/63.9W (Evendim)&#10;The estate of Tham Varan once belonged to one of the oldest and most prestigious families of Annúminas. They were known for a long and, at times, strange contest for influence in the royal courts of Arnor against their arch-rivals who lived near on at Tham Nambarth. From this contentious situation arose a number of favoured tales of intrigue, forbidden love, and all manner if noble improprieties that have titillated the common folk for centuries since.&#10;Find Ost Heryn 11.2S/61.6W (Evendim)&#10;Originally built as a fortress to oversee the approach to the Fields of Evendim from the east. Ost Heryn was allowed to languish during the long periods of peace that characterized those times. It was eventually purchased by a newly prosperous family of merchants and converted into a luxurious estate. Alas, the fortunes of Ost Heryn were sorely treated in later years when threats arose unlooked for from the East and it became a rich target of raiders and bandits.&#10;Find Tham Andalath 9.5S/63.1W (Evendim)&#10;Constructed during the height of Annúminas' influence and wealth in the North, the estate of Tham Andalath became the largest in the Evendim Fields. It quickly became known as a symbol of upstart extravagance and was known for its excessively lavish events and its unabashed influence peddling amongst the lesser houses.&#10;Find Tham Ornen 8.7S/66.7W (Evendim)&#10;The smallest of the great houses of Arnor built their estate here at Tham Ornen. While they could not claim the wealth or power of the other houses, it is said that this family had close ties with the Royal line of the Kings of Annúminas. As such they suffered few of the more difficult turns of fate that befell many of the other houses, and were highly respected throughout their long history. Nevertheless, their fate became inextricably twined with that of the royal line so as the power of Arnor fragmented and faded, so too did the family at Tham Ornen fade into the pages of history.&#10;Find Barad Rath 7.3S/66.6W (Evendim)&#10;Constructed before the original founding of Ost Forod, Barad Rath once stood as the furthest northern frontier in the region of Lake Evendim. Once Ost Forod rose to pre-eminence in the north Barad Rath declined in importance and is believed to have been used as an occasional retreat for members of the Royal family who could not find sufficient peace and isolation in the bustling courts of Annúminas or their estate at Tinnudir.&#10;Find Rantost 7.2S/69.6W (Evendim)&#10;Given the evidence of the beautiful and extensive structures once built on the island of Rantost, it is strangely devoid of mention in the histories of Arnor. It is possible that some powerful family seeking a more reclusive and quiet lifestyle far from the continual chaos of the capital chose to construct their estate here - but if so that same reclusive nature has erased any mention of them from the tales and histories of the Northern Kingdom, and they are lost to time forever.&#10;Find Tollobel 11.4S/71.9W (Evendim)&#10;Isolated by the lake from most of the other estates and ruins of Evendim, few scholars are certain of the nature of the ruins that lie there today. The foremost theories suggest that it may have once been either a prison or vault used by the rulers of Annúminas - this at least would explain the general secrecy and rare mention of the place in histories of the region. Alas, there is little solid evidence to support these ideas, save for a series of unusually deep and extensive cellars within the crumbling ruins. If there were vaults here, they have long ago been picked over for any valuables they might have contained.">
 <parent key="Explorer_of_Evendim" name="Explorer of Evendim"/>
 <rewards>
@@ -15934,6 +16100,19 @@
 <reputationItem faction="Elves of Rivendell" amount="700"/>
 </reputation>
 <title name="Seeker of Truth"/>
+</rewards>
+</deed>
+<deed key="Seeking_Iron_Veins" name="Seeking Iron Veins" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover new and rare iron veins in the Ironfold." objectives="Discover new and rare iron veins in the Ironfold (10)">
+<parent name="Explorer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<title name="Seeker of Iron"/>
+<virtue id="ZEAL"/>
+<object id="1879224343" name="Mark" quantity="25"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Self_Starter_(Deed)" name="Self Starter" type="CLASS" class="Rune-keeper" description="You draw strength from within and find motivation that will carry you further than before." objectives="Use Self-motivation 350 times. (35 times per day.)&#10;'I find that necessity is an excellent motivator'--Gronir, dwarf stone-keeper">
@@ -16706,6 +16885,12 @@
 </deed>
 <deed key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds" category="Region:Ered Mithrin and Withered Heath" description="Defeat many enemies of the Free Peoples in Ered Mithrin and Withered Heath." objectives="Complete: Ered Mithrin Beast-slayer (Advanced)&#10;Complete: Ered Mithrin Dragon-kind Slayer (Advanced)&#10;Complete: Ered Mithrin Orc-slayer (Advanced)&#10;Complete: Ered Mithrin Ungoladan-slayer (Advanced)&#10;Complete: Ironfold Beast-slayer (Advanced)&#10;Complete: Ironfold Easterling-slayer (Advanced)">
 <parent name="Deeds of the Dwarf-holds"/>
+<child key="Ered_Mithrin_Beast-slayer_(Advanced)" name="Ered Mithrin Beast-slayer (Advanced)"/>
+<child key="Ered_Mithrin_Dragon-kind_Slayer_(Advanced)" name="Ered Mithrin Dragon-kind Slayer (Advanced)"/>
+<child key="Ered_Mithrin_Orc-slayer_(Advanced)" name="Ered Mithrin Orc-slayer (Advanced)"/>
+<child key="Ered_Mithrin_Ungoladan-slayer_(Advanced)" name="Ered Mithrin Ungoladan-slayer (Advanced)"/>
+<child key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)"/>
+<child key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)"/>
 <rewards>
 <title name="Vanquisher of the Dwarf-holds"/>
 <virtue id="FIDELITY"/>
@@ -17623,6 +17808,18 @@
 <parent key="Light_Beneath_Osgiliath" name="Light Beneath Osgiliath"/>
 <rewards>
 <object id="1879224344" name="Medallion" quantity="20"/>
+</rewards>
+</deed>
+<deed key="Survey_Markers_of_the_Dwarf-holds" name="Survey Markers of the Dwarf-holds" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover the Dwarf Markers spread across the Dwarf-holds." objectives="Discover the Dwarf Markers spread across the Dwarf-holds (12)">
+<parent name="Explorer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<title name="Surveyors of the Mountains"/>
+<virtue id="IDEALISM"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Surveyor_of_the_Dwarvish_Markers" name="Surveyor of the Dwarvish Markers" type="EXPLORER" category="Region:Strongholds of the North:Erebor" minimumLevel="115" description="Discover the Dwarf Markers spread across the Dale-lands." objectives="Discover the Dwarf Markers spread across the Dale-lands (16)">
@@ -21476,6 +21673,19 @@
 <lotroPoints quantity="5"/>
 <title name="Treasure Seeker of the Grey Mountains"/>
 <virtue id="DETERMINATION"/>
+<object id="1879224343" name="Mark" quantity="25"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Treasure-seeker_of_the_Ironfold" name="Treasure-seeker of the Ironfold" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover Dwarf Mining Caches in the Ered Mithrin." objectives="Discover the many Dwarf Mining Caches in the Ironfold (10)">
+<parent name="Explorer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<title name="Seeker of Dwarf Mines"/>
+<virtue id="LOYALTY"/>
 <object id="1879224343" name="Mark" quantity="25"/>
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
