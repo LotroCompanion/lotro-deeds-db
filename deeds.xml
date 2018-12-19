@@ -102,7 +102,7 @@
 <lotroPoints quantity="5"/>
 </rewards>
 </deed>
-<deed key="A_Lesson_in_Herbalism" name="A Lesson in Herbalism" type="LORE" category="Region:March of the King" description="The herbalists of Minas Tirith and Ithilien alike have great need of you aid in studying and collecting the numerous plants and herpbs of Middle-earth." objectives="Complete Herbalism Quests in North Ithilien and the Wastes (x25)">
+<deed key="A_Lesson_in_Herbalism" name="A Lesson in Herbalism" type="LORE" category="Region:March of the King" description="The herbalists of Minas Tirith and Ithilien alike have great need of you aid in studying and collecting the numerous plants and herbs of Middle-earth." objectives="Complete Herbalism Quests in North Ithilien and the Wastes (x25)">
 <next key="A_Lesson_in_Herbalism_(Intermediate)" name="A Lesson in Herbalism (Intermediate)"/>
 <rewards>
 <reputation>
@@ -631,7 +631,7 @@
 <title name="Ally of Rivendell"/>
 </rewards>
 </deed>
-<deed key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a stalwart ally and trusted confidant in all things they do." objectives="You must earn Ally standing with the The Ents of Fangorn.&#10;You are now an ally to the Ents of Fangorn.">
+<deed key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a stalwart ally and trusted confidant in all things they do." objectives="You must earn Ally standing with The Ents of Fangorn.&#10;You are now an ally to the Ents of Fangorn.">
 <previous key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn"/>
 <next key="Kindred_with_the_Ents_of_Fangorn" name="Kindred with the Ents of Fangorn"/>
 <rewards>
@@ -674,13 +674,22 @@
 <title name="Ally of the Grey Company"/>
 </rewards>
 </deed>
+<deed key="Ally_to_the_Grey_Mountains_Expedition" name="Ally to the Grey Mountains Expedition" type="REPUTATION" category="Region:Reputation" description="The Grey Mountains Expedition expect that you will find you way to the forefront of battle to assist them." objectives="You must earn Ally standing with the Grey Mountains Edpexition">
+<previous key="Friend_to_the_Grey_Mountains_Expedition" name="Friend to the Grey Mountains Expedition"/>
+<next key="Kindred_to_the_Grey_Mountains_Expedition" name="Kindred to the Grey Mountains Expedition"/>
+<rewards>
+<lotroPoints quantity="15"/>
+<title name="Pathfinder of the Grey Mountains Expedition"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="15"/>
+</rewards>
+</deed>
 <deed key="Ally_to_the_Helmingas" name="Ally to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="When the Helmingas are in need of aid, they expect that you will find your way to the forefront of battle to assist them." objectives="You must earn Ally standing with The Helmingas.&#10;You are now a trusted ally among the Helmingas.">
 <previous key="Friend_to_the_Helmingas" name="Friend to the Helmingas"/>
 <next key="Kindred_to_the_Helmingas" name="Kindred to the Helmingas"/>
 <rewards>
 <lotroPoints quantity="15"/>
 <skill name="Helmingas - Travel Discount"/>
-<title name="Ally of the Helmingas"/>
+<title name="Ally to the Helmingas"/>
 </rewards>
 </deed>
 <deed key="Ally_to_the_Heroes_of_Limlight_Gorge" name="Ally to the Heroes of Limlight Gorge" type="REPUTATION" description="The Heroes of Limlight Gorge have come to trust you as an ally. The beasts of Limlight Gorge pose a threat to the people of Stangard, yet there are few brave enough to face such deadly creatures - fewer still that live to tell the tale of their heroism round the campfire in years to come." objectives="You must achieve Ally standing with the Heroes of Limlight Gorge.&#10;The Heroes of Limlight Gorge honour all that you do and now consider you to be a reliable ally.">
@@ -811,7 +820,7 @@
 <object id="1879330540" name="Polished Marble Trinket" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Ally_to_the_Riders_of_Stangard" name="Ally to the Riders of Stangard" type="REPUTATION" description="You are now trusted among the Riders of Stangard, and with that trust comes an expectation of continued assistance." objectives="You must achieve Ally standing with the The Riders of Stangard.&#10;The Riders of Stangard honour all that you do and now consider you to be a reliable ally.">
+<deed key="Ally_to_the_Riders_of_Stangard" name="Ally to the Riders of Stangard" type="REPUTATION" description="You are now trusted among the Riders of Stangard, and with that trust comes an expectation of continued assistance." objectives="You must achieve Ally standing with The Riders of Stangard.&#10;The Riders of Stangard honour all that you do and now consider you to be a reliable ally.">
 <previous key="Friend_to_the_Riders_of_Stangard" name="Friend to the Riders of Stangard"/>
 <next key="Kindred_with_the_Riders_of_Stangard" name="Kindred with the Riders of Stangard"/>
 <rewards>
@@ -1862,7 +1871,7 @@
 </deed>
 <deed key="Boar-hunter_of_the_Eastemnet" name="Boar-hunter of the Eastemnet" type="SLAYER" category="Region:East Rohan" description="The wide plains of Rohan are known for their extraordinary boars." objectives="Defeat boars in the Eastemnet (30)">
 <rewards>
-<title name="Boar-Hunter of the Eastemnet"/>
+<title name="Boar-hunter of the Eastemnet"/>
 <virtue id="MERCY"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
@@ -2301,7 +2310,7 @@
 <deed key="Captain%27s_Victory_(deed)" name="Captain's Victory" type="CLASS" class="Captain" category="Obsolete" minimumLevel="30" description="Captains carry forth banners to inspire and rally their troops. Each carries their own meaning and history and those who follow them strive to honour those tales." objectives="Summon your Herald of Victory (60)&#10;Your banner is held aloft by those who would stave off the tides of darkness, holding firm where others might break and flee.">
 <rewards>
 <lotroPoints quantity="5"/>
-<trait name="Captain's Victory"/>
+<trait name="Captain's Victory (Obsolete Trait)"/>
 </rewards>
 </deed>
 <deed key="Captain%27s_Victory" name="Captain's Victory" type="CLASS" class="Captain" minimumLevel="40" description="Victory is rarely achieved without help. The Captain inspires those around them to heed their call and be more than they ever thought they could be." objectives="Use your Brother's Call skills (60)&#10;Your banner is held aloft by those who would stave off the tides of darkness, holding firm where others might break and flee.">
@@ -2636,7 +2645,7 @@
 <reputationItem faction="Council of the North" amount="700"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Defender Against The Terror"/>
+<title name="Defender Against the Terror"/>
 </rewards>
 </deed>
 <deed key="Champions_of_Carn_D%C3%BBm" name="Champions of Carn Dûm" category="Instances:Shadows of Angmar:Carn Dûm" description="Defeat the champions of Carn Dûm." objectives="Defeat Urro&#10;Defeat Barashal&#10;Defeat Helchgam&#10;Beneath the streets of Carn Dûm, the foul Helchgam fell to your prowess.">
@@ -3454,7 +3463,7 @@
 </deed>
 <deed key="Conquerer_of_the_Towers_(Deed)" name="Conquerer of the Towers" type="SLAYER" category="PVP:Creep deeds" description="This is a Monster Player deed and cannot be done by Free Peoples." objectives="Two towers stand guard over the lands of the Ettenmoors. Slaughter the Marshals of the Free People who command them!&#10;&#10;Defeat First Marshal Ari&#10;Defeat First Marshal Barathír&#10;Defeat First Marshal Laegon&#10;Defeat First Marshal Egil">
 <rewards>
-<title name="Conqueror of the Towers"/>
+<title name="Conqueror of the Towers (Creeps)"/>
 </rewards>
 </deed>
 <deed key="Conquest_of_Ringdyr" name="Conquest of Ringdyr" type="SLAYER" category="PVP:Creep deeds" description="This is a Monster Player deed and cannot be done by Free Peoples." objectives="Slaughter the Marshals of the Free Peoples who command Ringdyr!&#10;Defeat First Marshal Grís&#10;Defeat First Marshal Helegmir&#10;Defeat First Marshal Grimbeld&#10;Defeat First Marshal Osthryth">
@@ -3470,7 +3479,7 @@
 </deed>
 <deed key="Conquest_of_the_Towers" name="Conquest of the Towers" type="SLAYER" category="PVP:Freep deeds" description="Defeat the enemy Chieftains controlling the Towers!" objectives="Defeat Chieftain Grazthluk (Lugazag)15.4S/19.9W (Ettenmoors)&#10;Defeat Chieftain Shatog (Lugazag)15.4S/19.9W (Ettenmoors)&#10;Defeat Chieftain Fimfash (Tirith Rhaw)17.6S/14.5W (Ettenmoors)&#10;Defeat Chieftain Gukhnúrz (Tirith Rhaw)17.6S/14.5W (Ettenmoors)">
 <rewards>
-<title name="Conqueror of the Towers"/>
+<title name="Conqueror of the Towers (Freeps)"/>
 <object id="1879230183" name="Commendation" quantity="500"/>
 </rewards>
 </deed>
@@ -4019,8 +4028,7 @@
 <reputationItem faction="Men of Bree" amount="1200"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879225092" name="Bronze-bound Lootbox" quantity="1"/>
-<object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 </rewards>
 </deed>
 <deed key="Deeds_of_Central_Gondor" name="Deeds of Central Gondor" category="Region:Central Gondor" description="There is much to do while travelling through the lands of Central Gondor." objectives="Complete Explorer of Central Gondor deed&#10;You have explored all of Central Gondor.&#10;Complete Quests of Central Gondor deed&#10;You have completed many quests in Central Gondor.&#10;Complete Slayer of Central Gondor deed&#10;You have slain many monsters in Central Gondor.">
@@ -4063,8 +4071,7 @@
 <virtue id="IDEALISM"/>
 <object id="1879224343" name="Mark" quantity="200"/>
 <object id="1879175777" name="Cryptic Heritage Rune of Legend" quantity="1"/>
-<object id="1879225090" name="Calenard-bound Lootbox" quantity="1"/>
-<object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 </rewards>
 </deed>
 <deed key="Deeds_of_Eastern_Gondor" name="Deeds of Eastern Gondor" category="Region:Eastern Gondor" description="There is much to do while travelling through the lands of Eastern Gondor." objectives="Complete Explorer of Eastern Gondor deed&#10;You have explored all of Eastern Gondor.&#10;Complete Quests of Eastern Gondor deed&#10;You have completed many quests in Eastern Gondor.&#10;Complete Slayer of Eastern Gondor deed&#10;You have slain many monsters in Eastern Gondor.">
@@ -4091,7 +4098,7 @@
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
 <object id="1879225092" name="Bronze-bound Lootbox" quantity="1"/>
-<object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 </rewards>
 </deed>
 <deed key="Deeds_of_Eriador" name="Deeds of Eriador" category="Region:Eriador" description="There is much to do while traveling through the lands of Eriador" objectives="Complete the Deeds of Eriador:&#10;Deeds of the Trollshaws&#10;Deeds of Angmar&#10;Deeds of Bree-land&#10;Deeds of Ered Luin&#10;Protector of Eregion&#10;Deeds of Evendim&#10;Deeds of Forochel&#10;Deeds of the Lone-lands&#10;Deeds of the Misty Mountains&#10;Deeds of the North Downs&#10;Deeds of the Shire">
@@ -4296,6 +4303,19 @@
 <object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
 </rewards>
 </deed>
+<deed key="Deeds_of_the_Dwarf-holds" name="Deeds of the Dwarf-holds" category="Region:Ered Mithrin and Withered Heath" description="Complete many deeds in Ered Mithrin and the Ironfold." objectives="Complete Explorer of the Dwarf-holds&#10;Complete Quests of the Dwarf-holds&#10;Complete Slayer of the Dwarf-holds&#10;Complete Ered Mithrin: Continued Efforts">
+<child key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="1200"/>
+</reputation>
+<title name="Defender of the Dwarf-holds"/>
+<virtue id="WISDOM"/>
+<object id="1879224343" name="Mark" quantity="150"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="10"/>
+<object id="1879379730" name="Grant the Triumph Emote" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Deeds_of_the_Eastemnet" name="Deeds of the Eastemnet" category="Region:East Rohan" description="" objectives="Complete Explorer of the Eastemnet&#10;Complete Quests of the Eastemnet&#10;Complete Slayer of the Eastemnet">
 <child key="Explorer_of_the_Eastemnet" name="Explorer of the Eastemnet"/>
 <child key="Quests_of_the_Eastemnet" name="Quests of the Eastemnet"/>
@@ -4330,8 +4350,7 @@
 <reputationItem faction="Eglain" amount="1200"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879225085" name="Barrow-ironbound Lootbox" quantity="1"/>
-<object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 </rewards>
 </deed>
 <deed key="Deeds_of_the_Misty_Mountains" name="Deeds of the Misty Mountains" category="Region:Misty Mountains" description="There is much to do while travelling through the lands of the Misty Mountains." objectives="Complete Explorer of the Misty Mountains deed&#10;You have explored all of the Misty Mountains.&#10;Complete Peril of the Mountains (Final) deed&#10;You have completed many quests in the Misty Mountains.&#10;Complete Slayer of the Misty Mountains deed&#10;You have slain many monsters in the Misty Mountains.">
@@ -4344,21 +4363,21 @@
 <reputationItem faction="Elves of Rivendell" amount="1200"/>
 </reputation>
 <object id="1879224343" name="Mark" quantity="100"/>
-<object id="1879225082" name="Dwarf-steelbound Lootbox" quantity="1"/>
-<object id="1879227487" name="Sturdy Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 </rewards>
 </deed>
 <deed key="Deeds_of_the_North" name="Deeds of the North" category="Region:Strongholds of the North" description="Complete many deeds in Eryn Lasgalen, the Dale-lands, and Erebor." objectives="Complete: Explorer of the North&#10;You have explored much of the Strongholds of the North.&#10;Complete: Quests of the North&#10;You have completed many quests in the Strongholds of the North.&#10;Complete: Slayer of the North&#10;You have slain many monsters in the Strongholds of the North.">
 <child key="Explorer_of_the_North" name="Explorer of the North"/>
 <child key="Quests_of_the_North" name="Quests of the North"/>
 <child key="Slayer_of_the_North" name="Slayer of the North"/>
+<child key="Quests_to_Restore_the_North" name="Quests to Restore the North"/>
 <rewards>
 <reputation>
 <reputationItem faction="Men of Dale" amount="1200"/>
 </reputation>
 <title name="Defender of the Three Kingdoms"/>
 <object id="1879224343" name="Mark" quantity="200"/>
-<object id="1879356038" name="Bound Black Steel Key" quantity="1"/>
+<object id="1879352247" name="Motes of Enchantment" quantity="300"/>
 <object id="1879366928" name="Goat of the Crimson Guard" quantity="1"/>
 </rewards>
 </deed>
@@ -4514,7 +4533,7 @@
 <deed key="Defence_of_the_Prancing_Pony_(Deed)" name="Defence of the Prancing Pony" category="Skirmish" description="The Prancing Pony Inn is a cornerstone of Bree-town. All who come through the village stop there for at least a pint, if not the night." objectives="Defeat Southpaw&#10;It is rumoured that the wolf Southpaw was responsible for the death of one of the Underhills of Staddle.&#10;Defeat the Old Hunter&#10;When the men of Bree-town were held prisoner within the town, the Old Hunter awoke from his hibernation.&#10;Defeat Ufglup&#10;Ufglup had never left the pens of Isengard before coming to Bree. He misses the smell of burning trees.&#10;Defeat Rat-catcher&#10;Rat-catcher is a small but tricky lynx. Rat was the name of the brigand he last had for dinner.&#10;Defeat Mukghashan&#10;Mukghashan has enjoyed staying within one of the finer houses in Bree ... far better than the hard, jagged rocks he is accustomed to sleeping on.&#10;Defeat Kamhont&#10;Burning the Prancing Pony inn was Kamhont's idea originally ... he did not account for the tenacity of the innkeeper.&#10;Defeat Banosnákh&#10;Banosnákh never became accustomed to sleeping in a bed. Even with all the finery of Bree, he used the cold hardwood floors.&#10;Defeat Willie Hawthorn&#10;Willie Hawthorn came to Bree once when he was young and saw his father laughed at by the local inhabitants. His sense of revenge runs deep.&#10;Defeat Blackfeather&#10;Blackfeather has watched Bree from high and afar for a long time. This is first he has ever landed in the town.">
 <parent key="Skirmisher_of_Middle-Earth" name="Skirmisher of Middle-Earth"/>
 <rewards>
-<title name="Defender of the Prancing Pony"/>
+<title name="Defender of The Prancing Pony"/>
 </rewards>
 </deed>
 <deed key="Defences_of_the_Lone-lands" name="Defences of the Lone-lands" type="EXPLORER" category="Region:Lone-lands" description="The Lone-lands were once host to a string of forts and towers that guarded the roads against the incursions of Angmar and Rhudaur. Long ago, they fell into ruin with the defeat of the North Kingdom." objectives="Find Barad Iachiant 35.8S/38.3W (The Lone-lands)&#10;The tower of Barad Iachiant is the symbolic centre of the stronghold of Minas Eriol, once it rose high above the valleys below and caught the first rays of sunlight as it slanted in over the surrounding mountains.&#10;&#10;In ruins now, it is only a symbol of glories long lost.&#10;Find Ost Laden 34.5S/37.5W (The Lone-lands)&#10;Once the primary keep of Minas Eriol, proud knights of the Kingdom of Arnor once issued forth from the gates of Ost Laden into the hills and plains below.&#10;&#10;Now only Goblins jeer from the shattered parapets, keeping a dark watch upon those few brave enough to travel into the Lone-lands.&#10;Find The Lornspan 34.7S/35.5W (The Lone-lands)&#10;The Lornspan once bridged a river which flowed near Mithrenost, long parched into a dusty gully.&#10;Find Mithrenost 34.7S/34.4W (The Lone-lands)&#10;Mithrenost was once once of the strongest fortresses of the North Kingdom in days past. Now it is naught but a hiding hole for dwarf-brigands in the service of Skorgrím Dourhand.&#10;Find Thandobel 33.8S/32.7W (The Lone-lands)&#10;The tower of Thandobel once guarded the passage between Ost Cyrn and Mithrenost. Now it lies in ruin, home to the outcast Dourhands.&#10;Find Ost Cyrn 33.6S/30.9W (The Lone-lands)&#10;Ost Cyrn once stood vigil against the Hillmen of Rhudaur and the Angmarim of the North. Now Orcs use the ruined fortress to lay siege to the barren Lone-lands.&#10;Find Naerost 30.7S/33.9W (The Lone-lands)&#10;Naerost was one of the first of the fortresses of the North Kingdom to fall when the Witch-king marched upon Amon Sûl. Now half-orc brigands out of the South dwell within its ruined halls.&#10;Find Amon Ros 30.9S/31.7W (The Lone-lands)&#10;Not much now remains of the watch-tower upon Amon Ros, for it was the weakest of the bulwarks of the North Kingdom. Now spiders infest the surrounding gullies and ditches.&#10;Find Ost Guruth 31.3S/29.6W (The Lone-lands)&#10;Ost Guruth served as a stronghold of the North Kingdom in the days of the Witch-realm of Angmar. Now it serves as the temporary home of the Forsaken, the ruin-hold of the Eglain.">
@@ -4646,6 +4665,19 @@
 <virtue id="CHARITY"/>
 </rewards>
 </deed>
+<deed key="Delver_of_Thikil-gundu" name="Delver of Thikil-gundu" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Long before the great cold-drake Vethúg Wintermind froze the halls of Thikil-gundu, the Longbeards delved the Steel Keep in the deptes of the Grey Mountains" objectives="Discover Durûz-mazal, the Chamber of Faces&#10;Discover Bekâr-mazal, the Arming-chamber&#10;Discover the Smithies of Kall-khebâb&#10;Discover Balb-gundu, the Frostdelf&#10;Discover Zashar-tûmun, the ruin-dwellings&#10;Discover the Feast-house of Amrâg-zahar&#10;Discover the Lore-trove of Afhân-binnîn&#10;Discover the Depths of Akhatâr&#10;Discover Razûkh-zahari, the Room of Rain&#10;Discover Thikil-nesad, the Steel Seat">
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
+<rewards>
+<title name="Delver of Thikil-gundu"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Delver_of_the_Glimmerdeep" name="Delver of the Glimmerdeep" description="The forces of Gundabad have made a pact with the Herald of Winter, and now occupy much of the Glimmerdeep." objectives="Complete the Deed Glimmerdeep -- Tier 1&#10;Complete the Deed Glimmerdeep -- Tier 2&#10;Complete the Deed Glimmerdeep -- Tier 3&#10;Complete the Deed Glimmerdeep: Goblin-slayer&#10;Complete the Deed Glimmerdeep: Orc and Troll Slayer">
+<rewards>
+<title name="The Glimmering"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
 <deed key="Dens_of_the_Beasts" name="Dens of the Beasts" type="EXPLORER" category="Region:Eregion" description="Discover the lairs of Eregion's wildlife." objectives="Discover Torech Braignel 44.0S/8.8W (Eregion)&#10;You have discovered the den of boars known as Torech Braignel.&#10;Discover Torech Ladnel 47.4S/15.4W (Eregion)&#10;You have discovered the den of boars known as Torech Ladnel.&#10;Discover Torech Bornagol 46.4S/10.4W (Eregion)&#10;You have discovered the badger-moot known as Torech Bornagol.&#10;Discover the Burnt Tor 49.1S/10.5W (Eregion)&#10;Here it was that the Company of the Ring fended off a pack of Shadow-wargs sent by Sauron to hunt down the One Ring. The Wargs were at last driven off when Gandalf the Grey caused a powerful fire to blaze forth, a fire which ruined the wooded hilltop.&#10;Discover Sâd Umroval 48.2S/12.4W (Eregion)&#10;You have discovered the roost of crebainknown as Sâd Umroval.&#10;Discover Torech Andraug 50.7S/9.6W (Eregion)&#10;You have discovered the den of wolves and Wargs known as Torech Andraug.&#10;Discover Ulundín 56.0S/14.4W (Eregion)&#10;You have discovered the nest of lizards known as Ulundín.">
 <parent key="Protector_of_Eregion" name="Protector of Eregion"/>
 <rewards>
@@ -4669,6 +4701,12 @@
 <title name="Scourge of the Direhold"/>
 <object id="1879345125" name="Silver Signet of the Thandrim" quantity="5"/>
 <object id="1879224344" name="Medallion" quantity="50"/>
+</rewards>
+</deed>
+<deed key="Destroyer_of_the_Stormwall" name="Destroyer of the Stormwall" description="Deep within the recesses of the Stormwall, lie ancient passages and twisted tunnels, concealing the whereabouts of Etterfang Foulmaw." objectives="Complete the deed: Caverns of Thrumfall -- Tier 1&#10;Complete the deed: Caverns of Thrumfall -- Tier 2&#10;Complete the deed: Caverns of Thrumfall -- Tier 3&#10;Complete the deed: Caverns of Thrumfall: Spider-slayer&#10;Complete the deed: Caverns of Thrumfall: Serpent-slayer">
+<rewards>
+<title name="Dragon Slayer"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
 </rewards>
 </deed>
 <deed key="Destruction_of_Urugarth" name="Destruction of Urugarth" category="Instances:Shadows of Angmar:Urugarth" description="You are called to do all that needs to be done to overthrow the fortress of Urugarth." objectives="Complete The City of Orcs&#10;Complete The Foul Idols of Urugarth&#10;Complete Marching Orders&#10;Complete The Beasts of Urugarth&#10;Complete Champions of Urugarth&#10;Complete The Orcs of Urugarth&#10;Complete The Trolls of Urugarth">
@@ -5788,6 +5826,66 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="2"/>
 </rewards>
 </deed>
+<deed key="Enemies_of_The_Glimmerdeep" name="Enemies of The Glimmerdeep" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of Glimmerdeep" objectives="Defeat many foes in the resource instance of Glimmerdeep (x100)">
+<next key="Enemies_of_The_Glimmerdeep_(Advanced)" name="Enemies of The Glimmerdeep (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_The_Glimmerdeep_(Advanced)" name="Enemies of The Glimmerdeep (Advanced)" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of The Glimmerdeep" objectives="Defeat many foes in the resource instance of The Glimmerdeep (x200)">
+<previous key="Enemies_of_The_Glimmerdeep" name="Enemies of The Glimmerdeep"/>
+<parent key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_The_Steel_Keep" name="Enemies of The Steel Keep" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of The Steel Keep" objectives="Defeat many foes in the resource instance of The Steel Keep (x100)">
+<next key="Enemies_of_The_Steel_Keep_(Advanced)" name="Enemies of The Steel Keep (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_The_Steel_Keep_(Advanced)" name="Enemies of The Steel Keep (Advanced)" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of The Steel Keep" objectives="Defeat many foes in the resource instance of The Steel Keep (x200)">
+<previous key="Enemies_of_The_Steel_Keep" name="Enemies of The Steel Keep"/>
+<parent key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_The_Withered_Heath" name="Enemies of The Withered Heath" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of The Withered Heath" objectives="Defeat many foes in the resource instance of The Withered Heath (x100)">
+<next key="Enemies_of_The_Withered_Heath_(Advanced)" name="Enemies of The Withered Heath (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_The_Withered_Heath_(Advanced)" name="Enemies of The Withered Heath (Advanced)" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of The Withered Heath" objectives="Defeat many foes in the resource instance of The Withered Heath (x200)">
+<previous key="Enemies_of_The_Withered_Heath" name="Enemies of The Withered Heath"/>
+<parent key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
 <deed key="Enemies_of_the_Rohirrim" name="Enemies of the Rohirrim" type="EXPLORER" category="Region:East Rohan" description="Explore the encampments of Rohan's enemies." objectives="Discover Olghakhósh 40.2S/49.0W (The Wold)&#10;Olghakhósh is a small Easterling-camp in the Wold.&#10;Discover Jóshkhin Orda 41.8S/47.7W (The Wold)&#10;Jóshkhin Orda is the large Easterling-encampment of the Wold, where Súth-torr was captured by the Nazgûl to pave the way for the enemies of the Rohirrim.&#10;Discover the Nîn-stazg 47.0S/46.9W (The Wold)&#10;The Orcs of Nîn-stazg rally for an attack on Floodwend.&#10;Discover Eastmund's Lair 36.1S/56.0W (The Wold)&#10;The brigand-leader Eastmund has been exiled many times, but his lair always seems to reappear somewhere in the northern Wold.&#10;Discover the South Undeep 34.9S/47.9W (The Wold)&#10;The shallows of the Anduin present a vulnerable spot for the Wold, for Easterlings attempt to creep across the river at such places.&#10;Discover Kufuzg 51.4S/52.9W (Norcrofts)&#10;A company of Uruk-hai warriors, who had marched west with a larger force, has recently returned and made camp south of Elthengels. What could have caused them to flee eastwards?&#10;Discover The White Hand War-camp 55.7S/55.1W (Norcrofts)&#10;A group of White Hand Orcs, the Ninkh-hai, have established a war-camp in the mountain-passes between the Norcrofts and the East Wall, planning to assault the farming-village of Faldham.&#10;Discover Ash Durub 62.0S/56.2W (Sutcrofts)&#10;The Orcs that have escaped Walstow's spears at the East Wall have set up camp at Ash Durub in the Sutcrofts, blocking Walstow from receiving any aid from Snowbourn.&#10;Discover Ufum-mau 64.7S/55.5W (Sutcrofts)&#10;Along with Ash Durub, the Orcs of ufum-mau prevent Walstow from receiving aid from Snowbourn.&#10;Discover Krash-Bálum 54.1S/59.6W (Sutcrofts)&#10;Half-orcs of the White Hand have been actively trying to sack Garsfeld, having met minimal resistances from Gísil's men.&#10;Discover Maustazg 49.1S/62.7W (Entwash Vale)&#10;The Orcs and Uruks of Maustazg pose a dire threat to the people of the Entwash Vale.&#10;Discover Thrug-unur 40.1S/68.6W (Entwash Vale)&#10;You have come across Thrug-unur, an encampment of Moria goblins in the Entwash Vale. Having goblins as neighbours is a situation that is less than ideal for the Rohirrim here.">
 <parent key="Explorer_of_the_Eastemnet" name="Explorer of the Eastemnet"/>
 <rewards>
@@ -5795,6 +5893,26 @@
 <title name="Finder of Foes"/>
 <virtue id="ZEAL"/>
 <object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_%C3%93insbridge" name="Enemies of Óinsbridge" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of Óinsbridge" objectives="Defeat many foes in the resource instance of Óinsbridge (x100)">
+<next key="Enemies_of_%C3%93insbridge_(Advanced)" name="Enemies of Óinsbridge (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Enemies_of_%C3%93insbridge_(Advanced)" name="Enemies of Óinsbridge (Advanced)" category="Region:Ered Mithrin and Withered Heath" description="Defeat many foes in the resource instance of Óinsbridge" objectives="Defeat many foes in the resource instance of Óinsbridge (x200)">
+<previous key="Enemies_of_%C3%93insbridge" name="Enemies of Óinsbridge"/>
+<parent key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Enemies_on_The_Burning_Mountain" name="Enemies on The Burning Mountain" type="SLAYER" category="Region:Gorgoroth" description="Defeat many foes in the resource instance of The Burning Mountain." objectives="Defeat many foes in the resource instance of The Burning Mountain (200)">
@@ -6328,6 +6446,22 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
+<deed key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts" category="Region:Ered Mithrin and Withered Heath" description="There is still much to do in Ered Mithrin" objectives="Complete Gathering Resources in Ered Mithrin (Advanced)&#10;Complete Leaders of Ered Mithrin (Advanced)&#10;Complete Enemies of The Glimmerdeep (Advanced)&#10;Complete Enemies of The Steel Keep (Advanced)&#10;Complete Enemies of Óinsbridge (Advanced)&#10;Complete Enemies of the Withered Heath (Advanced)">
+<child key="Enemies_of_The_Glimmerdeep_(Advanced)" name="Enemies of The Glimmerdeep (Advanced)"/>
+<child key="Enemies_of_The_Steel_Keep_(Advanced)" name="Enemies of The Steel Keep (Advanced)"/>
+<child key="Enemies_of_The_Withered_Heath_(Advanced)" name="Enemies of The Withered Heath (Advanced)"/>
+<child key="Enemies_of_%C3%93insbridge_(Advanced)" name="Enemies of Óinsbridge (Advanced)"/>
+<child key="Leaders_of_Ered_Mithrin_(Advanced)" name="Leaders of Ered Mithrin (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="900"/>
+</reputation>
+<lotroPoints quantity="15"/>
+<title name="Delver of the Grey Mountains"/>
+<virtue id="CHARITY"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
 <deed key="Esteemed_in_the_Host_of_the_West_(Faction)(Deed)" name="Esteemed in the Host of the West" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid Gondor and its people. For this, Aragorn now counts you among one of his top commanders." objectives="You must earn Esteemed standing with the Host of the West">
 <previous key="Respected_by_the_Host_of_the_West_(Faction)(Deed)" name="Respected by the Host of the West"/>
 <next key="Celebrated_by_the_Host_of_the_West_(Faction)(Deed)" name="Celebrated by the Host of the West"/>
@@ -6442,7 +6576,7 @@
 <deed key="Expert_Attacks_(deed)" name="Expert Attacks" type="CLASS" class="Captain" category="Obsolete" minimumLevel="20" description="A great captain must lead by example. Prove your skill in battle!" objectives="Land critical hits with Devastating Blow (100)&#10;Your martial skills have been well-proven upon the fields of battle, and your foes have come to respect the power of your blade.">
 <rewards>
 <lotroPoints quantity="5"/>
-<trait name="Expert Attacks"/>
+<trait name="Expert Attacks (Obsolete)"/>
 </rewards>
 </deed>
 <deed key="Expert_Hurler_(Deed)" name="Expert Hurler" type="CLASS" class="Warden" minimumLevel="30" description="In the way of the spear, one always desires to have the option of using the best attack at the right time." objectives="Strike with javelin skills 500 times (Max/Day = 50)&#10;Let the spear drop among your foes, a herald of your arrival.">
@@ -6695,7 +6829,7 @@
 <object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Explorer_of_Mirkwood" name="Explorer of Mirkwood" category="Region:Mirkwood" description="Explore the fell and hopeless stronghold of evil that has become of the once great forest of Mirkwood." objectives="Explore the The Wilds of Mirkwood&#10;There are many wild and forsaken places to be stumbled upon as the wary wanderer passes through Mirkwood.&#10;Explore the Ruins of Mirkwood&#10;Mirkwood is home to many places that were once great, but have fallen into ruin after long years of corruption and disrepair.&#10;Explore the Evil Strongholds of Mirkwood&#10;Many foes have settled throughout Mirkwood, striving ever to make it the fell and hopeless stronghold of evil that it has since become.">
+<deed key="Explorer_of_Mirkwood" name="Explorer of Mirkwood" category="Region:Mirkwood" description="Explore the fell and hopeless stronghold of evil that has become of the once great forest of Mirkwood." objectives="Explore The Wilds of Mirkwood&#10;There are many wild and forsaken places to be stumbled upon as the wary wanderer passes through Mirkwood.&#10;Explore the Ruins of Mirkwood&#10;Mirkwood is home to many places that were once great, but have fallen into ruin after long years of corruption and disrepair.&#10;Explore the Evil Strongholds of Mirkwood&#10;Many foes have settled throughout Mirkwood, striving ever to make it the fell and hopeless stronghold of evil that it has since become.">
 <parent key="Deeds_of_Mirkwood" name="Deeds of Mirkwood"/>
 <child key="The_Wilds_of_Mirkwood" name="The Wilds of Mirkwood"/>
 <child key="Uncovering_the_Ruins_of_Mirkwood" name="Uncovering the Ruins of Mirkwood"/>
@@ -6818,6 +6952,20 @@
 <title name="Dances through Dale"/>
 <virtue id="HONOUR"/>
 <object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Explore much of the Ironfold and Ered Mithrin" objectives="Complete Seeking Iron Veins&#10;Complete Treasure-seeker of the Ironfold&#10;Complete Survey Markers of the Dwarf-holds&#10;Complete Ruins of Ered Mithrin&#10;Complete Treasure-seeker of Ered Mithrin&#10;Complete Delver of Thikil-gundu">
+<child key="Seeking_Iron_Veins" name="Seeking Iron Veins"/>
+<child key="Treasure-seeker_of_the_Ironfold" name="Treasure-seeker of the Ironfold"/>
+<child key="Survey_Markers_of_the_Dwarf-holds" name="Survey Markers of the Dwarf-holds"/>
+<child key="Ruins_of_Ered_Mithrin" name="Ruins of Ered Mithrin"/>
+<child key="Treasure-seeker_of_Ered_Mithrin" name="Treasure-seeker of Ered Mithrin"/>
+<child key="Delver_of_Thikil-gundu" name="Delver of Thikil-gundu"/>
+<rewards>
+<virtue id="DISCIPLINE"/>
+<object id="1879224343" name="Mark" quantity="100"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+<object id="1879248609" name="Rejuvenation Potion" quantity="3"/>
 </rewards>
 </deed>
 <deed key="Explorer_of_the_Eastemnet" name="Explorer of the Eastemnet" category="Region:East Rohan" description="Explore cliffs and tree-clad slopes of Eastwall, the dark eaves of Fangorn, and the vast rolling green plains of the Eastemnet." objectives="Complete the Deed: East Wall Explorer&#10;Complete the Deed: Cities of Eastern Rohan&#10;Complete the Deed: The Defences of Eastern Rohan&#10;Complete the Deed: Where Evil Creatures Dwell&#10;Complete the Deed: Enemies of the Rohirrim&#10;Complete the Deed: Chambers of Byrgenstow&#10;Complete the Deed: Nurseries of the Wyrmdelf&#10;Complete the Deed: Eaves of Fangorn Exploration&#10;Complete the Deed: Farms and Crofts of the Eastemnet&#10;Complete the Deed: Ruins, Tombs, and Monuments of the Eastemnet&#10;Complete the Deed: The Wilds of the Eastemnet">
@@ -7569,7 +7717,7 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Foe-slayer_of_Towers_of_the_Teeth" name="Foe-slayer of Towers of the Teeth" type="SLAYER" category="Region:The Wastes" description="???." objectives="Defeat many foes in Towers of the Teeth (x100)">
+<deed key="Foe-slayer_of_Towers_of_the_Teeth" name="Foe-slayer of Towers of the Teeth" type="SLAYER" category="Region:The Wastes" description="Defeat many foes in the Towers of the Teeth." objectives="Defeat many foes in Towers of the Teeth (x100)">
 <next key="Foe-slayer_of_Towers_of_the_Teeth_(Advanced)" name="Foe-slayer of Towers of the Teeth (Advanced)"/>
 <rewards>
 <reputation>
@@ -7774,7 +7922,7 @@
 <object id="1879353884" name="Relic of the Last Alliance" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Footpad_(Deed)" name="Footpad" type="CLASS" class="Burglar" minimumLevel="20" description="If you cannot be seen, you cannot be killed. So do not be seen." objectives="Use your Diversion skill successfully (500)&#10;One of the most important tricks to moving stealthily is learning to move when your enemy's eyes are elsewhere.">
+<deed key="Footpad_(Deed)" name="Footpad" type="CLASS" class="Burglar" minimumLevel="20" description="If you cannot be seen, you cannot be killed. So do not be seen." objectives="Use your Diversion skill successfully (500). Maximum 75 per day. Training dummys may be used to advance this deed.&#10;One of the most important tricks to moving stealthily is learning to move when your enemy's eyes are elsewhere.">
 <parent key="Class_Deeds_(Burglar)_-_Tier_5" name="Class Deeds (Burglar) - Tier 5"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -8147,7 +8295,7 @@
 <title name="Rivendell-friend"/>
 </rewards>
 </deed>
-<deed key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a friend and are willing to trust you with more important endeavors." objectives="You must earn Friend standing with the The Ents of Fangorn.&#10;You are now a friend to the Ents of Fangorn.">
+<deed key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn consider you a friend and are willing to trust you with more important endeavors." objectives="You must earn Friend standing with the Ents of Fangorn.&#10;You are now a friend to the Ents of Fangorn.">
 <previous key="Known_to_the_Ents_of_Fangorn" name="Known to the Ents of Fangorn"/>
 <next key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn"/>
 <rewards>
@@ -8189,6 +8337,16 @@
 <lotroPoints quantity="10"/>
 <skill name="Grey Company - Travel Discount"/>
 <title name="Friend to the Grey Company"/>
+</rewards>
+</deed>
+<deed key="Friend_to_the_Grey_Mountains_Expedition" name="Friend to the Grey Mountains Expedition" type="REPUTATION" category="Region:Reputation" description="All you have done to aid the Grey Mountains Expedition has mad the Dwarves friendly to you." objectives="You must earn Friend standing with the Grey Mountains Expedition">
+<previous key="Known_to_the_Grey_Mountains_Expedition" name="Known to the Grey Mountains Expedition"/>
+<next key="Ally_to_the_Grey_Mountains_Expedition" name="Ally to the Grey Mountains Expedition"/>
+<rewards>
+<lotroPoints quantity="10"/>
+<skill name="Dwarf-holds - Vendor Discount"/>
+<title name="Explorer of the Grey Mountains Expedition"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="10"/>
 </rewards>
 </deed>
 <deed key="Friend_to_the_Helmingas" name="Friend to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="You are now considered a friend to the Helmingas of the Westemnet." objectives="You must earn Friend standing with The Helmingas.&#10;You have become a welcome friend among the Helmingas.">
@@ -8338,7 +8496,7 @@
 <object id="1879330542" name="Exquisite Wood-carving" quantity="2"/>
 </rewards>
 </deed>
-<deed key="Friend_to_the_Riders_of_Stangard" name="Friend to the Riders of Stangard" type="REPUTATION" description="The Riders of Stangard consider you a friend to their cause and respect you more." objectives="You must achieve Friend standing with the The Riders of Stangard.&#10;Your efforts have earned you a standing of friendship with the Riders of Stangard.">
+<deed key="Friend_to_the_Riders_of_Stangard" name="Friend to the Riders of Stangard" type="REPUTATION" description="The Riders of Stangard consider you a friend to their cause and respect you more." objectives="You must achieve Friend standing with The Riders of Stangard.&#10;Your efforts have earned you a standing of friendship with the Riders of Stangard.">
 <previous key="Known_to_the_Riders_of_Stangard" name="Known to the Riders of Stangard"/>
 <next key="Ally_to_the_Riders_of_Stangard" name="Ally to the Riders of Stangard"/>
 <rewards>
@@ -8478,6 +8636,26 @@
 <lotroPoints quantity="10"/>
 <virtue id="CONFIDENCE"/>
 <object id="1879224343" name="Mark" quantity="30"/>
+</rewards>
+</deed>
+<deed key="Gathering_Resources_in_Ered_Mithrin" name="Gathering Resources in Ered Mithrin" type="QUEST" category="Region:Ered Mithrin and Withered Heath" description="There is still much to do in Ered Mithrin" objectives="Complete Resource Quests in Ered Mithrin (x25)">
+<next key="Gathering_Resources_in_Ered_Mithrin_(Advanced)" name="Gathering Resources in Ered Mithrin (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Gathering_Resources_in_Ered_Mithrin_(Advanced)" name="Gathering Resources in Ered Mithrin (Advanced)" type="QUEST" category="Region:Ered Mithrin and Withered Heath" description="There is still much to do in Ered Mithrin" objectives="Complete Resource Quests in Ered Mithrin (x100)">
+<previous key="Gathering_Resources_in_Ered_Mithrin" name="Gathering Resources in Ered Mithrin"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
 <deed key="Gathering_of_Evil" name="Gathering of Evil" type="EXPLORER" category="Region:The Wastes" description="Discover Enemy encampments in the Wastes. (x8)" objectives="Discover Carchost&#10;You have discovered Carchost, the Fang-fort. It is one of the Towers of the Teeth.&#10;Discover Dol Acharn&#10;You have discovered Dol Acharn, the Hill of Vengeance. It was here that Calimehtar and Marwhini met upon the field when they defeated the Wainriders and slew their chief.&#10;Discover Dûm Boha&#10;You have discovered Dûm Boha, an encampment of Haradrim hidden in the foothills of the Mountains of Shadow.&#10;Discover Fushaum Gund&#10;You have discovered Fushaum Gund, an Orc encampment protecting the base of Carchost.&#10;Discover Lang Rhuven&#10;You have discovered Lang Rhuven, known as Darvoz Gârb to the Khundolar. It is the gateway which leads to the distant Rhûn.&#10;Discover Narchost&#10;You have discovered Narchost, the Render. It is one of the Towers of the Teeth.&#10;Discover Ondoher's Folly&#10;You have discovered Ondoher's Folly, the place where Ondoher and his son stood when the Wainriders beset them.&#10;Discover Skoironk&#10;You have discovered Skoironk, the largest web of connecting maggot-holes, teeming with broods of evil things.">
@@ -9460,7 +9638,7 @@
 <reputationItem faction="Pelargir" amount="900"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Half-troll slayer of Central Gondor"/>
+<title name="Half-troll Slayer of Central Gondor"/>
 <virtue id="DISCIPLINE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
@@ -9765,7 +9943,7 @@
 <object id="1879224343" name="Mark" quantity="100"/>
 </rewards>
 </deed>
-<deed key="Helegrod_--_Spider_Wing" name="Helegrod -- Spider Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains known to most as Moria. Great spiders now infest many portions of the ancient dwarf-hold." objectives="Complete An Evil Place, Crawling With Spiders&#10;Complete Zaudru's Brood&#10;Complete Spider Squasher&#10;Complete Challenge: Zaudru">
+<deed key="Helegrod_--_Spider_Wing" name="Helegrod -- Spider Wing" type="SLAYER" category="Instances:Shadows of Angmar:Helegrod" description="Helegrod was once an outpost of the great dwarf-realm of the Misty Mountains known to most as Moria. Great spiders now infest many portions of the ancient dwarf-hold." objectives="Complete the following quests:&#10;An Evil Place, Crawling With Spiders&#10;Zaudru's Brood&#10;Spider Squasher&#10;Challenge: Zaudru">
 <rewards>
 <title name="Spider Spooker"/>
 <object id="1879224343" name="Mark" quantity="100"/>
@@ -9909,7 +10087,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Hierarchy_of_the_Nameless" name="Hierarchy of the Nameless" type="SLAYER" category="Instances:Scourge of Khazad-dûm:Dâr Narbugud" description="When the Balrog of Moria was defeated, a gap was left in the leadership of the ancient caverns. The Mistress of Pestilence and her Nameless hordes have pressed to fill that gap." objectives="Defeat the The Blind One&#10;In the depths of Dâr Narbugud, the Blind One, the chief lieutenant of the Mistress of Pestilence, plots the ruin of all that is good.&#10;Defeat The Mistress of Pestilence&#10;The vile abomination known as the Mistress of Pestilence is responsible for the terrible fungal plague that threatens the Mines of Moria.&#10;Defeat Zholuga&#10;The Mistress of Pestilence chose Zholuga to be her lieutenant in charge of spreading the fungus throughout Moria.&#10;Defeat Îstum&#10;Îstum is among the most deadly of the orc-lieutenants of the Mistress of Pest&#10;Defeat Flâgît&#10;Flâgît is one of the Globsnaga orc-lieutenants of the Mistress of Pestilence.&#10;Defeat Rung&#10;Rung is one of the two Globsnaga-trolls who lead the nearly mindless army of trolls in Dâr Narbugud.&#10;Defeat Blagh&#10;Blagh, along with his brother Rung, is a wily Globsnaga-troll who leads the trolls of Dâr Narbugud.">
+<deed key="Hierarchy_of_the_Nameless" name="Hierarchy of the Nameless" type="SLAYER" category="Instances:Scourge of Khazad-dûm:Dâr Narbugud" description="When the Balrog of Moria was defeated, a gap was left in the leadership of the ancient caverns. The Mistress of Pestilence and her Nameless hordes have pressed to fill that gap." objectives="Defeat The Blind One&#10;In the depths of Dâr Narbugud, the Blind One, the chief lieutenant of the Mistress of Pestilence, plots the ruin of all that is good.&#10;Defeat The Mistress of Pestilence&#10;The vile abomination known as the Mistress of Pestilence is responsible for the terrible fungal plague that threatens the Mines of Moria.&#10;Defeat Zholuga&#10;The Mistress of Pestilence chose Zholuga to be her lieutenant in charge of spreading the fungus throughout Moria.&#10;Defeat Îstum&#10;Îstum is among the most deadly of the orc-lieutenants of the Mistress of Pest&#10;Defeat Flâgît&#10;Flâgît is one of the Globsnaga orc-lieutenants of the Mistress of Pestilence.&#10;Defeat Rung&#10;Rung is one of the two Globsnaga-trolls who lead the nearly mindless army of trolls in Dâr Narbugud.&#10;Defeat Blagh&#10;Blagh, along with his brother Rung, is a wily Globsnaga-troll who leads the trolls of Dâr Narbugud.">
 <parent key="Reaver_of_D%C3%A2r_Narbugud" name="Reaver of Dâr Narbugud"/>
 <rewards>
 <reputation>
@@ -10176,7 +10354,7 @@
 <object id="1879340321" name="Ithilien-infused Essence Box" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done muchc to aid those who march." objectives="You must acquire Armour for the Host of the West.">
+<deed key="Host_of_the_West_Armourer_(Final)(Faction)_(Deed)" name="Host of the West Armourer (Final)" category="Region:The Wastes" description="You have proven yourself invaluable to the Host of the West and have done much to aid those who march." objectives="You must acquire Armour for the Host of the West.">
 <previous key="Host_of_the_West_Armourer_(Advanced)(Faction)_(Deed)" name="Host of the West Armourer (Advanced)"/>
 <parent key="The_Road_to_Mordor" name="The Road to Mordor"/>
 <rewards>
@@ -10662,7 +10840,7 @@
 <title name="Investigator"/>
 </rewards>
 </deed>
-<deed key="Ironfold_Beast-slayer" name="Ironfold Beast-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (40)">
+<deed key="Ironfold_Beast-slayer" name="Ironfold Beast-slayer" type="SLAYER" category="Region:Strongholds of the North:Erebor" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (40)">
 <next key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)"/>
 <rewards>
 <reputation>
@@ -10672,7 +10850,7 @@
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (80)">
+<deed key="Ironfold_Beast-slayer_(Advanced)" name="Ironfold Beast-slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Erebor" description="Defeat many beasts in Ironfold" objectives="Defeat many beasts in Ironfold (80)">
 <previous key="Ironfold_Beast-slayer" name="Ironfold Beast-slayer"/>
 <parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
 <rewards>
@@ -10684,7 +10862,7 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Ironfold_Easterling-slayer" name="Ironfold Easterling-slayer" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (60)">
+<deed key="Ironfold_Easterling-slayer" name="Ironfold Easterling-slayer" type="SLAYER" category="Region:Strongholds of the North:Erebor" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (60)">
 <next key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)"/>
 <rewards>
 <reputation>
@@ -10694,7 +10872,7 @@
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)" type="SLAYER" category="Region:Ered Mithrin and Withered Heath" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (120)">
+<deed key="Ironfold_Easterling-slayer_(Advanced)" name="Ironfold Easterling-slayer (Advanced)" type="SLAYER" category="Region:Strongholds of the North:Erebor" description="Defeat many easterlings in Ironfold" objectives="Defeat many easterlings in Ironfold (120)">
 <previous key="Ironfold_Easterling-slayer" name="Ironfold Easterling-slayer"/>
 <parent key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds"/>
 <rewards>
@@ -10724,7 +10902,7 @@
 <deed key="Isendeep_Travel_Tier_3" name="Isendeep Travel Tier 3" type="QUEST" category="PVP:Creep deeds" description="Service to the master of Isendeep will result in the ability to find your way to the tower with less effort." objectives="Complete 50 quests for the benefit of Isendeep.&#10;Speak with War-Tyrant Akulhun">
 <previous key="Isendeep_Travel_Tier_2" name="Isendeep Travel Tier 2"/>
 <rewards>
-<title name="Bùrzgoth's Bootlicker"/>
+<title name="Bûrzgoth's Bootlicker"/>
 <object id="1879082951" name="Good Map to Isendeep" quantity="1"/>
 </rewards>
 </deed>
@@ -10868,7 +11046,7 @@
 <reputation>
 <reputationItem faction="Pelargir" amount="900"/>
 </reputation>
-<title name="Honored in Dor-en-Ernil"/>
+<title name="Honoured in Dor-en-Ernil"/>
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="20"/>
 <object id="1879316639" name="Unblemished Swan Statue" quantity="1"/>
 </rewards>
@@ -10879,7 +11057,7 @@
 <reputation>
 <reputationItem faction="Pelargir" amount="900"/>
 </reputation>
-<title name="Honored in Lebennin"/>
+<title name="Honoured in Lebennin"/>
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="20"/>
 <object id="1879316641" name="Worn Medallion of Castamir" quantity="1"/>
 </rewards>
@@ -10889,7 +11067,7 @@
 <next key="Respected_in_Minas_Tirith" name="Respected in Minas Tirith"/>
 <rewards>
 <lotroPoints quantity="20"/>
-<title name="Kindred to Minas Tirith"/>
+<title name="Honoured in Minas Tirith"/>
 <object id="1879326937" name="Minas Tirith Silver Piece" quantity="20"/>
 </rewards>
 </deed>
@@ -10897,7 +11075,7 @@
 <previous key="Ally_to_Pelargir" name="Ally to Pelargir"/>
 <rewards>
 <lotroPoints quantity="20"/>
-<title name="Honored in Pelargir"/>
+<title name="Honoured in Pelargir"/>
 </rewards>
 </deed>
 <deed key="Kindred_to_Ringl%C3%B3_Vale" name="Kindred to Ringló Vale" type="REPUTATION" category="Region:Central Gondor" description="You are kindred to the Men of Ringló Vale." objectives="You must earn Kindred standing with the Men of Ringló Vale&#10;Your name is Honored to the Men of Ringló Vale.">
@@ -10906,7 +11084,7 @@
 <reputation>
 <reputationItem faction="Pelargir" amount="900"/>
 </reputation>
-<title name="Honored in Ringló Vale"/>
+<title name="Honoured in Ringló Vale"/>
 <object id="1879314933" name="Central Gondor Silver Piece" quantity="20"/>
 <object id="1879316643" name="Pristine Wood-carving" quantity="1"/>
 </rewards>
@@ -10956,6 +11134,15 @@
 <rewards>
 <lotroPoints quantity="20"/>
 <title name="Eorling"/>
+</rewards>
+</deed>
+<deed key="Kindred_to_the_Grey_Mountains_Expedition" name="Kindred to the Grey Mountains Expedition" type="REPUTATION" category="Region:Reputation" description="The Grey Mountains Expedition look upon you as a member of their cause. You are always welcome among their rank and numbers" objectives="You must earn Kindred standing with the Grey Mountains Edpexition">
+<previous key="Ally_to_the_Grey_Mountains_Expedition" name="Ally to the Grey Mountains Expedition"/>
+<rewards>
+<lotroPoints quantity="20"/>
+<skill name="Dwarf-holds - Travel Discount"/>
+<title name="Vanguard of the Grey Mountains Expedition"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="20"/>
 </rewards>
 </deed>
 <deed key="Kindred_to_the_Helmingas" name="Kindred to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="You may not have been born an Eorling, but you are welcome wherever you go in the eastern Westemnet." objectives="You must earn Kindred standing with The Helmingas.&#10;There is nowhere you can travel within Eastfold, Kingstead, and Broadacres where you are not known. The people feel a deep kinship with you.">
@@ -11074,7 +11261,7 @@
 <title name="Elf-friend"/>
 </rewards>
 </deed>
-<deed key="Kindred_with_the_Ents_of_Fangorn" name="Kindred with the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn look upon you as an honorary member of the forest. You are welcome among the trees and bushes of the ancient wood." objectives="You must earn Kindred standing with the The Ents of Fangorn.&#10;Your deeds on behalf of the Ents of Fangorn earn you a place among them.">
+<deed key="Kindred_with_the_Ents_of_Fangorn" name="Kindred with the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn look upon you as an honorary member of the forest. You are welcome among the trees and bushes of the ancient wood." objectives="You must earn Kindred standing with The Ents of Fangorn.&#10;Your deeds on behalf of the Ents of Fangorn earn you a place among them.">
 <previous key="Ally_to_the_Ents_of_Fangorn" name="Ally to the Ents of Fangorn"/>
 <rewards>
 <lotroPoints quantity="20"/>
@@ -11150,7 +11337,7 @@
 <title name="Honorary Ranger"/>
 </rewards>
 </deed>
-<deed key="Kindred_with_the_Riders_of_Stangard" name="Kindred with the Riders of Stangard" type="REPUTATION" description="The Riders of Stangard now consider you one of their own; they will look to you to lead charges against the forces of the Enemy wherever they go." objectives="You must achieve Kindred standing with the The Riders of Stangard.&#10;Your efforts in aiding the people of the Great River have earned you great respect among the Riders of Stangard.">
+<deed key="Kindred_with_the_Riders_of_Stangard" name="Kindred with the Riders of Stangard" type="REPUTATION" description="The Riders of Stangard now consider you one of their own; they will look to you to lead charges against the forces of the Enemy wherever they go." objectives="You must achieve Kindred standing with The Riders of Stangard.&#10;Your efforts in aiding the people of the Great River have earned you great respect among the Riders of Stangard.">
 <previous key="Ally_to_the_Riders_of_Stangard" name="Ally to the Riders of Stangard"/>
 <rewards>
 <lotroPoints quantity="20"/>
@@ -11328,7 +11515,7 @@
 <title name="Known in Rivendell"/>
 </rewards>
 </deed>
-<deed key="Known_to_the_Ents_of_Fangorn" name="Known to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn know your name and wonder what more you will do for them." objectives="You must earn Acquaintance standing with the The Ents of Fangorn.&#10;You are now known to the Ents of Fangorn.">
+<deed key="Known_to_the_Ents_of_Fangorn" name="Known to the Ents of Fangorn" type="REPUTATION" category="Region:West Rohan" description="The Ents of Fangorn know your name and wonder what more you will do for them." objectives="You must earn Acquaintance standing with The Ents of Fangorn.&#10;You are now known to the Ents of Fangorn.">
 <next key="Friend_to_the_Ents_of_Fangorn" name="Friend to the Ents of Fangorn"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -11342,7 +11529,7 @@
 <title name="Known to the Entwash Vale"/>
 </rewards>
 </deed>
-<deed key="Known_to_the_Eorlingas" name="Known to the Eorlingas" type="REPUTATION" description="Your name is now known amongst the Eorlingas, and they know that you act in their interest." objectives="You must earn Acquaintance standing with the The Eorlingas.&#10;You are now known to the Eorlingas.">
+<deed key="Known_to_the_Eorlingas" name="Known to the Eorlingas" type="REPUTATION" description="Your name is now known amongst the Eorlingas, and they know that you act in their interest." objectives="You must earn Acquaintance standing with The Eorlingas.&#10;You are now known to the Eorlingas.">
 <next key="Friend_to_the_Eorlingas" name="Friend to the Eorlingas"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -11365,7 +11552,15 @@
 <title name="Known to the Grey Company"/>
 </rewards>
 </deed>
-<deed key="Known_to_the_Helmingas" name="Known to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="Your name is now known amongst the Helmingas, and they know that you act in their interest." objectives="You must earn Acquaintance standing with the The Helmingas.&#10;You are now known to the Helmingas.">
+<deed key="Known_to_the_Grey_Mountains_Expedition" name="Known to the Grey Mountains Expedition" type="REPUTATION" category="Region:Reputation" description="Your name is now known throughout the Grey Mountains Expedition, and they know that you act in their intrest." objectives="You must earn acquaintance status with the Grey Mountains Expedition">
+<next key="Friend_to_the_Grey_Mountains_Expedition" name="Friend to the Grey Mountains Expedition"/>
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Scout of the Grey Mountains Expedition"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="5"/>
+</rewards>
+</deed>
+<deed key="Known_to_the_Helmingas" name="Known to the Helmingas" type="REPUTATION" category="Region:West Rohan" description="Your name is now known amongst the Helmingas, and they know that you act in their interest." objectives="You must earn Acquaintance standing with The Helmingas.&#10;You are now known to the Helmingas.">
 <next key="Friend_to_the_Helmingas" name="Friend to the Helmingas"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -11489,7 +11684,7 @@
 <object id="1879330542" name="Exquisite Wood-carving" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Known_to_the_Riders_of_Stangard" name="Known to the Riders of Stangard" type="REPUTATION" description="As the vanguard pushing evil from Mirkwood, the Riders of Stangard look for any that will stand with them. You have become known to their leaders." objectives="You must achieve Acquaintance standing with the The Riders of Stangard.&#10;Your continued efforts have made your name known to the Riders of Stangard.">
+<deed key="Known_to_the_Riders_of_Stangard" name="Known to the Riders of Stangard" type="REPUTATION" description="As the vanguard pushing evil from Mirkwood, the Riders of Stangard look for any that will stand with them. You have become known to their leaders." objectives="You must achieve Acquaintance standing with The Riders of Stangard.&#10;Your continued efforts have made your name known to the Riders of Stangard.">
 <next key="Friend_to_the_Riders_of_Stangard" name="Friend to the Riders of Stangard"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -11577,6 +11772,27 @@
 <lotroPoints quantity="5"/>
 <virtue id="PATIENCE"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="Leaders_of_Ered_Mithrin" name="Leaders of Ered Mithrin" category="Region:Ered Mithrin and Withered Heath" description="Defeat many leaders in the resource instances of Ered Mithrin" objectives="Defeat many leaders in the resource instances of Ered Mithrin (x5)">
+<next key="Leaders_of_Ered_Mithrin_(Advanced)" name="Leaders of Ered Mithrin (Advanced)"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
+</rewards>
+</deed>
+<deed key="Leaders_of_Ered_Mithrin_(Advanced)" name="Leaders of Ered Mithrin (Advanced)" category="Region:Ered Mithrin and Withered Heath" description="Defeat many leaders in the Resource Instances of Ered Mithrin" objectives="Defeat many leaders in the Resource Instances of Ered Mithrin (x15)">
+<previous key="Leaders_of_Ered_Mithrin" name="Leaders of Ered Mithrin"/>
+<parent key="Ered_Mithrin:_Continued_Efforts" name="Ered Mithrin: Continued Efforts"/>
+<rewards>
+<reputation>
+<reputationItem faction="Grey Mountains Expedition" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+<object id="1879368479" name="Mark of the Longbeards" quantity="4"/>
 </rewards>
 </deed>
 <deed key="Leaders_of_Gorgoroth" name="Leaders of Gorgoroth" type="SLAYER" category="Region:Gorgoroth" description="Defeat many leaders in the resources instance of Gorgoroth." objectives="Defeat many leaders in the resources instance of Gorgoroth (20)">
@@ -11885,6 +12101,7 @@
 </rewards>
 </deed>
 <deed key="Lore_of_the_Forgotten_Library" name="Lore of the Forgotten Library" category="Instances:Shadows of Angmar:Tham Mírdain:Library" description="Find the forgotten volumes of lore within the Library at Tham Mírdain." objectives="Find the Yellowed Volume (Creature Drop)&#10;You have found a yellowed volume of lore detailing some of the history of the Elves.&#10;Find the Frayed Volume (Creature Drop)&#10;You have found a volume of lore, frayed at the edges, which contains much wisdom.&#10;Find the Ancient Volume (Picked up off Ground)&#10;You have found an ancient volume of lore that hearkens back to the days of Beleriand.&#10;Find the Frail Volume (Picked up off Ground)&#10;You have found a volume of lore, but it is so fragile you are afraid to open it.">
+<parent key="Marshal_of_Tham_M%C3%ADrdain" name="Marshal of Tham Mírdain"/>
 <parent key="The_Library_at_Tham_M%C3%ADrdain_(Deed)" name="The Library at Tham Mírdain"/>
 <rewards>
 <reputation>
@@ -12134,13 +12351,16 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Marshal_of_Tham_M%C3%ADrdain" name="Marshal of Tham Mírdain" category="Instances:Shadows of Angmar:Tham Mírdain" minimumLevel="50" description="Your efforts within Tham Mírdain have not gone unnoticed by the Elves of Rivendell. Because of your unceasing aid in the defense of Tham Mírdain, they have bestown upon you the title of Marshal." objectives="Mercenaries of the White-hand (Advanced)&#10;Scholars from Angmar (Advanced)&#10;Soldiers of the Enemy (Advanced)&#10;The Pale Followers (Advanced)&#10;Warriors of the Enemy (Advanced)&#10;Invaders of Tham Mírdain (Complete)">
+<deed key="Marshal_of_Tham_M%C3%ADrdain" name="Marshal of Tham Mírdain" category="Instances:Shadows of Angmar:Tham Mírdain" minimumLevel="50" description="Your efforts within Tham Mírdain have not gone unnoticed by the Elves of Rivendell. Because of your unceasing aid in the defense of Tham Mírdain, they have bestown upon you the title of Marshal." objectives="Complete the following 8 deeds:&#10;Lore of the Forgotten Library&#10;Ring-lore of Tham Mírdain&#10;Texts of the Crumbling School&#10;Mercenaries of the White-hand (Advanced)&#10;Scholars from Angmar (Advanced)&#10;Soldiers of the Enemy (Advanced)&#10;The Pale Followers (Advanced)&#10;Invaders of Tham Mírdain (Complete)&#10;Warriors of the Enemy (Advanced) ???">
+<child key="Lore_of_the_Forgotten_Library" name="Lore of the Forgotten Library"/>
+<child key="Ring-lore_of_Tham_M%C3%ADrdain" name="Ring-lore of Tham Mírdain"/>
+<child key="Texts_of_the_Crumbling_School" name="Texts of the Crumbling School"/>
 <child key="Mercenaries_of_the_White-hand_(Advanced)" name="Mercenaries of the White-hand (Advanced)"/>
 <child key="Scholars_from_Angmar_(Advanced)" name="Scholars from Angmar (Advanced)"/>
 <child key="Soldiers_of_the_Enemy_(Advanced)" name="Soldiers of the Enemy (Advanced)"/>
 <child key="The_Pale_Followers_(Advanced)" name="The Pale Followers (Advanced)"/>
-<child key="Warriors_of_the_Enemy_(Advanced)" name="Warriors of the Enemy (Advanced)"/>
 <child key="Invaders_of_Tham_M%C3%ADrdain_(Complete)" name="Invaders of Tham Mírdain (Complete)"/>
+<child key="Warriors_of_the_Enemy_(Advanced)" name="Warriors of the Enemy (Advanced)"/>
 <rewards>
 <reputation>
 <reputationItem faction="Elves of Rivendell" amount="700"/>
@@ -12380,7 +12600,7 @@
 <reputationItem faction="Defenders of Minas Tirith" amount="500"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="The Many Talented"/>
+<title name="The Many-talented"/>
 <virtue id="IDEALISM"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
@@ -12782,7 +13002,7 @@
 <deed key="Now_for_Wrath_(deed)" name="Now for Wrath" type="CLASS" class="Captain" category="Obsolete" minimumLevel="30" description="All the stalwart bravery in the world will not save a warrior who no longer has the strength to lift their sword." objectives="Use Rallying Cry (600)&#10;There is an old, old art to summoning the last vestiges of strength from a soldier’s worn and injured limbs -- an art that you have now mastered.">
 <rewards>
 <lotroPoints quantity="5"/>
-<trait name="Now for Wrath"/>
+<trait name="Now for Wrath (Obsolete Trait)"/>
 </rewards>
 </deed>
 <deed key="Nud-melek_(Deed)" name="Nud-melek" type="EXPLORER" category="Region:Moria" description="Explore the area of Nud-melek which encompasses the eastern halls of Moria." objectives="Find The First Hall 8.0S/96.3W (Nud-melek)&#10;The First Hall was the original entrance to Khazad-dûm, where Durin first set foot within the caverns that would one day become the greatest city of the dwarves. Moria was indeed the most enduring city of any people in the long history of Middle-earth, until at last it fell and the end came, as it must to all things.&#10;Find Khadar-zarâm 8.0S/103.6W (Nud-melek)&#10;This vast array of stairs allows one to descend from the seat of Durin's power to the greatest hall in all of Khazad-dûm. Originally a vast natural cavern supported by massive pillars of stone, over the long years the dwarves gradual worked it into a wonder of craftsmanship, with a forest of pillars carved into great trees supporting the weight of an entire mountain above.&#10;Find The Deep Crossroad 6.3S/101.1W (Nud-melek)&#10;This junction between the vast hall in Nud-melek and the Chamber of Mazarbul farther to the west seems unimportant in the vastness of Moria, but for some reason Mazog's Orcs guard it with a keen vigilance and attack all passersby therein.&#10;Find Khurjezer 7.3S/100.9W (Nud-melek)&#10;Khurjezer appears to be the only remaining bridge across the lesser chasm that has rent the great hall of Nud-melek. This chasm does not appear in the ancient maps of Khazad-dûm, and it is possible that an earthquake ripped it apart in the years shortly before the appearance of Durin's Bane.&#10;Find the Bridge of Khazad-dûm (west arch) 8.0S/99.2W (Nud-melek)&#10;The bridge of Khazad-dûm was conceived as an ancient defence designed to deter any who might seek to invade the city. The chasm it crosses is among the largest in Moria, and has been here since the city was founded so many long years ago. Its depths seem wholly bottomless to the reckoning of a mortal eye. Now the bridge lies in ruins, its western span jutting forlornly out over the depths of the chasm, the very stone shattered and charred by unknown forces.&#10;Find the Bridge of Khazad-dûm (east arch) 8.0S/98.6W (Nud-melek)&#10;The bridge of Khazad-dûm has stood over this great chasm for many an age, but does so no more. THe eastern span now reaches out like a finger pointing into the darkness beyond. It seems that whatever destroyed the bridge, it fell not so long ago, as flakes of rock can still be seen to occasionally crack away from teh shattered tip to fall away into the chasm, and fresh arrows pepper the stonework.&#10;Find Sudulthurkh 5.6S/99.2W (Nud-melek)&#10;This great course of stone offers a path to the upper caverns that could be traversed -- albeit with some difficulty -- by waggons or loaded vehicles. The path below also offers the only alternate road into Moria now that the bridge of Khazad-dûm lies ruined.">
@@ -12823,6 +13043,87 @@
 <virtue id="COMPASSION"/>
 </rewards>
 </deed>
+<deed key="Observer_of_Durin%27s_Day" name="Observer of Durin's Day" type="EVENT" category="Event:Festival" description="" objectives="Complete the quest Durin's Day Upon Erebor&#10;You stood on the side of Erebor for Durin's day, and saw what the sun revealed when it touched the dwarf-wrought stone.">
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Observer of Durin's Day"/>
+</rewards>
+</deed>
+<deed key="Of_Aglarond" name="Of Aglarond" type="EVENT" category="Event:Festival" description="You have earned the of Aglarond title." objectives="">
+<rewards>
+<title name="of Aglarond"/>
+</rewards>
+</deed>
+<deed key="Of_Anduin" name="Of Anduin" type="EVENT" category="Event:Festival" description="You have earned the of Anduin title." objectives="">
+<rewards>
+<title name="of Anduin"/>
+</rewards>
+</deed>
+<deed key="Of_Arkenstone" name="Of Arkenstone" type="EVENT" category="Event:Festival" description="You have earned the of Arkenstone title." objectives="">
+<rewards>
+<title name="of Arkenstone"/>
+</rewards>
+</deed>
+<deed key="Of_Belegaer" name="Of Belegaer" type="EVENT" category="Event:Festival" description="You have earned the of Belegaer title." objectives="">
+<rewards>
+<title name="of Belegaer"/>
+</rewards>
+</deed>
+<deed key="Of_Brandywine" name="Of Brandywine" type="EVENT" category="Event:Festival" description="You have earned the of Brandywine title." objectives="">
+<rewards>
+<title name="of Brandywine"/>
+</rewards>
+</deed>
+<deed key="Of_Crickhollow" name="Of Crickhollow" type="EVENT" category="Event:Festival" description="You have earned the of Crickhollow title." objectives="">
+<rewards>
+<title name="of Crickhollow"/>
+</rewards>
+</deed>
+<deed key="Of_Dwarrowdelf" name="Of Dwarrowdelf" type="EVENT" category="Event:Festival" description="You have earned the of Dwarrowdelf title." objectives="">
+<rewards>
+<title name="of Dwarrowdelf"/>
+</rewards>
+</deed>
+<deed key="Of_Eldar" name="Of Eldar" type="EVENT" category="Event:Festival" description="You have earned the of Eldar title." objectives="">
+<rewards>
+<title name="of Eldar"/>
+</rewards>
+</deed>
+<deed key="Of_Elendilmir" name="Of Elendilmir" type="EVENT" category="Event:Festival" description="You have earned the of Elendilmir title." objectives="">
+<rewards>
+<title name="of Elendilmir"/>
+</rewards>
+</deed>
+<deed key="Of_Estel" name="Of Estel" type="EVENT" category="Event:Festival" description="You have earned the of Estel title." objectives="">
+<rewards>
+<title name="of Estel"/>
+</rewards>
+</deed>
+<deed key="Of_Evernight" name="Of Evernight" type="EVENT" category="Event:Festival" description="You have earned the of Evernight title." objectives="">
+<rewards>
+<title name="of Evernight"/>
+</rewards>
+</deed>
+<deed key="Of_Firefoot" name="Of Firefoot" type="EVENT" category="Event:Festival" description="You have earned the of Firefoot title." objectives="">
+<rewards>
+<title name="of Firefoot"/>
+</rewards>
+</deed>
+<deed key="Of_Fornost" name="Of Fornost" type="EVENT" category="Event:Festival" description="You have earned the of Fornost title." objectives="">
+<rewards>
+<title name="of Fornost"/>
+</rewards>
+</deed>
+<deed key="Of_Gilrain" name="Of Gilrain" type="EVENT" category="Event:Festival" description="You have earned the of Gilrain title." objectives="">
+<rewards>
+<title name="of Gilrain"/>
+</rewards>
+</deed>
+<deed key="Of_Gladden" name="Of Gladden" type="EVENT" category="Event:Festival" description="You have earned the of Gladden title." objectives="">
+<rewards>
+<title name="of Gladden"/>
+</rewards>
+</deed>
 <deed key="Of_Glories_Long_Past" name="Of Glories Long Past" type="QUEST" category="Region:North Downs" description="The North Downs were once the home to the capitol of the North Kingdom. Now it lies in ruin, inviting the return of Angmar." objectives="Complete quests within North Downs (15)&#10;The North Downs were once the home to the capitol of the North Kingdom. Now it lies in ruin, inviting the return of Angmar.">
 <next key="Of_Glories_Long_Past_(Advanced)" name="Of Glories Long Past (Advanced)"/>
 <rewards>
@@ -12856,10 +13157,85 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
+<deed key="Of_Gwaihir" name="Of Gwaihir" type="EVENT" category="Event:Festival" description="You have earned the of Gwaihir title." objectives="">
+<rewards>
+<title name="of Gwaihir"/>
+</rewards>
+</deed>
+<deed key="Of_Imladris" name="Of Imladris" type="EVENT" category="Event:Festival" description="You have earned the of Imladris title." objectives="">
+<rewards>
+<title name="of Imladris"/>
+</rewards>
+</deed>
+<deed key="Of_Landroval" name="Of Landroval" type="EVENT" category="Event:Festival" description="You have earned the of Landroval title." objectives="">
+<rewards>
+<title name="of Landroval"/>
+</rewards>
+</deed>
+<deed key="Of_Laurelin" name="Of Laurelin" type="EVENT" category="Event:Festival" description="You have earned the of Laurelin title." objectives="">
+<rewards>
+<title name="of Laurelin"/>
+</rewards>
+</deed>
 <deed key="Of_Leaf_and_Twig" name="Of Leaf and Twig" type="CLASS" class="Lore-master" minimumLevel="39" description="The first four pages of this book can be found on enemies scattered across Angmar, Eregion, and Moria. The last four pages of this book can be found on enemies scattered across Forochel, Moria, and the Misty Mountains.&#10;&#10;This is a strange book indeed. The covers are crafted from strips of some fibrous bark supple enough to be woven together, while the pages themselves appear to be birch bark pounded carefully flat and gently inscribed with runic letters in dense rows, page after page. What magic can have allowed such a fragile-looking tome to survive time and age, you cannot guess. Nor have you ever seen a book of such length, for its author goes into each subject and sentence with such painstaking detail that you cannot imagine how long it must have taken to record it all in this fashion. The subject appears to be anything with roots and leaves. There is such an enormous breadth of knowledge concerning root, leaf, bark, and twig that you could likely study it for years without understanding it all.&#10;&#10;To your ire, someone or something has carefully removed a few of the pages from the volume, leaving you to wonder what hidden lore they must have contained. Perhaps the master of the Last Homely House could shed some light on this mysterious tome -- you can think of few others who might." objectives="Of Leaf and Twig, page 8&#10;This page begins a list of plants that may be found in the forests of northern Middle-earth, including every sub-species and variety.&#10;It appears to go on for at least another ten pages -- in very, very small print -- and you are sure you have not even heard of half of them.&#10;You find yourself wondering how many years it must have taken to compile that list.&#10;Of Leaf and Twig, page 23&#10;This page begins a long, rambling dissertation on the shape of leaves. It describes all the varieties of leaf, including colours, shapes, stems, and vein patterns.&#10;By the end of the tract, you begin to realize that the author has tied them all back together in a most interesting fashion.&#10;Of Leaf and Twig, page 53&#10;The author spends a great deal of time discussing the methods by which plants procreate, from seed and nut, to root and creeper. You had not realized before just how many variations there really were.&#10;There is even a section dedicated to a particular type of tree that only spreads itself after death, as young new trees sprout up along the length of the old tree's fallen, rotting trunk.&#10;Of Leaf and Twig, page 77&#10;This section speaks of the proper ways to nourish and tend young plants.&#10;It reads quite unlike a common book on farming, however, as it is concerned more with the development of wild fields and forests and has little to say about harvesting or sowing in the traditional sense.&#10;The author does not seem to consider the development of crops as a meaningful pursuit, so much as the creation of a vibrant, living glade or meadow.&#10;Of Leaf and Twig, page 98&#10;This section delves into the lore of roots and their interaction with the earth, discussing their purpose and growth and the effect they have upon rock and soil.&#10;Most interestingly, it discusses the method by which small hardy bushes and trees cling to harsh, bare rock, slowly breaking it apart year after long year, until in time greater trees and lush undergrowth may take its place amongst the shattered rock and reach into the earth below.&#10;The process must take centuries -- even the immortal Elves have not the patience to watch such things -- yet the author writes as if he has seen these events first-hand.&#10;Of Leaf and Twig, page 145&#10;This section goes on at great length concerning the matter of water and its importance to all living things.&#10;It notes how many species of tree and plant grow upon the edge of running water and in time come to shape its course to their own needs and purposes, much as a farmer might irrigate a field.&#10;Of Leaf and Twig, page 162&#10;This page speaks of the long battles fought amongst plants, as they struggle to live like any other thing.&#10;The author speaks of these conflicts almost as if they were fought amongst regiments and armies of Men, yet it is clear that these 'wars' are fought out over endless years, and the struggle itself is unguided by any General or King save the forces of nature themselves -- excepting of course when the younger races come wielding axe and fire and upset this order, and events come to move more swiftly.&#10;Oddly, the author seems to nonchalantly include even the Elves and dwarves amongst the 'younger races' as a matter of course....&#10;Of Leaf and Twig, page 241&#10;This last section lacks an index of any sort, much as the beginning had no chapters -- as if such an idea simply had not occured to the author, and he expected anyone hefting this massive tome to simply read it through from end to end, even if all they sought was the name of a particular flower.&#10;As a reference, this book is nearly useless despite its encyclopedic volume, but you are forced to admit that you have never encountered such a vast and comprehensive book concerning the true nature and qualities of plants.">
 <rewards>
 <lotroPoints quantity="10"/>
 <classPoints quantity="1"/>
+</rewards>
+</deed>
+<deed key="Of_Maiar" name="Of Maiar" type="EVENT" category="Event:Festival" description="You have earned the of Maiar title." objectives="">
+<rewards>
+<title name="of Maiar"/>
+</rewards>
+</deed>
+<deed key="Of_Meneldor" name="Of Meneldor" type="EVENT" category="Event:Festival" description="You have earned the of Meneldor title." objectives="">
+<rewards>
+<title name="of Meneldor"/>
+</rewards>
+</deed>
+<deed key="Of_Mirkwood_(Deed)" name="Of Mirkwood" type="EVENT" category="Event:Festival" description="You have earned the of Mirkwood title." objectives="">
+<rewards>
+<title name="of Mirkwood"/>
+</rewards>
+</deed>
+<deed key="Of_Morthond" name="Of Morthond" type="EVENT" category="Event:Festival" description="You have earned the of Morthond title." objectives="">
+<rewards>
+<title name="of Morthond"/>
+</rewards>
+</deed>
+<deed key="Of_Nimrodel" name="Of Nimrodel" type="EVENT" category="Event:Festival" description="You have earned the of Nimrodel title." objectives="">
+<rewards>
+<title name="of Nimrodel"/>
+</rewards>
+</deed>
+<deed key="Of_Riddermark" name="Of Riddermark" type="EVENT" category="Event:Festival" description="You have earned the of Riddermark title." objectives="">
+<rewards>
+<title name="of Riddermark"/>
+</rewards>
+</deed>
+<deed key="Of_Silverlode" name="Of Silverlode" type="EVENT" category="Event:Festival" description="You have earned the of Silverlode title." objectives="">
+<rewards>
+<title name="of Silverlode"/>
+</rewards>
+</deed>
+<deed key="Of_Sirannon" name="Of Sirannon" type="EVENT" category="Event:Festival" description="You have earned the of Sirannon title." objectives="">
+<rewards>
+<title name="of Sirannon"/>
+</rewards>
+</deed>
+<deed key="Of_Snowbourn" name="Of Snowbourn" type="EVENT" category="Event:Festival" description="You have earned the of Snowbourn title." objectives="">
+<rewards>
+<title name="of Snowbourn"/>
+</rewards>
+</deed>
+<deed key="Of_Vanyar" name="Of Vanyar" type="EVENT" category="Event:Festival" description="You have earned the of Vanyar title." objectives="">
+<rewards>
+<title name="of Vanyar"/>
+</rewards>
+</deed>
+<deed key="Of_Vilya" name="Of Vilya" type="EVENT" category="Event:Festival" description="You have earned the of Vilya title." objectives="">
+<rewards>
+<title name="of Vilya"/>
 </rewards>
 </deed>
 <deed key="Of_Warg_and_Goblin" name="Of Warg and Goblin" type="SLAYER" category="Instances:Tower of Dol Guldur:Warg-pens of Dol Guldur" description="The Warg-pits of Dol Guldur are overseen by the goblin Athgrat and the Warg Kranklob, vile servants of the Enemy." objectives="Defeat Athgrat&#10;The ability of the Enemy to train his wargs and warg-riders has been hampered by the death of Athgrat.&#10;Defeat Kranklob&#10;The death of Kranklob forces the Enemy to seek a new matron to foster his warg-packs.">
@@ -12867,6 +13243,16 @@
 <rewards>
 <lotroPoints quantity="5"/>
 <object id="1879224344" name="Medallion" quantity="20"/>
+</rewards>
+</deed>
+<deed key="Of_Windfola" name="Of Windfola" type="EVENT" category="Event:Festival" description="You have earned the of Windfola title." objectives="">
+<rewards>
+<title name="of Windfola"/>
+</rewards>
+</deed>
+<deed key="Of_Withywindle" name="Of Withywindle" type="EVENT" category="Event:Festival" description="You have earned the of Withywindle title." objectives="">
+<rewards>
+<title name="of Withywindle"/>
 </rewards>
 </deed>
 <deed key="Old_An%C3%B3rien_Farms" name="Old Anórien Farms" type="EXPLORER" category="Region:Old Anórien" minimumLevel="100" description="Discover the Farms of Old Anórien (x9)" objectives="Discover Parth Lisc&#10;&#10;Discover Parth Duin&#10;&#10;Discover Parth Gladió&#10;&#10;Discover Pel Forod&#10;&#10;Discover Pel Enaid&#10;&#10;Discover Pel Dúven&#10;&#10;Discover Pel Chardún&#10;&#10;Discover Pel Tundalaf&#10;&#10;Discover Parth Forant">
@@ -13707,7 +14093,7 @@
 <title name="Foil of War"/>
 </rewards>
 </deed>
-<deed key="Plants_of_the_Water-works" name="Plants of the Water-works" category="Instances:Scourge of Khazad-dûm:The Water Wheels of Nalâ-dûm" description="The Water-works house many creatures and types of life. The dwarves have yet to delve and catalogue even a fraction of the changes in this mysterious environment." objectives="Collect unusual plant (can be found in a room to the west, behind a gate with a pair of Cave Rock-worms)&#10;This strange plant has caught your eye. You have collected it to investigate later.&#10;Collect strange plant&#10;Collect abnormal plant&#10;Collect large plant&#10;Collect colourful plant">
+<deed key="Plants_of_the_Water-works" name="Plants of the Water-works" category="Instances:Scourge of Khazad-dûm:The Water Wheels of Nalâ-dûm" description="The Water-works house many creatures and types of life. The dwarves have yet to delve and catalogue even a fraction of the changes in this mysterious environment." objectives="Collect Unusual plant (can be found in a room to the west, behind a gate with a pair of Cave Rock-worms)&#10;This strange plant has caught your eye. You have collected it to investigate later.&#10;Collect Strange plant&#10;Collect Abnormal plant&#10;Collect Large plant&#10;Collect Colourful plant">
 <parent key="Scourge_of_Nal%C3%A2-d%C3%BBm" name="Scourge of Nalâ-dûm"/>
 <rewards>
 <reputation>
@@ -14201,11 +14587,11 @@
 <virtue id="IDEALISM"/>
 </rewards>
 </deed>
-<deed key="Quests_of_Eastern_Gondor" name="Quests of Eastern Gondor" type="QUEST" category="Region:Eastern Gondor" description="" objectives="Complete Quests of Upper Lebennin deed&#10;Complete Quests of Lossarnach deed&#10;Complete Quests of South Ithilien deed&#10;Complete Quests of Osgiliath deed&#10;Complete Eastern Gondor's Roaming Enemies deed">
+<deed key="Quests_of_Eastern_Gondor" name="Quests of Eastern Gondor" type="QUEST" category="Region:Eastern Gondor" description="" objectives="Complete Quests of Upper Lebennin deed&#10;Complete Quests of Lossarnach deed&#10;Complete Quests of Southern Ithilien deed&#10;Complete Quests of Osgiliath deed&#10;Complete Eastern Gondor's Roaming Enemies deed">
 <parent key="Deeds_of_Eastern_Gondor" name="Deeds of Eastern Gondor"/>
 <child key="Quests_of_Upper_Lebennin" name="Quests of Upper Lebennin"/>
 <child key="Quests_of_Lossarnach" name="Quests of Lossarnach"/>
-<child key="Quests_of_South_Ithilien" name="Quests of South Ithilien"/>
+<child key="Quests_of_South_Ithilien" name="Quests of Southern Ithilien"/>
 <child key="Quests_of_Osgiliath" name="Quests of Osgiliath"/>
 <child key="Warbands:_Eastern_Gondor%27s_Roaming_Enemies" name="Warbands: Eastern Gondor's Roaming Enemies"/>
 <rewards>
@@ -14499,14 +14885,14 @@
 <virtue id="EMPATHY"/>
 </rewards>
 </deed>
-<deed key="Quests_of_South_Ithilien" name="Quests of South Ithilien" type="QUEST" category="Region:Eastern Gondor" description="" objectives="Complete quests in South Ithilien (x35)">
+<deed key="Quests_of_South_Ithilien" name="Quests of Southern Ithilien" type="QUEST" category="Region:Eastern Gondor" description="" objectives="Complete quests in South Ithilien (x35)">
 <parent key="Quests_of_Eastern_Gondor" name="Quests of Eastern Gondor"/>
 <rewards>
 <reputation>
 <reputationItem faction="Rangers of Ithilien" amount="700"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Hero of South Ithilien"/>
+<title name="Hero of Southern Ithilien"/>
 <virtue id="TOLERANCE"/>
 </rewards>
 </deed>
@@ -15050,6 +15436,16 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
+<deed key="Quests_to_Restore_the_North" name="Quests to Restore the North" category="Region:Strongholds of the North:Erebor" description="Complete many Restoring the North quests in the Dale-lands and Eryn Lasgalen." objectives="Complete many Restoring the North quests (x100)">
+<parent key="Deeds_of_the_North" name="Deeds of the North"/>
+<rewards>
+<reputation>
+<reputationItem faction="Dwarves of Erebor" amount="700"/>
+</reputation>
+<lotroPoints quantity="5"/>
+<virtue id="TOLERANCE"/>
+</rewards>
+</deed>
 <deed key="Quests_to_Restore_the_Three_Kingdoms" name="Quests to Restore the Three Kingdoms" type="QUEST" category="Region:Strongholds of the North" minimumLevel="115" description="Complete many Restoring the Three Kingdoms quests in the Dale-lands and Eryn Lasgalen." objectives="Complete many Restoring the Three Kingdoms quests (100)">
 <parent key="Quests_of_the_North" name="Quests of the North"/>
 <rewards>
@@ -15388,7 +15784,7 @@
 <deed key="Renewed_Voice_(deed)" name="Renewed Voice" type="CLASS" class="Captain" category="Obsolete" minimumLevel="1" description="A trumpet-call and cry of triumph oft begin the rage of war." objectives="Use Battle-shout (650)&#10;Your anger is rightly feared upon the battlefield, for many foes have fallen before it.">
 <rewards>
 <lotroPoints quantity="5"/>
-<trait name="Renewed Voice"/>
+<trait name="Renewed Voice (Obsolete)"/>
 </rewards>
 </deed>
 <deed key="Rescue_in_N%C3%BBrz_Gh%C3%A2shu_(Deed)" name="Rescue in Nûrz Ghâshu" category="Skirmish" description="The Rift of Nûrz Ghâshu is a place where a man goes alone only if he has no wish of returning...." objectives="Defeat Narubras&#10;The fire spirit Narubras was one of the remaining servants of Morgoth still dwelling in the deeps of Middle-earth.&#10;Defeat Gormalith&#10;The Angmarim sorceress Gormalith sought to summon the servants of Thaurlach to the aid of the Iron Crown.&#10;Defeat Gháshglob&#10;Gháshglob was a mighty captain of the Ghâshfra.&#10;Defeat Morfuin&#10;The nameless things which dwell in the depths of Nûrz Ghâshu are terrible to behold.&#10;Defeat Snagtalún&#10;The Ghâshfra have brought with them a new breed of troll created to traverse the molten depths of the Rift.&#10;Defeat Lúgryn&#10;Lúgryn is one of the lesser spawn of Scátha the Worm.&#10;Defeat Nurnor&#10;Nurnor is the mightiest of the spawn of Scátha the Worm, dwelling now within the Rift of Nûrz Ghâshu.&#10;Defeat Cefrog&#10;Fire spirits and earth spirits in the service of the Enemy dwell now in the deep places of the world, not the least of which is the caerog Cefrog.">
@@ -15512,6 +15908,7 @@
 </rewards>
 </deed>
 <deed key="Ring-lore_of_Tham_M%C3%ADrdain" name="Ring-lore of Tham Mírdain" category="Instances:Shadows of Angmar:Tham Mírdain" description="Find the forgotten manuals of Ring-lore within Tham Mírdain." objectives="Find the Torn Manual of Ring-lore&#10;You have found a manual torn, but salvageable. This is one scrap of knowledge Saruman will not steal from the ruins of the elves.&#10;Find the Aged Manual of Ring-lore&#10;You have found an ancient manual containing many intricate details about the Elves' early attempts to forge Rings of Power.&#10;Find the Dusty Manual of Ring-lore&#10;You have found a dusty, old manual containing scant knowledge of the Ring-craft of Eregion.&#10;Find the Rotten Manual of Ring-lore&#10;You have found a manual of Ring-lore. But it has rotted to uselessness.">
+<parent key="Marshal_of_Tham_M%C3%ADrdain" name="Marshal of Tham Mírdain"/>
 <rewards>
 <reputation>
 <reputationItem faction="Elves of Rivendell" amount="700"/>
@@ -15697,13 +16094,13 @@
 </rewards>
 </deed>
 <deed key="Ruins_of_Ered_Mithrin" name="Ruins of Ered Mithrin" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Explore the many ruins of Ered Mithrin" objectives="Explore Bizar-Atrâd, the Vale-watch&#10;Explore the Rushgate&#10;Explore Thikil-Gundu, the Steel Keep&#10;Explore the Glimmerdeep&#10;Explore Stormwall&#10;Explore Óinsbridge&#10;Explore Skarháld&#10;Explore Stánbalk, the Stone Wall&#10;Explore the Grey Wrack&#10;Explore Kér Bréin&#10;Explore Furuk-mekham, the Southgate">
-<parent name="Explorer of the Dwarf-holds"/>
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Grey Mountains Expedition" amount="700"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Grey Mountains Explorer"/>
+<title name="Grey Mountain Explorer"/>
 <virtue id="JUSTICE"/>
 <object id="1879224343" name="Mark" quantity="25"/>
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
@@ -15786,7 +16183,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Ruins,_Tombs,_and_Monuments_of_the_Eastemnet" name="Ruins, Tombs, and Monuments of the Eastemnet" type="EXPLORER" category="Region:East Rohan" description="Discover the ruined places of the Eastemnet." objectives="Discover the Dwolung Hole 40.7S/54.5W (The Wold)&#10;The dead stir in the barrows of the Dwolung Hole in the Wold, never a good sign to the men of Rohan, who are naturally superstitious.&#10;Discover Wódscrafen 42.5S/49.4W (The Wold)&#10;Wódscrafen is home to the Dead who walk, though they should be asleep in their tombs. What wakes the sleeping draugar from their rest?&#10;Discover the The Seething Mire 37.9S/54.3W (The Wold)&#10;The seething mire lies near Langhold, once a fair Gondorian structure, now naught but ruins overrun by salamanders and their nests.&#10;Discover Minas Rant 51.3S/59.1W (Norcrofts)&#10;A freestanding stone tower, Minas Rant is a relic of the ancient armies of Gondor that once protected the lands now called the Norcrofts.&#10;Discover the Red Fields 46.5S/54.8W (Norcrofts)&#10;The Red Fields were once ideal lands for growing crops and raising livestock, but became the primary battlegrounds of the first of the recent Orc-invasions. The area received its nickname due to the bloodshed incurred by mounted Orc-archers.&#10;Discover Dagred's Grave 60.2S/58.7W (Sutcrofts)&#10;You have found the grave of the father of Fastred, the previous Reeve of the Sutcrofts. Fastred often visits to pay his respects and to mercilessly hunt any Orc that dares to stray too close to his father's resting place.&#10;Discover The City In Ruin 41.5S/67.2W (Entwash Vale)&#10;Alas for Thornhope, newly arrived upon the list of dead and abandoned places in the Eastemnet. Thornhope was a thriving city once, but now it is naught but death and ruin, a hollow reminder of the good people that lived there.&#10;Discover The Ancient Tomb 49.9S/52.6W (Norcrofts)&#10;Tombs of the Men of Gondor can sometimes be found in secluded corners of Rohan. Such crypts often attract adventurers who seek treasures of the Second Age, but they are frequently filled only with danger and death.&#10;Discover Byrgenstow 44.7S/66.5W (Entwash Vale)&#10;Byrgenstow was once an ancient burial tomb belonging to the ancestors of the Dunlendings. Now it teems with evil in the form of the draugar.&#10;Discover Eorl's Hallow 45.6S/51.2W (The Wold)&#10;This memorial to Eorl the Young stands in the Wold as a reminder to the greatest deeds in Rohan's history. Eorl's monument stands here, but his tomb is near Edoras.">
+<deed key="Ruins,_Tombs,_and_Monuments_of_the_Eastemnet" name="Ruins, Tombs, and Monuments of the Eastemnet" type="EXPLORER" category="Region:East Rohan" description="Discover the ruined places of the Eastemnet." objectives="Discover the Dwolung Hole 40.7S/54.5W (The Wold)&#10;The dead stir in the barrows of the Dwolung Hole in the Wold, never a good sign to the men of Rohan, who are naturally superstitious.&#10;Discover Wódscrafen 42.5S/49.4W (The Wold)&#10;Wódscrafen is home to the Dead who walk, though they should be asleep in their tombs. What wakes the sleeping draugar from their rest?&#10;Discover The Seething Mire 37.9S/54.3W (The Wold)&#10;The seething mire lies near Langhold, once a fair Gondorian structure, now naught but ruins overrun by salamanders and their nests.&#10;Discover Minas Rant 51.3S/59.1W (Norcrofts)&#10;A freestanding stone tower, Minas Rant is a relic of the ancient armies of Gondor that once protected the lands now called the Norcrofts.&#10;Discover the Red Fields 46.5S/54.8W (Norcrofts)&#10;The Red Fields were once ideal lands for growing crops and raising livestock, but became the primary battlegrounds of the first of the recent Orc-invasions. The area received its nickname due to the bloodshed incurred by mounted Orc-archers.&#10;Discover Dagred's Grave 60.2S/58.7W (Sutcrofts)&#10;You have found the grave of the father of Fastred, the previous Reeve of the Sutcrofts. Fastred often visits to pay his respects and to mercilessly hunt any Orc that dares to stray too close to his father's resting place.&#10;Discover The City In Ruin 41.5S/67.2W (Entwash Vale)&#10;Alas for Thornhope, newly arrived upon the list of dead and abandoned places in the Eastemnet. Thornhope was a thriving city once, but now it is naught but death and ruin, a hollow reminder of the good people that lived there.&#10;Discover The Ancient Tomb 49.9S/52.6W (Norcrofts)&#10;Tombs of the Men of Gondor can sometimes be found in secluded corners of Rohan. Such crypts often attract adventurers who seek treasures of the Second Age, but they are frequently filled only with danger and death.&#10;Discover Byrgenstow 44.7S/66.5W (Entwash Vale)&#10;Byrgenstow was once an ancient burial tomb belonging to the ancestors of the Dunlendings. Now it teems with evil in the form of the draugar.&#10;Discover Eorl's Hallow 45.6S/51.2W (The Wold)&#10;This memorial to Eorl the Young stands in the Wold as a reminder to the greatest deeds in Rohan's history. Eorl's monument stands here, but his tomb is near Edoras.">
 <parent key="Explorer_of_the_Eastemnet" name="Explorer of the Eastemnet"/>
 <rewards>
 <lotroPoints quantity="5"/>
@@ -16102,8 +16499,8 @@
 <title name="Seeker of Truth"/>
 </rewards>
 </deed>
-<deed key="Seeking_Iron_Veins" name="Seeking Iron Veins" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover new and rare iron veins in the Ironfold." objectives="Discover new and rare iron veins in the Ironfold (10)">
-<parent name="Explorer of the Dwarf-holds"/>
+<deed key="Seeking_Iron_Veins" name="Seeking Iron Veins" type="EXPLORER" category="Region:Strongholds of the North:Erebor" description="Discover new and rare iron veins in the Ironfold." objectives="Discover new and rare iron veins in the Ironfold (10)">
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Dwarves of Erebor" amount="700"/>
@@ -16883,8 +17280,8 @@
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
 </rewards>
 </deed>
-<deed key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds" category="Region:Ered Mithrin and Withered Heath" description="Defeat many enemies of the Free Peoples in Ered Mithrin and Withered Heath." objectives="Complete: Ered Mithrin Beast-slayer (Advanced)&#10;Complete: Ered Mithrin Dragon-kind Slayer (Advanced)&#10;Complete: Ered Mithrin Orc-slayer (Advanced)&#10;Complete: Ered Mithrin Ungoladan-slayer (Advanced)&#10;Complete: Ironfold Beast-slayer (Advanced)&#10;Complete: Ironfold Easterling-slayer (Advanced)">
-<parent name="Deeds of the Dwarf-holds"/>
+<deed key="Slayer_of_the_Dwarf-holds" name="Slayer of the Dwarf-holds" category="Region:Ered Mithrin and Withered Heath" description="Defeat many enemies of the Free Peoples in Ered Mithrin and Withered Heath." objectives="Complete: Ered Mithrin Beast-slayer (Advanced)&#10;Complete: Ered Mithrin Dragon-kind Slayer (Advanced)&#10;Complete: Ered Mithrin Gundubad-slayer (Advanced) - Ered Mithrin Orc-slayer (Advanced)&#10;Complete: Ered Mithrin Ungoladan-slayer (Advanced)&#10;Complete: Ironfold Beast-slayer (Advanced)&#10;Complete: Ironfold Easterling-slayer (Advanced)">
+<parent key="Deeds_of_the_Dwarf-holds" name="Deeds of the Dwarf-holds"/>
 <child key="Ered_Mithrin_Beast-slayer_(Advanced)" name="Ered Mithrin Beast-slayer (Advanced)"/>
 <child key="Ered_Mithrin_Dragon-kind_Slayer_(Advanced)" name="Ered Mithrin Dragon-kind Slayer (Advanced)"/>
 <child key="Ered_Mithrin_Orc-slayer_(Advanced)" name="Ered Mithrin Orc-slayer (Advanced)"/>
@@ -17519,6 +17916,7 @@
 <reputation>
 <reputationItem faction="Iron Garrison Miners" amount="900"/>
 </reputation>
+<lotroPoints quantity="10"/>
 <virtue id="INNOCENCE"/>
 </rewards>
 </deed>
@@ -17811,13 +18209,13 @@
 </rewards>
 </deed>
 <deed key="Survey_Markers_of_the_Dwarf-holds" name="Survey Markers of the Dwarf-holds" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover the Dwarf Markers spread across the Dwarf-holds." objectives="Discover the Dwarf Markers spread across the Dwarf-holds (12)">
-<parent name="Explorer of the Dwarf-holds"/>
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Grey Mountains Expedition" amount="700"/>
 </reputation>
 <lotroPoints quantity="5"/>
-<title name="Surveyors of the Mountains"/>
+<title name="Surveyor of Mountains"/>
 <virtue id="IDEALISM"/>
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
@@ -18126,6 +18524,7 @@
 </rewards>
 </deed>
 <deed key="Texts_of_the_Crumbling_School" name="Texts of the Crumbling School" category="Instances:Shadows of Angmar:Tham Mírdain:School" description="Find the forgotten instructional ledgers within the School at Tham Mírdain." objectives="Find the Charred Ledger&#10;You have found an instructional ledger within the School of Tham Mírdain, but it has been charred beyond hope of recovery.&#10;Find the Tattered Ledger&#10;You have found a tattered ledger. Its words are still somewhat readable.&#10;Find the Ruined Ledger&#10;You have found a ledger, but it has been completely defaced.&#10;Find the Mouldy Ledger&#10;You have found a ledger covered in mould. It is utterly useless.">
+<parent key="Marshal_of_Tham_M%C3%ADrdain" name="Marshal of Tham Mírdain"/>
 <parent key="The_School_at_Tham_M%C3%ADrdain_(Deed)" name="The School at Tham Mírdain"/>
 <rewards>
 <reputation>
@@ -20104,7 +20503,7 @@
 <title name="the Complete Angler"/>
 </rewards>
 </deed>
-<deed key="The_School_at_Tham_M%C3%ADrdain_(Deed)" name="The School at Tham Mírdain" category="Instances:Shadows of Angmar:Tham Mírdain:School" description="The School at Tham Mírdain once trained the mightiest Elf-smiths in Middle-earth. Much to their dismay, their learning was used against them when the Great Rings were created." objectives="Complete Musings and Teachings&#10;Completed Musings and Teachings&#10;Complete Blade of the Dunlending&#10;Completed Blade of the Dunlending&#10;Complete Biting the White Hand&#10;Completed Biting the White Hand&#10;Complete Commander Târsh&#10;Completed Commander Târsh&#10;Complete Flames of Knowledge&#10;Completed Flames of Knowledge&#10;Complete Texts of the Crumbling School&#10;Completed Texts of the Crumbling School&#10;Complete Invaders of Tham Mírdain (School)&#10;Completed Invaders of Tham Mírdain (School)">
+<deed key="The_School_at_Tham_M%C3%ADrdain_(Deed)" name="The School at Tham Mírdain" category="Instances:Shadows of Angmar:Tham Mírdain:School" description="The School at Tham Mírdain once trained the mightiest Elf-smiths in Middle-earth. Much to their dismay, their learning was used against them when the Great Rings were created." objectives="Complete Musings and Teachings&#10;Completed Musings and Teachings&#10;Complete Blade of the Dunlending&#10;Completed Blade of the Dunlending&#10;Complete Biting the White Hand&#10;Completed Biting the White Hand&#10;Complete Commander Târsh&#10;Completed Commander Târsh&#10;Complete Challenge: Flames of Knowledge&#10;Completed Flames of Knowledge&#10;Complete Texts of the Crumbling School&#10;Completed Texts of the Crumbling School&#10;Complete Invaders of Tham Mírdain (School)&#10;Completed Invaders of Tham Mírdain (School)">
 <child key="Texts_of_the_Crumbling_School" name="Texts of the Crumbling School"/>
 <child key="Invaders_of_Tham_M%C3%ADrdain_(School)" name="Invaders of Tham Mírdain (School)"/>
 <rewards>
@@ -20197,7 +20596,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="The_Slugs_of_Carn_D%C3%BBm" name="The Slugs of Carn Dûm" category="Instances:Shadows of Angmar:Carn Dûm" description="Defeat slugs in Carn Dûm." objectives="Defeat slugs in Carn Dûm&#10;Long have slugs been underfoot -- of no real concern or threat. But those found within the sewers of Carn Dûm have been fed from the Fell-waters and now represent a real danger to the Free Peoples. Or...not.">
+<deed key="The_Slugs_of_Carn_D%C3%BBm" name="The Slugs of Carn Dûm" category="Instances:Shadows of Angmar:Carn Dûm" description="Defeat slugs in Carn Dûm." objectives="Defeat slugs in Carn Dûm (100)&#10;Long have slugs been underfoot -- of no real concern or threat. But those found within the sewers of Carn Dûm have been fed from the Fell-waters and now represent a real danger to the Free Peoples. Or...not.">
 <parent key="Downfall_of_Carn_D%C3%BBm" name="Downfall of Carn Dûm"/>
 <rewards>
 <reputation>
@@ -20596,6 +20995,19 @@
 <virtue id="VALOUR"/>
 <object id="1879237261" name="Silver Token of the Riddermark" quantity="3"/>
 <object id="1879175769" name="Plain Heritage Rune of Legend" quantity="1"/>
+</rewards>
+</deed>
+<deed key="The_Wistmead_Wheat_Maze_(deed)" name="The Wistmead Wheat Maze" type="EVENT" category="Event:Harvest Festival" description="The Wistmead Wheat maze has many amazing challenges." objectives="Complete each of :&#10;Quest:Challenging Wheat - Maze 1&#10;Quest:Challenging Wheat - Maze 2&#10;Quest:Challenging Wheat - Maze 3&#10;Quest:Challenging Wheat - Maze 4&#10;Quest:Challenging Wheat - Maze 5&#10;Quest:Cheat of the Wheat - Maze 1&#10;Quest:Cheat of the Wheat - Maze 2&#10;Quest:Cheat of the Wheat - Maze 3&#10;Quest:Cheat of the Wheat - Maze 4&#10;Quest:Cheat of the Wheat - Maze 5">
+<rewards>
+<title name="Maze-Master"/>
+<object id="1879098272" name="Fall Festival Token" quantity="5"/>
+</rewards>
+</deed>
+<deed key="There_and_Bree_Again" name="There and Bree Again" category="Social" description="" objectives="Adventure to Level 15">
+<rewards>
+<lotroPoints quantity="5"/>
+<title name="Bree-seeker"/>
+<object id="1879382950" name="Adventure-seeker Frame" quantity="1"/>
 </rewards>
 </deed>
 <deed key="There_is_a_New_Warden_in_the_Dungeons" name="There is a New Warden in the Dungeons" type="LORE" category="Instances:Tower of Dol Guldur:Dungeons of Dol Guldur" description="The Dungeons of Dol Guldur are presided over by a Cargûl known only as The Warden. This creature makes entry into and escape from the Dungeons nearly impossible." objectives="Complete The Warden of the Dungeons&#10;Complete Liberation from the Merciless Dungeons&#10;Complete Leave No One Behind">
@@ -21665,7 +22077,7 @@
 </geo>
 </deed>
 <deed key="Treasure-seeker_of_Ered_Mithrin" name="Treasure-seeker of Ered Mithrin" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover Ancient Dwarf Treasure Caches in the Ered Mithrin." objectives="Discover the many Ancient Dwarf Treasure Caches in Ered Mithrin (12)">
-<parent name="Explorer of the Dwarf-holds"/>
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Grey Mountains Expedition" amount="700"/>
@@ -21677,8 +22089,8 @@
 <object id="1879368479" name="Mark of the Longbeards" quantity="3"/>
 </rewards>
 </deed>
-<deed key="Treasure-seeker_of_the_Ironfold" name="Treasure-seeker of the Ironfold" type="EXPLORER" category="Region:Ered Mithrin and Withered Heath" description="Discover Dwarf Mining Caches in the Ered Mithrin." objectives="Discover the many Dwarf Mining Caches in the Ironfold (10)">
-<parent name="Explorer of the Dwarf-holds"/>
+<deed key="Treasure-seeker_of_the_Ironfold" name="Treasure-seeker of the Ironfold" type="EXPLORER" category="Region:Strongholds of the North:Erebor" description="Discover Dwarf Mining Caches in the Ered Mithrin." objectives="Discover the many Dwarf Mining Caches in the Ironfold (10)">
+<parent key="Explorer_of_the_Dwarf-holds" name="Explorer of the Dwarf-holds"/>
 <rewards>
 <reputation>
 <reputationItem faction="Dwarves of Erebor" amount="700"/>
@@ -21742,6 +22154,31 @@
 <deed key="Treating_With_Scoundrels_-_Ransom_Paid" name="Treating With Scoundrels - Ransom Paid" category="Region:Far Anórien" description="You heeded the counsel of Togbor, son of Glánhar, and paid the ransom to the Variags." objectives="Pay the ransom during Instance: Treating With Scoundrels">
 <rewards>
 <title name="The Cautious"/>
+</rewards>
+</deed>
+<deed key="Treats_or_Trickery:_Clearing_the_Table" name="Treats or Trickery: Clearing the Table" category="Social" description="You have sampled wide and eaten deep of the Harvest Festival treats, but can you truly say you know each of them as well as the back of your own teeth?" objectives="Eat 20 of *each* of the Harvest Festival candies:&#10;Item:Apple Goblin&#10;Item:Ent-bark&#10;Item:Honey-bear&#10;Item:Jam Tart&#10;Item:Liquorice Twist&#10;Item:Mad Baggins' Gold&#10;Item:Midgewater Marshmallow&#10;Item:Mint Turtle">
+<rewards>
+<title name="All Tricked Out"/>
+</rewards>
+</deed>
+<deed key="Treats_or_Trickery:_First_Harvest" name="Treats or Trickery: First Harvest" category="Social" description="You promised Begonia Grubb you would put on a costume and join in Treats or Trickery. And so you have." objectives="Complete Treats or Trickery&#10;A promise is a promise. You did accept the doormat, after all.">
+<rewards>
+<title name="The Sampler"/>
+</rewards>
+</deed>
+<deed key="Treats_or_Trickery:_Just_a_Taste" name="Treats or Trickery: Just a Taste" category="Social" description="You have donned the costume and went from door to neighborhood door. But have you tasted each kind of treat?" objectives="Eat one of each of the available kinds of harvest festival candies:&#10;Item:Apple Goblin&#10;Item:Ent-bark&#10;Item:Honey-bear&#10;Item:Jam Tart&#10;Item:Liquorice Twist&#10;Item:Mad Baggins' Gold&#10;Item:Midgewater Marshmallow&#10;Item:Mint Turtle">
+<rewards>
+<title name="Sweet-of-tooth"/>
+</rewards>
+</deed>
+<deed key="Treats_or_Trickery:_Second_Helpings" name="Treats or Trickery: Second Helpings" category="Social" description="You have tasted every type of treat that could be gathered from a doormat during Harvest Festival once, to be sure, but have you made yourself truly sick on them?" objectives="Eat 20 of the Harvest Festival candies:&#10;Item:Apple Goblin&#10;Item:Ent-bark&#10;Item:Honey-bear&#10;Item:Jam Tart&#10;Item:Liquorice Twist&#10;Item:Mad Baggins' Gold&#10;Item:Midgewater Marshmallow&#10;Item:Mint Turtle">
+<rewards>
+<title name="Well treated"/>
+</rewards>
+</deed>
+<deed key="Treats_or_Trickery:_Seven-fold_foray" name="Treats or Trickery: Seven-fold foray" category="Social" description="You promised Begonia Grubb you would put on a costume and join in Treats or Trickery. But is once really enough?" objectives="Complete a week's worth of Quest: Treats or Trickery">
+<rewards>
+<title name="The Gluttonous"/>
 </rewards>
 </deed>
 <deed key="Trickster_(Deed)" name="Trickster" type="CLASS" class="Burglar" minimumLevel="16" description="So what if it is an old trick? The old tricks are the best tricks." objectives="Use Tricks (1,000)&#10;It is all about the dust. Some burglars will just use whatever is lying around. But you know better...the finer the grains, the bigger the cloud.">
@@ -21864,7 +22301,7 @@
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
 </deed>
-<deed key="Troll-slayer_(Advanced)_(Misty_Mountains)" name="Troll-slayer (Advanced) (Misty Mountains)" type="SLAYER" category="Region:Misty Mountains" description="Defeat many trolls in the Misty Mountains." objectives="Defeat trolls in the Misty Mountains (100)&#10;With a cruelty as cold and sharp as the ice that coats teh peaks and ridges of the Misty Mountains, the trolls here have striven to destroy you and your companions -- but in this aim, they have failed, and you have proven yourself their match and more. Yet they do not cower from you, for their hearts are frozen, and death holds no fear for these brutes, no matter how swiftly you deal it out.">
+<deed key="Troll-slayer_(Advanced)_(Misty_Mountains)" name="Troll-slayer (Advanced) (Misty Mountains)" type="SLAYER" category="Region:Misty Mountains" description="Defeat many trolls in the Misty Mountains." objectives="Defeat trolls in the Misty Mountains (100)&#10;With a cruelty as cold and sharp as the ice that coats the peaks and ridges of the Misty Mountains, the trolls here have striven to destroy you and your companions -- but in this aim, they have failed, and you have proven yourself their match and more. Yet they do not cower from you, for their hearts are frozen, and death holds no fear for these brutes, no matter how swiftly you deal it out.">
 <previous key="Troll-slayer_(Misty_Mountains)" name="Troll-slayer (Misty Mountains)"/>
 <rewards>
 <reputation>
@@ -22428,6 +22865,7 @@
 </deed>
 <deed key="Volume_III:_%27Allies_of_the_King%27_Foreword" name="Volume III: 'Allies of the King' Foreword" category="Epic" description="You have received a message from Pethelen, an Elf of Imladris, asking for you to see him at once about some urgent matter." objectives="Welcome to Volume III: 'Allies of the King'&#10;A new story begins: a dangerous chapter in the lives of those who seek to bring about the return of a long awaited king.">
 <rewards>
+<lotroPoints quantity="5"/>
 <title name="Summoned by Lord Elrond"/>
 </rewards>
 </deed>
@@ -23381,6 +23819,12 @@
 <lotroPoints quantity="5"/>
 <object id="1879224343" name="Mark" quantity="30"/>
 </rewards>
+</deed>
+<deed key="World_Consolidation_Announcement" name="World Consolidation Announcement" type="EVENT" category="Event:Festival" description="Announcing the World Consolidation event and the closure of some worlds." objectives="Deed given at the time of the announcement of the event.">
+<rewards/>
+</deed>
+<deed key="World_Consolidation_Begins" name="World Consolidation Begins" type="EVENT" category="Event:Festival" description="New faces will soon arrive in your world." objectives="Deed given at the time of the of the event.">
+<rewards/>
 </deed>
 <deed key="World_Renowned" name="World Renowned" type="REPUTATION" description="You are working towards becoming a hero to all in Middle-earth" objectives="You must become Kindred with the Algraig, Men of Enedwaith&#10;You must become Kindred with the Men of Bree&#10;You must become Kindred with The Hobbits of the Shire (The Mathom Society)&#10;You must become Kindred with the Dwarves of Thorin's Hall&#10;You must become Kindred with the Elves of Rivendell&#10;You must become Kindred with the Eglain of the Lone-lands&#10;You must become Kindred with the Rangers of Esteldín&#10;You must become Kindred with the Wardens of Annúminas&#10;You must become Kindred with the Council of the North&#10;You must become Kindred with the Lossoth of Forochel&#10;You must become Kindred with the Grey Company">
 <child key="Kindred_with_the_Algraig" name="Kindred with the Algraig"/>
